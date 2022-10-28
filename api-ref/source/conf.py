@@ -93,7 +93,7 @@ html_static_path = ['_static']
 
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
-('index',
+    ('index',
      'mrs-api-ref.tex',
      u'Map Reduce Service - API Reference',
      u'OpenTelekomCloud', 'manual'),
