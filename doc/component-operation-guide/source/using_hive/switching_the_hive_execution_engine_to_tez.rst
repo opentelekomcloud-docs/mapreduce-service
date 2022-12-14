@@ -1,0 +1,75 @@
+:original_name: mrs_01_1750.html
+
+.. _mrs_01_1750:
+
+Switching the Hive Execution Engine to Tez
+==========================================
+
+Scenario
+--------
+
+Hive can use the Tez engine to process data computing tasks. Before executing a task, you can manually switch the execution engine to Tez.
+
+Prerequisites
+-------------
+
+The TimelineServer role of the Yarn service has been installed in the cluster and is running properly.
+
+Switching the Execution Engine on the Client to Tez
+---------------------------------------------------
+
+#. Install and log in to the Hive client. For details, see :ref:`Using a Hive Client <mrs_01_0952>`.
+
+#. Run the following commands to switch the engine and enable the **yarn.timeline-service.enabled** parameter:
+
+   **set hive.execution.engine=tez**;
+
+   **set yarn.timeline-service.enabled=true**;
+
+   .. note::
+
+      -  After **yarn.timeline-service.enabled** is enabled, you can view the details about the tasks executed by the Tez engine on TezUI. After this function is enabled, task information will be reported to TimelineServer. If the TimelineServer instance is faulty, the task will fail.
+      -  Tez uses the ApplicationMaster buffer pool. Therefore, **yarn.timeline-service.enabled** must be enabled before Tez tasks are submitted. Otherwise, this parameter cannot take effect and you need to log in to the client again to configure it.
+      -  When the execution engine needs to be switched to another engine, you need to run the **set yarn.timeline-service.enabled=false** command on the client to disable the **yarn.timeline-service.enabled** parameter.
+      -  To specify a Yarn running queue, run the **set tez.queue.name=default** command on the client.
+
+#. Submit and execute the Tez tasks.
+
+#. Log in to FusionInsight Manager. For details, see :ref:`Accessing FusionInsight Manager (MRS 3.x or Later) <mrs_01_2124>`. Choose **Cluster** > *Name of the desired cluster* > **Services** > **Tez** > **TezUI**\ *(host name)* to view the task execution status on the TezUI page.
+
+   For versions earlier than MRS 3.x, log in to MRS Manager, choose **Services**, and click **Tez**. On the displayed page, click the link next to **Tez WebUI** to view the task execution status on the TezUI page.
+
+Switching the Default Execution Engine of Hive to Tez
+-----------------------------------------------------
+
+#. Log in to FusionInsight Manager. For details, see :ref:`Accessing FusionInsight Manager (MRS 3.x or Later) <mrs_01_2124>`. Choose **Cluster** > *Name of the desired cluster* > **Services** > **Hive** > **Configurations** > **All Configurations** > **HiveServer(Role)**, and search for **hive.execution.engine**.
+
+   For versions earlier than MRS 3.x, log in to MRS Manager, choose **Services**, and click **Hive**. On the displayed page, click the **Service Configuration** tab, select **All** from the **Type** drop-down list. On the navigation pane on the left, choose **HiveServer** and search for **hive.execution.engine**.
+
+#. Set **hive.execution.engine** to **tez**.
+
+#. Choose **Hive(Service)** > **Customization** and search for **yarn.site.customized.configs**.
+
+#. Add custom parameter **yarn.timeline-service.enabled** to **yarn.site.customized.configs** and set it to **true**.
+
+   .. note::
+
+      -  After **yarn.timeline-service.enabled** is enabled, you can view the details about the tasks executed by the Tez engine on TezUI. After this function is enabled, task information will be reported to TimelineServer. If the TimelineServer instance is faulty, the task will fail.
+      -  Tez uses the ApplicationMaster buffer pool. Therefore, **yarn.timeline-service.enabled** must be enabled before Tez tasks are submitted. Otherwise, this parameter cannot take effect and you need to log in to the client again to configure it.
+      -  When the execution engine needs to be switched to another one, you need to set the value of parameter **yarn.timeline-service.enabled** to **false**.
+
+#. Click **Save**. In the displayed confirmation dialog box, click **OK**.
+
+   For versions earlier than MRS 3.x, click **Save Configuration** and click **Yes** in the displayed dialog box.
+
+#. Choose **Dashboard** > **More** > **Restart Service** to restart the Hive service. Enter the password to restart the service.
+
+   For versions earlier than MRS 3.x, Click the **Service Status** tab and choose **More** > **Restart Service** to restart the Hive service.
+
+#. Install and log in to the Hive client. For details, see :ref:`Using a Hive Client <mrs_01_0952>`.
+
+#. Submit and execute the Tez tasks.
+
+#. Log in to FusionInsight Manager and choose **Cluster** > *Name of the desired cluster* > **Services** > **Tez** > **TezUI**\ *(host name)*. On the displayed TezUI page, view the task execution status.
+
+   For versions earlier than MRS 3.x, log in to MRS Manager, choose **Services**, and click **Tez**. On the displayed page, click the link next to **Tez WebUI** to view the task execution status on the TezUI page.
