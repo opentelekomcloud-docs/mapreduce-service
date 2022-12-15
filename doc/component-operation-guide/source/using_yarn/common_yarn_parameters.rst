@@ -1,0 +1,115 @@
+:original_name: mrs_01_0852.html
+
+.. _mrs_01_0852:
+
+Common YARN Parameters
+======================
+
+Allocating Queue Resources
+--------------------------
+
+The Yarn service provides queues for users. Users allocate system resources to each queue. After the configuration is complete, you can click **Refresh Queue** or restart the Yarn service for the configuration to take effect.
+
+**Navigation path for setting parameters:**
+
+For versions earlier than MRS 3.x, perform the following operations:
+
+On the MRS console, choose **Tenants** > **Resource Distribution Policies**.
+
+The following uses the **default** queue as an example. The configurations of other queues are similar. Click **Modify** to edit the parameters.
+
+.. table:: **Table 1** Parameter description
+
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+
+   | Parameter        | Description                                                                                                                                                                                                                                                                                                                         | Default Value |
+   +==================+=====================================================================================================================================================================================================================================================================================================================================+===============+
+   | Capacity         | Queue resource capacity (percentage). Ensure that the capacity requirement of each queue is satisfied when the system is busy. If only a few application programs are running in a queue, the remaining resource of the queue can be shared with other queues. Note that the total capacity of all queues must be smaller than 100. | 20            |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+
+   | Maximum Capacity | Maximum queue resource usage (percentage). Due to resource sharing, the resources used by a queue may exceed its capacity. The maximum resource usage can be limited using this parameter.                                                                                                                                          | 100           |
+   +------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+
+
+For MRS 3.\ *x* or later, perform the following operations:
+
+On Manager, choose **Tenant Resources** > **Dynamic Resource Plan** > **Queue Configuration**.
+
+The following uses the **default** tenant who modifies the Superior scheduler as an example. The configurations of other queues are similar. Click **Modify** to edit the parameters.
+
+.. table:: **Table 2** Queue configuration parameters
+
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Parameter                         | Description                                                                                                                                                                                                                                                                                                                           |
+   +===================================+=======================================================================================================================================================================================================================================================================================================================================+
+   | Max Master Shares(%)              | Indicates the maximum percentage of resources occupied by all ApplicationMasters in the current queue.                                                                                                                                                                                                                                |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Max Allocated vCores              | Indicates the maximum number of cores that can be allocated to a single YARN container in the current queue. The default value is **-1**, indicating that the number of cores is not limited within the value range.                                                                                                                  |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Max Allocated Memory(MB)          | Indicates the maximum memory that can be allocated to a single YARN container in the current queue. The default value is **-1**, indicating that the memory is not limited within the value range.                                                                                                                                    |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Max Running Apps                  | Maximum number of tasks that can be executed at the same time in the current queue. The default value is **-1**, indicating that the number is not limited within the value range (the meaning is the same if the value is empty). The value 0 indicates that the task cannot be executed. The value ranges from -1 to 2147483647.    |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Max Running Apps per User         | Maximum number of tasks that can be executed by each user in the current queue at the same time. The default value is **-1**, indicating that the number is not limited within the value range. If the value is **0**, the task cannot be executed. The value ranges from -1 to 2147483647.                                           |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Max Pending Apps                  | Maximum number of tasks that can be suspended at the same time in the current queue. The default value is **-1**, indicating that the number is not limited within the value range (the meaning is the same if the value is empty). The value **0** indicates that tasks cannot be suspended. The value ranges from -1 to 2147483647. |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Resource Allocation Rule          | Indicates the rule for allocating resources to different tasks of a user. The rule can be FIFO or FAIR.                                                                                                                                                                                                                               |
+   |                                   |                                                                                                                                                                                                                                                                                                                                       |
+   |                                   | If a user submits multiple tasks in the current queue and the rule is FIFO, the tasks are executed one by one in sequential order; if the rule is FAIR, resources are evenly allocated to all tasks.                                                                                                                                  |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Default Resource Label            | Indicates that tasks are executed on a node with a specified resource label.                                                                                                                                                                                                                                                          |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Active                            | -  **ACTIVE**: indicates that the current queue can receive and execute tasks.                                                                                                                                                                                                                                                        |
+   |                                   | -  **INACTIVE**: indicates that the current queue can receive but cannot execute tasks. Tasks submitted to the queue are suspended.                                                                                                                                                                                                   |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Open                              | -  **OPEN**: indicates that the current queue is opened.                                                                                                                                                                                                                                                                              |
+   |                                   | -  **CLOSED**: indicates that the current queue is closed. Tasks submitted to the queue are rejected.                                                                                                                                                                                                                                 |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Displaying Container Logs on the Web UI
+---------------------------------------
+
+By default, the system collects container logs to HDFS. If you do not need to collect container logs to HDFS, configure the parameters in :ref:`Table 3 <mrs_01_0852__t027bdb01430f42d8af2780add169c244>`. For details, see :ref:`Modifying Cluster Service Configuration Parameters <mrs_01_2125>`.
+
+.. _mrs_01_0852__t027bdb01430f42d8af2780add169c244:
+
+.. table:: **Table 3** Parameter description
+
+   +-----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+   | Parameter                   | Description                                                                                                                                                                                                                                                                                                    | Default Value         |
+   +=============================+================================================================================================================================================================================================================================================================================================================+=======================+
+   | yarn.log-aggregation-enable | Select whether to collect container logs to HDFS.                                                                                                                                                                                                                                                              | true                  |
+   |                             |                                                                                                                                                                                                                                                                                                                |                       |
+   |                             | -  If the parameter is set to **true**, container logs are collected to an HDFS directory. The default directory is **{yarn.nodemanager.remote-app-log-dir}/${user}/{thisParam}**. You can set the directory by setting the **yarn.nodemanager.remote-app-log-dir-suffix** parameter on the web UI.            |                       |
+   |                             | -  If this parameter is set to **false**, container logs will not be collected to HDFS.                                                                                                                                                                                                                        |                       |
+   |                             |                                                                                                                                                                                                                                                                                                                |                       |
+   |                             | After changing the parameter value, restart the Yarn service for the setting to take effect.                                                                                                                                                                                                                   |                       |
+   |                             |                                                                                                                                                                                                                                                                                                                |                       |
+   |                             | .. note::                                                                                                                                                                                                                                                                                                      |                       |
+   |                             |                                                                                                                                                                                                                                                                                                                |                       |
+   |                             |    The container logs that are generated before the parameter is set to **false** and the setting takes effect cannot be obtained from the web UI. You can obtain container logs from the directory specified by the **yarn.nodemanager.remote-app-log-dir-suffix** parameter before the setting takes effect. |                       |
+   |                             |                                                                                                                                                                                                                                                                                                                |                       |
+   |                             |    If you want to view the logs generated before on the web UI, you are advised to set this parameter to **true**.                                                                                                                                                                                             |                       |
+   +-----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+
+Increasing the Number of Historical Jobs to Be Displayed on the web UI
+----------------------------------------------------------------------
+
+By default, the Yarn web UI supports task list pagination. A maximum of 5,000 historical jobs can be displayed on each page, and a maximum of 10,000 historical jobs can be retained. If you need to view more jobs on the WebUI, configure parameters by referring to :ref:`Table 4 <mrs_01_0852__t970d650c8d6c4f469f34286c36ac115b>`. For details, see :ref:`Modifying Cluster Service Configuration Parameters <mrs_01_2125>`.
+
+.. _mrs_01_0852__t970d650c8d6c4f469f34286c36ac115b:
+
+.. table:: **Table 4** Parameter description
+
+   +--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------+
+   | Parameter                                        | Description                                                                                                                            | Default Value |
+   +==================================================+========================================================================================================================================+===============+
+   | yarn.resourcemanager.max-completed-applications  | Set the total number of historical jobs to be displayed on the web UI.                                                                 | 10000         |
+   +--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------+
+   | yarn.resourcemanager.webapp.pagination.enable    | Select whether to enable the job list background pagination function for the Yarn web UI.                                              | true          |
+   +--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------+
+   | yarn.resourcemanager.webapp.pagination.threshold | Set the maximum number of jobs displayed on each page after the job list background pagination function of the Yarn web UI is enabled. | 5000          |
+   +--------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+---------------+
+
+.. note::
+
+   -  If a large number of historical jobs are displayed, the performance will be affected and the time for opening the Yarn web UI will be increased. Therefore, you are advised to enable the background pagination function and modify the **yarn.resourcemanager.max-completed-applications** parameter according to the actual hardware performance.
+   -  After changing the parameter value, restart the Yarn service for the setting to take effect.
