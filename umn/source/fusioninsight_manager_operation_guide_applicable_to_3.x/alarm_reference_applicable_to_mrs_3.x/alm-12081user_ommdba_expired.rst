@@ -2,8 +2,8 @@
 
 .. _ALM-12081:
 
-ALM-12081  User ommdba Expired
-==============================
+ALM-12081 User ommdba Expired
+=============================
 
 Description
 -----------
