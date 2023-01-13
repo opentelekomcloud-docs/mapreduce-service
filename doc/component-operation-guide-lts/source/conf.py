@@ -81,7 +81,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "Map Reduce Service - API Reference"
+html_title = "Map Reduce Service - Component Operation Guide (LTS)"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -95,7 +95,7 @@ html_copy_source = False
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
     ('index',
-     'mrs-api-ref.tex',
-     u'Map Reduce Service - API Reference',
+     'mrs-component-operation-guide-lts.tex',
+     u'Map Reduce Service - Component Operation Guide (LTS)',
      u'OpenTelekomCloud', 'manual'),
 ]
