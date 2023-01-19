@@ -1,0 +1,41 @@
+:original_name: mrs_01_1115.html
+
+.. _mrs_01_1115:
+
+Deleting Loader Jobs in Batches
+===============================
+
+Scenario
+--------
+
+Loader allows existing jobs to be deleted in batches.
+
+Prerequisites
+-------------
+
+The current user has the **Edit** permission for the jobs to be deleted or the **Jobs Edit** permission for the group to which the jobs belong.
+
+Procedure
+---------
+
+#. Access the Loader web UI.
+
+   a. Log in to FusionInsight Manager. For details, see :ref:`Accessing FusionInsight Manager <mrs_01_2124>`.
+
+   b. Choose **Cluster** > *Name of the desired cluster* > **Services** > **Loader**.
+
+   c. Click **LoaderServer(**\ *Node name*\ **, Active)**. The Loader web UI is displayed.
+
+
+      .. figure:: /_static/images/en-us_image_0000001438241209.png
+         :alt: **Figure 1** Loader web UI
+
+         **Figure 1** Loader web UI
+
+#. Click **Batch Delete**. The Batch Delete page is displayed.
+#. Set **Batch Delete** to a job deletion type.
+
+   -  **ALL**: deletes all jobs.
+   -  **Specify Job**: deletes specified jobs. Select **Specify Job**. In the job list, select the jobs to be deleted.
+
+#. Click **OK** to start the job deletion. In the displayed dialog box, if the progress bar is 100%, the job deletion is complete.
