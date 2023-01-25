@@ -22,7 +22,7 @@ Managing Clusters
 
    logging_in_to_a_cluster/index
    cluster_overview/index
-   cluster_o&m/index
+   cluster_o_and_m/index
    managing_nodes/index
    job_management/index
    component_management/index
