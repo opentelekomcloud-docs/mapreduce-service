@@ -23,8 +23,8 @@ APIs
    cluster_management_apis_v2/index
    cluster_management_apis_v1/index
    job_binary_object_apis/index
-   job_object_apis_v1,_not_recommended/index
-   job_execution_object_apis_v1,_not_recommended/index
+   job_object_apis_v1_not_recommended/index
+   job_execution_object_apis_v1_not_recommended/index
    job_object_apis_v2/index
    auto_scaling_apis/index
    tag_management_apis/index
