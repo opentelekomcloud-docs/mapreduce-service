@@ -21,6 +21,6 @@ Cluster O&M
    changing_the_subnet_of_a_cluster
    configuring_message_notification
    checking_health_status/index
-   remote_o&m/index
+   remote_o_and_m/index
    viewing_mrs_operation_logs
    terminating_a_cluster

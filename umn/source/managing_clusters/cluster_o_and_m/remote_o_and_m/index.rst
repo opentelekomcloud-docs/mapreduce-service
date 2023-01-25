@@ -12,5 +12,5 @@ Remote O&M
    :maxdepth: 1
    :hidden: 
 
-   authorizing_o&m
+   authorizing_o_and_m
    sharing_logs

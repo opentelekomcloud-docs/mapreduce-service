@@ -13,6 +13,6 @@ Alarm Monitoring
    :maxdepth: 1
    :hidden: 
 
-   in_an_mrs_streaming_cluster,_can_the_kafka_topic_monitoring_function_send_alarm_notifications
+   in_an_mrs_streaming_cluster_can_the_kafka_topic_monitoring_function_send_alarm_notifications
    where_can_i_view_the_running_resource_queues_when_the_alarm_alm-18022_insufficient_yarn_queue_resources_is_reported
    how_do_i_understand_the_multi-level_chart_statistics_in_the_hbase_operation_requests_metric

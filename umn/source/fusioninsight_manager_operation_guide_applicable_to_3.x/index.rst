@@ -27,7 +27,7 @@ FusionInsight Manager Operation Guide (Applicable to 3.x)
    home_page/index
    cluster/index
    hosts/index
-   o&m/index
+   o_and_m/index
    audit/index
    tenant_resources/index
    system_configuration/index

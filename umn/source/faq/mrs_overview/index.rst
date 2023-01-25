@@ -64,7 +64,7 @@ MRS Overview
    what_is_spark_thriftserver
    what_access_protocols_are_supported_by_kafka
    what_is_the_compression_ratio_of_zstd
-   why_are_the_hdfs,_yarn,_and_mapreduce_components_unavailable_when_an_mrs_cluster_is_created
+   why_are_the_hdfs_yarn_and_mapreduce_components_unavailable_when_an_mrs_cluster_is_created
    why_is_the_zookeeper_component_unavailable_when_an_mrs_cluster_is_created
    which_python_versions_are_supported_by_spark_tasks_in_an_mrs_3.1.0_cluster
    how_do_i_enable_different_service_programs_to_use_different_yarn_queues

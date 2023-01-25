@@ -16,5 +16,5 @@ Spark
 
    basic_principles_of_spark
    spark_ha_solution
-   relationship_among_spark,_hdfs,_and_yarn
+   relationship_among_spark_hdfs_and_yarn
    spark_enhanced_open_source_feature_optimized_sql_query_of_cross-source_data

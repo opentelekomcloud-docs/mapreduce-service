@@ -28,5 +28,5 @@ Functions
    bootstrap_actions
    metadata
    cluster_management/index
-   cluster_o&m
+   cluster_o_and_m
    message_notification
