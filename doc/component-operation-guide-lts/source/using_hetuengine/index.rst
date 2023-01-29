@@ -34,7 +34,7 @@ Using HetuEngine
    using_the_hetuengine_cross-source_function/index
    using_hetuengine_cross-domain_function/index
    using_a_third-party_visualization_tool_to_access_hetuengine/index
-   function_&_udf_development_and_application/index
+   function_and_udf_development_and_application/index
    introduction_to_hetuengine_logs
    hetuengine_performance_tuning/index
    common_issues_about_hetuengine/index

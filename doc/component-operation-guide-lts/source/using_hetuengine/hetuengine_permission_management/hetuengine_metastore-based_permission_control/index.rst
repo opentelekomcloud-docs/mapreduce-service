@@ -15,4 +15,4 @@ HetuEngine MetaStore-based Permission Control
 
    overview
    creating_a_hetuengine_role
-   configuring_permissions_for_tables,_columns,_and_databases
+   configuring_permissions_for_tables_columns_and_databases

@@ -21,6 +21,6 @@ Operator Help
    input_operators/index
    conversion_operators/index
    output_operators/index
-   associating,_editing,_importing,_or_exporting_the_field_configuration_of_an_operator
+   associating_editing_importing_or_exporting_the_field_configuration_of_an_operator
    using_macro_definitions_in_configuration_items
    operator_data_processing_rules
