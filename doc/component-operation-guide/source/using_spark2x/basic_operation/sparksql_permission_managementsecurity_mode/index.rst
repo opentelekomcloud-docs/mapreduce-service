@@ -17,6 +17,6 @@ SparkSQL Permission Management(Security Mode)
 
    spark_sql_permissions
    creating_a_spark_sql_role
-   configuring_permissions_for_sparksql_tables,_columns,_and_databases
+   configuring_permissions_for_sparksql_tables_columns_and_databases
    configuring_permissions_for_sparksql_to_use_other_components
    configuring_the_client_and_server
