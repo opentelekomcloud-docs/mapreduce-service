@@ -25,7 +25,7 @@ Flink Configuration Management
    :hidden: 
 
    configuring_parameter_paths
-   jobmanager_&_taskmanager
+   jobmanager_and_taskmanager
    blob
    distributed_coordination_via_akka
    ssl

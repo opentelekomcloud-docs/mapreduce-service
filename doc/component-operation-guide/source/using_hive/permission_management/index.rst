@@ -16,5 +16,5 @@ Permission Management
 
    hive_permission
    creating_a_hive_role
-   configuring_permissions_for_hive_tables,_columns,_or_databases
+   configuring_permissions_for_hive_tables_columns_or_databases
    configuring_permissions_to_use_other_components_for_hive
