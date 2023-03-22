@@ -1,6 +1,6 @@
-==============================================
-Map Reduce Service - Component Operation Guide
-==============================================
+=============================================
+MapReduce Service - Component Operation Guide
+=============================================
 
 .. toctree::
    :maxdepth: 1
