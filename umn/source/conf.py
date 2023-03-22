@@ -24,7 +24,7 @@ extensions = [
 otcdocs_auto_name = False
 otcdocs_auto_version = False
 
-project = 'Map Reduce Service'
+project = 'MapReduce Service'
 otcdocs_repo_name = 'opentelekomcloud-docs/mapreduce-service'
 # Those variables are required for edit/bug links
 
