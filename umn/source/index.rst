@@ -1,6 +1,6 @@
-===============================
-Map Reduce Service - User Guide
-===============================
+==============================
+MapReduce Service - User Guide
+==============================
 
 .. toctree::
    :maxdepth: 1

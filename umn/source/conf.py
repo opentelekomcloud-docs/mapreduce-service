@@ -81,7 +81,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "Map Reduce Service - User Guide"
+html_title = "MapReduce Service - User Guide"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -96,6 +96,6 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'mrs-umn.tex',
-     u'Map Reduce Service - User Guide',
+     u'MapReduce Service - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
