@@ -24,7 +24,7 @@ extensions = [
 otcdocs_auto_name = False
 otcdocs_auto_version = False
 
-project = 'Map Reduce Service'
+project = 'MapReduce Service'
 otcdocs_repo_name = 'opentelekomcloud-docs/mapreduce-service'
 # Those variables are required for edit/bug links
 
@@ -81,7 +81,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "Map Reduce Service - Component Operation Guide (LTS)"
+html_title = "MapReduce Service - Component Operation Guide (LTS)"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -96,6 +96,6 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'mrs-component-operation-guide-lts.tex',
-     u'Map Reduce Service - Component Operation Guide (LTS)',
+     u'MapReduce Service - Component Operation Guide (LTS)',
      u'OpenTelekomCloud', 'manual'),
 ]
