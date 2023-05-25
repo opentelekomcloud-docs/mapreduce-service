@@ -1,6 +1,6 @@
-==================================
-Map Reduce Service - API Reference
-==================================
+=================================
+MapReduce Service - API Reference
+=================================
 
 .. toctree::
    :maxdepth: 1
