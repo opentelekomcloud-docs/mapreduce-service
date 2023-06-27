@@ -2,8 +2,8 @@
 
 .. _mrs_02_0106:
 
-Roles and components supported by MRS11
-=======================================
+Roles and components supported by MRS
+=====================================
 
 .. table:: **Table 1** Roles and components supported by MRS
 
@@ -52,4 +52,11 @@ Roles and components supported by MRS11
    TezUI            Tez
    RangerAdmin      Ranger
    RangerUserSync   Ranger
+   HSBroker         HetuEngine
+   HSConsole        HetuEngine
+   QAS              HetuEngine
+   CDLConnector     CDL
+   CDLService       CDL
+   IoTDBServer      IoTDB
+   ConfigNode       IoTDB
    ================ ==========
