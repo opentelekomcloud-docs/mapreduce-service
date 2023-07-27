@@ -25,10 +25,10 @@ MRS Overview
 -  :ref:`What Are the Solutions for processing 1 Billion Data Records? <mrs_03_1133>`
 -  :ref:`Can I Change the IP address of DBService? <mrs_03_1137>`
 -  :ref:`Can I Clear MRS sudo Logs? <mrs_03_1155>`
--  :ref:`Is the Storm Log also limited to 20 GB in MRS cluster 2.1.0? <en-us_topic_0000001145676237>`
--  :ref:`What Is Spark ThriftServer? <en-us_topic_0000001145596307>`
--  :ref:`What Access Protocols Are Supported by Kafka? <en-us_topic_0000001098596550>`
--  :ref:`What Is the Compression Ratio of zstd? <en-us_topic_0000001145597621>`
+-  :ref:`Is the Storm Log also limited to 20 GB in MRS cluster 2.1.0? <en-us_topic_0000001442653893>`
+-  :ref:`What Is Spark ThriftServer? <en-us_topic_0000001442773925>`
+-  :ref:`What Access Protocols Are Supported by Kafka? <en-us_topic_0000001442494337>`
+-  :ref:`What Is the Compression Ratio of zstd? <en-us_topic_0000001392255170>`
 -  :ref:`Why Are the HDFS, YARN, and MapReduce Components Unavailable When an MRS Cluster Is Created? <mrs_03_1202>`
 -  :ref:`Why Is the ZooKeeper Component Unavailable When an MRS Cluster Is Created? <mrs_03_1204>`
 -  :ref:`Which Python Versions Are Supported by Spark Tasks in an MRS 3.1.0 Cluster? <mrs_03_1216>`

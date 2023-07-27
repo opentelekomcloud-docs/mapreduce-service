@@ -12,7 +12,7 @@ The following figure shows a multi-tenant model.
 
 .. _admin_guide_000092__f486ae0dbdc8a4d6285e9d6e8ac5cbde0:
 
-.. figure:: /_static/images/en-us_image_0263899456.png
+.. figure:: /_static/images/en-us_image_0000001392733950.png
    :alt: **Figure 1** Multi-tenant model
 
    **Figure 1** Multi-tenant model
@@ -92,7 +92,7 @@ Tenant is a core concept of the FusionInsight big data platform. It plays an imp
 
 .. _admin_guide_000092__f0b6aaf15c16f487fa23a1a04eb45754f:
 
-.. figure:: /_static/images/en-us_image_0263899420.png
+.. figure:: /_static/images/en-us_image_0000001442773629.png
    :alt: **Figure 2** Platform transformation from user-centered to multi-tenant
 
    **Figure 2** Platform transformation from user-centered to multi-tenant

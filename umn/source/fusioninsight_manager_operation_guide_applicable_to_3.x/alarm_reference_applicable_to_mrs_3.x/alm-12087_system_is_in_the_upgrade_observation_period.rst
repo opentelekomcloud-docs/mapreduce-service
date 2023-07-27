@@ -69,7 +69,7 @@ Procedure
 
       .. _alm-12087__fig1299312444469:
 
-      .. figure:: /_static/images/en-us_image_0269383933.png
+      .. figure:: /_static/images/en-us_image_0000001532767554.png
          :alt: **Figure 1** Cluster information
 
          **Figure 1** Cluster information
@@ -101,4 +101,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383934.png
+.. |image1| image:: /_static/images/en-us_image_0000001532927490.png

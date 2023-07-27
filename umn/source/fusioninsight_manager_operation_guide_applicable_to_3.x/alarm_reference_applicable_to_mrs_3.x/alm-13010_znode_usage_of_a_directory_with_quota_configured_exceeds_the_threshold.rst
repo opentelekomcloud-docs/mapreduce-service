@@ -56,14 +56,14 @@ Procedure
 
 #. Choose **Cluster** > *Name of the desired cluster* > **Services** > **ZooKeeper** and click **Resource**. In **Used Resources (By Second-Level Znode)**, check whether a large amount of data is written into the top Znode.
 
-   -  If yes, go to :ref:`4 <alm-13010__li1298122393514>`.
+   -  If yes, go to :ref:`3 <alm-13010__li19446131612914>`.
    -  If no, go to :ref:`5 <alm-13010__li598192363510>`.
 
-#. Log in to FusionInsight Manager, choose **O&M > Alarm > Alarms**, select Location from the drop-down list box next to **ALM-13010 Znode Usage of a Directory with Quota Configured Exceeds the Threshold**, and obtain the Znode path in ServiceDirectory.
+#. .. _alm-13010__li19446131612914:
 
-#. .. _alm-13010__li1298122393514:
+   Log in to FusionInsight Manager, choose **O&M > Alarm > Alarms**, select Location from the drop-down list box next to **ALM-13010 Znode Usage of a Directory with Quota Configured Exceeds the Threshold**, and obtain the Znode path in ServiceDirectory.
 
-   Log in to the ZooKeeper client as a cluster user and delete unwanted data in the Znode for which the alarm is generated.
+#. Log in to the ZooKeeper client as a cluster user and delete unwanted data in the Znode for which the alarm is generated.
 
 #. .. _alm-13010__li598192363510:
 
@@ -100,4 +100,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383956.png
+.. |image1| image:: /_static/images/en-us_image_0000001583087329.png

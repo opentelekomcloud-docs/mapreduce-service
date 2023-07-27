@@ -10,7 +10,7 @@ Log in to FusionInsight Manager and choose **Hosts** > **Resource Overview**. On
 You can click **Export Data** to export the configuration list of all hosts in the cluster, including the host name, management IP address, host type, number of cores, CPU architecture, memory capacity, and disk size.
 
 
-.. figure:: /_static/images/en-us_image_0000001369746545.png
+.. figure:: /_static/images/en-us_image_0000001392254918.png
    :alt: **Figure 1** Host tab
 
    **Figure 1** Host tab

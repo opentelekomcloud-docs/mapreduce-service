@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0000001145596307.html
+:original_name: en-us_topic_0000001442773925.html
 
-.. _en-us_topic_0000001145596307:
+.. _en-us_topic_0000001442773925:
 
 What Is Spark ThriftServer?
 ===========================

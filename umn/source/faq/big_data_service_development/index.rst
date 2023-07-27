@@ -42,7 +42,7 @@ Big Data Service Development
 -  :ref:`How Do I Do If an Alarm Indicating Insufficient Memory Is Reported During Spark Task Execution? <mrs_03_1206>`
 -  :ref:`How Do I Do If ClickHouse Consumes Excessive CPU Resources? <mrs_03_1209>`
 -  :ref:`How Do I Enable the Map Type on ClickHouse? <mrs_03_1217>`
--  :ref:`It Takes a Long Time for Spark SQL to Access Hive Partitioned Tables Before Job Startup <mrs_03_1248>`
+-  :ref:`A Large Number of OBS APIs Are Called When Spark SQL Accesses Hive Partitioned Tables <mrs_03_1248>`
 
 .. toctree::
    :maxdepth: 1
@@ -85,4 +85,4 @@ Big Data Service Development
    how_do_i_do_if_an_alarm_indicating_insufficient_memory_is_reported_during_spark_task_execution
    how_do_i_do_if_clickhouse_consumes_excessive_cpu_resources
    how_do_i_enable_the_map_type_on_clickhouse
-   it_takes_a_long_time_for_spark_sql_to_access_hive_partitioned_tables_before_job_startup
+   a_large_number_of_obs_apis_are_called_when_spark_sql_accesses_hive_partitioned_tables

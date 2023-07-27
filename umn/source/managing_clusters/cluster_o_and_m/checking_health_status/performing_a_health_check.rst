@@ -52,7 +52,7 @@ Procedure
 
       .. note::
 
-         For MRS 1.7.2 or earlier, see :ref:`Performing a Health Check <mrs_01_0274>`. For MRS 3.\ *x* or later, see :ref:`Performing a Host Health Check <admin_guide_000057>`.
+         For MRS 1.7.2 or earlier, see :ref:`Performing a Health Check <mrs_01_0274>`. For MRS 3.\ *x* or later, see :ref:`Perform a Health Check <admin_guide_000076>`.
 
    #. Expand the node group information and select the check box of the host to be checked.
    #. Choose **Node** > **Start Host Health Check** to start the health check for the host.

@@ -37,4 +37,4 @@ Procedure
 
 #. Log in to the other FusionInsight Manager and repeat :ref:`2 <admin_guide_000178__en-us_topic_0046737084_chk_user>` to :ref:`4 <admin_guide_000178__en-us_topic_0046737084_add_user>` to create a user with the same name and set permissions.
 
-.. |image1| image:: /_static/images/en-us_image_0263899656.png
+.. |image1| image:: /_static/images/en-us_image_0000001442413857.png

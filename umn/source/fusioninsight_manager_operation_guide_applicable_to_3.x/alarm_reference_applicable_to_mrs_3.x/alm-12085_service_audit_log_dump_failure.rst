@@ -151,4 +151,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383932.png
+.. |image1| image:: /_static/images/en-us_image_0000001532767510.png

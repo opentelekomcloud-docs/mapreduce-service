@@ -97,4 +97,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0293269551.png
+.. |image1| image:: /_static/images/en-us_image_0000001583087293.png

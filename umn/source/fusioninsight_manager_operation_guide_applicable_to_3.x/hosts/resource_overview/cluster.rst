@@ -10,7 +10,7 @@ Log in to FusionInsight Manager and choose **Hosts** > **Resource Overview**. On
 By default, the monitoring data of the past one hour (**1h**) is displayed. You can click |image1| to customize a time range. Time range options are **1h**, **2h**, **6h**, **12h**, **1d**, **1w**, and **1m**.
 
 
-.. figure:: /_static/images/en-us_image_0000001369944573.png
+.. figure:: /_static/images/en-us_image_0000001442653713.png
    :alt: **Figure 1** Cluster tab
 
    **Figure 1** Cluster tab
@@ -19,5 +19,5 @@ By default, the monitoring data of the past one hour (**1h**) is displayed. You 
 -  You can choose |image2| > **Customize** to customize the metrics to display on the tab page. For details about the metrics, see :ref:`Table 1 <admin_guide_000064__table1190415121488>` in :ref:`Distribution <admin_guide_000064>`.
 -  You can click **Export Data** to export the metric values of each cluster within the time range you have specified.
 
-.. |image1| image:: /_static/images/en-us_image_0000001318157588.png
-.. |image2| image:: /_static/images/en-us_image_0263899311.png
+.. |image1| image:: /_static/images/en-us_image_0000001392414454.png
+.. |image2| image:: /_static/images/en-us_image_0000001442494097.png

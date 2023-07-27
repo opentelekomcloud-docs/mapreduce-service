@@ -146,4 +146,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417439.png
+.. |image1| image:: /_static/images/en-us_image_0000001532448414.png

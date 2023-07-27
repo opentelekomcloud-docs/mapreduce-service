@@ -149,4 +149,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269624001.png
+.. |image1| image:: /_static/images/en-us_image_0000001532767666.png

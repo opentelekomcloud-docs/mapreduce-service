@@ -42,4 +42,4 @@ How Do I Modify the allow_drop_detached Parameter of ClickHouse?
 
 #. Run the **q;** command to exit the ClickHouse client.
 
-.. |image1| image:: /_static/images/en-us_image_0000001223688037.png
+.. |image1| image:: /_static/images/en-us_image_0000001392255262.png

@@ -15,7 +15,7 @@ Solutions:
    #. In the **/opt/Bigdata/client/Hive** directory on the Hive client, change **export CLIENT_HIVE_ENTIRELINEASCOMMAND=true** in the **component_env** file to **export CLIENT_HIVE_ENTIRELINEASCOMMAND=false**.
 
 
-      .. figure:: /_static/images/en-us_image_0000001205479339.png
+      .. figure:: /_static/images/en-us_image_0000001392414806.png
          :alt: **Figure 1** Changing the **component_env** file
 
          **Figure 1** Changing the **component_env** file

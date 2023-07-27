@@ -20,10 +20,10 @@ Updating the Client Configuration
 
 #. Determine whether to generate a configuration file on the cluster node.
 
-   -  If yes, select **Save to Path**, and click **OK** to generate the client file. By default, the client file is generated in **/tmp/FusionInsight-Client** on the active management node. You can also store the client file in other directories, and user **omm** has the read, write, and execute permissions on the directories. Then go to :ref:`4 <mrs_01_24209__admin_guide_000173_en-us_topic_0193213946_l6af983f03121493ca3526296f5b650c3>`.
-   -  If no, click **OK**, specify a local save path, and download the complete client. Wait until the download is complete and go to :ref:`4 <mrs_01_24209__admin_guide_000173_en-us_topic_0193213946_l6af983f03121493ca3526296f5b650c3>`.
+   -  If yes, select **Save to Path**, and click **OK** to generate the client file. By default, the client file is generated in **/tmp/FusionInsight-Client** on the active management node. You can also store the client file in other directories, and user **omm** has the read, write, and execute permissions on the directories. Then go to :ref:`4 <mrs_01_24209__en-us_topic_0263899336_en-us_topic_0193213946_l6af983f03121493ca3526296f5b650c3>`.
+   -  If no, click **OK**, specify a local save path, and download the complete client. Wait until the download is complete and go to :ref:`4 <mrs_01_24209__en-us_topic_0263899336_en-us_topic_0193213946_l6af983f03121493ca3526296f5b650c3>`.
 
-#. .. _mrs_01_24209__admin_guide_000173_en-us_topic_0193213946_l6af983f03121493ca3526296f5b650c3:
+#. .. _mrs_01_24209__en-us_topic_0263899336_en-us_topic_0193213946_l6af983f03121493ca3526296f5b650c3:
 
    Use WinSCP to save the compressed file to the client installation directory, for example, **/opt/hadoopclient**, as the client installation user.
 

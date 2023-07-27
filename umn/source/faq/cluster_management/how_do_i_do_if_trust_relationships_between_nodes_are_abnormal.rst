@@ -27,6 +27,6 @@ If "ALM-12066 Inter-Node Mutual Trust Fails" is reported on Manager or there is 
 
 #. If the **home** directory of user **omm** is deleted, contact MRS support personnel.
 
-.. |image1| image:: /_static/images/en-us_image_0000001184290228.png
-.. |image2| image:: /_static/images/en-us_image_0000001229609903.png
-.. |image3| image:: /_static/images/en-us_image_0000001229690017.png
+.. |image1| image:: /_static/images/en-us_image_0000001392255270.png
+.. |image2| image:: /_static/images/en-us_image_0000001392414786.png
+.. |image3| image:: /_static/images/en-us_image_0000001442654033.png

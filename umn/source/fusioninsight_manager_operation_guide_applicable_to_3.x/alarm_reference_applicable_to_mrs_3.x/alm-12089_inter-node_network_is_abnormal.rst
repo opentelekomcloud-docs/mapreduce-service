@@ -108,4 +108,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383936.png
+.. |image1| image:: /_static/images/en-us_image_0000001583127553.png

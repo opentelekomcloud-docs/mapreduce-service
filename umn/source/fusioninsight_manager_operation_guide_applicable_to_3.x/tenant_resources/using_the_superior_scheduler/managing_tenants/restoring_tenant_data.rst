@@ -30,4 +30,4 @@ Procedure
 
 #. In the **Restore Tenant Resource Data** window, select one or more components to restore data, and click **OK**. The system automatically restores the tenant data.
 
-.. |image1| image:: /_static/images/en-us_image_0263899446.png
+.. |image1| image:: /_static/images/en-us_image_0000001442494073.png

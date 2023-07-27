@@ -75,7 +75,7 @@ Procedure
 
 5. .. _alm-25005__li423153448513:
 
-   Log in to the alarmed node as user **root** and run the **ping** command to check whether the network connectivity between this node and the LdapServer node. is normal.
+   Log in to the alarmed node as user **root** and run the **ping** command to check whether the network connectivity between this node and the LdapServer node is normal.
 
    -  If yes, go to :ref:`6 <alm-25005__li297764118513>`.
    -  If no, contact network administrators to troubleshoot the fault.
@@ -191,4 +191,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0263895532.png
+.. |image1| image:: /_static/images/en-us_image_0000001532767398.png

@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0000001098596550.html
+:original_name: en-us_topic_0000001442494337.html
 
-.. _en-us_topic_0000001098596550:
+.. _en-us_topic_0000001442494337:
 
 What Access Protocols Are Supported by Kafka?
 =============================================

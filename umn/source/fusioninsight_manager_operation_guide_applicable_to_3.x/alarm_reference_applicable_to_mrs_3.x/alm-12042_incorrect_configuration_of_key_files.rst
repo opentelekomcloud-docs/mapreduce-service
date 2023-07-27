@@ -120,4 +120,4 @@ Related Information
    #. The value of **MaxStartups** must be greater than or equal to 1000.
    #. At least one of the **PasswordAuthentication** and **ChallengeResponseAuthentication** parameters must be left blank or at least one of the parameters be set to **yes**.
 
-.. |image1| image:: /_static/images/en-us_image_0269383857.png
+.. |image1| image:: /_static/images/en-us_image_0000001532927502.png

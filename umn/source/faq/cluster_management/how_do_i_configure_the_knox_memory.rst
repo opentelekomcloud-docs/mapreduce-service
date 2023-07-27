@@ -26,7 +26,7 @@ How Do I Configure the knox Memory?
 #. Run the **ps -ef \|grep knox** command to check the configured memory.
 
 
-   .. figure:: /_static/images/en-us_image_0293101307.png
+   .. figure:: /_static/images/en-us_image_0000001442774001.png
       :alt: **Figure 1** knox memory
 
       **Figure 1** knox memory

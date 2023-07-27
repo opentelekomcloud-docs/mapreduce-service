@@ -59,4 +59,4 @@ System Parameters
 
 Connect to the DMPS cluster in large-scale cluster scenarios.
 
-.. |image1| image:: /_static/images/en-us_image_0263899675.png
+.. |image1| image:: /_static/images/en-us_image_0000001392734006.png

@@ -45,7 +45,7 @@ Parameters
 Impact on the System
 --------------------
 
-Data stored in HDFS is lost. HDFS may enter the safe mode and cannot provide write services. Lost block data cannot be restored.
+Data stored in HDFS is lost. HDFS may enter the security mode and cannot provide write services. Lost block data cannot be restored.
 
 Possible Causes
 ---------------
@@ -159,4 +159,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383960.png
+.. |image1| image:: /_static/images/en-us_image_0000001582807649.png

@@ -8,6 +8,14 @@ ALM-12040 Insufficient System Entropy
 Description
 -----------
 
+MRS 3.2.0 or later:
+
+The system checks whether the rng-tools or haveged tool has been enabled and correctly configured every 5 minutes. If neither tool is configured, this alarm is generated. If either is configured, the system continues to check the entropy. If the entropy is less than 100 for five consecutive times, this alarm is generated.
+
+This alarm is cleared when rng-tools or haveged has been installed and enabled on the target node and the entropy of the OS is greater than or equal to 100 in at least one of five entropy checks.
+
+MRS 3.1.2 or earlier:
+
 The system checks the entropy for five consecutive times at 00:00 every day. Specifically, the system checks whether rng-tools or haveged has been enabled and correctly configured. If neither is configured, the system continues to check the entropy. If the entropy is less than 100 for five consecutive times, this alarm is reported.
 
 This alarm is cleared when the system detects that the true random number mode has been configured, the random number parameters have been configured in the pseudo-random number mode, or neither mode is configured but the entropy of the OS is greater than or equal to 100 in at least one of five entropy checks.
@@ -166,4 +174,4 @@ Alarm Clearing
 
 This alarm is automatically cleared after the fault is rectified.
 
-.. |image1| image:: /_static/images/en-us_image_0263895382.png
+.. |image1| image:: /_static/images/en-us_image_0000001532927350.png

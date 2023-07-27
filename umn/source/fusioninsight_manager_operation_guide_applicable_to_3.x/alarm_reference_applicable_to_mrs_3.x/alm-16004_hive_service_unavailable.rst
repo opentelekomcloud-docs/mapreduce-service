@@ -12,10 +12,6 @@ This alarm is generated when the HiveServer service is unavailable. The system c
 
 This alarm is cleared when the HiveServer service is normal.
 
-.. note::
-
-   MRS 3.X supports the multi-instance function. If the multi-instance function is enabled in the cluster and multiple Hive service instances are installed, you need to determine the Hive service instance where the alarm is generated based on the value of **ServiceName** in **Location**. For example, if the Hive1 service is unavailable, **ServiceName=Hive1** is displayed in **Location**, and the operation object in the procedure needs to be changed from Hive to Hive1.
-
 Attribute
 ---------
 
@@ -215,4 +211,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417380.png
+.. |image1| image:: /_static/images/en-us_image_0000001532927286.png

@@ -125,4 +125,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0263895683.png
+.. |image1| image:: /_static/images/en-us_image_0000001583127345.png

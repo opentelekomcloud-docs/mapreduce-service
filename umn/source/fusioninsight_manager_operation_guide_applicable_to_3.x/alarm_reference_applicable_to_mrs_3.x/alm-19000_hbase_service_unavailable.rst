@@ -12,10 +12,6 @@ This alarm is generated when the HBase service is unavailable. The alarm module 
 
 This alarm is cleared when the HBase service recovers.
 
-.. note::
-
-   If the multi-instance function is enabled in the cluster and multiple HBase service instances are installed, you need to determine the HBase service instance where the alarm is generated based on the value of **ServiceName** in **Location**. For example, if the HBase1 service is unavailable, ServiceName=HBase1 is displayed in **Location**, and the operation object in the procedure needs to be changed from HBase to HBase1.
-
 Attribute
 ---------
 
@@ -156,7 +152,7 @@ Procedure
 
     .. _alm-19000__fig13078536192610:
 
-    .. figure:: /_static/images/en-us_image_0269417415.png
+    .. figure:: /_static/images/en-us_image_0000001532448266.png
        :alt: **Figure 1** HBase system table
 
        **Figure 1** HBase system table
@@ -183,14 +179,14 @@ Procedure
 
     .. _alm-19000__fig2133867192610:
 
-    .. figure:: /_static/images/en-us_image_0269417416.png
+    .. figure:: /_static/images/en-us_image_0000001532767490.png
        :alt: **Figure 2** HMaster is being started
 
        **Figure 2** HMaster is being started
 
     .. _alm-19000__fig41660353192610:
 
-    .. figure:: /_static/images/en-us_image_0269417417.png
+    .. figure:: /_static/images/en-us_image_0000001583087409.png
        :alt: **Figure 3** HMaster is started
 
        **Figure 3** HMaster is started
@@ -203,7 +199,7 @@ Procedure
     On the HMaster WebUI, check whether any hbase:meta is in the **Region in Transition** state for a long time.
 
 
-    .. figure:: /_static/images/en-us_image_0269417418.png
+    .. figure:: /_static/images/en-us_image_0000001582927649.png
        :alt: **Figure 4** Region in Transition
 
        **Figure 4** Region in Transition
@@ -277,4 +273,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417419.png
+.. |image1| image:: /_static/images/en-us_image_0000001582807697.png

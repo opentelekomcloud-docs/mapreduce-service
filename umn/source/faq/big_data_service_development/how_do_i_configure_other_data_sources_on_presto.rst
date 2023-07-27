@@ -68,4 +68,4 @@ In this section, MySQL is used as an example.
 
    #. Restart the Presto service.
 
-.. |image1| image:: /_static/images/en-us_image_0000001261300062.png
+.. |image1| image:: /_static/images/en-us_image_0000001442654037.png

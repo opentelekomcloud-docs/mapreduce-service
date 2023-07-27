@@ -131,5 +131,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417393.png
-.. |image2| image:: /_static/images/en-us_image_0269417394.png
+.. |image1| image:: /_static/images/en-us_image_0000001532927430.png
+.. |image2| image:: /_static/images/en-us_image_0000001532607758.png

@@ -126,4 +126,4 @@ Procedure
 
    Click **OK**. Wait until the system displays a message indicating that the tenant is successfully created.
 
-.. |image1| image:: /_static/images/en-us_image_0263899322.png
+.. |image1| image:: /_static/images/en-us_image_0000001392254894.png

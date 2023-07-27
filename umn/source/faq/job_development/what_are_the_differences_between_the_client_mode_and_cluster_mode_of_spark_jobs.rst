@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0000001145356345.html
+:original_name: en-us_topic_0000001392574214.html
 
-.. _en-us_topic_0000001145356345:
+.. _en-us_topic_0000001392574214:
 
 What Are the Differences Between the Client Mode and Cluster Mode of Spark Jobs?
 ================================================================================

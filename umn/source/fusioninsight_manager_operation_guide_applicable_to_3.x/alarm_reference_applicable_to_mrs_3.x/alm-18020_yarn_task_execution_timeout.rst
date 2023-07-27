@@ -56,13 +56,17 @@ Procedure
 **Check whether the timeout interval is correctly set.**
 
 #. On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Alarm** > **Alarms**. The **Alarms** page is displayed.
+
 #. Select the alarm whose ID is **18020**. In the alarm details, view **Location** to obtain the timeout task name and timeout duration.
+
 #. Based on the task name and timeout interval, choose **Cluster** > *Name of the desired cluster* > **Services** > **Yarn** > **ResourceManager (Active)** to log in to the native Yarn page. Then find the task on the native page, check its **StartTime** and calculate the task execution time based on the current system time. Check whether the task execution time exceeds the timeout duration.
 
-   -  If yes, go to :ref:`5 <alm-18020__li9996125375313>`.
+   -  If yes, go to :ref:`4 <alm-18020__li135821125144620>`.
    -  If no, go to :ref:`10 <alm-18020__li6394993485922>`.
 
-#. Evaluate the expected task execution time based on the service and compare it with the task timeout interval. If the timeout interval is too short, set the timeout interval (**mapreduce.application.timeout.alarm** or **spark.application.timeout.alarm**) of the client to the task expected execution time. Run the task again and check whether the alarm is cleared.
+#. .. _alm-18020__li135821125144620:
+
+   Evaluate the expected task execution time based on the service and compare it with the task timeout interval. If the timeout interval is too short, set the timeout interval (**mapreduce.application.timeout.alarm** or **spark.application.timeout.alarm**) of the client to the task expected execution time. Run the task again and check whether the alarm is cleared.
 
    -  If yes, no further action is required.
    -  If no, go to :ref:`5 <alm-18020__li9996125375313>`.
@@ -117,6 +121,6 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001087171010.png
-.. |image2| image:: /_static/images/en-us_image_0000001439562477.png
-.. |image3| image:: /_static/images/en-us_image_0263895445.png
+.. |image1| image:: /_static/images/en-us_image_0000001582927573.png
+.. |image2| image:: /_static/images/en-us_image_0000001583127321.png
+.. |image3| image:: /_static/images/en-us_image_0000001532448194.png

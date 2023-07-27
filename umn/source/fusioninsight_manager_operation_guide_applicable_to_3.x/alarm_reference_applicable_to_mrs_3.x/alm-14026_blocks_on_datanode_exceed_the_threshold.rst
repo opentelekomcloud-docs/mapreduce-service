@@ -138,4 +138,4 @@ The average number of blocks stored in each DataNode instance in the cluster is:
 
 **Xmx** specifies memory which corresponds to the threshold of the number of DataNode blocks, and each GB memory supports a maximum of 500,000 DataNode blocks. Set the memory as required.
 
-.. |image1| image:: /_static/images/en-us_image_0263895589.png
+.. |image1| image:: /_static/images/en-us_image_0000001532767582.png

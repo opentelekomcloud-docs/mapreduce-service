@@ -64,7 +64,9 @@ Procedure
 
 #. In **Restoration Configuration**, select **ClickHouse** under **Service data**.
 
-#. Set **Path Type** of **ClickHouse** to a backup directory type.
+#. .. _admin_guide_000359__li4457996415256:
+
+   Set **Path Type** of **ClickHouse** to a backup directory type.
 
    Currently, the backup directory supports only the **RemoteHDFS** type.
 

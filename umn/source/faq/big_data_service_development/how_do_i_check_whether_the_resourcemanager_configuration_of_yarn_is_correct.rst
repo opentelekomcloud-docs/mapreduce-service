@@ -46,4 +46,4 @@ How Do I Check Whether the ResourceManager Configuration of Yarn Is Correct?
 
    If the latest configuration has not been loaded after the configuration synchronization is complete, a message will be displayed on the Manager page indicating that the configuration has expired. However, this will not affect services. The latest configuration will be automatically loaded when the component restarts.
 
-.. |image1| image:: /_static/images/en-us_image_0293131436.png
+.. |image1| image:: /_static/images/en-us_image_0000001392574346.png

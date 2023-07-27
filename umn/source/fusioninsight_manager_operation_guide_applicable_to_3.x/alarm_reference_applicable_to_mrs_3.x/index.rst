@@ -12,16 +12,18 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-12007 Process Fault <alm-12007>`
 -  :ref:`ALM-12010 Manager Heartbeat Interruption Between the Active and Standby Nodes <alm-12010>`
 -  :ref:`ALM-12011 Manager Data Synchronization Exception Between the Active and Standby Nodes <alm-12011>`
+-  :ref:`ALM-12012 NTP Service Is Abnormal <alm-12012>`
 -  :ref:`ALM-12014 Partition Lost <alm-12014>`
 -  :ref:`ALM-12015 Partition Filesystem Readonly <alm-12015>`
 -  :ref:`ALM-12016 CPU Usage Exceeds the Threshold <alm-12016>`
 -  :ref:`ALM-12017 Insufficient Disk Capacity <alm-12017>`
 -  :ref:`ALM-12018 Memory Usage Exceeds the Threshold <alm-12018>`
 -  :ref:`ALM-12027 Host PID Usage Exceeds the Threshold <alm-12027>`
--  :ref:`ALM-12028 Number of Processes in the D State on a Host Exceeds the Threshold <alm-12028>`
+-  :ref:`ALM-12028 Number of Processes in the D State and Z State on a Host Exceeds the Threshold <alm-12028>`
 -  :ref:`ALM-12033 Slow Disk Fault <alm-12033>`
 -  :ref:`ALM-12034 Periodical Backup Failure <alm-12034>`
 -  :ref:`ALM-12035 Unknown Data Status After Recovery Task Failure <alm-12035>`
+-  :ref:`ALM-12037 NTP Server Abnormal <alm-12037>`
 -  :ref:`ALM-12038 Monitoring Indicator Dumping Failure <alm-12038>`
 -  :ref:`ALM-12039 Active/Standby OMS Databases Not Synchronized <alm-12039>`
 -  :ref:`ALM-12040 Insufficient System Entropy <alm-12040>`
@@ -67,8 +69,12 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-12089 Inter-Node Network Is Abnormal <alm-12089>`
 -  :ref:`ALM-12101 AZ Unhealthy <alm-12101>`
 -  :ref:`ALM-12102 AZ HA Component Is Not Deployed Based on DR Requirements <alm-12102>`
+-  :ref:`ALM-12103 Executor Resource Exception <alm-12103>`
+-  :ref:`ALM-12104 Abnormal Knox Resources <alm-12104>`
 -  :ref:`ALM-12110 Failed to get ECS temporary AK/SK <alm-12110>`
+-  :ref:`ALM-12172 Failed to Report Metrics to Cloud Eye <alm-12172>`
 -  :ref:`ALM-12180 Suspended Disk I/O <alm-12180>`
+-  :ref:`ALM-12190 Number of Knox Connections Exceeds the Threshold <alm-12190>`
 -  :ref:`ALM-13000 ZooKeeper Service Unavailable <alm-13000>`
 -  :ref:`ALM-13001 Available ZooKeeper Connections Are Insufficient <alm-13001>`
 -  :ref:`ALM-13002 ZooKeeper Direct Memory Usage Exceeds the Threshold <alm-13002>`
@@ -165,7 +171,14 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-19018 HBase Compaction Queue Size Exceeds the Threshold <alm-19018>`
 -  :ref:`ALM-19019 Number of HBase HFiles to Be Synchronized Exceeds the Threshold <alm-19019>`
 -  :ref:`ALM-19020 Number of HBase WAL Files to Be Synchronized Exceeds the Threshold <alm-19020>`
+-  :ref:`ALM-19021 Handler Usage of RegionServer Exceeds the Threshold <alm-19021>`
 -  :ref:`ALM-20002 Hue Service Unavailable <alm-20002>`
+-  :ref:`ALM-23001 Loader Service Unavailable <alm-23001>`
+-  :ref:`ALM-23003 Loader Task Execution Failure <alm-23003>`
+-  :ref:`ALM-23004 Loader Heap Memory Usage Exceeds the Threshold <alm-23004>`
+-  :ref:`ALM-23005 Loader Non-Heap Memory Usage Exceeds the Threshold <alm-23005>`
+-  :ref:`ALM-23006 Loader Direct Memory Usage Exceeds the Threshold <alm-23006>`
+-  :ref:`ALM-23007 Garbage Collection (GC) Time of the Loader Process Exceeds the Threshold <alm-23007>`
 -  :ref:`ALM-24000 Flume Service Unavailable <alm-24000>`
 -  :ref:`ALM-24001 Flume Agent Exception <alm-24001>`
 -  :ref:`ALM-24003 Flume Client Connection Interrupted <alm-24003>`
@@ -206,6 +219,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-38008 Abnormal Kafka Data Directory Status <alm-38008>`
 -  :ref:`ALM-38009 Busy Broker Disk I/Os (Applicable to Versions Later Than MRS 3.1.0) <alm-38009>`
 -  :ref:`ALM-38010 Topics with Single Replica <alm-38010>`
+-  :ref:`ALM-38011 User Connection Usage on Broker Exceeds the Threshold <alm-38011>`
 -  :ref:`ALM-43001 Spark2x Service Unavailable <alm-43001>`
 -  :ref:`ALM-43006 Heap Memory Usage of the JobHistory2x Process Exceeds the Threshold <alm-43006>`
 -  :ref:`ALM-43007 Non-Heap Memory Usage of the JobHistory2x Process Exceeds the Threshold <alm-43007>`
@@ -225,6 +239,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-44004 Presto Coordinator Resource Group Queuing Tasks Exceed the Threshold <alm-44004>`
 -  :ref:`ALM-44005 Presto Coordinator Process GC Time Exceeds the Threshold <alm-44005>`
 -  :ref:`ALM-44006 Presto Worker Process GC Time Exceeds the Threshold <alm-44006>`
+-  :ref:`ALM-45000 HetuEngine Service Unavailable <alm-45000>`
+-  :ref:`ALM-45001 Faulty HetuEngine Compute Instances <alm-45001>`
 -  :ref:`ALM-45175 Average Time for Calling OBS Metadata APIs Is Greater than the Threshold <alm-45175>`
 -  :ref:`ALM-45176 Success Rate of Calling OBS Metadata APIs Is Lower than the Threshold <alm-45176>`
 -  :ref:`ALM-45177 Success Rate of Calling OBS Data Read APIs Is Lower than the Threshold <alm-45177>`
@@ -232,7 +248,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-45179 Number of Failed OBS readFully API Calls Exceeds the Threshold <alm-45179>`
 -  :ref:`ALM-45180 Number of Failed OBS read API Calls Exceeds the Threshold <alm-45180>`
 -  :ref:`ALM-45181 Number of Failed OBS write API Calls Exceeds the Threshold <alm-45181>`
--  :ref:`ALM-45182 Number of Throttled OBS API Calls Exceeds the Threshold <alm-45182>`
+-  :ref:`ALM-45182 Number of Throttled OBS Operations Exceeds the Threshold <alm-45182>`
 -  :ref:`ALM-45275 Ranger Service Unavailable <alm-45275>`
 -  :ref:`ALM-45276 Abnormal RangerAdmin Status <alm-45276>`
 -  :ref:`ALM-45277 RangerAdmin Heap Memory Usage Exceeds the Threshold <alm-45277>`
@@ -251,6 +267,34 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-45426 ClickHouse Service Quantity Quota Usage in ZooKeeper Exceeds the Threshold <alm-45426>`
 -  :ref:`ALM-45427 ClickHouse Service Capacity Quota Usage in ZooKeeper Exceeds the Threshold <alm-45427>`
 -  :ref:`ALM-45428 ClickHouse Disk I/O Exception <alm-45428>`
+-  :ref:`ALM-45429 Table Metadata Synchronization Failed on the Added ClickHouse Node <alm-45429>`
+-  :ref:`ALM-45430 Permission Metadata Synchronization Failed on the Added ClickHouse Node <alm-45430>`
+-  :ref:`ALM-45431 Improper ClickHouse Instance Distribution for Topology Allocation <alm-45431>`
+-  :ref:`ALM-45432 ClickHouse User Synchronization Process Fails <alm-45432>`
+-  :ref:`ALM-45433 ClickHouse AZ Topology Exception <alm-45433>`
+-  :ref:`ALM-45434 A Single Replica Exists in the ClickHouse Data Table <alm-45434>`
+-  :ref:`ALM-45585 IoTDB Service Unavailable <alm-45585>`
+-  :ref:`ALM-45586 IoTDBServer Heap Memory Usage Exceeds the Threshold <alm-45586>`
+-  :ref:`ALM-45587 IoTDBServer GC Duration Exceeds the Threshold <alm-45587>`
+-  :ref:`ALM-45588 IoTDBServer Direct Memory Usage Exceeds the Threshold <alm-45588>`
+-  :ref:`ALM-45589 ConfigNode Heap Memory Usage Exceeds the Threshold <alm-45589>`
+-  :ref:`ALM-45590 ConfigNode GC Duration Exceeds the Threshold <alm-45590>`
+-  :ref:`ALM-45591 ConfigNode Direct Memory Usage Exceeds the Threshold <alm-45591>`
+-  :ref:`ALM-45592 IoTDBServer RPC Execution Duration Exceeds the Threshold <alm-45592>`
+-  :ref:`ALM-45593 IoTDBServer Flush Execution Duration Exceeds the Threshold <alm-45593>`
+-  :ref:`ALM-45594 IoTDBServer Intra-Space Merge Duration Exceeds the Threshold <alm-45594>`
+-  :ref:`ALM-45595 IoTDBServer Cross-Space Merge Duration Exceeds the Threshold <alm-45595>`
+-  :ref:`ALM-45615 CDL Service Unavailable <alm-45615>`
+-  :ref:`ALM-45616 CDL Job Execution Exception <alm-45616>`
+-  :ref:`ALM-45617 Data Queued in the CDL Replication Slot Exceeds the Threshold <alm-45617>`
+-  :ref:`ALM-45635 FlinkServer Job Execution Failure <alm-45635>`
+-  :ref:`ALM-45636 FlinkServer Job Checkpoints Keep Failing <alm-45636>`
+-  :ref:`ALM-45636 Flink Job Checkpoints Keep Failing <alm-45636-1>`
+-  :ref:`ALM-45637 FlinkServer Task Is Continuously Under Back Pressure <alm-45637>`
+-  :ref:`ALM-45638 Number of Restarts After FlinkServer Job Failures Exceeds the Threshold <alm-45638>`
+-  :ref:`ALM-45638 Number of Restarts After Flink Job Failures Exceeds the Threshold <alm-45638-1>`
+-  :ref:`ALM-45640 FlinkServer Heartbeat Interruption Between the Active and Standby Nodes <alm-45640>`
+-  :ref:`ALM-45641 Data Synchronization Exception Between the Active and Standby FlinkServer Nodes <alm-45641>`
 
 .. toctree::
    :maxdepth: 1
@@ -263,16 +307,18 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-12007_process_fault
    alm-12010_manager_heartbeat_interruption_between_the_active_and_standby_nodes
    alm-12011_manager_data_synchronization_exception_between_the_active_and_standby_nodes
+   alm-12012_ntp_service_is_abnormal
    alm-12014_partition_lost
    alm-12015_partition_filesystem_readonly
    alm-12016_cpu_usage_exceeds_the_threshold
    alm-12017_insufficient_disk_capacity
    alm-12018_memory_usage_exceeds_the_threshold
    alm-12027_host_pid_usage_exceeds_the_threshold
-   alm-12028_number_of_processes_in_the_d_state_on_a_host_exceeds_the_threshold
+   alm-12028_number_of_processes_in_the_d_state_and_z_state_on_a_host_exceeds_the_threshold
    alm-12033_slow_disk_fault
    alm-12034_periodical_backup_failure
    alm-12035_unknown_data_status_after_recovery_task_failure
+   alm-12037_ntp_server_abnormal
    alm-12038_monitoring_indicator_dumping_failure
    alm-12039_active_standby_oms_databases_not_synchronized
    alm-12040_insufficient_system_entropy
@@ -318,8 +364,12 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-12089_inter-node_network_is_abnormal
    alm-12101_az_unhealthy
    alm-12102_az_ha_component_is_not_deployed_based_on_dr_requirements
+   alm-12103_executor_resource_exception
+   alm-12104_abnormal_knox_resources
    alm-12110_failed_to_get_ecs_temporary_ak_sk
+   alm-12172_failed_to_report_metrics_to_cloud_eye
    alm-12180_suspended_disk_i_o
+   alm-12190_number_of_knox_connections_exceeds_the_threshold
    alm-13000_zookeeper_service_unavailable
    alm-13001_available_zookeeper_connections_are_insufficient
    alm-13002_zookeeper_direct_memory_usage_exceeds_the_threshold
@@ -416,7 +466,14 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-19018_hbase_compaction_queue_size_exceeds_the_threshold
    alm-19019_number_of_hbase_hfiles_to_be_synchronized_exceeds_the_threshold
    alm-19020_number_of_hbase_wal_files_to_be_synchronized_exceeds_the_threshold
+   alm-19021_handler_usage_of_regionserver_exceeds_the_threshold
    alm-20002_hue_service_unavailable
+   alm-23001_loader_service_unavailable
+   alm-23003_loader_task_execution_failure
+   alm-23004_loader_heap_memory_usage_exceeds_the_threshold
+   alm-23005_loader_non-heap_memory_usage_exceeds_the_threshold
+   alm-23006_loader_direct_memory_usage_exceeds_the_threshold
+   alm-23007_garbage_collection_gc_time_of_the_loader_process_exceeds_the_threshold
    alm-24000_flume_service_unavailable
    alm-24001_flume_agent_exception
    alm-24003_flume_client_connection_interrupted
@@ -457,6 +514,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-38008_abnormal_kafka_data_directory_status
    alm-38009_busy_broker_disk_i_os_applicable_to_versions_later_than_mrs_3.1.0
    alm-38010_topics_with_single_replica
+   alm-38011_user_connection_usage_on_broker_exceeds_the_threshold
    alm-43001_spark2x_service_unavailable
    alm-43006_heap_memory_usage_of_the_jobhistory2x_process_exceeds_the_threshold
    alm-43007_non-heap_memory_usage_of_the_jobhistory2x_process_exceeds_the_threshold
@@ -476,6 +534,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-44004_presto_coordinator_resource_group_queuing_tasks_exceed_the_threshold
    alm-44005_presto_coordinator_process_gc_time_exceeds_the_threshold
    alm-44006_presto_worker_process_gc_time_exceeds_the_threshold
+   alm-45000_hetuengine_service_unavailable
+   alm-45001_faulty_hetuengine_compute_instances
    alm-45175_average_time_for_calling_obs_metadata_apis_is_greater_than_the_threshold
    alm-45176_success_rate_of_calling_obs_metadata_apis_is_lower_than_the_threshold
    alm-45177_success_rate_of_calling_obs_data_read_apis_is_lower_than_the_threshold
@@ -483,7 +543,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-45179_number_of_failed_obs_readfully_api_calls_exceeds_the_threshold
    alm-45180_number_of_failed_obs_read_api_calls_exceeds_the_threshold
    alm-45181_number_of_failed_obs_write_api_calls_exceeds_the_threshold
-   alm-45182_number_of_throttled_obs_api_calls_exceeds_the_threshold
+   alm-45182_number_of_throttled_obs_operations_exceeds_the_threshold
    alm-45275_ranger_service_unavailable
    alm-45276_abnormal_rangeradmin_status
    alm-45277_rangeradmin_heap_memory_usage_exceeds_the_threshold
@@ -502,3 +562,31 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-45426_clickhouse_service_quantity_quota_usage_in_zookeeper_exceeds_the_threshold
    alm-45427_clickhouse_service_capacity_quota_usage_in_zookeeper_exceeds_the_threshold
    alm-45428_clickhouse_disk_i_o_exception
+   alm-45429_table_metadata_synchronization_failed_on_the_added_clickhouse_node
+   alm-45430_permission_metadata_synchronization_failed_on_the_added_clickhouse_node
+   alm-45431_improper_clickhouse_instance_distribution_for_topology_allocation
+   alm-45432_clickhouse_user_synchronization_process_fails
+   alm-45433_clickhouse_az_topology_exception
+   alm-45434_a_single_replica_exists_in_the_clickhouse_data_table
+   alm-45585_iotdb_service_unavailable
+   alm-45586_iotdbserver_heap_memory_usage_exceeds_the_threshold
+   alm-45587_iotdbserver_gc_duration_exceeds_the_threshold
+   alm-45588_iotdbserver_direct_memory_usage_exceeds_the_threshold
+   alm-45589_confignode_heap_memory_usage_exceeds_the_threshold
+   alm-45590_confignode_gc_duration_exceeds_the_threshold
+   alm-45591_confignode_direct_memory_usage_exceeds_the_threshold
+   alm-45592_iotdbserver_rpc_execution_duration_exceeds_the_threshold
+   alm-45593_iotdbserver_flush_execution_duration_exceeds_the_threshold
+   alm-45594_iotdbserver_intra-space_merge_duration_exceeds_the_threshold
+   alm-45595_iotdbserver_cross-space_merge_duration_exceeds_the_threshold
+   alm-45615_cdl_service_unavailable
+   alm-45616_cdl_job_execution_exception
+   alm-45617_data_queued_in_the_cdl_replication_slot_exceeds_the_threshold
+   alm-45635_flinkserver_job_execution_failure
+   alm-45636_flinkserver_job_checkpoints_keep_failing
+   alm-45636_flink_job_checkpoints_keep_failing
+   alm-45637_flinkserver_task_is_continuously_under_back_pressure
+   alm-45638_number_of_restarts_after_flinkserver_job_failures_exceeds_the_threshold
+   alm-45638_number_of_restarts_after_flink_job_failures_exceeds_the_threshold
+   alm-45640_flinkserver_heartbeat_interruption_between_the_active_and_standby_nodes
+   alm-45641_data_synchronization_exception_between_the_active_and_standby_flinkserver_nodes

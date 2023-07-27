@@ -13,7 +13,7 @@ FusionInsight adopts the role-based access control (RBAC) mode to manage rights 
 The right model of FusionInsight consists four parts, that is users, user groups, roles, and rights.
 
 
-.. figure:: /_static/images/en-us_image_0263899538.png
+.. figure:: /_static/images/en-us_image_0000001392574050.png
    :alt: **Figure 1** Right model
 
    **Figure 1** Right model

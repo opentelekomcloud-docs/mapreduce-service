@@ -64,7 +64,7 @@ Procedure
 
    .. _alm-12016__fig42676420173938:
 
-   .. figure:: /_static/images/en-us_image_0269383824.png
+   .. figure:: /_static/images/en-us_image_0000001583087533.png
       :alt: **Figure 1** Setting alarm smoothing times
 
       **Figure 1** Setting alarm smoothing times
@@ -73,7 +73,7 @@ Procedure
 
    .. _alm-12016__fig30961038173938:
 
-   .. figure:: /_static/images/en-us_image_0000001440977805.png
+   .. figure:: /_static/images/en-us_image_0000001583127513.png
       :alt: **Figure 2** Setting an alarm threshold
 
       **Figure 2** Setting an alarm threshold
@@ -120,4 +120,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383826.png
+.. |image1| image:: /_static/images/en-us_image_0000001582927773.png

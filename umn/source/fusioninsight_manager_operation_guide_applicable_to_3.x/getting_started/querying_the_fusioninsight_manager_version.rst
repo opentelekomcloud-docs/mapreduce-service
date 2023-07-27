@@ -34,4 +34,4 @@ By viewing the FusionInsight Manager version, you can prepare for system upgrade
 
          **\**\*** indicates the version number. Replace it with the actual version number.
 
-.. |image1| image:: /_static/images/en-us_image_0000001438954277.png
+.. |image1| image:: /_static/images/en-us_image_0000001392414486.png

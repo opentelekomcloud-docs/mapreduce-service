@@ -10,7 +10,13 @@ Description
 
 The system checks the certificate file on 23:00 every day. This alarm is generated if the certificate file is about to expire within 30 days.
 
-This alarm is cleared when a certificate that is not about to expire is imported.
+This alarm is cleared when a certificate that is not about to expire is imported and the alarm detection mechanism is triggered on the next hour.
+
+.. note::
+
+   For MRS 3.2.0 or later, the certificate file is checked at the beginning of each hour.
+
+   For versions earlier than MRS 3.2.0, the certificate file is checked on 23:00 every day.
 
 Attribute
 ---------
@@ -147,5 +153,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0263895749.png
-.. |image2| image:: /_static/images/en-us_image_0263895382.png
+.. |image1| image:: /_static/images/en-us_image_0000001532448262.png
+.. |image2| image:: /_static/images/en-us_image_0000001532927350.png

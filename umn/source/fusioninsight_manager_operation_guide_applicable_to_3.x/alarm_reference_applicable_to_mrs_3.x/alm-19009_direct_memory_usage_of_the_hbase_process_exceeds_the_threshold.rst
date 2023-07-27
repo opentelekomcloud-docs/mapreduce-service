@@ -12,10 +12,6 @@ The system checks the HBase service status every 30 seconds. The alarm is genera
 
 The alarm is cleared when the direct memory usage is less than the threshold.
 
-.. note::
-
-   If the multi-instance function is enabled in the cluster and multiple HBase service instances are installed, you need to determine the HBase service instance where the alarm is generated based on the value of **ServiceName** in **Location**. For example, if the HBase1 service is unavailable, **ServiceName=HBase1** is displayed in **Location**, and the operation object in the procedure needs to be changed from HBase to HBase1.
-
 Attribute
 ---------
 
@@ -120,4 +116,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417423.png
+.. |image1| image:: /_static/images/en-us_image_0000001583087501.png

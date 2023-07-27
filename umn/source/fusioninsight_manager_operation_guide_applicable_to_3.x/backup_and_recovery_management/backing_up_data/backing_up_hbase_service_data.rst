@@ -169,5 +169,5 @@ Procedure
 
    After the backup task is executed, the system automatically creates a subdirectory for each backup task in the backup directory. The format of the subdirectory name is *Backup task name_Data source_Task creation time*, and the subdirectory is used to save latest data source backup files. All the backup file sets are stored in the related snapshot directories.
 
-.. |image1| image:: /_static/images/en-us_image_0263899673.png
-.. |image2| image:: /_static/images/en-us_image_0263899411.png
+.. |image1| image:: /_static/images/en-us_image_0000001392734022.png
+.. |image2| image:: /_static/images/en-us_image_0000001442413937.png

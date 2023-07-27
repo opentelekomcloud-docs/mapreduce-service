@@ -5,6 +5,8 @@
 ALM-24015 Flume MonitorServer Certificate File Has Expired
 ==========================================================
 
+This section applies to MRS 3.2.0 or later.
+
 Description
 -----------
 
@@ -114,4 +116,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001259115323.png
+.. |image1| image:: /_static/images/en-us_image_0000001532448470.png

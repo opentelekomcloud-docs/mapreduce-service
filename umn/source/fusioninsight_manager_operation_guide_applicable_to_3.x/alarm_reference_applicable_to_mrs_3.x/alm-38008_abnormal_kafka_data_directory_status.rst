@@ -113,4 +113,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417506.png
+.. |image1| image:: /_static/images/en-us_image_0000001582807601.png

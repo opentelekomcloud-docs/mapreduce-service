@@ -20,6 +20,8 @@ Checking Whether the Cluster Supports Session Timeout Duration Adjustment
 
 -  MRS 3.x and later: Log in to FusionInsight Manager and choose **Cluster** > **Services** > **meta**. On the displayed page, click **Configurations** and select **All Configurations**. Search for the **http.server.session.timeout.secs** configuration item. If this configuration item exists, perform the following steps to modify it. If the configuration item does not exist, the version does not support dynamic adjustment of the session duration.
 
+   |image1|
+
 You are advised to set all session timeout durations to the same value. Otherwise, the settings of some parameters may not take effect due to value conflict.
 
 Modifying the Timeout Duration on Manager and the Authentication Center Page
@@ -99,3 +101,5 @@ Modifying the Timeout Duration for an Open-Source Component Web UI
 #. Restart the meta service and components on web UI, or restart the cluster during off-peak hours.
 
    To prevent service interruption, restart the service during off-peak hours or perform a rolling restart.
+
+.. |image1| image:: /_static/images/en-us_image_0000001392734334.png

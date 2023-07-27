@@ -86,9 +86,9 @@ Procedure
 
    After maintenance is complete, you can select services and hosts in batches in the maintenance mode view and click **Exit Maintenance Mode** to make them exit the maintenance mode.
 
-.. |image1| image:: /_static/images/en-us_image_0263899304.png
-.. |image2| image:: /_static/images/en-us_image_0263899339.png
-.. |image3| image:: /_static/images/en-us_image_0263899293.png
-.. |image4| image:: /_static/images/en-us_image_0263899476.png
-.. |image5| image:: /_static/images/en-us_image_0263899363.png
-.. |image6| image:: /_static/images/en-us_image_0263899235.png
+.. |image1| image:: /_static/images/en-us_image_0000001392254954.png
+.. |image2| image:: /_static/images/en-us_image_0000001392734042.png
+.. |image3| image:: /_static/images/en-us_image_0000001442413957.png
+.. |image4| image:: /_static/images/en-us_image_0000001442773713.png
+.. |image5| image:: /_static/images/en-us_image_0000001392734038.png
+.. |image6| image:: /_static/images/en-us_image_0000001442773709.png

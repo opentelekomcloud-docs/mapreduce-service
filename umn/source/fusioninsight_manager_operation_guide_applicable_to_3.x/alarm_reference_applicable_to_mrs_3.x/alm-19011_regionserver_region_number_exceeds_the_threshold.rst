@@ -10,10 +10,6 @@ Description
 
 The system checks the number of regions on each RegionServer in each HBase service instance every 30 seconds. The region number is displayed on the HBase service monitoring page and RegionServer role monitoring page. This alarm is generated when the number of regions on a RegionServer exceeds the threshold (default value: 2000) for 20 consecutive times. The threshold can be changed by choosing **O&M** > **Alarm** > **Thresholds** > *Name of the desired cluster* > **HBase**. This alarm is cleared when the number of regions is less than or equal to the threshold.
 
-.. note::
-
-   If the multi-instance function is enabled in the cluster and multiple HBase service instances are installed, you need to determine the HBase service instance where the alarm is generated based on the value of **ServiceName** in **Location**. For example, if the HBase1 service is unavailable, **ServiceName=HBase1** is displayed in **Location**, and the operation object in the procedure needs to be changed from HBase to HBase1.
-
 Attribute
 ---------
 
@@ -63,7 +59,7 @@ Procedure
    -  If no, go to :ref:`3 <alm-19011__li1094914149149>`.
 
 
-   .. figure:: /_static/images/en-us_image_0276801805.png
+   .. figure:: /_static/images/en-us_image_0000001532927346.png
       :alt: **Figure 1** WebUI of HBase instance
 
       **Figure 1** WebUI of HBase instance
@@ -220,4 +216,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417427.png
+.. |image1| image:: /_static/images/en-us_image_0000001582927569.png

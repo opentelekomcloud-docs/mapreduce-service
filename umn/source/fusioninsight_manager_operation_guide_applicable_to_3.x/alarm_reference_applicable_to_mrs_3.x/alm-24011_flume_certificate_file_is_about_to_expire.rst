@@ -5,6 +5,8 @@
 ALM-24011 Flume Certificate File Is About to Expire
 ===================================================
 
+This section applies to MRS 3.2.0 or later.
+
 Description
 -----------
 
@@ -113,4 +115,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001214312492.png
+.. |image1| image:: /_static/images/en-us_image_0000001582807709.png
