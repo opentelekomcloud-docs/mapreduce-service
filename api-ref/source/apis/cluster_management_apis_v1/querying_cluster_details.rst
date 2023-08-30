@@ -239,30 +239,45 @@ Response
    +=======================+=======================+============================================================================================================================+
    | componentId           | String                | Component ID                                                                                                               |
    |                       |                       |                                                                                                                            |
+   |                       |                       | -  Component IDs of MRS 3.2.0-LTS.1 are as follows:                                                                        |
+   |                       |                       |                                                                                                                            |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_001: Hadoop                                                                                          |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_002: HBase                                                                                           |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_003: Hive                                                                                            |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_004: Spark2x                                                                                         |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_006: Flink                                                                                           |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_008: Kafka                                                                                           |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_009: Flume                                                                                           |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_013: Loader                                                                                          |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_014: Hue                                                                                             |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_015: Ooize                                                                                           |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_018: DBService                                                                                       |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_019: ZooKeeper                                                                                       |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_022: Ranger                                                                                          |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_023: HetuEngine                                                                                      |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_024: Tez                                                                                             |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_025: ClickHouse                                                                                      |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_026: IoTDB                                                                                           |
+   |                       |                       |    -  MRS 3.2.0-LTS.1_028: CDL                                                                                             |
+   |                       |                       |                                                                                                                            |
    |                       |                       | -  Component IDs of MRS 3.1.2-LTS.3 are as follows:                                                                        |
    |                       |                       |                                                                                                                            |
    |                       |                       |    -  MRS 3.1.2-LTS.3_001: Hadoop                                                                                          |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_002: Spark2x                                                                                         |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_003: HBase                                                                                           |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_004: Hive                                                                                            |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_005: Hue                                                                                             |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_006: Loader                                                                                          |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_007: Kafka                                                                                           |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_008: Flume                                                                                           |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_009: FTP-Server                                                                                      |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_010: Solr                                                                                            |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_010: Redis                                                                                           |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_011: Elasticsearch                                                                                   |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_012: Flink                                                                                           |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_013: Oozie                                                                                           |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_014: GraphBase                                                                                       |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_015: ZooKeeper                                                                                       |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_016: HetuEngine                                                                                      |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_017: Ranger                                                                                          |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_018: Tez                                                                                             |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_019: ClickHouse                                                                                      |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_020: Metadata                                                                                        |
-   |                       |                       |    -  MRS 3.1.2-LTS.3_021: KMS                                                                                             |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_002: HBase                                                                                           |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_003: Hive                                                                                            |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_004: Spark2x                                                                                         |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_006: Flink                                                                                           |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_008: Kafka                                                                                           |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_009: Flume                                                                                           |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_013: Loader                                                                                          |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_014: Hue                                                                                             |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_015: Ooize                                                                                           |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_018: DBService                                                                                       |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_019: ZooKeeper                                                                                       |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_022: Ranger                                                                                          |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_023: HetuEngine                                                                                      |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_024: Tez                                                                                             |
+   |                       |                       |    -  MRS 3.1.2-LTS.3_025: ClickHouse                                                                                      |
    |                       |                       |                                                                                                                            |
    |                       |                       | -  Component IDs of MRS 3.1.0-LTS.1 are as follows:                                                                        |
    |                       |                       |                                                                                                                            |
