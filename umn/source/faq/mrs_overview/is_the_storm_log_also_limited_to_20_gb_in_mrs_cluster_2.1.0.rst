@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0000001145676237.html
+:original_name: en-us_topic_0000001442653893.html
 
-.. _en-us_topic_0000001145676237:
+.. _en-us_topic_0000001442653893:
 
 Is the Storm Log also limited to 20 GB in MRS cluster 2.1.0?
 ============================================================

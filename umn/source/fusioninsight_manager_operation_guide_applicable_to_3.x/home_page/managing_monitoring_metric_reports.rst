@@ -65,8 +65,8 @@ Exporting Monitoring Data of a Specified Monitoring Item
 
 #. Click **Export**.
 
-.. |image1| image:: /_static/images/en-us_image_0263899329.png
-.. |image2| image:: /_static/images/en-us_image_0263899610.png
-.. |image3| image:: /_static/images/en-us_image_0263899528.png
-.. |image4| image:: /_static/images/en-us_image_0263899289.png
-.. |image5| image:: /_static/images/en-us_image_0263899471.png
+.. |image1| image:: /_static/images/en-us_image_0000001442653701.png
+.. |image2| image:: /_static/images/en-us_image_0000001392414434.png
+.. |image3| image:: /_static/images/en-us_image_0000001442494085.png
+.. |image4| image:: /_static/images/en-us_image_0000001392254902.png
+.. |image5| image:: /_static/images/en-us_image_0000001442773665.png

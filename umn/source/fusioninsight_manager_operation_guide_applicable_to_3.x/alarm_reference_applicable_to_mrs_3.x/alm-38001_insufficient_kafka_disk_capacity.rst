@@ -255,4 +255,4 @@ Related Information
    -  If yes, resolve the disk capacity insufficiency problem according to the handling method of "ALM-38001 Insufficient Kafka Disk Space" after the alarm is cleared.
    -  If no, contact the O&M personnel.
 
-.. |image1| image:: /_static/images/en-us_image_0269417500.png
+.. |image1| image:: /_static/images/en-us_image_0000001532607862.png

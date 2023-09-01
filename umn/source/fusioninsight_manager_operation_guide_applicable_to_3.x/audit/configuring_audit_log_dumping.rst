@@ -68,4 +68,4 @@ Procedure
       -  **LOGLEVEL** indicates the security level. Value **0** indicates Critical, value **1** indicates Major, value **2** indicates Minor, and value **3** indicates Warning.
       -  **OPERATERESULT** indicates the operation result. Value **0** indicates that the operation is successful, and value **1** indicates that the operation is failed.
 
-.. |image1| image:: /_static/images/en-us_image_0263899218.png
+.. |image1| image:: /_static/images/en-us_image_0000001442653657.png

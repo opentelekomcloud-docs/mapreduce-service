@@ -20,7 +20,7 @@ What If an Excel File Downloaded on Hue Failed to Open?
    If **active** is displayed in the command output, the node is the active node. Otherwise, log in to the other Master node.
 
 
-   .. figure:: /_static/images/en-us_image_0000001439442217.png
+   .. figure:: /_static/images/en-us_image_0000001442654025.png
       :alt: **Figure 1** Active OMS node
 
       **Figure 1** Active OMS node
@@ -42,7 +42,7 @@ What If an Excel File Downloaded on Hue Failed to Open?
       ProxyHTMLURLMap (https?:\/\/[^:]*:[0-9]*.*) ${PROXY_PREFIX}/proxyRedirect=$1 RV
 
 
-   .. figure:: /_static/images/en-us_image_0268284607.png
+   .. figure:: /_static/images/en-us_image_0000001392414778.png
       :alt: **Figure 2** Content to be deleted
 
       **Figure 2** Content to be deleted
@@ -58,7 +58,7 @@ What If an Excel File Downloaded on Hue Failed to Open?
       ProxyHTMLURLMap (https?:\/\/[^:]*:[0-9]*.*) ${PROXY_PREFIX}/proxyRedirect=$1 RV
 
 
-   .. figure:: /_static/images/en-us_image_0268298534.png
+   .. figure:: /_static/images/en-us_image_0000001392734330.png
       :alt: **Figure 3** Content to be deleted
 
       **Figure 3** Content to be deleted

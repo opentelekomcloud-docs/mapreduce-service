@@ -71,7 +71,7 @@ Procedure
 
    .. _alm-12049__fig566375315131:
 
-   .. figure:: /_static/images/en-us_image_0000001440858201.png
+   .. figure:: /_static/images/en-us_image_0000001532448486.png
       :alt: **Figure 1** Setting alarm thresholds
 
       **Figure 1** Setting alarm thresholds
@@ -126,5 +126,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383872.png
-.. |image2| image:: /_static/images/en-us_image_0269383873.png
+.. |image1| image:: /_static/images/en-us_image_0000001582927869.png
+.. |image2| image:: /_static/images/en-us_image_0000001582807921.png

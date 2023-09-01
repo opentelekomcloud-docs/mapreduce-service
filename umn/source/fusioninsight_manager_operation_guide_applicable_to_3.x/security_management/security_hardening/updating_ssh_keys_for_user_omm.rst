@@ -83,4 +83,4 @@ Procedure
 
 12. Log in to FusionInsight Manager. On **Homepage**, locate the desired cluster and choose |image1| > **Start** to start the cluster.
 
-.. |image1| image:: /_static/images/en-us_image_0263899299.png
+.. |image1| image:: /_static/images/en-us_image_0000001442773649.png

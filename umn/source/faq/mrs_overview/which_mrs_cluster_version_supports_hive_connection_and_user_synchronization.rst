@@ -5,4 +5,4 @@
 Which MRS Cluster Version Supports Hive Connection and User Synchronization?
 ============================================================================
 
-MRS 2.0.5 or later supports Hive connections on DataArts Studio and provides the IAM user synchronization function.
+MRS cluster 2.0.5 or later supports Hive connections on DataLake Governance Center (DGC) and provides the IAM user synchronization function.

@@ -83,4 +83,4 @@ Procedure
 
    Contact O&M personnel.
 
-.. |image1| image:: /_static/images/en-us_image_0000001216164294.png
+.. |image1| image:: /_static/images/en-us_image_0000001582807757.png

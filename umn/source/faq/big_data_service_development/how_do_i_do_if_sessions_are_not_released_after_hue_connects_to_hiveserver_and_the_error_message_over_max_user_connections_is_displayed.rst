@@ -17,4 +17,4 @@ Applicable versions: MRS 3.1.0 and earlier
 
    |image1|
 
-.. |image1| image:: /_static/images/en-us_image_0000001195220440.png
+.. |image1| image:: /_static/images/en-us_image_0000001392255290.png

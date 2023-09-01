@@ -117,4 +117,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417382.png
+.. |image1| image:: /_static/images/en-us_image_0000001532767550.png

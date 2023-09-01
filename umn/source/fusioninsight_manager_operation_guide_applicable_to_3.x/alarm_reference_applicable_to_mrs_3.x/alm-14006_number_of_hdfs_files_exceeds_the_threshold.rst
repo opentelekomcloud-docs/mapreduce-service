@@ -136,4 +136,4 @@ The number of NameNode files is proportional to the used memory size of the Name
    | 300,000,000            | -Xms164G -Xmx164G -XX:NewSize=12G -XX:MaxNewSize=12G |
    +------------------------+------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0269383961.png
+.. |image1| image:: /_static/images/en-us_image_0000001532927350.png

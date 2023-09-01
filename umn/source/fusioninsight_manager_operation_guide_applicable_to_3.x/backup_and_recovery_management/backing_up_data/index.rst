@@ -6,6 +6,7 @@ Backing Up Data
 ===============
 
 -  :ref:`Backing Up Manager Data <admin_guide_000202>`
+-  :ref:`Backing Up CDL Data <admin_guide_000343>`
 -  :ref:`Backing Up ClickHouse Metadata <admin_guide_000348>`
 -  :ref:`Backing Up ClickHouse Service Data <admin_guide_000349>`
 -  :ref:`Backing Up DBService Data <admin_guide_000203>`
@@ -14,6 +15,8 @@ Backing Up Data
 -  :ref:`Backing Up NameNode Data <admin_guide_000208>`
 -  :ref:`Backing Up HDFS Service Data <admin_guide_000209>`
 -  :ref:`Backing Up Hive Service Data <admin_guide_000210>`
+-  :ref:`Backing Up IoTDB Metadata <admin_guide_000350>`
+-  :ref:`Backing Up IoTDB Service Data <admin_guide_000360>`
 -  :ref:`Backing Up Kafka Metadata <admin_guide_000211>`
 
 .. toctree::
@@ -21,6 +24,7 @@ Backing Up Data
    :hidden: 
 
    backing_up_manager_data
+   backing_up_cdl_data
    backing_up_clickhouse_metadata
    backing_up_clickhouse_service_data
    backing_up_dbservice_data
@@ -29,4 +33,6 @@ Backing Up Data
    backing_up_namenode_data
    backing_up_hdfs_service_data
    backing_up_hive_service_data
+   backing_up_iotdb_metadata
+   backing_up_iotdb_service_data
    backing_up_kafka_metadata

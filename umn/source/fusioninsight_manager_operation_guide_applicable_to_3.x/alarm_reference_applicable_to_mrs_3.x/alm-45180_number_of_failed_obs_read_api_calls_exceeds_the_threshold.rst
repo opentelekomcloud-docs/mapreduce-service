@@ -91,5 +91,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001297838112.png
-.. |image2| image:: /_static/images/en-us_image_0000001296365606.png
+.. |image1| image:: /_static/images/en-us_image_0000001532607950.png
+.. |image2| image:: /_static/images/en-us_image_0000001582927841.png

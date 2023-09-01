@@ -10,10 +10,6 @@ Description
 
 The system checks the background thread usage in every 30 seconds. This alarm is generated when the usage of the background thread pool of Hive exceeds the threshold, 90% by default.
 
-.. note::
-
-   MRS 3.X supports the multi-instance function. If the multi-instance function is enabled in the cluster and multiple Hive services are installed, determine the Hive service for which the alarm is generated based on the value of **ServiceName** in **Location** of the alarm. For example, if Hive1 service is unavailable, **ServiceName** is set to **Hive1** in **Location**, and the operation object in the handling procedure is changed from Hive to Hive1.
-
 Attribute
 ---------
 
@@ -113,4 +109,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417379.png
+.. |image1| image:: /_static/images/en-us_image_0000001583087477.png

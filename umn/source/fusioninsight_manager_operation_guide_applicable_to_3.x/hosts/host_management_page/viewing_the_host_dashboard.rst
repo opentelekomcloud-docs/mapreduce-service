@@ -46,6 +46,6 @@ GPU Card Status Area
 
 If the host is configured with GPU cards, the GPU card status area displays the model, location, and status of the GPU card installed on the host.
 
-.. |image1| image:: /_static/images/en-us_image_0263899316.png
-.. |image2| image:: /_static/images/en-us_image_0263899637.png
-.. |image3| image:: /_static/images/en-us_image_0263899593.png
+.. |image1| image:: /_static/images/en-us_image_0000001392414478.png
+.. |image2| image:: /_static/images/en-us_image_0000001392254950.png
+.. |image3| image:: /_static/images/en-us_image_0000001442773705.png

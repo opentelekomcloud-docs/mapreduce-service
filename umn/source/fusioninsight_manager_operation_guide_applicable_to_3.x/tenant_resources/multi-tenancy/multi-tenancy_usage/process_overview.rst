@@ -10,7 +10,7 @@ Administrators need to determine the service scenarios of cluster resources and 
 :ref:`Process Overview <admin_guide_000098>` shows the process for creating a tenant.
 
 
-.. figure:: /_static/images/en-us_image_0263899222.png
+.. figure:: /_static/images/en-us_image_0000001442653645.png
    :alt: **Figure 1** Creating a tenant
 
    **Figure 1** Creating a tenant

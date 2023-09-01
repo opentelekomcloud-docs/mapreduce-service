@@ -102,6 +102,6 @@ Some services in the cluster provide service-level resource monitoring metrics. 
    |                       | Number of Connections (by Client IP Address)   | Displays the ZooKeeper client connection resource status.                                                                                                                                                                                                                    |
    +-----------------------+------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000001369965777.png
-.. |image2| image:: /_static/images/en-us_image_0000001318119582.png
-.. |image3| image:: /_static/images/en-us_image_0263899644.png
+.. |image1| image:: /_static/images/en-us_image_0000001442413925.png
+.. |image2| image:: /_static/images/en-us_image_0000001392734010.png
+.. |image3| image:: /_static/images/en-us_image_0000001392254926.png

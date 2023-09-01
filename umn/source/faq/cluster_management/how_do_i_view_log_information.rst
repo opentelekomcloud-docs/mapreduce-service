@@ -19,7 +19,7 @@ You can view operation logs of clusters and jobs on the **Operation Logs** page.
 
 .. _mrs_03_1003__fig36909253103815:
 
-.. figure:: /_static/images/en-us_image_0000001388541980.png
+.. figure:: /_static/images/en-us_image_0000001442654061.png
    :alt: **Figure 1** Log information
 
    **Figure 1** Log information

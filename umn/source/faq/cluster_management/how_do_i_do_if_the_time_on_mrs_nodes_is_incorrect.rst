@@ -18,7 +18,7 @@ How Do I Do If the Time on MRS Nodes Is Incorrect?
       server master2_ip
 
 
-   .. figure:: /_static/images/en-us_image_0000001439594513.png
+   .. figure:: /_static/images/en-us_image_0000001442414233.png
       :alt: **Figure 1** Adding the master node IP addresses
 
       **Figure 1** Adding the master node IP addresses

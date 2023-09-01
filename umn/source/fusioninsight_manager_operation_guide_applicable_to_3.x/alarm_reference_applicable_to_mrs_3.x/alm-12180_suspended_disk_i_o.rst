@@ -15,7 +15,7 @@ Description
 
 -  For SSDs, the alarm is triggered when any of the following conditions is met:
 
-   -  The system collects data every 3 seconds, and detects that the **svctm** value exceeds 3s for 10 consecutive periods within 30 seconds.
+   -  The system collects data every 3 seconds, and detects that the **svctm** value exceeds 2s for 10 consecutive periods within 30 seconds.
    -  The system collects data every 3 seconds, and detects that the **avgqu-sz** value is greater than 0, the IOPS or bandwidth is 0, and the **ioutil** value is greater than **99%** for 10 consecutive periods within 30 seconds.
 
 This alarm is automatically cleared when the preceding conditions have not been met for 90s.
@@ -30,14 +30,23 @@ This alarm is automatically cleared when the preceding conditions have not been 
 
       Parameters are as follows:
 
-      -  **avgqu-sz** indicates the disk queue depth.
-      -  The sum of **r/s** and **w/s** is the IOPS.
-      -  The sum of **rkB/s** and **wkB/s** is the bandwidth.
-      -  **%util** is the **ioutil** value.
+      **avgqu-sz** indicates the disk queue depth.
 
-   -  The formula for calculating **svctm** is as follows:
+      The sum of **r/s** and **w/s** is the IOPS.
 
-      svctm = (tot_ticks_new - tot_ticks_old) / (rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old)
+      The sum of **rkB/s** and **wkB/s** is the bandwidth.
+
+      **%util** is the **ioutil** value.
+
+   -  MRS 3.1.0:
+
+      Run the **iostat -x -t** command in the OS.
+
+      |image2|
+
+   -  Calculate **svctm** as follows in versions later than MRS 3.1.0:
+
+      svctm = (tot_ticks_new - tot_ticks_old)/(rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old)
 
       If **rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old** is **0**, then **svctm** is **0**.
 
@@ -45,7 +54,7 @@ This alarm is automatically cleared when the preceding conditions have not been 
 
       The system runs the **cat /proc/diskstats** command every 3 seconds to collect data. For example:
 
-      |image2|
+      |image3|
 
       In these two commands:
 
@@ -55,7 +64,7 @@ This alarm is automatically cleared when the preceding conditions have not been 
 
       In this case, the value of **svctm** is as follows:
 
-      (19571460 - 19569526) / (1101553 + 28747977 - 1101553 - 28744856) = 0.6197
+      (19571460 - 19569526)/(1101553 + 28747977 - 1101553 - 28744856) = 0.6197
 
 Attribute
 ---------
@@ -114,7 +123,7 @@ Procedure
 
 6. Select **OMS** for **Service** and click **OK**.
 
-7. Click |image3| in the upper right corner, and set **Start Date** and **End Date** for log collection to 10 minutes ahead of and after the alarm generation time, respectively. Then, click **Download**.
+7. Click |image4| in the upper right corner, and set **Start Date** and **End Date** for log collection to 10 minutes ahead of and after the alarm generation time, respectively. Then, click **Download**.
 
 8. Contact O&M personnel and provide the collected logs.
 
@@ -128,6 +137,7 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001375901064.png
-.. |image2| image:: /_static/images/en-us_image_0000001426500589.png
-.. |image3| image:: /_static/images/en-us_image_0000001405224197.png
+.. |image1| image:: /_static/images/en-us_image_0000001582807637.png
+.. |image2| image:: /_static/images/en-us_image_0000001532607690.png
+.. |image3| image:: /_static/images/en-us_image_0000001583087345.png
+.. |image4| image:: /_static/images/en-us_image_0000001582927585.png

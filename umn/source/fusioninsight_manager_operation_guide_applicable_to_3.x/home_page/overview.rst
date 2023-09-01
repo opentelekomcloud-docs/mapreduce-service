@@ -54,11 +54,11 @@ Alarm Analysis
 
 On the **Alarm Analysis** tab page, you can view the **Top 20 Alarms** table and **Analysis on Top 3 Alarms** chart. You can click an alarm name in the **Top 20 Alarms** table to view analysis information of this alarm only. Alarm analysis allows you to view top alarms and their occurrence time so you can handle alarms accordingly, improving system stability.
 
-.. |image1| image:: /_static/images/en-us_image_0000001388835338.png
-.. |image2| image:: /_static/images/en-us_image_0000001438841461.png
-.. |image3| image:: /_static/images/en-us_image_0263899453.png
-.. |image4| image:: /_static/images/en-us_image_0263899217.png
-.. |image5| image:: /_static/images/en-us_image_0263899616.png
-.. |image6| image:: /_static/images/en-us_image_0263899555.png
-.. |image7| image:: /_static/images/en-us_image_0263899343.png
-.. |image8| image:: /_static/images/en-us_image_0263899493.png
+.. |image1| image:: /_static/images/en-us_image_0000001392734034.png
+.. |image2| image:: /_static/images/en-us_image_0000001442494125.png
+.. |image3| image:: /_static/images/en-us_image_0000001392254958.png
+.. |image4| image:: /_static/images/en-us_image_0000001442653741.png
+.. |image5| image:: /_static/images/en-us_image_0000001392574078.png
+.. |image6| image:: /_static/images/en-us_image_0000001442653745.png
+.. |image7| image:: /_static/images/en-us_image_0000001442653749.png
+.. |image8| image:: /_static/images/en-us_image_0000001392414490.png

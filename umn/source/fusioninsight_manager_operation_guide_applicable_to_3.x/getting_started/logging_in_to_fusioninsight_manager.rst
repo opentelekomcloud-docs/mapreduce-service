@@ -28,4 +28,4 @@ Procedure
 
 #. Move the cursor over |image1| in the upper right corner of home page, and choose **Logout** from the drop-down list. In the dialog box that is displayed, click **OK** to log out of the current user.
 
-.. |image1| image:: /_static/images/en-us_image_0000001388996278.png
+.. |image1| image:: /_static/images/en-us_image_0000001392254934.png

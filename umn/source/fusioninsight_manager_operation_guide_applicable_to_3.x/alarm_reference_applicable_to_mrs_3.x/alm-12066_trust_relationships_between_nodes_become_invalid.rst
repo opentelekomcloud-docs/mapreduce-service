@@ -148,8 +148,8 @@ Perform the following steps to handle abnormal trust relationships between nodes
 
 #. If the **/home** directory of user **omm** is deleted, contact MRS support personnel for assistance.
 
-.. |image1| image:: /_static/images/en-us_image_0263895789.png
-.. |image2| image:: /_static/images/en-us_image_0263895540.png
-.. |image3| image:: /_static/images/en-us_image_0000001226576418.png
-.. |image4| image:: /_static/images/en-us_image_0000001227056330.png
-.. |image5| image:: /_static/images/en-us_image_0000001271536445.png
+.. |image1| image:: /_static/images/en-us_image_0000001532448306.png
+.. |image2| image:: /_static/images/en-us_image_0000001583087445.png
+.. |image3| image:: /_static/images/en-us_image_0000001582927685.png
+.. |image4| image:: /_static/images/en-us_image_0000001532767530.png
+.. |image5| image:: /_static/images/en-us_image_0000001582807737.png

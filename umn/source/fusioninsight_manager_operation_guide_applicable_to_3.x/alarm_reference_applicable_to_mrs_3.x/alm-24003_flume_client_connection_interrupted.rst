@@ -120,4 +120,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0263895532.png
+.. |image1| image:: /_static/images/en-us_image_0000001532767398.png

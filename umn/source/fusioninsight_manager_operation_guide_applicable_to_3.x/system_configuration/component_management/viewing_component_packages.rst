@@ -22,4 +22,4 @@ Procedure
 
 #. Click |image1| on the left of a component name to view the services and version numbers contained in the component.
 
-.. |image1| image:: /_static/images/en-us_image_0263899291.png
+.. |image1| image:: /_static/images/en-us_image_0000001442653705.png

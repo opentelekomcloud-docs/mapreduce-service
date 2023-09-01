@@ -10,19 +10,27 @@ Description
 
 -  For HDDs, the alarm is triggered when any of the following conditions is met:
 
-   -  The system runs the **iostat** command every 3 seconds, and detects that the **svctm** value exceeds 1000 ms for 10 consecutive periods within 30 seconds.
-   -  The system runs the **iostat** command every 3 seconds, and detects that more than 60% of I/O exceeds 150 ms within 300 seconds.
+   -  The system runs the **iostat** command every 3 seconds, and detects that the **svctm** value exceeds 1000 ms for 7 consecutive periods within 30 seconds.
+   -  The system runs the **iostat** command every 3 seconds, and detects that more than 50% of I/Os take more than 150 ms within 300s.
 
 -  For SSDs, the alarm is triggered when any of the following conditions is met:
 
    -  The system runs the **iostat** command every 3 seconds, and detects that the **svctm** value exceeds 1000 ms for 10 consecutive periods within 30 seconds.
-   -  The system runs the **iostat** command every 3 seconds, and detects that more than 60% of I/O exceeds 20 ms within 300 seconds.
+   -  The system runs the **iostat** command every 3 seconds, and detects that more than 60% of I/Os take more than 20 ms within 300 seconds.
 
 This alarm is automatically cleared when the preceding conditions have not been met for 15 minutes.
 
 .. note::
 
-   The formula for calculating **svctm** is as follows:
+   The **svctm** value can be obtained as follows:
+
+   -  MRS 3.1.0:
+
+      Run the **iostat -x -t** command in the OS.
+
+      |image1|
+
+   -  Versions later than MRS 3.1.0:
 
    svctm = (tot_ticks_new - tot_ticks_old)/(rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old)
 
@@ -32,7 +40,7 @@ This alarm is automatically cleared when the preceding conditions have not been 
 
    The system runs the **cat /proc/diskstats** command every 3 seconds to collect data. For example:
 
-   |image1|
+   |image2|
 
    In these two commands:
 
@@ -50,7 +58,7 @@ Attribute
 ======== ============== ==========
 Alarm ID Alarm Severity Auto Clear
 ======== ============== ==========
-12033    Major          Yes
+12033    Minor          Yes
 ======== ============== ==========
 
 Parameters
@@ -111,7 +119,7 @@ Procedure
 
    Run the **lsblk** command to check whether the mapping between the value of **DiskName** and the disk has been created.
 
-   |image2|
+   |image3|
 
    -  If yes, go to :ref:`7 <alm-12033__li2583597491458>`. .
    -  If no, go to :ref:`22 <alm-12033__li4518231891458>`.
@@ -169,7 +177,7 @@ Procedure
 
    Check the **Command/Feature_name** column in the command output. If **READ SECTOR(S)** or **WRITE SECTOR(S)** is displayed, the disk has bad sectors. If other errors occur, the disk circuit board is faulty. Both errors indicate that the disk is abnormal and needs to be replaced.
 
-   If "No Errors Logged" is displayed, no error log exists. You can perform step 9 to trigger the disk SMART self-check.
+   If "No Errors Logged" is displayed, no error log exists. You can trigger the disk SMART self-check.
 
    -  If yes, go to :ref:`11 <alm-12033__li2167780691458>`.
    -  If no, go to :ref:`18 <alm-12033__li6235920691458>`.
@@ -230,9 +238,9 @@ Procedure
 
    **smartctl -d sat+megaraid,2 -l error -H /dev/sda**
 
-   Check the **Command/Featrue_name** column in the command output. If **READ SECTOR(S)** or **WRITE SECTOR(S)** is displayed, the disk has bad sectors. If other errors occur, the disk circuit board is faulty. Both errors indicate that the disk is abnormal and needs to be replaced.
+   Check the **Command/Feature_name** column in the command output. If **READ SECTOR(S)** or **WRITE SECTOR(S)** is displayed, the disk has bad sectors. If other errors occur, the disk circuit board is faulty. Both errors indicate that the disk is abnormal and needs to be replaced.
 
-   If "No Errors Logged" is displayed, no error log exists. You can perform step 9 to trigger the disk SMART self-check.
+   If "No Errors Logged" is displayed, no error log exists. You can trigger the disk SMART self-check.
 
    -  If yes, go to :ref:`15 <alm-12033__li1119862391458>`.
    -  If no, go to :ref:`18 <alm-12033__li6235920691458>`.
@@ -286,7 +294,7 @@ Procedure
 
 23. Select **OMS** for **Service** and click **OK**.
 
-24. Click |image3| in the upper right corner, and set **Start Date** and **End Date** for log collection to 10 minutes ahead of and after the alarm generation time, respectively. Then, click **Download**.
+24. Click |image4| in the upper right corner, and set **Start Date** and **End Date** for log collection to 10 minutes ahead of and after the alarm generation time, respectively. Then, click **Download**.
 
 25. Contact O&M personnel and provide the collected logs.
 
@@ -300,6 +308,7 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001410107141.png
-.. |image2| image:: /_static/images/en-us_image_0263895818.jpg
-.. |image3| image:: /_static/images/en-us_image_0263895453.png
+.. |image1| image:: /_static/images/en-us_image_0000001583087321.png
+.. |image2| image:: /_static/images/en-us_image_0000001582807613.png
+.. |image3| image:: /_static/images/en-us_image_0000001583127305.jpg
+.. |image4| image:: /_static/images/en-us_image_0000001532927338.png

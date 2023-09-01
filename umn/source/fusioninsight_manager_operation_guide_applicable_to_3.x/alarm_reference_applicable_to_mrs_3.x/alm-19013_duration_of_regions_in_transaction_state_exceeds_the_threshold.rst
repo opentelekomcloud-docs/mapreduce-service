@@ -10,10 +10,6 @@ Description
 
 The system checks the number of regions in transaction state on HBase every 300 seconds. This alarm is generated when the system detects that the duration of regions in transaction state exceeds the threshold for two consecutive times. This alarm is cleared when all timeout regions are restored.
 
-.. note::
-
-   If the multi-instance function is enabled in the cluster and multiple HBase service instances are installed, you need to determine the HBase service instance where the alarm is generated based on the value of **ServiceName** in **Location**. For example, if the HBase1 service is unavailable, **ServiceName=HBase1** is displayed in **Location**, and the operation object in the procedure needs to be changed from HBase to HBase1.
-
 Attribute
 ---------
 
@@ -119,4 +115,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417429.png
+.. |image1| image:: /_static/images/en-us_image_0000001532607834.png

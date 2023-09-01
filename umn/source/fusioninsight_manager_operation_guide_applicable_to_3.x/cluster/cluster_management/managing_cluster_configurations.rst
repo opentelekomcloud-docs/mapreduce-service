@@ -52,7 +52,7 @@ Procedure
 
       Some configuration items take effect only after the corresponding services are restarted. After the configurations are saved, restart the services or instances whose configurations have expired in a timely manner.
 
-.. |image1| image:: /_static/images/en-us_image_0263899617.png
-.. |image2| image:: /_static/images/en-us_image_0279536633.png
-.. |image3| image:: /_static/images/en-us_image_0263899556.png
-.. |image4| image:: /_static/images/en-us_image_0263899589.png
+.. |image1| image:: /_static/images/en-us_image_0000001392414378.png
+.. |image2| image:: /_static/images/en-us_image_0000001392254854.png
+.. |image3| image:: /_static/images/en-us_image_0000001442653641.png
+.. |image4| image:: /_static/images/en-us_image_0000001442773609.png

@@ -23,7 +23,7 @@ The following uses the **Operation Requests on RegionServers** monitoring item a
 
    |image4|
 
-.. |image1| image:: /_static/images/en-us_image_0000001337953138.png
-.. |image2| image:: /_static/images/en-us_image_0000001338429394.png
-.. |image3| image:: /_static/images/en-us_image_0000001388629905.png
-.. |image4| image:: /_static/images/en-us_image_0000001388630241.png
+.. |image1| image:: /_static/images/en-us_image_0000001392734314.png
+.. |image2| image:: /_static/images/en-us_image_0000001392414762.png
+.. |image3| image:: /_static/images/en-us_image_0000001442414237.png
+.. |image4| image:: /_static/images/en-us_image_0000001392255246.png

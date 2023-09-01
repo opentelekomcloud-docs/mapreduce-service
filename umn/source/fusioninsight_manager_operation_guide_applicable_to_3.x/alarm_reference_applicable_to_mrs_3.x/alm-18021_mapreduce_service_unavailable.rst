@@ -144,4 +144,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417409.png
+.. |image1| image:: /_static/images/en-us_image_0000001582807805.png

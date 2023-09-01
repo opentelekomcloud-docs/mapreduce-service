@@ -21,8 +21,4 @@ Procedure
 
    Modify the parameters based on service requirements.
 
-   .. note::
-
-      It takes three minutes at most for the change of the user group or role permissions to take effect.
-
 #. Click **OK**.

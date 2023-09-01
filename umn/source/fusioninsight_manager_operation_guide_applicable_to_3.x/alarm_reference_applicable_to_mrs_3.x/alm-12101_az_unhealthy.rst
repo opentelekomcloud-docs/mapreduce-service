@@ -16,7 +16,7 @@ Attribute
 ======== ============== ==========
 Alarm ID Alarm Severity Auto Clear
 ======== ============== ==========
-12101    Major          Yes
+12101    Critical       Yes
 ======== ============== ==========
 
 Parameters

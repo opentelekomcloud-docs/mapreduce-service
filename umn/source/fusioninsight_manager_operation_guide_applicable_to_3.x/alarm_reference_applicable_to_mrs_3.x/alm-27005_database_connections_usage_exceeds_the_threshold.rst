@@ -64,7 +64,7 @@ Procedure
 
    .. _alm-27005__fig821715142011:
 
-   .. figure:: /_static/images/en-us_image_0269417469.png
+   .. figure:: /_static/images/en-us_image_0000001532767514.png
       :alt: **Figure 1** Number of connections used by database users
 
       **Figure 1** Number of connections used by database users
@@ -82,7 +82,7 @@ Procedure
 
    .. _alm-27005__fig1567417179514:
 
-   .. figure:: /_static/images/en-us_image_0000001086795516.png
+   .. figure:: /_static/images/en-us_image_0000001532448290.png
       :alt: **Figure 2** Setting the maximum number of database connections
 
       **Figure 2** Setting the maximum number of database connections
@@ -110,7 +110,7 @@ Procedure
 
    .. _alm-27005__fig14885145323516:
 
-   .. figure:: /_static/images/en-us_image_0000001133372255.png
+   .. figure:: /_static/images/en-us_image_0000001532607774.png
       :alt: **Figure 3** Setting alarm trigger count
 
       **Figure 3** Setting alarm trigger count
@@ -119,7 +119,7 @@ Procedure
 
    .. _alm-27005__fig19690175212407:
 
-   .. figure:: /_static/images/en-us_image_0000001390936180.png
+   .. figure:: /_static/images/en-us_image_0000001583087433.png
       :alt: **Figure 4** Set alarm threshold
 
       **Figure 4** Set alarm threshold
@@ -153,4 +153,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417473.png
+.. |image1| image:: /_static/images/en-us_image_0000001532927446.png

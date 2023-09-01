@@ -165,5 +165,5 @@ You can click a service in the service list to perform simple maintenance and ma
    |                 |                  | MonitorServer: 1 min        |                                                                                                                                                                                                                                       |
    +-----------------+------------------+-----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0263899406.png
-.. |image2| image:: /_static/images/en-us_image_0263899406.png
+.. |image1| image:: /_static/images/en-us_image_0000001442773661.png
+.. |image2| image:: /_static/images/en-us_image_0000001442773661.png

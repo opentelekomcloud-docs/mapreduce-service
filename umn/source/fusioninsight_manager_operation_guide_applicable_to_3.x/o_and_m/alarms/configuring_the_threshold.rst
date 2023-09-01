@@ -20,7 +20,7 @@ Procedure
 #. Select a monitoring metric for a host or service in the cluster.
 
 
-   .. figure:: /_static/images/en-us_image_0263899436.png
+   .. figure:: /_static/images/en-us_image_0000001442413885.png
       :alt: **Figure 1** Configuring the threshold for a metric
 
       **Figure 1** Configuring the threshold for a metric
@@ -358,6 +358,6 @@ FusionInsight Manager alarm monitoring metrics are classified as node informatio
    |            |                                 | Capacity quota usage of the Clickhouse service in ZooKeeper                                                | Capacity quota of ZooKeeper directory used by the ClickHouse service                                                                        | 90%               |
    +------------+---------------------------------+------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0263899498.png
-.. |image2| image:: /_static/images/en-us_image_0263899452.png
-.. |image3| image:: /_static/images/en-us_image_0263899582.png
+.. |image1| image:: /_static/images/en-us_image_0000001392574010.png
+.. |image2| image:: /_static/images/en-us_image_0000001392254890.png
+.. |image3| image:: /_static/images/en-us_image_0000001442653685.png

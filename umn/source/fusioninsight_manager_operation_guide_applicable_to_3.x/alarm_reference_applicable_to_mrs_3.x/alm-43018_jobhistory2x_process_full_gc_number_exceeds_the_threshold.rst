@@ -91,4 +91,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417544.gif
+.. |image1| image:: /_static/images/en-us_image_0000001532448294.gif

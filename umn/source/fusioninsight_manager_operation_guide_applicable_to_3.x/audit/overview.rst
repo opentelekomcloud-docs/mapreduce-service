@@ -31,5 +31,5 @@ Log in to FusionInsight Manager and choose **Audit**. The **Audit** page display
 -  You can click |image1| to manually refresh the current page or click |image2| to filter the columns displayed in the page.
 -  Click **Export All** to export all audit information at a time. The audit information can be exported in **TXT** or **CSV** format.
 
-.. |image1| image:: /_static/images/en-us_image_0263899268.png
-.. |image2| image:: /_static/images/en-us_image_0000001369925585.png
+.. |image1| image:: /_static/images/en-us_image_0000001442494041.png
+.. |image2| image:: /_static/images/en-us_image_0000001442413865.png

@@ -84,6 +84,6 @@ Deleting an Instance Group
 
    The default instance group cannot be deleted.
 
-.. |image1| image:: /_static/images/en-us_image_0263899383.png
-.. |image2| image:: /_static/images/en-us_image_0000001318441686.png
-.. |image3| image:: /_static/images/en-us_image_0000001318122266.png
+.. |image1| image:: /_static/images/en-us_image_0000001442413917.png
+.. |image2| image:: /_static/images/en-us_image_0000001392414446.png
+.. |image3| image:: /_static/images/en-us_image_0000001442773673.png

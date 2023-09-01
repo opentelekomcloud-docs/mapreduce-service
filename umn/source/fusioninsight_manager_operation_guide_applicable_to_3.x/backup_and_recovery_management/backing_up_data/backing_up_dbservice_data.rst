@@ -63,7 +63,9 @@ Procedure
 
       If there are multiple DBService services, all DBService services are backed up by default. You can click **Assign Service** to specify the services to be backed up.
 
-#. Set **Path Type** of **DBService** to a backup directory type.
+#. .. _admin_guide_000203__li4457996415256:
+
+   Set **Path Type** of **DBService** to a backup directory type.
 
    The following backup directory types are supported:
 

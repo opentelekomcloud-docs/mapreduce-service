@@ -84,4 +84,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417375.png
+.. |image1| image:: /_static/images/en-us_image_0000001583127377.png

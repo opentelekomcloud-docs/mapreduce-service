@@ -11,4 +11,4 @@ Log in to the target node and run the following command to query the startup tim
 
 |image1|
 
-.. |image1| image:: /_static/images/en-us_image_0000001374635732.png
+.. |image1| image:: /_static/images/en-us_image_0000001392574342.png

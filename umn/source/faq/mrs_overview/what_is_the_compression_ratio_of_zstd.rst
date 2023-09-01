@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0000001145597621.html
+:original_name: en-us_topic_0000001392255170.html
 
-.. _en-us_topic_0000001145597621:
+.. _en-us_topic_0000001392255170:
 
 What Is the Compression Ratio of zstd?
 ======================================

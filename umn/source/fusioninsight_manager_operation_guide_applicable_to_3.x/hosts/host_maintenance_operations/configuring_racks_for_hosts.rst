@@ -84,4 +84,4 @@ Procedure
 
 #. Click **OK**.
 
-.. |image1| image:: /_static/images/en-us_image_0263899649.png
+.. |image1| image:: /_static/images/en-us_image_0000001392414418.png

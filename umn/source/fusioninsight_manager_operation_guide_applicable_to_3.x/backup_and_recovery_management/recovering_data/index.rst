@@ -6,6 +6,7 @@ Recovering Data
 ===============
 
 -  :ref:`Restoring Manager Data <admin_guide_000216>`
+-  :ref:`Restoring CDL Data <admin_guide_000345>`
 -  :ref:`Restoring ClickHouse Metadata <admin_guide_000358>`
 -  :ref:`Restoring ClickHouse Service Data <admin_guide_000359>`
 -  :ref:`Restoring DBService data <admin_guide_000217>`
@@ -14,6 +15,8 @@ Recovering Data
 -  :ref:`Restoring NameNode Data <admin_guide_000222>`
 -  :ref:`Restoring HDFS Service Data <admin_guide_000223>`
 -  :ref:`Restoring Hive Service Data <admin_guide_000224>`
+-  :ref:`Restoring IoTDB Metadata <admin_guide_000351>`
+-  :ref:`Restoring IoTDB Service Data <admin_guide_000361>`
 -  :ref:`Restoring Kafka Metadata <admin_guide_000225>`
 
 .. toctree::
@@ -21,6 +24,7 @@ Recovering Data
    :hidden: 
 
    restoring_manager_data
+   restoring_cdl_data
    restoring_clickhouse_metadata
    restoring_clickhouse_service_data
    restoring_dbservice_data
@@ -29,4 +33,6 @@ Recovering Data
    restoring_namenode_data
    restoring_hdfs_service_data
    restoring_hive_service_data
+   restoring_iotdb_metadata
+   restoring_iotdb_service_data
    restoring_kafka_metadata

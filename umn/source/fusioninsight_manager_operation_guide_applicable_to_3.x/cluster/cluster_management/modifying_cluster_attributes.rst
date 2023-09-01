@@ -35,5 +35,5 @@ Procedure
 
    b. Click **OK** for the new description to take effect.
 
-.. |image1| image:: /_static/images/en-us_image_0000001318563432.png
-.. |image2| image:: /_static/images/en-us_image_0000001369864353.png
+.. |image1| image:: /_static/images/en-us_image_0000001392414474.png
+.. |image2| image:: /_static/images/en-us_image_0000001442773701.png

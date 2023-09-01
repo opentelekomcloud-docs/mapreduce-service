@@ -94,7 +94,7 @@ Procedure
 
 #. Log in to the other FusionInsight Manager and repeat the preceding operations.
 
-.. |image1| image:: /_static/images/en-us_image_0278119935.png
-.. |image2| image:: /_static/images/en-us_image_0263899403.png
-.. |image3| image:: /_static/images/en-us_image_0263899531.png
-.. |image4| image:: /_static/images/en-us_image_0263899495.png
+.. |image1| image:: /_static/images/en-us_image_0000001392254850.png
+.. |image2| image:: /_static/images/en-us_image_0000001442773601.png
+.. |image3| image:: /_static/images/en-us_image_0000001442413845.png
+.. |image4| image:: /_static/images/en-us_image_0000001392414374.png

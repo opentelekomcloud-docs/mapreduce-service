@@ -139,4 +139,4 @@ After the configuration is complete, the monitoring data reporting function peri
 
       For metrics whose collection period is 300s, you can find the corresponding metric description by referring to the second column, that is, **5-Minute Metric ID**.
 
-.. |image1| image:: /_static/images/en-us_image_0263899496.png
+.. |image1| image:: /_static/images/en-us_image_0000001392414386.png

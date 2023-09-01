@@ -101,5 +101,5 @@ Procedure
       Source Cluster Cluster for which logs need to be searched
       ============== ==========================================
 
-.. |image1| image:: /_static/images/en-us_image_0000001369765661.png
-.. |image2| image:: /_static/images/en-us_image_0263899392.png
+.. |image1| image:: /_static/images/en-us_image_0000001442413841.png
+.. |image2| image:: /_static/images/en-us_image_0000001442773597.png

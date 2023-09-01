@@ -28,7 +28,7 @@ Procedure
 #. Select an alarm from the alarm list.
 
 
-   .. figure:: /_static/images/en-us_image_0000001369953797.png
+   .. figure:: /_static/images/en-us_image_0000001392733962.png
       :alt: **Figure 1** Masking an alarm
 
       **Figure 1** Masking an alarm
