@@ -5,9 +5,11 @@
 Components
 ==========
 
+-  :ref:`List of MRS Component Versions <mrs_08_0005>`
 -  :ref:`Alluxio <mrs_08_0040>`
 -  :ref:`CarbonData <mrs_08_0015>`
 -  :ref:`ClickHouse <mrs_08_0108>`
+-  :ref:`CDL <mrs_08_0097>`
 -  :ref:`DBService <mrs_08_0060>`
 -  :ref:`Flink <mrs_08_0034>`
 -  :ref:`Flume <mrs_08_0016>`
@@ -17,6 +19,7 @@ Components
 -  :ref:`Hive <mrs_08_0011>`
 -  :ref:`Hudi <mrs_08_0083>`
 -  :ref:`Hue <mrs_08_0012>`
+-  :ref:`IoTDB <mrs_08_0093>`
 -  :ref:`Kafka <mrs_08_0013>`
 -  :ref:`KafkaManager <mrs_08_0032>`
 -  :ref:`KrbServer and LdapServer <mrs_08_0064>`
@@ -38,9 +41,11 @@ Components
    :maxdepth: 1
    :hidden: 
 
+   list_of_mrs_component_versions
    alluxio
    carbondata
    clickhouse
+   cdl/index
    dbservice/index
    flink/index
    flume/index
@@ -50,6 +55,7 @@ Components
    hive/index
    hudi
    hue/index
+   iotdb/index
    kafka/index
    kafkamanager
    krbserver_and_ldapserver/index

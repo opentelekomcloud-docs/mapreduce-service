@@ -5,6 +5,8 @@
 ALM-24010 Flume Certificate File Is Invalid or Damaged
 ======================================================
 
+This section applies to MRS 3.2.0 or later.
+
 Description
 -----------
 
@@ -110,4 +112,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001214152530.png
+.. |image1| image:: /_static/images/en-us_image_0000001532607646.png

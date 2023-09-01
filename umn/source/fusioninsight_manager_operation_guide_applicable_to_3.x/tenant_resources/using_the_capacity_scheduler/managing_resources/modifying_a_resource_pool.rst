@@ -23,5 +23,5 @@ Procedure
 
 #. Click **OK**.
 
-.. |image1| image:: /_static/images/en-us_image_0263899635.png
-.. |image2| image:: /_static/images/en-us_image_0263899280.png
+.. |image1| image:: /_static/images/en-us_image_0000001392414402.png
+.. |image2| image:: /_static/images/en-us_image_0000001442413873.png

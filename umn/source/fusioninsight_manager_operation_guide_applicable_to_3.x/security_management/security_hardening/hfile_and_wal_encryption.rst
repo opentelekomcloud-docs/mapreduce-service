@@ -241,4 +241,4 @@ During the :ref:`HFile and WAL Encryption <admin_guide_000276__s1948b0b624dc4a0c
 
 #. Repeat :ref:`4 <admin_guide_000276__li40420234194747>` for the configuration take effect.
 
-.. |image1| image:: /_static/images/en-us_image_0000001369886993.png
+.. |image1| image:: /_static/images/en-us_image_0000001392734050.png

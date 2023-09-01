@@ -124,5 +124,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383877.png
-.. |image2| image:: /_static/images/en-us_image_0269383878.png
+.. |image1| image:: /_static/images/en-us_image_0000001583127373.png
+.. |image2| image:: /_static/images/en-us_image_0000001532927410.png

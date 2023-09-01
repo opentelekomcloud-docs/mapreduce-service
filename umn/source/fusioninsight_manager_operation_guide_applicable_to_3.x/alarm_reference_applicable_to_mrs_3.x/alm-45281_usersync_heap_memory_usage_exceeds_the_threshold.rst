@@ -95,4 +95,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0293246731.png
+.. |image1| image:: /_static/images/en-us_image_0000001532767382.png

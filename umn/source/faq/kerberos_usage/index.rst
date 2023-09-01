@@ -10,7 +10,7 @@ Kerberos Usage
 -  :ref:`How Do I Deploy the Kerberos Service in a Running Cluster? <mrs_03_1148>`
 -  :ref:`How Do I Access Hive in a Cluster with Kerberos Authentication Enabled? <mrs_03_1152>`
 -  :ref:`How Do I Access Presto in a Cluster with Kerberos Authentication Enabled? <mrs_03_1153>`
--  :ref:`How Do I Access Spark in a Cluster with Kerberos Authentication Enabled? <en-us_topic_0000001152828323>`
+-  :ref:`How Do I Access Spark in a Cluster with Kerberos Authentication Enabled? <en-us_topic_0000001442653993>`
 -  :ref:`How Do I Prevent Kerberos Authentication Expiration? <mrs_03_1167>`
 
 .. toctree::

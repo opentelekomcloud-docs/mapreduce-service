@@ -35,6 +35,6 @@ Procedure
 
       192.168.204.124|suse-124|DBService:DBServer;KrbClient:KerberosClient;LdapClient:SlapdClient;LdapServer:SlapdServer;Manager:Manager;meta:meta
 
-.. |image1| image:: /_static/images/en-us_image_0263899401.png
-.. |image2| image:: /_static/images/en-us_image_0263899334.png
-.. |image3| image:: /_static/images/en-us_image_0000001369965781.png
+.. |image1| image:: /_static/images/en-us_image_0000001392254938.png
+.. |image2| image:: /_static/images/en-us_image_0000001392414466.png
+.. |image3| image:: /_static/images/en-us_image_0000001392574062.png

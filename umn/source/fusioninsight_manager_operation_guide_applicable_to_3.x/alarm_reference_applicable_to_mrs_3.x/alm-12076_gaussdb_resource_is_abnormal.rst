@@ -129,5 +129,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383921.jpg
-.. |image2| image:: /_static/images/en-us_image_0269383922.png
+.. |image1| image:: /_static/images/en-us_image_0000001583087397.jpg
+.. |image2| image:: /_static/images/en-us_image_0000001532607742.png

@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0000001152828323.html
+:original_name: en-us_topic_0000001442653993.html
 
-.. _en-us_topic_0000001152828323:
+.. _en-us_topic_0000001442653993:
 
 How Do I Access Spark in a Cluster with Kerberos Authentication Enabled?
 ========================================================================

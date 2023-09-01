@@ -126,4 +126,4 @@ Related Information
       -  OMS is automatically restarted during the configuration update process.
       -  Clusters with similar quantities of nodes have same Manager configurations. For example, when the number of nodes is changed from 100 to 101, no configuration item needs to be updated.
 
-.. |image1| image:: /_static/images/en-us_image_0269383907.png
+.. |image1| image:: /_static/images/en-us_image_0000001532607874.png

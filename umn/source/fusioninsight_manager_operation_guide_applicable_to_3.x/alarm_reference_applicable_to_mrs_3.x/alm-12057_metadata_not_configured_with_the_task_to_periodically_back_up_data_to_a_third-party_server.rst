@@ -80,5 +80,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383889.png
-.. |image2| image:: /_static/images/en-us_image_0269383890.png
+.. |image1| image:: /_static/images/en-us_image_0000001532927570.png
+.. |image2| image:: /_static/images/en-us_image_0000001583087553.png

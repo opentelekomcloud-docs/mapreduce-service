@@ -61,7 +61,9 @@ Procedure
 
 #. In **Configuration**, select **ClickHouse** under **Service Data**.
 
-#. Set **Path Type** of **ClickHouse** to a backup directory type.
+#. .. _admin_guide_000349__li4457996415256:
+
+   Set **Path Type** of **ClickHouse** to a backup directory type.
 
    Currently, only the **RemoteHDFS** type is available.
 
@@ -117,5 +119,5 @@ Procedure
 
    After the backup task is executed, the system automatically creates a subdirectory for each backup task in the backup directory. The format of the subdirectory name is *Data source_Task creation time*, and the subdirectory is used to save latest data source backup files.
 
-.. |image1| image:: /_static/images/en-us_image_0000001197336255.png
-.. |image2| image:: /_static/images/en-us_image_0000001151336594.png
+.. |image1| image:: /_static/images/en-us_image_0000001442653737.png
+.. |image2| image:: /_static/images/en-us_image_0000001392574070.png

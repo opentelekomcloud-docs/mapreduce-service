@@ -10,10 +10,6 @@ Description
 
 The system checks the HBase compaction queue size every 300 seconds. This alarm is generated when the compaction queue size exceeds the alarm threshold (**100** by default). This alarm is cleared when the compaction queue size is less than the threshold.
 
-.. note::
-
-   If the multi-instance function has been enabled in the cluster and multiple HBase services have been installed, determine the HBase service for which the alarm is generated based on the value of **ServiceName** in **Location**. For example, if the value of **ServiceName** is **HBase-1**, change the operation object in the procedure from **HBase** to **HBase-1**.
-
 Attribute
 ---------
 
@@ -61,7 +57,7 @@ Procedure
 
 #. .. _alm-19018__li1681162011376:
 
-   On FusionInsight Manager, choose **Cluster** > *Name of the desired cluster* > **Services** > **HBase**. On the page that is disaplyed, click the **Configuration** tab then the **All Configurations** sub-tab, search for **hbase.hstore.compaction.min**, **hbase.hstore.compaction.max**, **hbase.regionserver.thread.compaction.small**, and **hbase.regionserver.thread.compaction.throttle**, and set them to larger values.
+   On FusionInsight Manager, choose **Cluster** > *Name of the desired cluster* > **Services** > **HBase**. On the page that is displayed, click the **Configuration** tab then the **All Configurations** sub-tab, search for **hbase.hstore.compaction.min**, **hbase.hstore.compaction.max**, **hbase.regionserver.thread.compaction.small**, and **hbase.regionserver.thread.compaction.throttle**, and set them to larger values.
 
 #. .. _alm-19018__li5814142393624:
 
@@ -92,4 +88,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0263895551.png
+.. |image1| image:: /_static/images/en-us_image_0000001532767650.png

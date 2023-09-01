@@ -36,4 +36,4 @@ Procedure
 
    After the resource pool is created, you can view its name, members, and mode in the resource pool list. Hosts that are added to the custom resource pool are no longer members of the **default** resource pool.
 
-.. |image1| image:: /_static/images/en-us_image_0263899376.png
+.. |image1| image:: /_static/images/en-us_image_0000001392733930.png

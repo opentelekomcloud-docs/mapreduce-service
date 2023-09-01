@@ -9,7 +9,7 @@ How Do I Configure Environment Variables and Run Commands on a Component Client?
 
 #. Run the **su - omm** command to switch to user **omm**.
 
-#. Run the **cd** *Client installation directory* command to switch to the client.
+#. Run the **cd** *client installation directory* command to switch to the client.
 
 #. Run the **source bigdata_env** command to configure environment variables.
 

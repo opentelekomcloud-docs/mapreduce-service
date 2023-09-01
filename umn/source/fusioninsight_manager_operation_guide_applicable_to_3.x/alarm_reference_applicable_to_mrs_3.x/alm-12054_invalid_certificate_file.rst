@@ -10,7 +10,13 @@ Description
 
 The system checks whether the certificate file is invalid (has expired or is not valid yet) on 23:00 every day. This alarm is generated when the certificate file is invalid.
 
-This alarm is cleared when a valid certificate is imported.
+This alarm is cleared when a valid certificate is imported and the alarm detection mechanism is triggered on the next hour.
+
+.. note::
+
+   For MRS 3.2.0 or later, the certificate file is checked at the beginning of each hour.
+
+   For versions earlier than MRS 3.2.0, the certificate file is checked on 23:00 every day.
 
 Attribute
 ---------
@@ -60,7 +66,7 @@ Procedure
    -  If **CA Certificate** is displayed in the additional alarm information, log in to the active OMS management node as user **omm** and go to :ref:`2 <alm-12054__li2768003415237>`.
    -  If **HA root Certificate** is displayed in the additional information, view **Location** to obtain the name of the host involved in this alarm. Then, log in to the host as user **omm** and go to :ref:`3 <alm-12054__li6628516015237>`.
    -  If **HA server Certificate** is displayed in the additional information, view **Location** to obtain the name of the host involved in this alarm. Then, log in to the host as user **omm** and go to :ref:`4 <alm-12054__li64457371511>`.
-   -  If **Certificate has expired** is displayed in the additional information, view **Location** to obtain the host name of the node for which the alarm is generated. Then, log in to the host as user **omm** and perform :ref:`2 <alm-12054__li2768003415237>` to :ref:`4 <alm-12054__li64457371511>` to check whether the certificates have expired. If these certificates have not expired, check whether other certificates have been imported. If yes, import the certificate files again.
+   -  If **Certificate has expired** is displayed in the additional information, view **Location** to obtain the name of the host for which the alarm is generated. Then, log in to the host as user **omm** and perform :ref:`2 <alm-12054__li2768003415237>` to :ref:`4 <alm-12054__li64457371511>` in sequence to check whether the certificates have expired. If these certificates have not expired, check whether other certificates have been imported. If yes, import the certificate files again.
 
 **Check the validity period of the certificate files in the system.**
 
@@ -148,5 +154,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0263895749.png
-.. |image2| image:: /_static/images/en-us_image_0263895382.png
+.. |image1| image:: /_static/images/en-us_image_0000001532448262.png
+.. |image2| image:: /_static/images/en-us_image_0000001532927350.png

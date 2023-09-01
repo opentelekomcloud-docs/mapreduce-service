@@ -37,4 +37,4 @@ Procedure
 
       After the tenant is deleted, the queue of the tenant still exists in Yarn. The queue of the tenant is not displayed on the role management page in Yarn.
 
-.. |image1| image:: /_static/images/en-us_image_0000001376041769.png
+.. |image1| image:: /_static/images/en-us_image_0000001442413945.png

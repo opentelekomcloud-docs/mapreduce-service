@@ -10,10 +10,6 @@ Description
 
 The system checks the old generation garbage collection (GC) time of the HBase service every 60 seconds. This alarm is generated when the detected old generation GC time exceeds the threshold (exceeds 5 seconds for three consecutive checks by default). To change the threshold, on the FusionInsight Manager portal, choose **O&M** > **Alarm** > **Thresholds** > *Name of the desired cluster* > **HBase > GC >** **GC time for old generation**. This alarm is cleared when the old generation GC time of the HBase service is shorter than or equal to the threshold.
 
-.. note::
-
-   If the multi-instance function is enabled in the cluster and multiple HBase service instances are installed, you need to determine the HBase service instance where the alarm is generated based on the value of **ServiceName** in **Location**. For example, if the HBase1 service is unavailable, **ServiceName=HBase1** is displayed in **Location**, and the operation object in the procedure needs to be changed from HBase to HBase1.
-
 Attribute
 ---------
 
@@ -121,4 +117,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417421.png
+.. |image1| image:: /_static/images/en-us_image_0000001582927717.png

@@ -149,5 +149,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383851.png
-.. |image2| image:: /_static/images/en-us_image_0269383852.png
+.. |image1| image:: /_static/images/en-us_image_0000001582927757.png
+.. |image2| image:: /_static/images/en-us_image_0000001532448378.png

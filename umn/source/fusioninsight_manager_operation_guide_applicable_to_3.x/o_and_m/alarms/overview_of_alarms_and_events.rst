@@ -67,7 +67,7 @@ Events
 Log in to FusionInsight Manager and choose **O&M** > **Alarm** > **Events**. On the **Events** page that is displayed, you can view information about all events in the cluster, including the event name, ID, severity, generation time, object, and location. By default, the latest 10 events are displayed on each page.
 
 
-.. figure:: /_static/images/en-us_image_0263899271.png
+.. figure:: /_static/images/en-us_image_0000001392254906.png
    :alt: **Figure 1** Events page
 
    **Figure 1** Events page
@@ -114,9 +114,9 @@ You can click |image4| on the left of an event to view detailed event parameters
 -  You can filter events by object or cluster.
 -  You can click **Advanced Search** to search for events by event ID, name, severity, start time, or end time.
 
-.. |image1| image:: /_static/images/en-us_image_0263899504.png
-.. |image2| image:: /_static/images/en-us_image_0263899662.png
-.. |image3| image:: /_static/images/en-us_image_0263899597.png
-.. |image4| image:: /_static/images/en-us_image_0263899384.png
-.. |image5| image:: /_static/images/en-us_image_0263899662.png
-.. |image6| image:: /_static/images/en-us_image_0000001318636944.png
+.. |image1| image:: /_static/images/en-us_image_0000001392574038.png
+.. |image2| image:: /_static/images/en-us_image_0000001392574030.png
+.. |image3| image:: /_static/images/en-us_image_0000001392414438.png
+.. |image4| image:: /_static/images/en-us_image_0000001392414442.png
+.. |image5| image:: /_static/images/en-us_image_0000001392574030.png
+.. |image6| image:: /_static/images/en-us_image_0000001392733994.png

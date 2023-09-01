@@ -12,9 +12,9 @@ Procedure
 
 #. Log in to FusionInsight Manager and choose **Tenant Resources**.
 
-#. In the tenant list on the left, select a parent tenant and click |image1|. On the page for adding a sub-tenant, set attributes for the sub-tenant according to :ref:`Table 1 <mrs_03_1221__admin_guide_000119_tc983b52ccd084798871c7fa2b49856dd>`.
+#. In the tenant list on the left, select a parent tenant and click |image1|. On the page for adding a sub-tenant, set attributes for the sub-tenant according to :ref:`Table 1 <mrs_03_1221__en-us_topic_0263899594_tc983b52ccd084798871c7fa2b49856dd>`.
 
-   .. _mrs_03_1221__admin_guide_000119_tc983b52ccd084798871c7fa2b49856dd:
+   .. _mrs_03_1221__en-us_topic_0263899594_tc983b52ccd084798871c7fa2b49856dd:
 
    .. table:: **Table 1** Sub-tenant parameters
 
@@ -73,15 +73,15 @@ Procedure
       Roles, computing resources, and storage resources are automatically created when tenants are created.
 
       -  The new role has permissions on the computing and storage resources. This role and its permissions are automatically controlled by the system and cannot be manually managed by choosing **System** > **Permission** > **Role**. The role name is in the format of *Tenant name*\ \_\ *Cluster ID*. The ID of the first cluster is not displayed by default.
-      -  When using this tenant, create a system user and bind the user to the role of the tenant. For details, see :ref:`Adding a User and Binding the User to a Tenant Role <admin_guide_000120>`.
+      -  When using this tenant, create a system user and bind the user to the role of the tenant.
       -  The sub-tenant can further allocate the resources of its parent tenant. The sum of the resource percentages of direct sub-tenants under a parent tenant at each level cannot exceed 100%. The sum of the computing resource percentages of all level-1 tenants cannot exceed 100%.
 
 #. Check whether the current tenant needs to be associated with resources of other services.
 
-   -  If yes, go to :ref:`4 <mrs_03_1221__admin_guide_000119_lcdfcd36b99d84c3ba2f290f976ade15b>`.
-   -  If no, go to :ref:`5 <mrs_03_1221__admin_guide_000119_l93b6a287f2a9444f9b34fcbcc1e595ac>`.
+   -  If yes, go to :ref:`4 <mrs_03_1221__en-us_topic_0263899594_lcdfcd36b99d84c3ba2f290f976ade15b>`.
+   -  If no, go to :ref:`5 <mrs_03_1221__en-us_topic_0263899594_l93b6a287f2a9444f9b34fcbcc1e595ac>`.
 
-#. .. _mrs_03_1221__admin_guide_000119_lcdfcd36b99d84c3ba2f290f976ade15b:
+#. .. _mrs_03_1221__en-us_topic_0263899594_lcdfcd36b99d84c3ba2f290f976ade15b:
 
    Click **Associate Service** to configure other service resources used by the current tenant.
 
@@ -99,8 +99,8 @@ Procedure
 
    c. Click **OK**.
 
-#. .. _mrs_03_1221__admin_guide_000119_l93b6a287f2a9444f9b34fcbcc1e595ac:
+#. .. _mrs_03_1221__en-us_topic_0263899594_l93b6a287f2a9444f9b34fcbcc1e595ac:
 
    Click **OK**. Wait until the system displays a message indicating that the tenant is successfully created.
 
-.. |image1| image:: /_static/images/en-us_image_0263899238.png
+.. |image1| image:: /_static/images/en-us_image_0000001392734350.png

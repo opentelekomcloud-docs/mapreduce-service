@@ -9,7 +9,7 @@ Log in to FusionInsight Manager and choose **Hosts** > **Resource Overview**. On
 
 .. _admin_guide_000064__fig10343181024812:
 
-.. figure:: /_static/images/en-us_image_0000001087459671.png
+.. figure:: /_static/images/en-us_image_0000001442773633.png
    :alt: **Figure 1** Distribution tab
 
    **Figure 1** Distribution tab
@@ -86,4 +86,4 @@ Log in to FusionInsight Manager and choose **Hosts** > **Resource Overview**. On
    |                                   | -  Host PID Usage                                            |
    +-----------------------------------+--------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000001318123498.png
+.. |image1| image:: /_static/images/en-us_image_0000001392733954.png

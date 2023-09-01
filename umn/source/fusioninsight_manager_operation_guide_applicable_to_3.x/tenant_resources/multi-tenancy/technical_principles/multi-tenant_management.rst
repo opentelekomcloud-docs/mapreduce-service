@@ -16,7 +16,7 @@ FusionInsight Manager provides the graphical multi-tenant management interface a
 
 .. _admin_guide_000091__fig2773161717323:
 
-.. figure:: /_static/images/en-us_image_0000001369960209.png
+.. figure:: /_static/images/en-us_image_0000001442653677.png
    :alt: **Figure 1** Tenant management page of FusionInsight Manager
 
    **Figure 1** Tenant management page of FusionInsight Manager
@@ -67,7 +67,7 @@ Clear Resource Management
 
    .. _admin_guide_000091__fig136061232032:
 
-   .. figure:: /_static/images/en-us_image_0263899641.png
+   .. figure:: /_static/images/en-us_image_0000001392414410.png
       :alt: **Figure 2** Refined monitoring
 
       **Figure 2** Refined monitoring
@@ -103,6 +103,6 @@ Clear Resource Management
       |                       | -  Used AM Memory                       |                                                                                                                                                 |
       +-----------------------+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000001169371695.png
-.. |image2| image:: /_static/images/en-us_image_0000001370085637.png
-.. |image3| image:: /_static/images/en-us_image_0263899288.png
+.. |image1| image:: /_static/images/en-us_image_0000001442413881.png
+.. |image2| image:: /_static/images/en-us_image_0000001392733966.png
+.. |image3| image:: /_static/images/en-us_image_0000001392254886.png

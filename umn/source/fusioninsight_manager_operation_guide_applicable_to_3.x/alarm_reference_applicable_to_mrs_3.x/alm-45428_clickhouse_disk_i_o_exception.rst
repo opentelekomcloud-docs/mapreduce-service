@@ -46,43 +46,36 @@ Procedure
 ---------
 
 #. On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms** > **ALM-45428 ClickHouse Disk I/O Exception**. Check the role name and the IP address of the host where the alarm is generated in **Location**.
-
 #. Use PuTTY to log in to the node for which the fault is generated as user **root**.
-
 #. Run the **df -h** command to check the mount directory and find the disk mounted to the faulty directory.
-
 #. Run the **smartctl -a /dev/sd\*** command to check disks.
 
-   -  If **SMART Health Status: OK** is displayed, as shown in the following figure, the disk is healthy. In this case, go to :ref:`7 <alm-45428__li186532017115614>`.
+   -  If **SMART Health Status: OK** is displayed, as shown in the following figure, the disk is healthy. In this case, go to :ref:`6 <alm-45428__li186532017115614>`.
 
       |image1|
 
-   -  If the number following **Elements in grown defect list** is not 0, as shown in the following figure, the disk may have bad sectors. If **SMART Health Status: FAILURE** is displayed, the disk is in the sub-health state. In this case, go to :ref:`5 <alm-45428__li838232512215>`.
+   -  If the number following **Elements in grown defect list** is not 0, as shown in the following figure, the disk may have bad sectors. If **SMART Health Status: FAILURE** is displayed, the disk is in the sub-health state. In this case, contact O&M personnel.
 
       |image2|
 
-#. .. _alm-45428__li838232512215:
-
-   Rectify the fault by following the instructions provided in "Hard Disk Mounted to the ClickHouse Partition Directory Is Faulty" in .
-
 #. After the fault is rectified, manually clear the alarm on FusionInsight Manager and check whether the alarm is generated again during the periodic check.
 
-   -  If yes, go to :ref:`7 <alm-45428__li186532017115614>`.
+   -  If yes, go to :ref:`6 <alm-45428__li186532017115614>`.
    -  If no, no further action is required.
 
 **Collect the fault information.**
 
-7.  .. _alm-45428__li186532017115614:
+6.  .. _alm-45428__li186532017115614:
 
     On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
-8.  Expand the **Service** drop-down list, and select **ClickHouse** for the target cluster.
+7.  Expand the **Service** drop-down list, and select **ClickHouse** for the target cluster.
 
-9.  Choose the corresponding host form the host list.
+8.  Choose the corresponding host form the host list.
 
-10. Click |image3| in the upper right corner, and set **Start Date** and **End Date** for log collection to 1 hour ahead of and after the alarm generation time, respectively. Then, click **Download**.
+9.  Click |image3| in the upper right corner, and set **Start Date** and **End Date** for log collection to 1 hour ahead of and after the alarm generation time, respectively. Then, click **Download**.
 
-11. Contact O&M personnel and provide the collected logs.
+10. Contact O&M personnel and provide the collected logs.
 
 Alarm Clearing
 --------------
@@ -94,6 +87,6 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001194201259.png
-.. |image2| image:: /_static/images/en-us_image_0000001194201487.png
-.. |image3| image:: /_static/images/en-us_image_0000001194317737.png
+.. |image1| image:: /_static/images/en-us_image_0000001582807689.png
+.. |image2| image:: /_static/images/en-us_image_0000001583127381.png
+.. |image3| image:: /_static/images/en-us_image_0000001582927637.png

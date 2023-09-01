@@ -128,16 +128,23 @@ Procedure
 
       After the restart, some hosts and services cannot be accessed and an alarm is generated. This problem can be automatically resolved in about 1 minute after **restart-RealmConfig.sh** is run.
 
-7. Log in to FusionInsight Manager using the new password of user **admin** (for example, **Admin@123Admin@123**). On the dashboard, click |image1| next to the name of the target cluster and select **Restart**.
+7.  Log in to FusionInsight Manager using the new password of user **admin** (for example, **Admin@123Admin@123**). On the dashboard, click |image1| next to the name of the target cluster and select **Restart**.
 
-   In the displayed dialog box, enter the password of the current login user and click **OK**.
+    In the displayed dialog box, enter the password of the current login user and click **OK**.
 
-   In the displayed dialog box, click **OK**. Wait for a while until a message indicating that the operation is successful is displayed. Click **Finish**.
+    In the displayed dialog box, click **OK**. Wait for a while until a message indicating that the operation is successful is displayed. Click **Finish**.
 
-8. Log out of FusionInsight Manager and then log in again. If the login is successful, the configuration is successful.
+8.  Log out of FusionInsight Manager and then log in again. If the login is successful, the configuration is successful.
 
-9. Log in to the active management node as user **omm** and run the following command to update the configurations of the job submission client:
+9.  Log in to the active management node as user **omm** and run the following command to update the configurations of the job submission client:
 
-   **sh /opt/executor/bin/refresh-client-config.sh**
+    **sh /opt/executor/bin/refresh-client-config.sh**
 
-.. |image1| image:: /_static/images/en-us_image_0267694670.jpg
+10. If a HetuEngine compute instance is running, restart the compute instance.
+
+    a. Log in to FusionInsight Manager as the user who is used to access the HetuEngine web UI.
+    b. Choose **Cluster** > **Services** > **HetuEngine** to go to the HetuEngine service page.
+    c. In the **Basic Information** area on the **Dashboard** page, click the link next to **HSConsole WebUI**. The HSConsole page is displayed.
+    d. For a running compute instance, click **Stop** in the **Operation** column. After the compute instance is in the **Stopped** state, click **Start** to restart the compute instance.
+
+.. |image1| image:: /_static/images/en-us_image_0000001442773721.jpg

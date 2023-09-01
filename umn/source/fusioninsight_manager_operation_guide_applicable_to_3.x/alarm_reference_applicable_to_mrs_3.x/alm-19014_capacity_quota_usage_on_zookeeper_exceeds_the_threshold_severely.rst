@@ -12,10 +12,6 @@ The system checks the ZNode usage of the HBase service every 120 seconds. This a
 
 This alarm is cleared when the ZNode capacity usage is less than the critical alarm threshold.
 
-.. note::
-
-   If the multi-instance function has been enabled in the cluster and multiple HBase services have been installed, determine the HBase service for which the alarm is generated based on the value of **ServiceName** in **Location**. For example, if the value of **ServiceName** is **HBase-1**, change the operation object in the procedure from **HBase** to **HBase-1**.
-
 Attribute
 ---------
 
@@ -111,7 +107,7 @@ Procedure
 
 9.  .. _alm-19014__li5351076393624:
 
-    On FusionInsight Manager, choose **O&M** > **Log** > **Download**.
+    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 10. Expand the drop-down list next to the **Service** field. In the **Services** dialog box that is displayed, select **HBase** for the target cluster.
 
@@ -129,5 +125,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001390938104.png
-.. |image2| image:: /_static/images/en-us_image_0263895386.png
+.. |image1| image:: /_static/images/en-us_image_0000001583127465.png
+.. |image2| image:: /_static/images/en-us_image_0000001532448342.png

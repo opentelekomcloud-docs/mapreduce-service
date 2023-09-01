@@ -104,5 +104,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383855.jpg
-.. |image2| image:: /_static/images/en-us_image_0269383856.png
+.. |image1| image:: /_static/images/en-us_image_0000001532927558.jpg
+.. |image2| image:: /_static/images/en-us_image_0000001532607890.png

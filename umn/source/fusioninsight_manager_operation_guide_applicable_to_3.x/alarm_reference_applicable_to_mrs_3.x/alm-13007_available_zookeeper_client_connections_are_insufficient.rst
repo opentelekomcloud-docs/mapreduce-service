@@ -97,5 +97,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383950.gif
-.. |image2| image:: /_static/images/en-us_image_0269383952.png
+.. |image1| image:: /_static/images/en-us_image_0000001532767466.gif
+.. |image2| image:: /_static/images/en-us_image_0000001532927402.png

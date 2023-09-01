@@ -49,4 +49,4 @@ The upper part of the page is the operation bar, the middle part is the display 
    | System           | Provides system management settings of FusionInsight Manager, such as user permission settings. For details, see :ref:`System Configuration <admin_guide_000134>`.                                                                                                                                                             |
    +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000001388681282.png
+.. |image1| image:: /_static/images/en-us_image_0000001392574002.png

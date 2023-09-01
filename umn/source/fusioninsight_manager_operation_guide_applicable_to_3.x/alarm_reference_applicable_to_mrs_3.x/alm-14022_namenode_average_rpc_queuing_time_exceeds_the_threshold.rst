@@ -186,5 +186,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417366.png
-.. |image2| image:: /_static/images/en-us_image_0269417367.png
+.. |image1| image:: /_static/images/en-us_image_0000001582807777.png
+.. |image2| image:: /_static/images/en-us_image_0000001532767570.png

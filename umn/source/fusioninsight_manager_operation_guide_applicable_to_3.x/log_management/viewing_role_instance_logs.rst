@@ -25,7 +25,7 @@ Procedure
       -  By default, a maximum of 100 lines of logs can be displayed. You can click **Load More** to view more logs. Click **Download** to download the log file to the local PC. For details about how to download service logs in batches, see :ref:`Log Download <admin_guide_000075>`.
 
 
-   .. figure:: /_static/images/en-us_image_0000001318160568.png
+   .. figure:: /_static/images/en-us_image_0000001392254946.png
       :alt: **Figure 1** Viewing instance logs
 
       **Figure 1** Viewing instance logs

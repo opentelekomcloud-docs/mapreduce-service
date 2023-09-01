@@ -74,4 +74,4 @@ The following figure shows the process of determining condition priorities. If t
 
 For example, if you want to grant the read and write permissions of the **FileA** folder to the **groupA** user group, but the user in the group is not **UserA**, you can add an allowed condition and an exception condition.
 
-.. |image1| image:: /_static/images/en-us_image_0265768517.png
+.. |image1| image:: /_static/images/en-us_image_0000001392733938.png

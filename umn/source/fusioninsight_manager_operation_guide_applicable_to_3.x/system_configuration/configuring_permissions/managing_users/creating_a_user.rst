@@ -23,7 +23,7 @@ Procedure
 
 #. Set **User Type** to **Human-Machine** or **Machine-Machine**.
 
-   -  **Human-Machine** user: used for FusionInsight Manager O&M and component client operations. If you select this option, you also need to set **Password** and **Confirm Password**.
+   -  **Human-Machine** user: used for FusionInsight Manager O&M and component client operations. If you select this option, you also need to select the password policy and set **Password** and **Confirm Password**.
    -  **Machine-Machine** user: used for component application development. If you select this option, the password is randomly generated.
 
 #. In the **User Group** area, click **Add** to add one or more user groups to the list.

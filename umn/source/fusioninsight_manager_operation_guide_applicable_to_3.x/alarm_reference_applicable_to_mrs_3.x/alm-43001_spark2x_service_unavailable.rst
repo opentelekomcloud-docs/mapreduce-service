@@ -112,4 +112,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0263895574.png
+.. |image1| image:: /_static/images/en-us_image_0000001583087465.png

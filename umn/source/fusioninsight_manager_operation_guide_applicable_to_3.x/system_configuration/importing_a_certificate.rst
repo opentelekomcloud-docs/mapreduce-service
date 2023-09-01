@@ -59,4 +59,4 @@ Procedure
 
 #. In the displayed dialog box, enter the password of the current login user and click **OK**.
 
-.. |image1| image:: /_static/images/en-us_image_0263899546.png
+.. |image1| image:: /_static/images/en-us_image_0000001392574046.png

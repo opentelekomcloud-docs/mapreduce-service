@@ -47,4 +47,4 @@ Related Tasks
 
    In the task list, locate a specified task and choose **More** > **Suspend** in the **Operation** column to suspend a backup task. Only periodic backup tasks can be suspended. Suspended backup tasks are no longer executed automatically. When you suspend a backup task that is being executed, the task execution stops. To resume a task, choose **More** > **Resume**.
 
-.. |image1| image:: /_static/images/en-us_image_0263899323.png
+.. |image1| image:: /_static/images/en-us_image_0000001392254858.png

@@ -91,4 +91,4 @@ Reference
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269417548.png
+.. |image1| image:: /_static/images/en-us_image_0000001532607946.png

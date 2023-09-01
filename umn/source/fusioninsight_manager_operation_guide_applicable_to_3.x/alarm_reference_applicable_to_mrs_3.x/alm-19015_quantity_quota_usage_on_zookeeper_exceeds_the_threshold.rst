@@ -12,10 +12,6 @@ The system checks the ZNode usage of the HBase service every 120 seconds. This a
 
 This alarm is cleared when the ZNode quantity usage is less than the alarm threshold.
 
-.. note::
-
-   If the multi-instance function has been enabled in the cluster and multiple HBase services have been installed, determine the HBase service for which the alarm is generated based on the value of **ServiceName** in **Location**. For example, if the value of **ServiceName** is **HBase-1**, change the operation object in the procedure from **HBase** to **HBase-1**.
-
 Attribute
 ---------
 
@@ -129,5 +125,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001441097977.png
-.. |image2| image:: /_static/images/en-us_image_0263895577.png
+.. |image1| image:: /_static/images/en-us_image_0000001582927609.png
+.. |image2| image:: /_static/images/en-us_image_0000001532448238.png

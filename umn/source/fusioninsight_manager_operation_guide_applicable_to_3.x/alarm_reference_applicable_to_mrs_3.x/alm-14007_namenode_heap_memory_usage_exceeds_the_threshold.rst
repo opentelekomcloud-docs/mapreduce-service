@@ -140,4 +140,4 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0269383962.png
+.. |image1| image:: /_static/images/en-us_image_0000001532607958.png
