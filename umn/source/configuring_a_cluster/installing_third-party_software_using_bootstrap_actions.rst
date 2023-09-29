@@ -5,9 +5,7 @@
 Installing Third-Party Software Using Bootstrap Actions
 =======================================================
 
-This operation applies to MRS 3.\ *x* or earlier clusters.
-
-In MRS 3.\ *x*, bootstrap actions cannot be added during cluster creation.
+This operation applies to clusters earlier than MRS 3.x.
 
 Prerequisites
 -------------
