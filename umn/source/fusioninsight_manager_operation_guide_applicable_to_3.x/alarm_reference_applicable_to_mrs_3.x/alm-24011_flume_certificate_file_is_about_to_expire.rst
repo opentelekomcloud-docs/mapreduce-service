@@ -74,10 +74,18 @@ Procedure
 
    Run the following command to generate a new certificate file. Then check whether the alarm is automatically cleared one hour later.
 
-   **sh geneJKS.sh -f** *sNetty12@* **-g** *cNetty12@*
+   **sh geneJKS.sh -f** *Custom certificate password of the Flume role on the server* **-g** *Custom certificate password of the Flume role on the client*
 
    -  If yes, go to :ref:`9 <alm-24011__li127861713811>`.
    -  If no, go to :ref:`8 <alm-24011__li6673192244411>`.
+
+      .. note::
+
+         The custom certificate passwords must meet the following complexity requirements:
+
+         -  Contain at least four types of uppercase letters, lowercase letters, digits, and special characters.
+         -  Contain 8 to 64 characters.
+         -  Be changed periodically (for example, every three months), and certificates and trust lists are generated again to ensure security.
 
 8. .. _alm-24011__li6673192244411:
 

@@ -7,7 +7,7 @@ Adding a Bootstrap Action
 
 Add a bootstrap action.
 
-This operation applies to MRS 3.\ *x* or earlier clusters.
+This operation applies to clusters earlier than MRS 3.\ *x*.
 
 Procedure
 ---------

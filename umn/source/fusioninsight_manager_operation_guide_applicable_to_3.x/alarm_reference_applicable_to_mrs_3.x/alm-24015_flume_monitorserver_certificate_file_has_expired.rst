@@ -75,10 +75,18 @@ Procedure
 
    Run the following command to generate a new certificate file. Then check whether the alarm is automatically cleared one hour later.
 
-   **sh geneJKS.sh -m** *sKitty12@* **-n** *cKitty12@*
+   **sh geneJKS.sh -m** *Custom password of the MonitorServer certificate on the server* **-n** *Custom password of the MonitorServer certificate on the client*
 
    -  If yes, go to :ref:`8 <alm-24015__li1788491915716>`.
    -  If no, go to :ref:`7 <alm-24015__li172496117507>`.
+
+      .. note::
+
+         The custom certificate passwords must meet the following complexity requirements:
+
+         -  Contain at least four types of uppercase letters, lowercase letters, digits, and special characters.
+         -  Contain 8 to 64 characters.
+         -  Be changed periodically (for example, every three months), and certificates and trust lists are generated again to ensure security.
 
 7. .. _alm-24015__li172496117507:
 
