@@ -11,6 +11,7 @@ APIs
 -  :ref:`Job Binary Object APIs <mrs_02_0033>`
 -  :ref:`Job Object APIs (V1, Not Recommended) <mrs_02_0039>`
 -  :ref:`Job Execution Object APIs (V1, Not Recommended) <mrs_02_0049>`
+-  :ref:`Auto Scaling APIs (V2) <mrs_02_0199>`
 -  :ref:`Job Object APIs (V2) <mrs_02_0084>`
 -  :ref:`Auto Scaling APIs <mrs_02_0054>`
 -  :ref:`Tag Management APIs <mrs_02_0070>`
@@ -25,6 +26,7 @@ APIs
    job_binary_object_apis/index
    job_object_apis_v1_not_recommended/index
    job_execution_object_apis_v1_not_recommended/index
+   auto_scaling_apis_v2/index
    job_object_apis_v2/index
    auto_scaling_apis/index
    tag_management_apis/index
