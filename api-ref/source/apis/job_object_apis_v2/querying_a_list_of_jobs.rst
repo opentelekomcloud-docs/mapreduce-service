@@ -223,3 +223,7 @@ Status Code
 -----------
 
 For details about status codes, see :ref:`Status Codes <mrs_02_0015>`.
+
+.. note::
+
+   A regular GET request. The response code is 200 if the request is successful. The response code is 202 if the request is accepted but not completed.
