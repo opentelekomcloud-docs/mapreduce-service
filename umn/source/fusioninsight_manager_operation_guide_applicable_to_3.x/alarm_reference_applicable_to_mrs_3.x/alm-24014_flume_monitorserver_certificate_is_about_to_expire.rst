@@ -5,7 +5,7 @@
 ALM-24014 Flume MonitorServer Certificate Is About to Expire
 ============================================================
 
-This section applies to MRS 3.2.0 or later.
+This section applies to MRS 3.2.0-LTS.2 or later.
 
 Description
 -----------

@@ -7,7 +7,7 @@ ALM-45430 Permission Metadata Synchronization Failed on the Added ClickHouse Nod
 
 .. note::
 
-   This section applies only to MRS 3.1.2 or later.
+   This section applies only to MRS 3.1.2-LTS.6 or later.
 
 Description
 -----------

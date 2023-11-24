@@ -38,7 +38,7 @@ Flink Architecture
 
 .. _mrs_08_00341__f58539f3d230744ce84f0255e8938c4e7:
 
-.. figure:: /_static/images/en-us_image_0000001349390641.png
+.. figure:: /_static/images/en-us_image_0000001715933368.png
    :alt: **Figure 2** Flink architecture
 
    **Figure 2** Flink architecture

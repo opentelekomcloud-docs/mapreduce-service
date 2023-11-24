@@ -33,18 +33,9 @@ Quick Creation of a Real-time Analysis Cluster
    -  **Enterprise Project**: Use the default value.
    -  **Cluster Node**: Select the number of cluster nodes and node specifications based on site requirements. For MRS 3.\ *x* or later, the memory of the master node must be greater than 64 GB.
    -  **Kerberos Authentication**: Select whether to enable Kerberos authentication.
-   -  MRS 3.1.2-LTS.3
-
-      -  **Username**: The default value is **root/admin**. User **root** is used to remotely log in to ECSs, and user **admin** is used to access the cluster management page.
-      -  **Password**: Set a password for user **root**/**admin**.
-      -  **Confirm Password**: Enter the password of user **root**/**admin** again.
-
-   -  Versions earlier than MRS 3.1.2-LTS.3
-
-      -  **Username**: The default username is **admin**, which is used to log in to MRS Manager.
-      -  **Password**: Set a password for user **admin**.
-      -  **Confirm Password**: Enter the password of user **admin** again.
-      -  **Key Pair**: Select a key pair from the drop-down list to log in to an ECS. Select **"I acknowledge that I have obtained private key file** *SSHkey-xxx* **and that without this file I will not be able to log in to my ECS.**" If you have never created a key pair, click **View Key Pair** to create or import a key pair. And then, obtain a private key file.
+   -  **Username**: The default value is **root/admin**. User **root** is used to remotely log in to ECSs, and user **admin** is used to access the cluster management page.
+   -  **Password**: Set a password for user **root**/**admin**.
+   -  **Confirm Password**: Enter the password of user **root**/**admin** again.
 
 #. Select **Enable** to enable secure communications. For details, see :ref:`Communication Security Authorization <mrs_01_0786>`.
 

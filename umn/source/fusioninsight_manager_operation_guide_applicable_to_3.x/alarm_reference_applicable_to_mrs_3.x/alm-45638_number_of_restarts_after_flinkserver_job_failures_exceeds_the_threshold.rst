@@ -5,7 +5,7 @@
 ALM-45638 Number of Restarts After FlinkServer Job Failures Exceeds the Threshold
 =================================================================================
 
-This section applies to MRS 3.1.2 or later.
+This section applies to MRS 3.1.2-LTS.6 or later.
 
 Description
 -----------

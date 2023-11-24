@@ -5,7 +5,7 @@
 HetuEngine Product Overview
 ===========================
 
-This section applies only to MRS 3.1.2-LTS.3.
+This section applies only to MRS 3.1.2-LTS.6 or later.
 
 HetuEngine Description
 ----------------------

@@ -5,7 +5,7 @@
 ALM-45641 Data Synchronization Exception Between the Active and Standby FlinkServer Nodes
 =========================================================================================
 
-This section applies to MRS 3.2.0 or later.
+This section applies to MRS 3.2.0-LTS.2 or later.
 
 Description
 -----------
