@@ -14,7 +14,7 @@ This alarm is cleared when the **Trigger Count** is **1** and the total number o
 
 .. note::
 
-   The function of checking the number of processes in the Z state on the host applies to MRS 3.2.0 or later.
+   The function of checking the number of processes in the Z state on the host applies to MRS 3.2.0-LTS.2 or later.
 
 Attribute
 ---------

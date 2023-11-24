@@ -12,7 +12,7 @@ Default passwords for components in the MRS cluster to connect to the DBService 
 
 .. note::
 
-   This section applies only to MRS 3.1.2 or later. For versions earlier than MRS 3.1.2, see :ref:`Changing the Password for a Component Database User <admin_guide_000261>`.
+   This section applies only to MRS 3.1.2-LTS.6 or later. For versions earlier than MRS 3.1.2-LTS.6, see :ref:`Changing the Password for a Component Database User <admin_guide_000261>`.
 
 Impact on the System
 --------------------

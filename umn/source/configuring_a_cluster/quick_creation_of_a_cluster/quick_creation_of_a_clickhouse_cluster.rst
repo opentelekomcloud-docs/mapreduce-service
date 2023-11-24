@@ -32,6 +32,8 @@ Quick Creation of a ClickHouse Cluster
    -  **Cluster Node**: Select the number of cluster nodes and node specifications based on site requirements. For MRS 3.\ *x* or later, the memory of the master node must be greater than 64 GB.
    -  **Kerberos Authentication**: Select whether to enable Kerberos authentication.
    -  **Username**: The default value is **root/admin**. User **root** is used to remotely log in to ECSs, and user **admin** is used to access the cluster management page.
+   -  **Password**: Set a password for user **root**/**admin**.
+   -  **Confirm Password**: Enter the password of user **root**/**admin** again.
 
 #. Select **Enable** to enable secure communications. For details, see :ref:`Communication Security Authorization <mrs_01_0786>`.
 

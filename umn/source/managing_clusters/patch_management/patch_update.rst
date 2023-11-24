@@ -9,7 +9,7 @@ When a new patch is available in the cluster, the system pushes the patch online
 
 .. note::
 
-   This section applies only to MRS 2.x and earlier versions, and MRS 3.2.0-LTS.1 and later versions.
+   This section applies only to MRS 2.x and earlier versions, and MRS 3.2.0-LTS and later versions.
 
 #. Log in to the MRS management console.
 #. Choose **Clusters** > **Active Clusters** and click the name of your desired cluster.

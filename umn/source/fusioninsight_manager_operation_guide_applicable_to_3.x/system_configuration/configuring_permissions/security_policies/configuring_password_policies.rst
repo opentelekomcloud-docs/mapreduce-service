@@ -15,8 +15,8 @@ To keep up with service security requirements, you can set password security rul
    -  Modify password policies based on service security requirements, because they involve user management security. Otherwise, security risks may be incurred.
    -  Change the user password after modifying the password policy, and then the new password policy can take effect.
 
-Modifying a Password Policy (Versions Earlier than MRS 3.1.2)
--------------------------------------------------------------
+Modifying a Password Policy (Versions Earlier than MRS 3.1.2-LTS.6)
+-------------------------------------------------------------------
 
 #. Log in to FusionInsight Manager.
 
@@ -52,8 +52,8 @@ Modifying a Password Policy (Versions Earlier than MRS 3.1.2)
 
 #. Click **OK** to save the configurations. Change the user password after modifying the password policy, and then the new password policy can take effect.
 
-Adding a Password Policy (MRS 3.1.2 and Later Versions)
--------------------------------------------------------
+Adding a Password Policy (MRS 3.1.2-LTS.6 and Later Versions)
+-------------------------------------------------------------
 
 #. Log in to FusionInsight Manager.
 
@@ -99,8 +99,8 @@ Adding a Password Policy (MRS 3.1.2 and Later Versions)
 
    A maximum of 32 password policies can be created.
 
-Modifying a Password Policy (MRS 3.1.2 and Later Versions)
-----------------------------------------------------------
+Modifying a Password Policy (MRS 3.1.2-LTS.6 and Later Versions)
+----------------------------------------------------------------
 
 #. Log in to FusionInsight Manager.
 
@@ -117,8 +117,8 @@ Modifying a Password Policy (MRS 3.1.2 and Later Versions)
    -  Users (except **admin**) cannot modify their own password policies.
    -  After the password policy bound to a user is modified, if the remaining password validity period is greater than the password validity period in the new password policy, the password validity period is set to the validity period in the new password policy. If the remaining password validity period is less than the password validity period in the new password policy, the password validity period remains unchanged.
 
-Deleting a Password Policy (MRS 3.1.2 and Later Versions)
----------------------------------------------------------
+Deleting a Password Policy (MRS 3.1.2-LTS.6 and Later Versions)
+---------------------------------------------------------------
 
 #. Log in to FusionInsight Manager.
 #. Choose **System** > **Permission** > **Security Policy** > **Password Policy**.

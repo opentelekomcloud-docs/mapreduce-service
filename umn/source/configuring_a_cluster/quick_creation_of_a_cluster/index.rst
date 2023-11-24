@@ -7,7 +7,6 @@ Quick Creation of a Cluster
 
 -  :ref:`Quick Creation of a Hadoop Analysis Cluster <mrs_01_0512>`
 -  :ref:`Quick Creation of an HBase Analysis Cluster <mrs_01_0496>`
--  :ref:`Quick Creation of a Kafka Streaming Cluster <mrs_01_0497>`
 -  :ref:`Quick Creation of a ClickHouse Cluster <mrs_01_2354>`
 -  :ref:`Quick Creation of a Real-time Analysis Cluster <mrs_01_2355>`
 
@@ -17,6 +16,5 @@ Quick Creation of a Cluster
 
    quick_creation_of_a_hadoop_analysis_cluster
    quick_creation_of_an_hbase_analysis_cluster
-   quick_creation_of_a_kafka_streaming_cluster
    quick_creation_of_a_clickhouse_cluster
    quick_creation_of_a_real-time_analysis_cluster

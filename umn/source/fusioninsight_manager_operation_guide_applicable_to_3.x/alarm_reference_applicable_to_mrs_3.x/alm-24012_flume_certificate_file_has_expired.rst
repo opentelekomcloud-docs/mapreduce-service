@@ -5,7 +5,7 @@
 ALM-24012 Flume Certificate File Has Expired
 ============================================
 
-This section applies to MRS 3.2.0 or later.
+This section applies to MRS 3.2.0-LTS.2 or later.
 
 Description
 -----------

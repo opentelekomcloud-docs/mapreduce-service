@@ -5,7 +5,7 @@
 ALM-45001 Faulty HetuEngine Compute Instances
 =============================================
 
-This alarm applies only to MRS 3.2.0 or later.
+This alarm applies only to MRS 3.2.0-LTS.2 or later.
 
 Description
 -----------

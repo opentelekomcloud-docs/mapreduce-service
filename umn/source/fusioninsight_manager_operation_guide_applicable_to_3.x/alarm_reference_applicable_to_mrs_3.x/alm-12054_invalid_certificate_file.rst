@@ -14,9 +14,9 @@ This alarm is cleared when a valid certificate is imported and the alarm detecti
 
 .. note::
 
-   For MRS 3.2.0 or later, the certificate file is checked at the beginning of each hour.
+   For MRS 3.2.0-LTS.2 or later, the certificate file is checked at the beginning of each hour.
 
-   For versions earlier than MRS 3.2.0, the certificate file is checked on 23:00 every day.
+   For versions earlier than MRS 3.2.0-LTS.2, the certificate file is checked on 23:00 every day.
 
 Attribute
 ---------

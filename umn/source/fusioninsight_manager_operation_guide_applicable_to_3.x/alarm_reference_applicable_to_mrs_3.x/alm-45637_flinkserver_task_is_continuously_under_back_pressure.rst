@@ -5,7 +5,7 @@
 ALM-45637 FlinkServer Task Is Continuously Under Back Pressure
 ==============================================================
 
-This section applies to MRS 3.1.2 or later.
+This section applies to MRS 3.1.2-LTS.6 or later.
 
 Description
 -----------
