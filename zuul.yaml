@@ -1,29 +1,12 @@
-- job:
-    name: build-otc-mrs-operation-guide-lts
-    parent: otc-tox-docs
-    description: Build operation-guide-lts document using tox
-    files:
-    - ^doc/component-operation-guide-lts/source/.*
-    vars:
-      tox_envlist: operation-guide-lts
-- job:
-    name: build-otc-mrs-operation-guide
-    parent: otc-tox-docs
-    description: Build operation-guide document using tox
-    files:
-    - ^doc/component-operation-guide/source/.*
-    vars:
-      tox_envlist: operation-guide
+---
 - project:
     merge-mode: squash-merge
     default-branch: main
     templates:
-    - api-ref-hc-jobs
-    - umn-hc-jobs
-    - helpcenter-base-jobs
+      - helpcenter-base-jobs
     check:
-      # Separate documents are rendered in check, while published through regular otc-tox-docs job part of the basic template
       jobs:
-      - noop
-      - build-otc-mrs-operation-guide
-      - build-otc-mrs-operation-guide-lts
+        - noop
+    gate:
+      jobs:
+        - noop
