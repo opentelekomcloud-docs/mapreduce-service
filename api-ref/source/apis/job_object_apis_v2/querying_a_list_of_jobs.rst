@@ -226,4 +226,4 @@ For details about status codes, see :ref:`Status Codes <mrs_02_0015>`.
 
 .. note::
 
-   A regular GET request. The response code is 200 if the request is successful. The response code is 202 if the request is accepted but not completed.
+   Generally, if status code 200 is returned, an API is successfully called. However, due to compatibility problems in earlier versions, the status code for a successful call of this API is 202. You can use status code 202 to check whether the response to this API is normal.
