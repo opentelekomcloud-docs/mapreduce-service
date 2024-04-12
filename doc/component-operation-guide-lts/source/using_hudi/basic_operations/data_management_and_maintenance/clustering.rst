@@ -82,7 +82,7 @@ How to Execute Clustering
 
       hoodie.clustering.inline.max.commits=4
 
-For details, see :ref:`Configuration Reference <mrs_01_24032>`.
+For details, see :ref:`Hudi Configuration Reference <mrs_01_24032>`.
 
 .. caution::
 

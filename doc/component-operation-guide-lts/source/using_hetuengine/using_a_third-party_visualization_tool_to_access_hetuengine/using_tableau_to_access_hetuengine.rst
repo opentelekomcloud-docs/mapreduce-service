@@ -9,7 +9,7 @@ Prerequisites
 -------------
 
 -  Tableau has been installed.
--  The JDBC JAR file has been obtained. For details, see :ref:`1 <mrs_01_2337__en-us_topic_0000001219029577_li1747527125>`.
+-  The JDBC JAR file has been obtained. For details, see :ref:`1 <mrs_01_2337__li599475416716>`.
 -  A human-machine user has been created in the cluster. For details about how to create a user, see :ref:`Creating a HetuEngine User <mrs_01_1714>`.
 
 Procedure

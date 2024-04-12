@@ -10,7 +10,7 @@ Basic Operations
 -  :ref:`Read <mrs_01_24037>`
 -  :ref:`Data Management and Maintenance <mrs_01_24038>`
 -  :ref:`Using the Hudi Client <mrs_01_24100>`
--  :ref:`Configuration Reference <mrs_01_24032>`
+-  :ref:`Hudi Configuration Reference <mrs_01_24032>`
 
 .. toctree::
    :maxdepth: 1
@@ -21,4 +21,4 @@ Basic Operations
    read/index
    data_management_and_maintenance/index
    using_the_hudi_client/index
-   configuration_reference/index
+   hudi_configuration_reference/index

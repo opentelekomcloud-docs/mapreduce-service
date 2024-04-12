@@ -6,7 +6,7 @@ Using Flume
 ===========
 
 -  :ref:`Using Flume from Scratch <mrs_01_0397>`
--  :ref:`Overview <mrs_01_0391>`
+-  :ref:`Flume Overview <mrs_01_0391>`
 -  :ref:`Installing the Flume Client on Clusters <mrs_01_1595>`
 -  :ref:`Viewing Flume Client Logs <mrs_01_0393>`
 -  :ref:`Stopping or Uninstalling the Flume Client <mrs_01_0394>`
@@ -30,7 +30,7 @@ Using Flume
    :hidden: 
 
    using_flume_from_scratch
-   overview
+   flume_overview
    installing_the_flume_client_on_clusters
    viewing_flume_client_logs
    stopping_or_uninstalling_the_flume_client

@@ -5,237 +5,130 @@
 Using DBeaver to Access HetuEngine
 ==================================
 
-This section uses DBeaver 6.3.5 as an example to describe how to perform operations on HetuEngine.
+Use DBeaver 7.2.0 as an example to describe how to access HetuEngine.
+
+.. _mrs_01_2337__section10331142641215:
 
 Prerequisites
 -------------
 
--  The DBeaver has been installed properly. Download the DBeaver software from https://dbeaver.io/files/6.3.5/.
-
-   .. note::
-
-      Currently, DBeaver 5.\ *x* and 6.\ *x* are supported.
-
--  A human-machine user has been created in the cluster. For details about how to create a user, see :ref:`Creating a HetuEngine User <mrs_01_1714>`.
+-  The DBeaver has been installed properly. Download the DBeaver software from https://dbeaver.io/files/7.2.0/.
+-  A human-machine user, for example, **hetu_user**, has been created in the cluster. For details, see :ref:`Creating a HetuEngine User <mrs_01_1714>`. For clusters with Ranger authentication enabled, the Ranger permission must be added to user **hetu_user** based on service requirements. For details, see :ref:`Adding a Ranger Access Permission Policy for HetuEngine <mrs_01_1862>`.
+-  A compute instance has been created and is running properly. For details, see :ref:`Creating HetuEngine Compute Instances <mrs_01_1731>`.
 
 Procedure
 ---------
 
-Method 1: Using ZooKeeper to access HetuEngine
+#. .. _mrs_01_2337__li599475416716:
 
-#. .. _mrs_01_2337__en-us_topic_0000001219029577_li1747527125:
-
-   Download the HetuEngine client.
+   Download the HetuEngine client to obtain the JDBC JAR package.
 
    a. Log in to FusionInsight Manager.
-
    b. Choose **Cluster** > **Services** > **HetuEngine** > **Dashboard**.
-
    c. In the upper right corner of the page, choose **More** > **Download Client** and download the **Complete Client** to the local PC as prompted.
-
-   d. .. _mrs_01_2337__en-us_topic_0000001219029577_li1727232161619:
-
-      Decompress the HetuEngine client package **FusionInsight_Cluster\_**\ *Cluster ID*\ **\_ HetuEngine\_Client.tar** to obtain the JDBC file and save it to a local directory, for example, **D:\\test**.
+   d. Decompress the HetuEngine client package **FusionInsight_Cluster\_**\ *Cluster ID*\ **\_ HetuEngine\_Client.tar** to obtain the JDBC file and save it to a local directory, for example, **D:\\test**.
 
       .. note::
 
          Obtaining the JDBC file:
 
-         Obtain the **hetu-jdbc-*.jar** file from the **FusionInsight_Cluster\_**\ *Cluster ID*\ **\_HetuEngine\_ClientConfig\\HetuEngine\\xxx\\** directory.
+         Decompress the package in the **FusionInsight_Cluster\_**\ *Cluster ID*\ **\_HetuEngine\_ClientConfig\\HetuEngine\\xxx\\** directory to obtain the **hetu-jdbc-*.jar** file.
 
          Note: **xxx** can be **arm** or **x86**.
 
-#. Download the Kerberos authentication file of the HetuEngine user.
+#. Add the host mapping to the local **hosts** file.
 
-   a. Log in to FusionInsight Manager.
-   b. Choose **System** > **Permission** > **User**.
-   c. Locate the row that contains the target HetuEngine user, click **More** in the **Operation** column, and select **Download Authentication Credential**.
-   d. Decompress the downloaded package to obtain the **user.keytab** and **krb5.conf** files.
+   Add the mapping of the host where the instance is located in the HSFabric or HSBroker mode. The format is *Host IP address* *Host name*.
 
-#. Log in to the node where the HSBroker role is deployed in the cluster as user **omm**, go to the **${BIGDATA_HOME}/FusionInsight_Hetu\_8.1.2.2/xxx\ \_HSBroker/etc/** directory, and download the **jaas-zk.conf** and **hetuserver.jks** files to the local PC.
-
-   .. note::
-
-      The version 8.1.2.2 is used as an example. Replace it with the actual version number.
-
-   Modify the **jaas-zk.conf** file as follows. **keyTab** is the keytab file path of the user who accesses HetuEngine, and **principal** is *Username for accessing HetuEngine*\ **@Domain name in uppercase.COM**.
-
-   .. code-block::
-
-      Client {
-      com.sun.security.auth.module.Krb5LoginModule required
-      useKeyTab=true
-      keyTab="D:\\tmp\\user.keytab"
-      principal="admintest@HADOOP.COM"
-      useTicketCache=false
-      storeKey=true
-      debug=true;
-      };
-
-#. Add the host mapping to the local **hosts** file. The content format is as follows:
-
-   *Host IP address Host name*
-
-   Example: 192.168.23.221 192-168-23-221
+   Example: **192.168.42.90 server-2110081635-0001**
 
    .. note::
 
       The local **hosts** file in a Windows environment is stored in, for example, **C:\\Windows\\System32\\drivers\\etc**.
 
-#. Configure the DBeaver startup file **dbeaver.ini**.
-
-   a. Add the Java path to the file.
-
-      .. code-block::
-
-         -VM
-         C:\Program Files\Java\jdk1.8.0_131\bin
-
-   b. Set the ZooKeeper and Kerberos parameters by referring to the following parameters. Replace the file paths with the actual paths.
-
-      .. code-block::
-
-         -Dsun.security.krb5.debug=true
-         -Djava.security.auth.login.config=D:\tmp\jaas-zk.conf
-         -Dzookeeper.sasl.clientconfig=Client
-         -Dzookeeper.auth.type=kerberos
-         -Djava.security.krb5.conf=D:\tmp\krb5.conf
-
-      .. note::
-
-         -  The Greenwich Mean Time (GMT) is not supported. If the current time zone is GMT+, add **-Duser.timezone=UTC** to the **dbeaver.ini** file to change the time zone to UTC.
-         -  If DBeaver is started, restart the DBeaver software for the new configuration items in the **dbeaver.ini** file to take effect.
-
-#. Start the DBeaver, right-click **Database Navigator**, and click **Create New Connection**.
-
-#. Search for **Presto** in the search box and double-click the Presto icon.
-
-#. Click **Edit Driver Settings**.
-
-#. Set **Class Name** to **io.prestosql.jdbc.PrestoDriver**.
-
-#. Enter the URL of HetuEngine in the **URL Template** text box.
-
-   URL format: jdbc:presto://*IP address of node 1 where the ZooKeeper service resides*:2181,\ *IP address of node 2 where the ZooKeeper service resides*:2181,\ *IP address of node 3 where the ZooKeeper service resides*:2181/hive/default?serviceDiscoveryMode=zooKeeper&zooKeeperNamespace=hsbroker&zooKeeperServerPrincipal=zookeeper/hadoop.hadoop.com
-
-   Example: **jdbc:presto://192.168.8.37:**\ 2181\ **,192.168.8.38:**\ 2181\ **,192.168.8.39:**\ 2181\ **/hive/default?serviceDiscoveryMode=zooKeeper&zooKeeperNamespace=hsbroker&zooKeeperServerPrincipal=zookeeper/hadoop.hadoop.com**
-
-#. Click **Add File** and select the obtained JDBC file obtained in :ref:`1.d <mrs_01_2337__en-us_topic_0000001219029577_li1727232161619>`.
-
-#. Click **Connection properties**. On the **Connection properties** tab page, right-click and select **Add new property**. Set parameters by referring to :ref:`Table 1 <mrs_01_2337__en-us_topic_0000001219029577_table1173517153344>`.
-
-   .. _mrs_01_2337__en-us_topic_0000001219029577_table1173517153344:
-
-   .. table:: **Table 1** Property information
-
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-      | Parameter                         | Example Value                                                                                                                             |
-      +===================================+===========================================================================================================================================+
-      | KerberosPrincipal                 | zhangsan                                                                                                                                  |
-      |                                   |                                                                                                                                           |
-      |                                   | .. note::                                                                                                                                 |
-      |                                   |                                                                                                                                           |
-      |                                   |    Human-machine user created in the cluster. For details, see :ref:`Creating a HetuEngine User <mrs_01_1714>`.                           |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-      | KerberosKeytabPath                | D:\\\\user.keytab                                                                                                                         |
-      |                                   |                                                                                                                                           |
-      |                                   | .. note::                                                                                                                                 |
-      |                                   |                                                                                                                                           |
-      |                                   |    You need to configure this parameter when using the keytab mode for access.                                                            |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-      | KerberosRemoteServiceName         | HTTP                                                                                                                                      |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-      | SSL                               | true                                                                                                                                      |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-      | deploymentMode                    | on_yarn                                                                                                                                   |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-      | tenant                            | default                                                                                                                                   |
-      |                                   |                                                                                                                                           |
-      |                                   | .. note::                                                                                                                                 |
-      |                                   |                                                                                                                                           |
-      |                                   |    The tenant to which the user belongs needs to be configured in the cluster.                                                            |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-      | user                              | zhangsan                                                                                                                                  |
-      |                                   |                                                                                                                                           |
-      |                                   | .. note::                                                                                                                                 |
-      |                                   |                                                                                                                                           |
-      |                                   |    Human-machine user created in the cluster. For details, see :ref:`Creating a HetuEngine User <mrs_01_1714>`.                           |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-      | password                          | zhangsan@##65331853                                                                                                                       |
-      |                                   |                                                                                                                                           |
-      |                                   | .. note::                                                                                                                                 |
-      |                                   |                                                                                                                                           |
-      |                                   |    -  Password set when a human-machine user is created in the cluster. For details, see :ref:`Creating a HetuEngine User <mrs_01_1714>`. |
-      |                                   |    -  You need to configure this parameter when using username and password for access.                                                   |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-      | KerberosConfigPath                | D:\\\\krb5.conf                                                                                                                           |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-      | SSLTrustStorePath                 | D:\\\\hetuserver.jks                                                                                                                      |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-
-   :ref:`Figure 1 <mrs_01_2337__en-us_topic_0000001219029577_fig16912205184112>` shows an example of the parameter settings.
-
-   .. _mrs_01_2337__en-us_topic_0000001219029577_fig16912205184112:
-
-   .. figure:: /_static/images/en-us_image_0000001438431645.png
-      :alt: **Figure 1** Example of parameter settings
-
-      **Figure 1** Example of parameter settings
-
-#. Click **OK**.
-
-#. Click **Finish**. The HetuEngine is successfully connected.
-
-   .. note::
-
-      If a message is displayed indicating that you do not have the permission to view the table, configure the permission by referring to :ref:`Configuring Permissions for Tables, Columns, and Databases <mrs_01_2352>`.
-
-Method 2: Using HSBroker to access HetuEngine
-
-#. .. _mrs_01_2337__en-us_topic_0000001219029577_li29221671357:
-
-   Obtain the JDBC JAR file by referring to :ref:`1 <mrs_01_2337__en-us_topic_0000001219029577_li1747527125>`.
-
-#. Open DBeaver, choose **Database** > **New Database Connection**, search for PrestoSQL, and open it.
+#. Open DBeaver, choose **Database** > **New Database Connection**, search for **PrestoSQL** in **ALL**, and open PrestoSQL.
 
 #. Click **Edit Driver Settings** and set parameters by referring to the following table.
 
-   .. table:: **Table 2** Driver settings
+   .. table:: **Table 1** Driver settings
 
-      +-----------------------+--------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-      | Parameter             | Value                          | Remarks                                                                                                                    |
-      +=======================+================================+============================================================================================================================+
-      | Class Name            | io.prestosql.jdbc.PrestoDriver | /                                                                                                                          |
-      +-----------------------+--------------------------------+----------------------------------------------------------------------------------------------------------------------------+
-      | URL Template          | URL of HetuEngine              | URL format:                                                                                                                |
-      |                       |                                |                                                                                                                            |
-      |                       |                                | jdbc:presto://<*HSBrokerIP1:port1*>,<*HSBrokerIP2:port2*>,<*HSBrokerIP3:port3*>/hive/default?serviceDiscoveryMode=hsbroker |
-      +-----------------------+--------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+      | Parameter                         | Value                                                                                                                         |
+      +===================================+===============================================================================================================================+
+      | Class Name                        | io.prestosql.jdbc.PrestoDriver                                                                                                |
+      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+      | URL Template                      | -  Accessing HetuEngine using HSFabric                                                                                        |
+      |                                   |                                                                                                                               |
+      |                                   |    jdbc:presto://<*HSFabricIP1:port1*>,<*HSFabricIP2:port2*>,<*HSFabricIP3:port3*>/hive/default?serviceDiscoveryMode=hsfabric |
+      |                                   |                                                                                                                               |
+      |                                   |    Example:                                                                                                                   |
+      |                                   |                                                                                                                               |
+      |                                   |    jdbc:presto://192.168.42.90:29902,192.168.42.91:29902,192.168.42.92:29902/hive/default?serviceDiscoveryMode=hsfabric       |
+      |                                   |                                                                                                                               |
+      |                                   | -  Accessing HetuEngine using HSBroker                                                                                        |
+      |                                   |                                                                                                                               |
+      |                                   |    jdbc:presto://<*HSBrokerIP1:port1*>,<*HSBrokerIP2:port2*>,<*HSBrokerIP3:port3*>/hive/default?serviceDiscoveryMode=hsbroker |
+      |                                   |                                                                                                                               |
+      |                                   |    Example:                                                                                                                   |
+      |                                   |                                                                                                                               |
+      |                                   |    jdbc:presto://192.168.42.90:29860,192.168.42.91:29860,192.168.42.92:29860/hive/default?serviceDiscoveryMode=hsbroker       |
+      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
 
-#. Click **Add File** and upload the JDBC driver package obtained in :ref:`1 <mrs_01_2337__en-us_topic_0000001219029577_li29221671357>`.
+   .. note::
 
-#. Click **Find Class**. The driver class is automatically obtained. Click **OK** to complete the driver setting, as shown in :ref:`Figure 2 <mrs_01_2337__en-us_topic_0000001219029577_fig7280201602711>`.
+      -  To obtain the IP addresses and port numbers of the HSFabric and HSBroker nodes, perform the following operations:
 
-   .. _mrs_01_2337__en-us_topic_0000001219029577_fig7280201602711:
+         a. Log in to FusionInsight Manager.
 
-   .. figure:: /_static/images/en-us_image_0000001441091233.png
-      :alt: **Figure 2** Driver settings
+         b. Choose **Cluster** > **Services** > **HetuEngine**. Click the **Instance** tab to obtain the service IP addresses of all HSFabric or HSBroker instances. You can select one or more normal instances for connection.
 
-      **Figure 2** Driver settings
+         c. To obtain the port numbers, choose **Cluster** > **Services** > **HetuEngine**. Click **Configurations** then **All Configurations**.
 
-#. On the **Main** tab page for creating a connection, enter the user name and password, and click **Test Connection**. After the connection is successful, click **OK**, and then click **Finish**.
+            Search for **gateway.port** to obtain the HSFabric port number. The default port number is **29902** in security mode and **29903** in normal mode.
+
+            Search for **server.port** to obtain the HSBroker port number. The default port number is **29860** in security mode and **29861** in normal mode.
+
+      -  If the connection fails, disable the proxy and try again.
+
+#. Click **Add File** and upload the JDBC driver package obtained in :ref:`1 <mrs_01_2337__li599475416716>`.
+
+#. Click **Find Class**. The driver class is automatically obtained. Click **OK** to complete the driver setting. If **io.prestosql:presto-jdbc:RELEASE** exists in **Libraries**, delete it before clicking **Find Class**.
 
 
-   .. figure:: /_static/images/en-us_image_0000001349259429.png
-      :alt: **Figure 3** Creating a connection
+   .. figure:: /_static/images/en-us_image_0000001584317997.png
+      :alt: **Figure 1** Configuring the driver in security mode
 
-      **Figure 3** Creating a connection
+      **Figure 1** Configuring the driver in security mode
 
-#. After the connection is successful, the page shown in :ref:`Figure 4 <mrs_01_2337__en-us_topic_0000001219029577_fig18372036443>` is displayed.
+#. Configure the connection.
 
-   .. _mrs_01_2337__en-us_topic_0000001219029577_fig18372036443:
+   -  Security mode (clusters with Kerberos authentication enabled):
 
-   .. figure:: /_static/images/en-us_image_0000001441208981.png
+      On the **Main** tab page for creating a connection, enter the user name and password created in :ref:`Prerequisites <mrs_01_2337__section10331142641215>`, and click **Test Connection**. After the connection is successful, click **OK** then **Finish**. You can click **Connection details (name, type, ... )** to change the connection name.
+
+
+      .. figure:: /_static/images/en-us_image_0000001533678044.png
+         :alt: **Figure 2** Configuring parameters on the Main tab in security mode
+
+         **Figure 2** Configuring parameters on the Main tab in security mode
+
+   -  Normal mode (clusters with Kerberos authentication disabled):
+
+      On the **Main** tab page for creating a connection, set JDBC URL and leave Password blank.
+
+      On the page for creating a connection, configure the parameters on the **Driver properties** tab. Set **user** to the user created in :ref:`Prerequisites <mrs_01_2337__section10331142641215>`. Click **Test Connection**. After the connection is successful, click **OK** then **Finish**. You can click **Connection details (name, type, ... )** to change the connection name.
+
+
+      .. figure:: /_static/images/en-us_image_0000001533198872.png
+         :alt: **Figure 3** Configuring parameters on the Driver properties tab in normal mode
+
+         **Figure 3** Configuring parameters on the Driver properties tab in normal mode
+
+#. After the connection is successful, the page shown in :ref:`Figure 4 <mrs_01_2337__fig296125555813>` is displayed.
+
+   .. _mrs_01_2337__fig296125555813:
+
+   .. figure:: /_static/images/en-us_image_0000001533358396.png
       :alt: **Figure 4** Successful connection
 
       **Figure 4** Successful connection

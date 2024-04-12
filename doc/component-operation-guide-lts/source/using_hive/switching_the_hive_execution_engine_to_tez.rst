@@ -20,7 +20,7 @@ Switching the Execution Engine on the Client to Tez
 
 #. Install and log in to the Hive client. For details, see :ref:`Using a Hive Client <mrs_01_0952>`.
 
-#. Run the following commands to switch the engine and enable the **yarn.timeline-service.enabled** parameter:
+#. Run the following commands for MRS 3.1.2 to switch the engine and enable the **yarn.timeline-service.enabled** parameter:
 
    **set hive.execution.engine=tez**;
 
@@ -33,6 +33,14 @@ Switching the Execution Engine on the Client to Tez
       -  When the execution engine needs to be switched to another engine, you need to run the **set yarn.timeline-service.enabled=false** command on the client to disable the **yarn.timeline-service.enabled** parameter.
       -  To specify a Yarn running queue, run the **set tez.queue.name=default** command on the client.
 
+#. For MRS 3.2.0 and later versions, run the following command to switch the engine:
+
+   **set hive.execution.engine=tez**;
+
+   .. note::
+
+      To specify a running Yarn queue, run the **set tez.queue.name=default** command on the client.
+
 #. Submit and execute the Tez tasks.
 
 #. Log in to FusionInsight Manager. For details, see :ref:`Accessing FusionInsight Manager <mrs_01_2124>`. Choose **Cluster** > *Name of the desired cluster* > **Services** > **Tez** > **TezUI**\ *(host name)* to view the task execution status on the TezUI page.
@@ -42,8 +50,8 @@ Switching the Default Execution Engine of Hive to Tez
 
 #. Log in to FusionInsight Manager. For details, see :ref:`Accessing FusionInsight Manager <mrs_01_2124>`. Choose **Cluster** > *Name of the desired cluster* > **Services** > **Hive** > **Configurations** > **All Configurations** > **HiveServer(Role)**, and search for **hive.execution.engine**.
 #. Set **hive.execution.engine** to **tez**.
-#. Choose **Hive(Service)** > **Customization** and search for **yarn.site.customized.configs**.
-#. Add a customized parameter **yarn.timeline-service.enabled** next to **yarn.site.customized.configs** and set its value to **true**.
+#. Choose **Hive(Service)** > **Customization** and search for **yarn.site.customized.configs**\  for MRS 3.1.2.
+#. Add a customized parameter **yarn.timeline-service.enabled** next to **yarn.site.customized.configs** and set its value to **true**\ for MRS 3.1.2.
 
    .. note::
 

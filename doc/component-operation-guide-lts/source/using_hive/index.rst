@@ -31,14 +31,19 @@ Using Hive
 -  :ref:`Authorizing Over 32 Roles in Hive <mrs_01_0972>`
 -  :ref:`Restricting the Maximum Number of Maps for Hive Tasks <mrs_01_0973>`
 -  :ref:`HiveServer Lease Isolation <mrs_01_0974>`
+-  :ref:`Hive Supports Isolation of Metastore instances Based on Components <mrs_01_24467>`
 -  :ref:`Hive Supporting Transactions <mrs_01_0975>`
 -  :ref:`Switching the Hive Execution Engine to Tez <mrs_01_1750>`
--  :ref:`Connecting Hive with External RDS <mrs_01_1751>`
+-  :ref:`Connecting Hive with External RDS <mrs_01_17511>`
+-  :ref:`Interconnecting Hive with External Self-Built Relational Databases <mrs_01_1751>`
 -  :ref:`Redis-based CacheStore of HiveMetaStore <mrs_01_2302>`
--  :ref:`Hive Materialized View <mrs_01_2311>`
 -  :ref:`Hive Supporting Reading Hudi Tables <mrs_01_24040>`
 -  :ref:`Hive Supporting Cold and Hot Storage of Partitioned Metadata <mrs_01_24118>`
 -  :ref:`Hive Supporting ZSTD Compression Formats <mrs_01_24121>`
+-  :ref:`Locating Abnormal Hive Files <mrs_01_24480>`
+-  :ref:`Using the ZSTD_JNI Compression Algorithm to Compress Hive ORC Tables <mrs_01_24507>`
+-  :ref:`Load Balancing for Hive MetaStore Client Connection <mrs_01_24738>`
+-  :ref:`Data Import and Export in Hive <mrs_01_24744>`
 -  :ref:`Hive Log Overview <mrs_01_0976>`
 -  :ref:`Hive Performance Tuning <mrs_01_0977>`
 -  :ref:`Common Issues About Hive <mrs_01_1752>`
@@ -73,14 +78,19 @@ Using Hive
    authorizing_over_32_roles_in_hive
    restricting_the_maximum_number_of_maps_for_hive_tasks
    hiveserver_lease_isolation
+   hive_supports_isolation_of_metastore_instances_based_on_components
    hive_supporting_transactions
    switching_the_hive_execution_engine_to_tez
    connecting_hive_with_external_rds
+   interconnecting_hive_with_external_self-built_relational_databases
    redis-based_cachestore_of_hivemetastore
-   hive_materialized_view
    hive_supporting_reading_hudi_tables
    hive_supporting_cold_and_hot_storage_of_partitioned_metadata
    hive_supporting_zstd_compression_formats
+   locating_abnormal_hive_files
+   using_the_zstd_jni_compression_algorithm_to_compress_hive_orc_tables
+   load_balancing_for_hive_metastore_client_connection
+   data_import_and_export_in_hive/index
    hive_log_overview
    hive_performance_tuning/index
    common_issues_about_hive/index

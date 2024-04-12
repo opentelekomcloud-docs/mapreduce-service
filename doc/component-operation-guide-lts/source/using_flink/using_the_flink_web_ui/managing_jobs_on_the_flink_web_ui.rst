@@ -47,8 +47,6 @@ Creating a Job
 
       a. Develop the job on the job development page.
 
-         |image1|
-
       b. Click **Check Semantic** to check the input content and click **Format SQL** to format SQL statements.
 
       c. After the job SQL statements are developed, set running parameters by referring to :ref:`Table 2 <mrs_01_24024__en-us_topic_0000001173470782_table4292165617332>` and click **Save**.
@@ -103,12 +101,6 @@ Creating a Job
    -  Creating a Flink JAR job
 
       a. Click **Select**, upload a local JAR file, and set parameters by referring to :ref:`Table 3 <mrs_01_24024__en-us_topic_0000001173470782_table1388311381402>`.
-
-
-         .. figure:: /_static/images/en-us_image_0000001349059937.png
-            :alt: **Figure 1** Creating a Flink JAR job
-
-            **Figure 1** Creating a Flink JAR job
 
          .. _mrs_01_24024__en-us_topic_0000001173470782_table1388311381402:
 
@@ -205,5 +197,3 @@ Deleting a Job
 #. Access the Flink web UI. For details, see :ref:`Accessing the Flink Web UI <mrs_01_24019>`.
 #. Click **Job Management**. The job management page is displayed.
 #. In the **Operation** column of the item to be deleted, click **Delete**, and click **OK** in the displayed page. Jobs in the **Draft**, **Saved**, **Submission failed**, **Running succeeded**, **Running failed**, or **Stop** state can be deleted.
-
-.. |image1| image:: /_static/images/en-us_image_0000001387905484.png

@@ -9,6 +9,7 @@ Using Hudi
 -  :ref:`Basic Operations <mrs_01_24062>`
 -  :ref:`Hudi Performance Tuning <mrs_01_24039>`
 -  :ref:`Hudi SQL Syntax Reference <mrs_01_24261>`
+-  :ref:`Hudi Schema Evolution <mrs_01_24492>`
 -  :ref:`Common Issues About Hudi <mrs_01_24065>`
 
 .. toctree::
@@ -19,4 +20,5 @@ Using Hudi
    basic_operations/index
    hudi_performance_tuning/index
    hudi_sql_syntax_reference/index
+   hudi_schema_evolution/index
    common_issues_about_hudi/index

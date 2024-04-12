@@ -1,6 +1,6 @@
-:original_name: mrs_01_1751.html
+:original_name: mrs_01_17511.html
 
-.. _mrs_01_1751:
+.. _mrs_01_17511:
 
 Connecting Hive with External RDS
 =================================
@@ -105,7 +105,7 @@ Connecting Hive with External RDS
 
 #. Log in to each MetaStore background node and check whether the local directory **/opt/Bigdata/tmp** exists.
 
-   -  If yes, go to :ref:`8 <mrs_01_1751__en-us_topic_0000001219350615_li24241321154318>`.
+   -  If yes, go to :ref:`8 <mrs_01_17511__en-us_topic_0000001219350615_li24241321154318>`.
 
    -  If no, run the following commands to create one:
 
@@ -113,6 +113,6 @@ Connecting Hive with External RDS
 
       **chmod 755 /opt/Bigdata/tmp**
 
-#. .. _mrs_01_1751__en-us_topic_0000001219350615_li24241321154318:
+#. .. _mrs_01_17511__en-us_topic_0000001219350615_li24241321154318:
 
    Save the configuration. Choose **Dashboard** > **More** > **Restart Service**, and enter the password to restart the Hive service.

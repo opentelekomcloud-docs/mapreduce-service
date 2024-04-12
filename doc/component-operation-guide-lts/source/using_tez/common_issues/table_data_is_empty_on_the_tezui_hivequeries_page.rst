@@ -15,21 +15,7 @@ Answer
 
 To display Hive Queries task data on the Tez web UI, you need to set the following parameters:
 
-On Manager, choose **Cluster** > **Services** > **Hive** > **Configurations** > **All Configurations** > **Hive** > **Customization**. Add the following configuration to **yarn-site.xml**:
-
-+-----------------------------------------------------------+---------------------------------+
-| Attribute                                                 | Attribute Value                 |
-+===========================================================+=================================+
-| yarn.timeline-service.enabled                             | true                            |
-+-----------------------------------------------------------+---------------------------------+
-| yarn.timeline-service.webapp.https.address                | #{tl_hostname}:#{tl_https_port} |
-+-----------------------------------------------------------+---------------------------------+
-| yarn.resourcemanager.system-metrics-publisher.enabled     | true                            |
-+-----------------------------------------------------------+---------------------------------+
-| yarn.timeline-service.generic-application-history.enabled | true                            |
-+-----------------------------------------------------------+---------------------------------+
-
-On Manager, choose **Cluster** > **Services** > **Hive** > **Configurations** > **All Configurations** > **HiveServer** > **Customization**. Add the following configuration to **hive-site.xml**:
+On FusionInsight Manager, choose **Cluster** > **Services** > **Hive** > **Configurations** > **All Configurations** > **HiveServer** > **Customization**. Add the following configuration to **hive-site.xml**:
 
 ======================= =======================================
 Attribute               Attribute Value

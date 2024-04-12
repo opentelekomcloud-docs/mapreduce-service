@@ -13,7 +13,6 @@ Common ClickHouse SQL Syntax
 -  :ref:`DESC: Querying a Table Structure <mrs_01_24205>`
 -  :ref:`DROP: Deleting a Table <mrs_01_24208>`
 -  :ref:`SHOW: Displaying Information About Databases and Tables <mrs_01_24207>`
--  :ref:`Importing and Exporting File Data <mrs_01_24206>`
 
 .. toctree::
    :maxdepth: 1
@@ -27,4 +26,3 @@ Common ClickHouse SQL Syntax
    desc_querying_a_table_structure
    drop_deleting_a_table
    show_displaying_information_about_databases_and_tables
-   importing_and_exporting_file_data

@@ -17,6 +17,7 @@ Using Flink
 -  :ref:`Flink Performance Tuning <mrs_01_0597>`
 -  :ref:`Common Flink Shell Commands <mrs_01_0598>`
 -  :ref:`Reference <mrs_01_0620>`
+-  :ref:`Flink Restart Policy <mrs_01_24779>`
 
 .. toctree::
    :maxdepth: 1
@@ -34,3 +35,4 @@ Using Flink
    flink_performance_tuning/index
    common_flink_shell_commands
    reference/index
+   flink_restart_policy

@@ -31,6 +31,8 @@ Scenario-Specific Configuration
 -  :ref:`Configuring Local Disk Cache for JobHistory <mrs_01_1969>`
 -  :ref:`Configuring Spark SQL to Enable the Adaptive Execution Feature <mrs_01_1970>`
 -  :ref:`Configuring Event Log Rollover <mrs_01_24170>`
+-  :ref:`Configuring the Drop Partition Command to Support Batch Deletion <mrs_01_24745>`
+-  :ref:`Enabling an Executor to Execute Custom Code When Exiting <mrs_01_24805>`
 
 .. toctree::
    :maxdepth: 1
@@ -62,3 +64,5 @@ Scenario-Specific Configuration
    configuring_local_disk_cache_for_jobhistory
    configuring_spark_sql_to_enable_the_adaptive_execution_feature
    configuring_event_log_rollover
+   configuring_the_drop_partition_command_to_support_batch_deletion
+   enabling_an_executor_to_execute_custom_code_when_exiting

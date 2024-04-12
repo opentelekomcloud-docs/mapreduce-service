@@ -215,6 +215,97 @@ Procedure of Automatic Compression
 
       After compression, small files are not deleted immediately. After the cleaner thread performs cleaning, the files are deleted in batches.
 
+Manual Compression Procedure
+----------------------------
+
+If you do not want the system to automatically determine when to compress a table, configure the table attribute **NO_AUTO_Compaction** to disable automatic compression. After automatic compression is disabled, you can still use the **ALTER Table /Partition Compact** statement to perform manual compression.
+
+.. note::
+
+   This operation applies only to MRS 8.2.0 and later versions.
+
+#. Log in to the Hive client by referring to :ref:`Using a Hive Client <mrs_01_0952>` and run the following commands to disable automatic compression when creating a table:
+
+   .. code-block::
+
+      CREATE TABLE table_name (
+       id int, name string
+      )
+      CLUSTERED BY (id) INTO 2 BUCKETS STORED AS ORC
+      TBLPROPERTIES ("transactional"="true",
+        "NO_AUTO_COMPACTION"="true"
+      );
+
+   .. note::
+
+      You can also run the following command to disable automatic compression after a table is created:
+
+      **ALTER TABLE** *table_name* **set TBLPROPERTIES ("NO_AUTO_COMPACTION"="true");**
+
+#. Run the following command to set the compression type of the table. **compaction_type** indicates the compression type, which can be **minor** or **major**.
+
+   **ALTER TABLE** *table_name* **COMPACT 'compaction_type';**
+
+Procedure for Specifying a Queue for Running a Compression Task
+---------------------------------------------------------------
+
+This operation applies only to MRS 8.2.0 and later versions.
+
+#. .. _mrs_01_0975__li1157469141717:
+
+   Create a queue.
+
+#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **Hive**. Click **Configuration** then **All Configurations**, click **MetaStore(Role)**, and select **Transaction**.
+
+#. Set the following parameters as required:
+
+   .. table:: **Table 2** Parameter description
+
+      +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Parameter                           | Description                                                                                                                                                                                                                                                                                                  |
+      +=====================================+==============================================================================================================================================================================================================================================================================================================+
+      | hive.compactor.job.queue            | The name of the Hadoop queue to which the compression job is submitted, that is, the name of the queue created in :ref:`1 <mrs_01_0975__li1157469141717>`.                                                                                                                                                   |
+      +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | hive.compactor.check.interval       | The interval for executing the compression thread, in seconds. The default value is **300**.                                                                                                                                                                                                                 |
+      +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | hive.compactor.cleaner.run.interval | The interval for executing the clearance thread, in milliseconds. The default value is **5000**.                                                                                                                                                                                                             |
+      +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | hive.compactor.delta.num.threshold  | The threshold of the number of incremental files that triggers minor compression. The default value is **10**.                                                                                                                                                                                               |
+      +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | hive.compactor.delta.pct.threshold  | The ratio threshold of the total size of incremental files (delta) that trigger major compression to the size of base files. The value **0.1** indicates that major compression is triggered when the ratio of the total size of delta files to the size of base files is 10%. The default value is **0.1**. |
+      +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | hive.compactor.max.num.delta        | The maximum number of incremental files that the compressor will attempt to process in a single job. The default value is **500**.                                                                                                                                                                           |
+      +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | metastore.compactor.initiator.on    | Whether to run the startup program thread and cleanup program thread on the MetaStore instance. To start a transaction, set this parameter to **true**. The default value is **false**.                                                                                                                      |
+      +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | metastore.compactor.worker.threads  | The number of compression program work threads running on MetaStore. If this parameter is set to **0**, no compression is performed. To use a transaction, set this parameter to a positive number on one or more instances of the MetaStore service. The unit is second. The default value is **0**.        |
+      +-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+#. Log in to the Hive client and perform compression. For details, see :ref:`Using a Hive Client <mrs_01_0952>`.
+
+   .. code-block::
+
+      CREATE TABLE table_name (
+       id int, name string
+      )
+      CLUSTERED BY (id) INTO 2 BUCKETS STORED AS ORC
+      TBLPROPERTIES ("transactional"="true",
+        "compactor.mapreduce.map.memory.mb"="2048",                   -- Specify the properties of a compression map job.
+        "compactorthreshold.hive.compactor.delta.num.threshold"="4", -- If there are more than four incremental directories, slight compression is triggered.
+        "compactorthreshold.hive.compactor.delta.pct.threshold"="0.5" -- If the ratio of the incremental file size to the basic file size is greater than 50%, deep compression is triggered.
+      );
+
+   or
+
+   .. code-block::
+
+      ALTER TABLE table_name COMPACT 'minor' WITH OVERWRITE TBLPROPERTIES ("compactor.mapreduce.map.memory.mb"="3072"); -- Specify the properties of a compression map job.
+      ALTER TABLE table_name COMPACT 'major' WITH OVERWRITE TBLPROPERTIES ("tblprops.orc.compress.size"="8192");        -- Modify any other Hive table attributes.
+
+   .. note::
+
+      After compression, small files are not deleted immediately. After the cleaner thread performs cleaning, the files are deleted in batches.
+
 .. |image1| image:: /_static/images/en-us_image_0000001295739904.jpg
 .. |image2| image:: /_static/images/en-us_image_0000001296059708.jpg
 .. |image3| image:: /_static/images/en-us_image_0000001348739733.jpg

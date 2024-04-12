@@ -5,7 +5,7 @@
 Using CarbonData
 ================
 
--  :ref:`Overview <mrs_01_1401>`
+-  :ref:`Spark CarbonData Overview <mrs_01_1401>`
 -  :ref:`Configuration Reference <mrs_01_1404>`
 -  :ref:`CarbonData Operation Guide <mrs_01_1405>`
 -  :ref:`CarbonData Performance Tuning <mrs_01_1417>`
@@ -18,7 +18,7 @@ Using CarbonData
    :maxdepth: 1
    :hidden: 
 
-   overview/index
+   spark_carbondata_overview/index
    configuration_reference
    carbondata_operation_guide/index
    carbondata_performance_tuning/index
