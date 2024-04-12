@@ -22,6 +22,7 @@ Using Yarn
 -  :ref:`Configuring ApplicationMaster Work Preserving <mrs_01_0866>`
 -  :ref:`Configuring the Localized Log Levels <mrs_01_0867>`
 -  :ref:`Configuring Users That Run Tasks <mrs_01_0868>`
+-  :ref:`Configuring HA for TimelineServer <mrs_01_24814>`
 -  :ref:`Yarn Log Overview <mrs_01_0870>`
 -  :ref:`Yarn Performance Tuning <mrs_01_0871>`
 -  :ref:`Common Issues About Yarn <mrs_01_2077>`
@@ -47,6 +48,7 @@ Using Yarn
    configuring_applicationmaster_work_preserving
    configuring_the_localized_log_levels
    configuring_users_that_run_tasks
+   configuring_ha_for_timelineserver
    yarn_log_overview
    yarn_performance_tuning/index
    common_issues_about_yarn/index

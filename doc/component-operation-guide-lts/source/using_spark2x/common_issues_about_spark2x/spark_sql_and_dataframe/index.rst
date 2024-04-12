@@ -28,6 +28,7 @@ Spark SQL and DataFrame
 -  :ref:`Why Are Some Functions Not Available when Another JDBCServer Is Connected? <mrs_01_2044>`
 -  :ref:`Why Does Spark2x Have No Access to DataSource Tables Created by Spark1.5? <mrs_01_2046>`
 -  :ref:`Why Does Spark-beeline Fail to Run and Error Message "Failed to create ThriftService instance" Is Displayed? <mrs_01_2047>`
+-  :ref:`Why Cannot I Query Newly Inserted Data in an ORC Hive Table Using Spark SQL? <mrs_01_24491>`
 
 .. toctree::
    :maxdepth: 1
@@ -56,3 +57,4 @@ Spark SQL and DataFrame
    why_are_some_functions_not_available_when_another_jdbcserver_is_connected
    why_does_spark2x_have_no_access_to_datasource_tables_created_by_spark1.5
    why_does_spark-beeline_fail_to_run_and_error_message_failed_to_create_thriftservice_instance_is_displayed
+   why_cannot_i_query_newly_inserted_data_in_an_orc_hive_table_using_spark_sql

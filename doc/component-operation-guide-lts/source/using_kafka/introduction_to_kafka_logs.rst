@@ -10,7 +10,8 @@ Log Description
 
 **Log paths**: The default storage path of Kafka logs is **/var/log/Bigdata/kafka**. The default storage path of audit logs is **/var/log/Bigdata/audit/kafka**.
 
-Broker: **/var/log/Bigdata/kafka/broker** (run logs)
+-  Broker: **/var/log/Bigdata/kafka/broker** (run logs)
+-  Kafka UI: **/var/log/Bigdata/kafka/ui** (run logs)
 
 Log archive rule: The automatic Kafka log compression function is enabled. By default, when the size of logs exceeds 30 MB, logs are automatically compressed into a log file named in the following format: *<Original log file name>-<yyyy-mm-dd_hh-mm-ss>.[ID].*\ **log.zip**. A maximum of 20 latest compressed files are retained by default. You can configure the number of compressed files and the compression threshold.
 
@@ -60,16 +61,46 @@ Log archive rule: The automatic Kafka log compression function is enabled. By de
    |         | audit.log                                  | Authentication log of the Ranger authentication plug-in. This log is archived in the **/var/log/Bigdata/audit/kafka** directory. |
    +---------+--------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------+
 
+.. table:: **Table 2** Kafka UI log list
+
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   | Type                  | Log File Name                  | Description                                                                                                                   |
+   +=======================+================================+===============================================================================================================================+
+   | Run log               | kafka-ui.log                   | Run log of the Kafka UI process                                                                                               |
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   |                       | postinstall.log                | Work log after Kafka UI installation                                                                                          |
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   |                       | cleanup.log                    | Cleanup log of Kafka UI uninstallation                                                                                        |
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   |                       | prestart.log                   | Work log before Kafka UI startup                                                                                              |
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   |                       | ranger-kafka-plugin-enable.log | Log that records the Ranger plug-ins enabled by Kafka UI                                                                      |
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   |                       | start.log                      | Startup log of the Kafka UI process                                                                                           |
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   |                       | stop.log                       | Stop log of the Kafka UI process                                                                                              |
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   |                       | start.out                      | Kafka UI process startup information                                                                                          |
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   | Audit log             | audit.log                      | Audit log of the KafkaUI service                                                                                              |
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   | Authentication log    | kafka-authorizer.log           | Run log file of the open-source authentication plug-in of Kafka.                                                              |
+   |                       |                                |                                                                                                                               |
+   |                       |                                | This log is archived in the **/var/log/Bigdata/audit/kafka/kafkaui** directory.                                               |
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   |                       | ranger-authorizer.log          | Run log of the Ranger authentication plug-in. This log is archived in the **/var/log/Bigdata/audit/kafka/kafkaui** directory. |
+   +-----------------------+--------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+
 Log Level
 ---------
 
-:ref:`Table 2 <mrs_01_1042__en-us_topic_0000001219029335_tdd8d04c16fc9471c90e233547cf6579c>` describes the log levels supported by Kafka.
+:ref:`Table 3 <mrs_01_1042__en-us_topic_0000001219029335_tdd8d04c16fc9471c90e233547cf6579c>` describes the log levels supported by Kafka.
 
 Levels of run logs are ERROR, WARN, INFO, and DEBUG from the highest to the lowest priority. Run logs of equal or higher levels are recorded. The higher the specified log level, the fewer the logs recorded.
 
 .. _mrs_01_1042__en-us_topic_0000001219029335_tdd8d04c16fc9471c90e233547cf6579c:
 
-.. table:: **Table 2** Log levels
+.. table:: **Table 3** Log levels
 
    +-------+------------------------------------------------------------------------------------------+
    | Level | Description                                                                              |
@@ -95,7 +126,7 @@ Log Format
 
 The following table describes the Kafka log format.
 
-.. table:: **Table 3** Log formats
+.. table:: **Table 4** Log formats
 
    +---------+------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
    | Type    | Format                                                                                                                                                     | Example                                                                                               |

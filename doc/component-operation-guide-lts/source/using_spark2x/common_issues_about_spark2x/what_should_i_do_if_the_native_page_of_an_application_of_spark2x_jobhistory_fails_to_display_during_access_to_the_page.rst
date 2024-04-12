@@ -11,7 +11,7 @@ Question
 After a Spark application that contains a job with millions of tasks. After the application creation is complete, if you access the native page of the application in JobHistory, the native page of the application can be displayed after a long time. If the native page cannot be displayed within 10 minutes, Error information will be generated for the Proxy.
 
 
-.. figure:: /_static/images/en-us_image_0000001348739857.gif
+.. figure:: /_static/images/en-us_image_0000001829035105.png
    :alt: **Figure 1** Error information example
 
    **Figure 1** Error information example

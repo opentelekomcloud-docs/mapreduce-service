@@ -24,6 +24,8 @@ Using Kafka
 -  :ref:`Using Kafka UI <mrs_01_24130>`
 -  :ref:`Introduction to Kafka Logs <mrs_01_1042>`
 -  :ref:`Performance Tuning <mrs_01_1043>`
+-  :ref:`Migrating Data Between Kafka Nodes <mrs_01_24534>`
+-  :ref:`Configuring Intranet and Extranet Access for Kafka <mrs_01_24576>`
 -  :ref:`Common Issues About Kafka <mrs_01_1768>`
 
 .. toctree::
@@ -49,4 +51,6 @@ Using Kafka
    using_kafka_ui/index
    introduction_to_kafka_logs
    performance_tuning/index
+   migrating_data_between_kafka_nodes
+   configuring_intranet_and_extranet_access_for_kafka
    common_issues_about_kafka/index

@@ -5,7 +5,7 @@
 Importing Data
 ==============
 
--  :ref:`Overview <mrs_01_1087>`
+-  :ref:`Loader Importing Data Overview <mrs_01_1087>`
 -  :ref:`Importing Data Using Loader <mrs_01_1088>`
 -  :ref:`Typical Scenario: Importing Data from an SFTP Server to HDFS or OBS <mrs_01_1089>`
 -  :ref:`Typical Scenario: Importing Data from an SFTP Server to HBase <mrs_01_1090>`
@@ -24,7 +24,7 @@ Importing Data
    :maxdepth: 1
    :hidden: 
 
-   overview
+   loader_importing_data_overview
    importing_data_using_loader
    typical_scenario_importing_data_from_an_sftp_server_to_hdfs_or_obs
    typical_scenario_importing_data_from_an_sftp_server_to_hbase

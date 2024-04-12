@@ -16,4 +16,10 @@ If Yarn is restarted in either of the following scenarios, local logs will not b
 Answer
 ------
 
-NodeManager has a restart recovery mechanism (for details, see https://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/NodeManager.html#NodeManager_Restart). Go to the **All Configurations** page of Yarn by referring to :ref:`Modifying Cluster Service Configuration Parameters <mrs_01_1293>`. Set **yarn.nodemanager.recovery.enabled** of NodeManager to **true** to make the configuration take effect. The default value is **true**. In this way, redundant local logs are periodically deleted when the YARN is restarted.
+NodeManager has a restart recovery mechanism. For details, visit the following:
+
+Versions earlier than MRS 3.2.0: https://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/NodeManager.html#NodeManager_Restart
+
+MRS 3.2.0 or later: https://hadoop.apache.org/docs/r3.3.1/hadoop-yarn/hadoop-yarn-site/NodeManager.html#NodeManager_Restart
+
+Go to the **All Configurations** page of Yarn by referring to :ref:`Modifying Cluster Service Configuration Parameters <mrs_01_1293>`. Set **yarn.nodemanager.recovery.enabled** of NodeManager to **true** to make the configuration take effect. The default value is **true**. In this way, redundant local logs are periodically deleted when the YARN is restarted.

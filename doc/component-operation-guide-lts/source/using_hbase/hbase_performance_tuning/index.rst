@@ -10,7 +10,7 @@ HBase Performance Tuning
 -  :ref:`Optimizing Put and Scan Performance <mrs_01_1016>`
 -  :ref:`Improving Real-time Data Write Performance <mrs_01_1017>`
 -  :ref:`Improving Real-time Data Read Performance <mrs_01_1018>`
--  :ref:`Optimizing JVM Parameters <mrs_01_1019>`
+-  :ref:`Optimizing HBase JVM Parameters <mrs_01_1019>`
 
 .. toctree::
    :maxdepth: 1
@@ -21,4 +21,4 @@ HBase Performance Tuning
    optimizing_put_and_scan_performance
    improving_real-time_data_write_performance
    improving_real-time_data_read_performance
-   optimizing_jvm_parameters
+   optimizing_hbase_jvm_parameters

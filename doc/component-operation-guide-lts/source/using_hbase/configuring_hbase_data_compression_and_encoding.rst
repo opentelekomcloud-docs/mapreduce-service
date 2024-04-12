@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0000001295898904.html
+:original_name: mrs_01_24112.html
 
-.. _en-us_topic_0000001295898904:
+.. _mrs_01_24112:
 
 Configuring HBase Data Compression and Encoding
 ===============================================

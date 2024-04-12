@@ -5,12 +5,12 @@
 Configuring the Flume Service Model
 ===================================
 
--  :ref:`Overview <mrs_01_1074>`
+-  :ref:`Flume Service Model Overview <mrs_01_1074>`
 -  :ref:`Service Model Configuration Guide <mrs_01_1075>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   overview
+   flume_service_model_overview
    service_model_configuration_guide

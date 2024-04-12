@@ -54,7 +54,7 @@ How to Use the Concurrency Mechanism
 
    **hoodie.write.lock.zookeeper.base_path**\ =\ *<table_path>*
 
-For details about more parameters, see :ref:`Configuration Reference <mrs_01_24032>`.
+For details about more parameters, see :ref:`Hudi Configuration Reference <mrs_01_24032>`.
 
 .. caution::
 

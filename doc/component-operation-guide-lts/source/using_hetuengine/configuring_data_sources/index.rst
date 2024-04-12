@@ -11,6 +11,7 @@ Configuring Data Sources
 -  :ref:`Configuring a GaussDB Data Source <mrs_01_2351>`
 -  :ref:`Configuring a HetuEngine Data Source <mrs_01_1719>`
 -  :ref:`Configuring a ClickHouse Data Source <mrs_01_24146>`
+-  :ref:`Configuring an IoTDB Data Source <mrs_01_24743>`
 
 .. toctree::
    :maxdepth: 1
@@ -22,3 +23,4 @@ Configuring Data Sources
    configuring_a_gaussdb_data_source
    configuring_a_hetuengine_data_source
    configuring_a_clickhouse_data_source
+   configuring_an_iotdb_data_source

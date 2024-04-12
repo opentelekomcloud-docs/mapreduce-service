@@ -15,7 +15,11 @@ Answer
 
 This is because, ResorceManager HA is enabled but the ResourceManager work preserving restart is not enabled.
 
-If ResorceManager work preserving restart is not enabled, then ResorceManager switch containers are killed which causes the ResorceManager to timeout the ApplicationMaster. For ResorceManager work preserving restart feature details, see http://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/ResourceManagerRestart.html.
+If ResorceManager work preserving restart is not enabled, then ResorceManager switch containers are killed which causes the ResorceManager to timeout the ApplicationMaster. For details about the Work-preserving RM restart function, visit the following website:
+
+Versions earlier than MRS 3.2.0: http://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/ResourceManagerRestart.html
+
+MRS 3.2.0 or later: https://hadoop.apache.org/docs/r3.3.1/hadoop-yarn/hadoop-yarn-site/ResourceManagerRestart.html
 
 The following method can be used to solve the issue:
 

@@ -19,4 +19,4 @@ You can use either of the following methods to perform cleaning:
 
    **spark-submit --master yarn --jars /opt/client/Hudi/hudi/lib/hudi-client-common-**\ *xxx*\ **.jar --class org.apache.hudi.utilities.HoodieCleaner /opt/client/Hudi/hudi/lib/hudi-utilities\_**\ *xxx*\ **.jar --target-base-path /tmp/default/tb_test_mor**
 
-For details about more cleaning parameters, see :ref:`Configuration Reference <mrs_01_24032>`.
+For details about more cleaning parameters, see :ref:`Hudi Configuration Reference <mrs_01_24032>`.

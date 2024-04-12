@@ -20,9 +20,17 @@ Procedure
 ---------
 
 #. Log in to FusionInsight Manager. For details, see :ref:`Accessing FusionInsight Manager <mrs_01_2124>`. Choose **Cluster** > **Services** > **Hive** > **Configurations** > **All Configurations**.
-#. Choose **HiveServer(Role)** > **Customization**, add a customized parameter to the **hive-site.xml** parameter file, set **Name** to **hive.restrict.create.grant.external.table**, and set **Value** to **true**.
-#. Choose **MetaStore(Role)** > **Customization**, add a customized parameter to the **hivemetastore-site.xml** parameter file, set **Name** to **hive.restrict.create.grant.external.table**, and set **Value** to **true**. Restart all Hive instances after the modification.
-#. Determine whether to enable this function on the Spark2x client.
+#. Modify parameters and restart related instances:
 
-   -  If yes, download and install the Spark2x client again.
-   -  If no, no further action is required.
+   -  For versions earlier than MRS 3.2.0:
+
+      a. Choose **MetaStore(Role)** > **Customization**, add a custom parameter to the **hivemetastore-site.xml** parameter file, and set **Name** to **hive.supports.over.32.roles** and **Value** to **true**.
+      b. Choose **HiveServer(Role)** > **Customization** for versions earlier than MRS 3.2.0, add a custom parameter to the **hive-site.xml** parameter file, set **Name** to **hive.supports.over.32.roles**, and set **Value** to **true**.
+      c. Click **Save** to save the configuration.
+      d. Click **Instance**, select all Hive instances, and choose **More** > **Restart** Instance to restart all Hive instances.
+
+   -  For MRS 3.2.0 or later:
+
+      a. Choose **MetaStore(Role)** > **Customization**, add a custom parameter to the **hivemetastore-site.xml** parameter file, and set **Name** to **hive.supports.over.32.roles** and **Value** to **true**.
+      b. Click **Save** to save the configuration.
+      c. Click **Instance**, select all MetaStore instances, and choose **More** > **Restart** Instance to restart all MetaStore instances.

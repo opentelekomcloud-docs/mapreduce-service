@@ -6,6 +6,7 @@ MapReduce Service - Component Operation Guide (LTS)
    :maxdepth: 1
 
    using_carbondata/index
+   using_cdl/index
    using_clickhouse/index
    using_dbservice/index
    using_flink/index
@@ -16,6 +17,7 @@ MapReduce Service - Component Operation Guide (LTS)
    using_hive/index
    using_hudi/index
    using_hue/index
+   using_iotdb/index
    using_kafka/index
    using_loader/index
    using_mapreduce/index

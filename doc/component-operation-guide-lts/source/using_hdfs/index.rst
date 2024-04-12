@@ -31,6 +31,7 @@ Using HDFS
 -  :ref:`Configuring HDFS NodeLabel <mrs_01_1676>`
 -  :ref:`Configuring HDFS DiskBalancer <mrs_01_1678>`
 -  :ref:`Performing Concurrent Operations on HDFS Files <mrs_01_1684>`
+-  :ref:`Closing HDFS Files <mrs_01_24485>`
 -  :ref:`Introduction to HDFS Logs <mrs_01_0828>`
 -  :ref:`HDFS Performance Tuning <mrs_01_0829>`
 -  :ref:`FAQ <mrs_01_1690>`
@@ -65,6 +66,7 @@ Using HDFS
    configuring_hdfs_nodelabel
    configuring_hdfs_diskbalancer
    performing_concurrent_operations_on_hdfs_files
+   closing_hdfs_files
    introduction_to_hdfs_logs
    hdfs_performance_tuning/index
    faq/index

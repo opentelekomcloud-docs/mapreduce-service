@@ -14,6 +14,8 @@ Using HetuEngine
 -  :ref:`Using the HetuEngine Client <mrs_01_1737>`
 -  :ref:`Using the HetuEngine Cross-Source Function <mrs_01_1738>`
 -  :ref:`Using HetuEngine Cross-Domain Function <mrs_01_2342>`
+-  :ref:`Using HetuEngine Materialized Views <mrs_01_24533>`
+-  :ref:`Using HetuEngine SQL Diagnosis <mrs_01_24838>`
 -  :ref:`Using a Third-Party Visualization Tool to Access HetuEngine <mrs_01_2336>`
 -  :ref:`Function & UDF Development and Application <mrs_01_2338>`
 -  :ref:`Introduction to HetuEngine Logs <mrs_01_1744>`
@@ -33,6 +35,8 @@ Using HetuEngine
    using_the_hetuengine_client
    using_the_hetuengine_cross-source_function/index
    using_hetuengine_cross-domain_function/index
+   using_hetuengine_materialized_views/index
+   using_hetuengine_sql_diagnosis
    using_a_third-party_visualization_tool_to_access_hetuengine/index
    function_and_udf_development_and_application/index
    introduction_to_hetuengine_logs

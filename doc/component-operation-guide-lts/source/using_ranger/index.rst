@@ -12,6 +12,7 @@ Using Ranger
 -  :ref:`Configuring a Security Zone <mrs_01_1853>`
 -  :ref:`Changing the Ranger Data Source to LDAP for a Normal Cluster <mrs_01_2394>`
 -  :ref:`Viewing Ranger Permission Information <mrs_01_1854>`
+-  :ref:`Adding a Ranger Access Permission Policy for CDL <mrs_01_24245>`
 -  :ref:`Adding a Ranger Access Permission Policy for HDFS <mrs_01_1856>`
 -  :ref:`Adding a Ranger Access Permission Policy for HBase <mrs_01_1857>`
 -  :ref:`Adding a Ranger Access Permission Policy for Hive <mrs_01_1858>`
@@ -19,6 +20,7 @@ Using Ranger
 -  :ref:`Adding a Ranger Access Permission Policy for Spark2x <mrs_01_1860>`
 -  :ref:`Adding a Ranger Access Permission Policy for Kafka <mrs_01_1861>`
 -  :ref:`Adding a Ranger Access Permission Policy for HetuEngine <mrs_01_1862>`
+-  :ref:`Configuring Ranger Specifications <mrs_01_24767>`
 -  :ref:`Ranger Log Overview <mrs_01_1865>`
 -  :ref:`Common Issues About Ranger <mrs_01_1866>`
 
@@ -33,6 +35,7 @@ Using Ranger
    configuring_a_security_zone
    changing_the_ranger_data_source_to_ldap_for_a_normal_cluster
    viewing_ranger_permission_information
+   adding_a_ranger_access_permission_policy_for_cdl
    adding_a_ranger_access_permission_policy_for_hdfs
    adding_a_ranger_access_permission_policy_for_hbase
    adding_a_ranger_access_permission_policy_for_hive
@@ -40,5 +43,6 @@ Using Ranger
    adding_a_ranger_access_permission_policy_for_spark2x
    adding_a_ranger_access_permission_policy_for_kafka
    adding_a_ranger_access_permission_policy_for_hetuengine
+   configuring_ranger_specifications
    ranger_log_overview
    common_issues_about_ranger/index

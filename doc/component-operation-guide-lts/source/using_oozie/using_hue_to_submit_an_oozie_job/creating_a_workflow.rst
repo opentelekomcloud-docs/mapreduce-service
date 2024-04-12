@@ -26,14 +26,14 @@ Procedure
 
    For submitting different job types, follow instructions in the following sections:
 
-   -  :ref:`Submitting a Hive2 Job <mrs_01_1820>`
-   -  :ref:`Submitting a Spark2x Job <mrs_01_1821>`
-   -  :ref:`Submitting a Java Job <mrs_01_1822>`
-   -  :ref:`Submitting a Loader Job <mrs_01_1823>`
-   -  :ref:`Submitting a MapReduce Job <mrs_01_1824>`
-   -  :ref:`Submitting a Sub-workflow Job <mrs_01_1825>`
-   -  :ref:`Submitting a Shell Job <mrs_01_1826>`
-   -  :ref:`Submitting an HDFS Job <mrs_01_1827>`
-   -  :ref:`Submitting a DistCp Job <mrs_01_1829>`
+   -  :ref:`Submitting a Hive2 Job in Hue <mrs_01_1820>`
+   -  :ref:`Submitting a Spark2x Job in Hue <mrs_01_1821>`
+   -  :ref:`Submitting a Java Job in Hue <mrs_01_1822>`
+   -  :ref:`Submitting a Loader Job in Hue <mrs_01_1823>`
+   -  :ref:`Submitting a MapReduce Job in Hue <mrs_01_1824>`
+   -  :ref:`Submitting a Sub-workflow Job in Hue <mrs_01_1825>`
+   -  :ref:`Submitting a Shell Job in Hue <mrs_01_1826>`
+   -  :ref:`Submitting an HDFS Job in Hue <mrs_01_1827>`
+   -  :ref:`Submitting a DistCp Job in Hue <mrs_01_1829>`
 
 .. |image1| image:: /_static/images/en-us_image_0000001296059856.png

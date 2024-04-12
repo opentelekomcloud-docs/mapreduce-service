@@ -31,7 +31,7 @@ Metadata Table
 
    When using Spark to write data, set **hoodie.metadata.enable** in the **option** parameter to **true**.
 
-   For details about more parameters, see :ref:`Configuration Reference <mrs_01_24032>` or visit Hudi official website http://hudi.apache.org/docs/configurations.html#metadata-config.
+   For details about more parameters, see :ref:`Hudi Configuration Reference <mrs_01_24032>` or visit Hudi official website http://hudi.apache.org/docs/configurations.html#metadata-config.
 
 -  **Performance improvement**
 

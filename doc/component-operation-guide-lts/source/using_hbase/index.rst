@@ -12,9 +12,10 @@ Using HBase
 -  :ref:`Enabling Cross-Cluster Copy <mrs_01_0502>`
 -  :ref:`Supporting Full-Text Index <mrs_01_0493>`
 -  :ref:`Using the ReplicationSyncUp Tool <mrs_01_0510>`
+-  :ref:`In-House Enhanced Phoenix <mrs_01_24579>`
 -  :ref:`Configuring HBase DR <mrs_01_1609>`
 -  :ref:`Performing an HBase DR Service Switchover <mrs_01_1610>`
--  :ref:`Configuring HBase Data Compression and Encoding <en-us_topic_0000001295898904>`
+-  :ref:`Configuring HBase Data Compression and Encoding <mrs_01_24112>`
 -  :ref:`Performing an HBase DR Active/Standby Cluster Switchover <mrs_01_1611>`
 -  :ref:`Community BulkLoad Tool <mrs_01_1612>`
 -  :ref:`Configuring the MOB <mrs_01_1631>`
@@ -36,6 +37,7 @@ Using HBase
    enabling_cross-cluster_copy
    supporting_full-text_index
    using_the_replicationsyncup_tool
+   in-house_enhanced_phoenix/index
    configuring_hbase_dr
    performing_an_hbase_dr_service_switchover
    configuring_hbase_data_compression_and_encoding

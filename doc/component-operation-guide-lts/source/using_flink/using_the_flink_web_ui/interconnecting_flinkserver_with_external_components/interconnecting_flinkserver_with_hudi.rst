@@ -183,3 +183,51 @@ Procedure
    .. important::
 
       Ensure that no partition is added before the synchronization. After the synchronization, new partitions cannot be read.
+
+Synchronizing Metadata from Flink On Hudi to Hive
+-------------------------------------------------
+
+This section applies to MRS 3.2.0 or later.
+
+-  Synchronizing metadata to Hive in JDBC mode
+
+   .. code-block::
+
+      CREATE TABLE stream_mor(
+      uuid VARCHAR(20),
+      name VARCHAR(10),
+      age INT,
+      ts INT,
+      `p` VARCHAR(20)
+      ) PARTITIONED BY (`p`) WITH (
+      'connector' = 'hudi',
+      'path' = 'hdfs://hacluster/tmp/hudi/stream_mor',
+      'table.type' = 'MERGE_ON_READ',
+      'hive_sync.enable' = 'true',
+      'hive_sync.table' = 'Name of the table to be synchronized to Hive',
+      'hive_sync.db' = 'Name of the database to be synchronized to Hive',
+      'hive_sync.metastore.uris' = 'Value of hive.metastore.uris in the hive-site.xml file on the Hive client',
+      'hive_sync.jdbc_url' = 'Value of CLIENT_HIVE_URI in the component_env file on the Hive client'
+      );
+
+-  Synchronizing metadata to Hive in HMS mode
+
+   .. code-block::
+
+      CREATE TABLE stream_mor(
+      uuid VARCHAR(20),
+      name VARCHAR(10),
+      age INT,
+      ts INT,
+      `p` VARCHAR(20)
+      ) PARTITIONED BY (`p`) WITH (
+      'connector' = 'hudi',
+      'path' = 'hdfs://hacluster/tmp/hudi/stream_mor',
+      'table.type' = 'MERGE_ON_READ',
+      'hive_sync.enable' = 'true',
+      'hive_sync.table' = 'Name of the table to be synchronized to Hive',
+      'hive_sync.db' = 'Name of the database to be synchronized to Hive',
+      'hive_sync.mode' = 'hms',
+      'hive_sync.metastore.uris' = 'Value of hive.metastore.uris in the hive-site.xml file on the Hive client',
+      'properties.hive.metastore.kerberos.principal' = 'Value of hive.metastore.kerberos.principal in the hive-site.xml file on the Hive client'
+      );
