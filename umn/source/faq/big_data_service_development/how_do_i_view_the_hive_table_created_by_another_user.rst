@@ -17,14 +17,14 @@ Versions earlier than MRS 3.\ *x*:
 
 MRS 3.\ *x* or later:
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services**. On the page that is displayed, choose **Hive**. On the displayed page, choose **More**, and check whether **Enable Ranger** is grayed out.
+#. Log in to MRS Manager and choose **Cluster** > **Services**. On the page that is displayed, choose **Hive**. On the displayed page, choose **More**, and check whether **Enable Ranger** is grayed out.
 
    -  If yes, go to :ref:`9 <mrs_03_1082__li9406195118112>`.
    -  If no, perform :ref:`2 <mrs_03_1082__li1778559161211>` to :ref:`8 <mrs_03_1082__li74548548355>`.
 
 #. .. _mrs_03_1082__li1778559161211:
 
-   Log in to FusionInsight Manager and choose **System** > **Permission** > **Role**.
+   Log in to MRS Manager and choose **System** > **Permission** > **Role**.
 
 #. Click **Create Role**, and set **Role Name** and **Description**.
 
@@ -44,7 +44,7 @@ MRS 3.\ *x* or later:
 
    Perform the following steps to add the Ranger access permission policy of Hive:
 
-   a. Log in to FusionInsight Manager as a Hive administrator and choose **Cluster** > **Services**. On the page that is displayed, choose **Ranger**. On the displayed page, click the URL next to **Ranger WebUI** to go to the Ranger management page.
+   a. Log in to MRS Manager as a Hive administrator and choose **Cluster** > **Services**. On the page that is displayed, choose **Ranger**. On the displayed page, click the URL next to **Ranger WebUI** to go to the Ranger management page.
    b. On the home page, click the component plug-in name in the **HADOOP SQL** area, for example, **Hive**.
    c. On the **Access** tab page, click **Add New Policy** to add a Hive permission control policy.
    d. In the **Create Policy** dialog box that is displayed, set the following parameters:
@@ -58,7 +58,7 @@ MRS 3.\ *x* or later:
 
 #. Perform the following steps to add the Ranger access permission policy of HDFS:
 
-   a. Log in to FusionInsight Manager as user **rangeradmin** and choose **Cluster** > **Services**. On the page that is displayed, choose **Ranger**. On the displayed page, click the URL next to **Ranger WebUI** to go to the Ranger management page.
+   a. Log in to MRS Manager as user **rangeradmin** and choose **Cluster** > **Services**. On the page that is displayed, choose **Ranger**. On the displayed page, click the URL next to **Ranger WebUI** to go to the Ranger management page.
    b. On the home page, click the component plug-in name in the **HDFS** area, for example, **hacluster**.
    c. Click **Add New Policy** to add a HDFS permission control policy.
    d. In the **Create Policy** dialog box that is displayed, set the following parameters:

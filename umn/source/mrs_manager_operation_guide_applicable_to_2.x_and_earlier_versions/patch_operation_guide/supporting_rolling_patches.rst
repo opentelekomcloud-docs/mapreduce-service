@@ -69,7 +69,7 @@ Installing a Patch
 #. Click **OK** to install the target patch.
 #. View the patch installation progress.
 
-   a. Access MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+   a. Access MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
    b. Choose **System** > **Manage Patch**. On the **Manage Patch** page, you can view the patch installation progress.
 
    .. note::
@@ -93,7 +93,7 @@ Uninstalling a Patch
 #. Click **OK** to uninstall the target patch.
 #. View the patch uninstallation progress.
 
-   a. Access MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+   a. Access MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
    b. Choose **System** > **Manage Patch**. On the **Manage Patch** page, you can view the patch uninstallation progress.
 
    .. note::

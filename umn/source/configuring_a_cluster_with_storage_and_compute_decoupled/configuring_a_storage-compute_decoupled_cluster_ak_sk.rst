@@ -63,7 +63,7 @@ Using Hive to Access OBS
 
          If the **Components** tab is unavailable, complete IAM user synchronization first. (On the **Dashboard** page, click **Synchronize** on the right side of **IAM User Sync** to synchronize IAM users.)
 
-   -  For MRS 3.\ *x* or later, log in to FusionInsight Manager. For details, see :ref:`Accessing FusionInsight Manager (MRS 3.x or Later) <mrs_01_0129>`. And choose **Cluster** > *Name of the desired cluster* > **Services** > **Hive** > **Configurations** > **All Configurations**.
+   -  For MRS 3.\ *x* or later, log in to MRS Manager. For details, see :ref:`Accessing MRS Manager <mrs_01_0129>`. And choose **Cluster** > *Name of the desired cluster* > **Services** > **Hive** > **Configurations** > **All Configurations**.
 
 #. In the configuration type drop-down box, switch **Basic Configurations** to **All Configurations**.
 
@@ -107,7 +107,7 @@ Using Spark to Access OBS
 
             If the **Components** tab is unavailable, complete IAM user synchronization first. (On the **Dashboard** page, click **Synchronize** on the right side of **IAM User Sync** to synchronize IAM users.)
 
-      -  For MRS 3.\ *x* or later, log in to FusionInsight Manager. For details, see :ref:`Accessing FusionInsight Manager (MRS 3.x or Later) <mrs_01_0129>`. Choose **Cluster** > *Name of the desired cluster* > **Services** > **Spark2x** > **Configurations**.
+      -  For MRS 3.\ *x* or later, log in to MRS Manager. For details, see :ref:`Accessing MRS Manager <mrs_01_0129>`. Choose **Cluster** > *Name of the desired cluster* > **Services** > **Spark2x** > **Configurations**.
 
    #. In the configuration type drop-down box, switch **Basic Configurations** to **All Configurations**.
 

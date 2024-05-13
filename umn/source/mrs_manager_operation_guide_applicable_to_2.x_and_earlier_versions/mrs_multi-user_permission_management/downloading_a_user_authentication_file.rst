@@ -23,7 +23,7 @@ This section describes how to download a **Machine-machine** user authentication
 Procedure
 ---------
 
-#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 #. On MRS Manager, click **System**.
 #. In the **Permission** area, click **Manage User**.
 #. In the row of a user for whom you want to export the keytab file, choose **More** > **Download authentication credential** to download the authentication file. After the file is automatically generated, save it to a specified path and keep it secure.

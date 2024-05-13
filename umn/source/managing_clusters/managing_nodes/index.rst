@@ -7,6 +7,7 @@ Managing Nodes
 
 -  :ref:`Manually Scaling Out a Cluster <mrs_01_0041>`
 -  :ref:`Manually Scaling In a Cluster <mrs_01_0060>`
+-  :ref:`Removing ClickHouseServer Instance Nodes <mrs_01_248971>`
 -  :ref:`Managing a Host (Node) <mrs_01_0211>`
 -  :ref:`Isolating a Host <mrs_01_0212>`
 -  :ref:`Canceling Host Isolation <mrs_01_0213>`
@@ -17,6 +18,7 @@ Managing Nodes
 
    manually_scaling_out_a_cluster
    manually_scaling_in_a_cluster
+   removing_clickhouseserver_instance_nodes/index
    managing_a_host_node
    isolating_a_host
    canceling_host_isolation

@@ -76,7 +76,7 @@ Before performing the following operations, ensure that you have configured a st
 
    c. Create the **/opt/flumeInput** directory and create a customized **.txt** file in this directory.
 
-   d. Log in to FusionInsight Manager.
+   d. Log in to MRS Manager.
 
    e. Choose **Cluster** > *Name of the target cluster* > **Services** > **Flume**. On the displayed page, click **Configurations** and then **Upload File** in the **Value** column corresponding to the **flume.config.file** parameter, upload the **properties.properties** file prepared in :ref:`3.a <en-us_topic_0000001349137409__li192551317183716>`, and click **Save**.
 

@@ -24,7 +24,7 @@ If you have downloaded a user authentication file, download it again and obtain 
 Initializing the Password of a Human-Machine User
 -------------------------------------------------
 
-#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 
 #. On MRS Manager, click **System**.
 

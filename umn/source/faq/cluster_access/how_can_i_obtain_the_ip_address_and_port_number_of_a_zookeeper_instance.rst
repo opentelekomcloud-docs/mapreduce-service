@@ -5,7 +5,7 @@
 How Can I Obtain the IP Address and Port Number of a ZooKeeper Instance?
 ========================================================================
 
-You can obtain the IP address and port number of a ZooKeeper instance through the MRS console or FusionInsight Manager.
+You can obtain the IP address and port number of a ZooKeeper instance through the MRS console or MRS Manager.
 
 Method 1: Obtaining the IP address and port number of a ZooKeeper through the MRS console
 
@@ -13,9 +13,9 @@ Method 1: Obtaining the IP address and port number of a ZooKeeper through the MR
 #. Click the **Components** tab and choose **ZooKeeper**. On the displayed page, click **Instances** to view the business IP address of a ZooKeeper instance.
 #. Click the **Service Configuration** tab. On the displayed page, search for the **clientPort** parameter to view the port number of the ZooKeeper instance.
 
-Method 2: Obtaining the IP address and port number of a ZooKeeper through FusionInsight Manager
+Method 2: Obtaining the IP address and port number of a ZooKeeper through MRS Manager
 
-#. Log in to FusionInsight Manager. For details, see .
+#. Log in to MRS Manager. For details, see .
 #. Perform the following operations to obtain the IP address and port number of a ZooKeeper instance.
 
    -  For clusters of MRS 3.\ *x* or earlier

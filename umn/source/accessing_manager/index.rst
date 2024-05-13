@@ -5,12 +5,12 @@
 Accessing Manager
 =================
 
--  :ref:`Accessing FusionInsight Manager (MRS 3.x or Later) <mrs_01_0129>`
--  :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`
+-  :ref:`Accessing MRS Manager <mrs_01_0129>`
+-  :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   accessing_fusioninsight_manager_mrs_3.x_or_later
-   accessing_mrs_manager_mrs_2.1.0_or_earlier
+   accessing_mrs_manager
+   accessing_mrs_manager_mrs_2.x_or_earlier

@@ -23,7 +23,7 @@ The following describes how to manually lock a user. **Machine-machine** users c
 Procedure
 ---------
 
-#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 #. On MRS Manager, click **System**.
 #. In the **Permission** area, click **Manage User**.
 #. In the row of a user you want to lock, click **Lock User**.

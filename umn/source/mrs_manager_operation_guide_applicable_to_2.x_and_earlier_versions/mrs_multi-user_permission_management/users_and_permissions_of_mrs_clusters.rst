@@ -109,7 +109,7 @@ MRS clusters can automatically update Kerberos and LDAP user data when users are
 
 :ref:`Table 3 <mrs_01_0341__td676ae12a3a64c008ec055b498a52d78>` lists the user groups that are created by default on MRS Manager in MRS 3.x or earlier.
 
-For details about the default user groups displayed on FusionInsight Manager of MRS 3.\ *x* or later, see :ref:`User group <admin_guide_000240__section1031812876>`.
+For details about the default user groups displayed on MRS Manager of MRS 3.\ *x* or later, see :ref:`User group <admin_guide_000240__section1031812876>`.
 
 .. _mrs_01_0341__td676ae12a3a64c008ec055b498a52d78:
 

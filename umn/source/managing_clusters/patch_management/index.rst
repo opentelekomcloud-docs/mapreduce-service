@@ -10,6 +10,7 @@ Patch Management
 -  :ref:`Rolling Patches <mrs_01_0431>`
 -  :ref:`Restoring Patches for the Isolated Hosts <mrs_01_0412>`
 -  :ref:`Patch Update <mrs_01_248926>`
+-  :ref:`MRS 3.1.2-LTS.2 Patch Description <mrs_01_9043>`
 
 .. toctree::
    :maxdepth: 1
@@ -20,3 +21,4 @@ Patch Management
    rolling_patches
    restoring_patches_for_the_isolated_hosts
    patch_update
+   mrs_3.1.2-lts.2_patch_description

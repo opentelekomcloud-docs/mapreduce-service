@@ -23,21 +23,14 @@ Prerequisites
 
    .. table:: **Table 1** Reference list
 
-      +-------------------------+---------+-------------------------------------------------+
-      | CPU Architecture        | OS      | Supported Version                               |
-      +=========================+=========+=================================================+
-      | x86 computing           | Euler   | EulerOS 2.5                                     |
-      +-------------------------+---------+-------------------------------------------------+
-      |                         | SUSE    | SUSE Linux Enterprise Server 12 SP4 (SUSE 12.4) |
-      +-------------------------+---------+-------------------------------------------------+
-      |                         | Red Hat | Red Hat-7.5-x86_64 (Red Hat 7.5)                |
-      +-------------------------+---------+-------------------------------------------------+
-      |                         | CentOS  | CentOS 7.6                                      |
-      +-------------------------+---------+-------------------------------------------------+
-      | Kunpeng computing (Arm) | Euler   | EulerOS 2.8                                     |
-      +-------------------------+---------+-------------------------------------------------+
-      |                         | CentOS  | CentOS 7.6                                      |
-      +-------------------------+---------+-------------------------------------------------+
+      ================ ======= ===============================================
+      CPU Architecture OS      Supported Version
+      ================ ======= ===============================================
+      x86 computing    Euler   EulerOS 2.5
+      \                SUSE    SUSE Linux Enterprise Server 12 SP4 (SUSE 12.4)
+      \                Red Hat Red Hat-7.5-x86_64 (Red Hat 7.5)
+      \                CentOS  CentOS 7.6
+      ================ ======= ===============================================
 
    In addition, sufficient disk space is allocated for the ECS, for example, 40 GB.
 
@@ -58,7 +51,7 @@ Installing a Client on a Node Inside a Cluster
 
 #. Obtain the software package.
 
-   Log in to FusionInsight Manager. For details, see :ref:`Accessing FusionInsight Manager (MRS 3.x or Later) <mrs_01_0129>`. Click the name of the cluster to be operated in the **Cluster** drop-down list.
+   Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager <mrs_01_0129>`. Click the name of the cluster to be operated in the **Cluster** drop-down list.
 
    Choose **More > Download Client**. The **Download Cluster Client** dialog box is displayed.
 
@@ -192,9 +185,9 @@ Installing a Client on a Node Outside a Cluster
 
    e. Run the **ntpstat** command to check the time synchronization result.
 
-#. Perform the following steps to download the cluster client software package from FusionInsight Manager, copy the package to the ECS node, and install the client:
+#. Perform the following steps to download the cluster client software package from MRS Manager, copy the package to the ECS node, and install the client:
 
-   a. Log in to FusionInsight Manager and download the cluster client to the specified directory on the active management node by referring to :ref:`Accessing FusionInsight Manager (MRS 3.x or Later) <mrs_01_0129>` and :ref:`Installing a Client on a Node Inside a Cluster <mrs_01_0090__section181806577218>`.
+   a. Log in to MRS Manager and download the cluster client to the specified directory on the active management node by referring to :ref:`Accessing MRS Manager <mrs_01_0129>` and :ref:`Installing a Client on a Node Inside a Cluster <mrs_01_0090__section181806577218>`.
 
    b. Log in to the active management node as user **root** and run the following command to copy the client installation package to the target node:
 

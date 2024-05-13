@@ -29,8 +29,8 @@ MRS Overview
 -  :ref:`What Is Spark ThriftServer? <en-us_topic_0000001442773925>`
 -  :ref:`What Access Protocols Are Supported by Kafka? <en-us_topic_0000001442494337>`
 -  :ref:`What Is the Compression Ratio of zstd? <en-us_topic_0000001392255170>`
--  :ref:`Why Are the HDFS, YARN, and MapReduce Components Unavailable When an MRS Cluster Is Created? <mrs_03_1202>`
--  :ref:`Why Is the ZooKeeper Component Unavailable When an MRS Cluster Is Created? <mrs_03_1204>`
+-  :ref:`CreatedWhy Are the HDFS, YARN, and MapReduce Components Unavailable When an MRS Cluster Is BoughtCreated? <mrs_03_1202>`
+-  :ref:`CreatedWhy Is the ZooKeeper Component Unavailable When an MRS Cluster Is BoughtCreated? <mrs_03_1204>`
 -  :ref:`Which Python Versions Are Supported by Spark Tasks in an MRS 3.1.0 Cluster? <mrs_03_1216>`
 -  :ref:`How Do I Enable Different Service Programs to Use Different YARN Queues? <mrs_03_1221>`
 -  :ref:`Differences and Relationships Between the MRS Management Console and Cluster Manager <mrs_03_1233>`
@@ -64,8 +64,8 @@ MRS Overview
    what_is_spark_thriftserver
    what_access_protocols_are_supported_by_kafka
    what_is_the_compression_ratio_of_zstd
-   why_are_the_hdfs_yarn_and_mapreduce_components_unavailable_when_an_mrs_cluster_is_created
-   why_is_the_zookeeper_component_unavailable_when_an_mrs_cluster_is_created
+   createdwhy_are_the_hdfs_yarn_and_mapreduce_components_unavailable_when_an_mrs_cluster_is_boughtcreated
+   createdwhy_is_the_zookeeper_component_unavailable_when_an_mrs_cluster_is_boughtcreated
    which_python_versions_are_supported_by_spark_tasks_in_an_mrs_3.1.0_cluster
    how_do_i_enable_different_service_programs_to_use_different_yarn_queues
    differences_and_relationships_between_the_mrs_management_console_and_cluster_manager

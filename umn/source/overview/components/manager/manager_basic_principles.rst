@@ -15,7 +15,7 @@ Manager provides functions such as performance monitoring, alarms, user manageme
 Architecture
 ------------
 
-:ref:`Figure 1 <mrs_08_00661__fig17686133154020>` shows the overall logical architecture of FusionInsight Manager.
+:ref:`Figure 1 <mrs_08_00661__fig17686133154020>` shows the overall logical architecture of MRS Manager.
 
 .. _mrs_08_00661__fig17686133154020:
 

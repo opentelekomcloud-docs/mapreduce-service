@@ -7,7 +7,7 @@ How Do I Understand the Multi-Level Chart Statistics in the HBase Operation Requ
 
 The following uses the **Operation Requests on RegionServers** monitoring item as an example:
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **HBase** > **Resource**. On the displayed page, you can view the **Operation Requests on RegionServers** chart. If you click **all**, the top 10 RegionServers ranked by the total number of operation requests in the current cluster are displayed, the statistics interval is 5 minutes.
+#. Log in to MRS Manager and choose **Cluster** > **Services** > **HBase** > **Resource**. On the displayed page, you can view the **Operation Requests on RegionServers** chart. If you click **all**, the top 10 RegionServers ranked by the total number of operation requests in the current cluster are displayed, the statistics interval is 5 minutes.
 
    |image1|
 

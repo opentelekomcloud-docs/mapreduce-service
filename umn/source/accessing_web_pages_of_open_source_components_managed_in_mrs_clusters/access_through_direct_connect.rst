@@ -38,6 +38,6 @@ To facilitate user operations, the browser cache records the selected Manager ac
 #. On the displayed page, set **Access Mode**.
 
    -  To change **EIP** to **Direct Connect**, ensure that the network for direct connections is available, set **Access Mode** to **Direct Connect**, and select **I confirm that the network between the local PC and the floating IP address is connected and that MRS Manager is accessible using the Direct Connect connection**. Click **OK**.
-   -  To change **Direct Connect** to **EIP**, set **Access Mode** to **EIP** and configure the EIP by referring to :ref:`Accessing FusionInsight Manager Using an EIP <mrs_01_0102__en-us_topic_0035209594_section1511920110246>`. If a public IP address has been configured for the cluster, click **OK** to access MRS Manager using an EIP.
+   -  To change **Direct Connect** to **EIP**, set **Access Mode** to **EIP** and configure the EIP by referring to :ref:`Accessing MRS Manager Using an EIP <mrs_01_0102__en-us_topic_0035209594_section1511920110246>`. If a public IP address has been configured for the cluster, click **OK** to access MRS Manager using an EIP.
 
 .. |image1| image:: /_static/images/en-us_image_0000001295738236.png

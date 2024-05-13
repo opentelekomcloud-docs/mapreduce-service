@@ -56,6 +56,10 @@ To prevent component decommissioning failures, components provide different deco
    |                                   |                                                                                                                                                                                               |
    |                                   | This prevents the deployed service program from being deleted by mistake.                                                                                                                     |
    +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | ClickHouse/ClickHouseServer       | For details, see :ref:`Constraints on ClickHouseServer Scale-in <mrs_01_248972>`.                                                                                                             |
+   |                                   |                                                                                                                                                                                               |
+   |                                   | This ensures that data on the decommissioned nodes is migrated to the in-use nodes.                                                                                                           |
+   +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Scaling In a Cluster by Specifying the Node Quantity
 ----------------------------------------------------

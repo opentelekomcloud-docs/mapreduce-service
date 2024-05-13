@@ -52,7 +52,7 @@ Procedure
 
 #. .. _mrs_01_0354__l313690838fdd4efe880c73a525f3a5dc:
 
-   Log in to MRS Manager of the two clusters separately. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`. Click **Service** and check whether the **Health Status** of all components is **Good**.
+   Log in to MRS Manager of the two clusters separately. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`. Click **Service** and check whether the **Health Status** of all components is **Good**.
 
    -  If yes, go to :ref:`4 <mrs_01_0354__l2b421fc6a59b49f198148465895e2332>`.
    -  If no, contact technical support personnel for troubleshooting.

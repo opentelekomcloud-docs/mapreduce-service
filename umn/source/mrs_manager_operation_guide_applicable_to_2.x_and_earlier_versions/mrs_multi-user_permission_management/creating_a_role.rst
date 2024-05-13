@@ -27,7 +27,7 @@ Prerequisites
 Procedure
 ---------
 
-#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 
 #. On MRS Manager, choose **System** > **Manage Role**.
 

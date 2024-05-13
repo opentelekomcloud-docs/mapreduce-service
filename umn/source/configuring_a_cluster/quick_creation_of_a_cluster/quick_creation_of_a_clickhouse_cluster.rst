@@ -7,8 +7,6 @@ Quick Creation of a ClickHouse Cluster
 
 This section describes how to quickly create a ClickHouse cluster. ClickHouse is a columnar database management system used for online analysis. It features the ultimate compression rate and fast query performance. It is widely used in Internet advertisement, app and web traffic analysis, telecom, finance, and IoT fields.
 
-The ClickHouse cluster table engine that uses Kunpeng as the CPU architecture does not support HDFS and Kafka.
-
 
 Quick Creation of a ClickHouse Cluster
 --------------------------------------

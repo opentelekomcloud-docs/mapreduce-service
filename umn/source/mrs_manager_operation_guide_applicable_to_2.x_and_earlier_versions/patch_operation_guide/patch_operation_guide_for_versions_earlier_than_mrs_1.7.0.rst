@@ -22,7 +22,7 @@ Preparing for Patch Installation
 Uploading the Patch Package
 ---------------------------
 
-#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 #. Choose **System** > **Manage Patch**. The **Manage Patch** page is displayed.
 #. Click **Upload Patch** and set the following parameters.
 
@@ -41,7 +41,7 @@ Uploading the Patch Package
 Installing a Patch
 ------------------
 
-#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 #. Choose **System** > **Manage Patch**. The **Manage Patch** page is displayed.
 #. In the **Operation** column, click **Install**.
 #. In the displayed dialog box, click **OK** to install the patch.
@@ -54,7 +54,7 @@ Installing a Patch
 Uninstalling a Patch
 --------------------
 
-#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 #. Choose **System** > **Manage Patch**. The **Manage Patch** page is displayed.
 #. In the **Operation** column, click **Uninstall**.
 

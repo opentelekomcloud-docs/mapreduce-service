@@ -20,7 +20,7 @@ When creating a table, set the table location to an OBS path.
 
    **kinit** *User performing Hive operations*
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **Hive** > **Configurations** > **All Configurations**.
+#. Log in to MRS Manager and choose **Cluster** > **Services** > **Hive** > **Configurations** > **All Configurations**.
 
    In the left navigation tree, choose **Hive** > **Customization**. In the customized configuration items, add **dfs.namenode.acls.enabled** to the **hdfs.site.customized.configs** parameter and set its value to **false**.
 
@@ -43,7 +43,7 @@ When creating a table, set the table location to an OBS path.
 Setting the Default Location of the Created Hive Table to the OBS Path
 ----------------------------------------------------------------------
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **Hive** > **Configurations** > **All Configurations**.
+#. Log in to MRS Manager and choose **Cluster** > **Services** > **Hive** > **Configurations** > **All Configurations**.
 
 #. In the left navigation tree, choose **MetaStore** > **Customization**. Add **hive.metastore.warehouse.dir** to the **hive.metastore.customized.configs** parameter and set it to the OBS path.
 

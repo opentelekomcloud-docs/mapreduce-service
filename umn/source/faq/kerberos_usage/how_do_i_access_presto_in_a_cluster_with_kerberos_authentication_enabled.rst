@@ -29,9 +29,9 @@ How Do I Access Presto in a Cluster with Kerberos Authentication Enabled?
 
       -  Operations on MRS Manager: Log in to MRS Manager and choose **System** > **Manage User**. Locate the row containing the new user, click **More**, and select **Download authentication credential**.
 
-      -  Operations on FusionInsight Manager:
+      -  Operations on MRS Manager:
 
-         Log in to FusionInsight Manager, choose **System** > **Permission** > **User**. On the displayed page, locate the row that contains the user, choose **More** > **Download Authentication Credential**.
+         Log in to MRS Manager, choose **System** > **Permission** > **User**. On the displayed page, locate the row that contains the user, choose **More** > **Download Authentication Credential**.
 
    e. .. _mrs_03_1153__li65281811161910:
 

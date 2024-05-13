@@ -20,7 +20,7 @@ Big Data Service Development
 -  :ref:`Can the Hive Driver Be Interconnected with DBCP2? <mrs_03_1049>`
 -  :ref:`How Do I View the Hive Table Created by Another User? <mrs_03_1082>`
 -  :ref:`Can I Export the Query Result of Hive Data? <mrs_03_1149>`
--  :ref:`How Do I Do If an Error Occurs When Hive Runs the beeline -e Command to Execute Multiple Statements? <mrs_03_1194>`
+-  :ref:`beeline -eHow Do I Do If an Error Occurs When Hive Runs the beeline -e Command to Execute Multiple Statements? <mrs_03_1194>`
 -  :ref:`How Do I Do If a "hivesql/hivescript" Job Fails to Submit After Hive Is Added? <mrs_03_1200>`
 -  :ref:`What If an Excel File Downloaded on Hue Failed to Open? <mrs_03_1160>`
 -  :ref:`How Do I Do If Sessions Are Not Released After Hue Connects to HiveServer and the Error Message "over max user connections" Is Displayed? <mrs_03_1214>`
@@ -63,7 +63,7 @@ Big Data Service Development
    can_the_hive_driver_be_interconnected_with_dbcp2
    how_do_i_view_the_hive_table_created_by_another_user
    can_i_export_the_query_result_of_hive_data
-   how_do_i_do_if_an_error_occurs_when_hive_runs_the_beeline_-e_command_to_execute_multiple_statements
+   beeline_-ehow_do_i_do_if_an_error_occurs_when_hive_runs_the_beeline_-e_command_to_execute_multiple_statements
    how_do_i_do_if_a_hivesql_hivescript_job_fails_to_submit_after_hive_is_added
    what_if_an_excel_file_downloaded_on_hue_failed_to_open
    how_do_i_do_if_sessions_are_not_released_after_hue_connects_to_hiveserver_and_the_error_message_over_max_user_connections_is_displayed

@@ -184,7 +184,7 @@ Using the Flume Client (MRS 3.x or Later)
 
 #. Check the service IP address of any node where the Flume role is deployed.
 
-   Log in to FusionInsight Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`. Choose **Cluster > Services > Flume > Instance**. Check the service IP address of any node where the Flume role is deployed.
+   Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`. Choose **Cluster > Services > Flume > Instance**. Check the service IP address of any node where the Flume role is deployed.
 
 #. .. _mrs_01_24186__en-us_topic_0264266686_li4130849748:
 

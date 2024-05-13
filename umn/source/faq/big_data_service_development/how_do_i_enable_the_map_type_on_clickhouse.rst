@@ -31,7 +31,7 @@ How Do I Enable the Map Type on ClickHouse?
 
    **sh /opt/Bigdata/om-server/om/sbin/restart-controller.sh**
 
-#. Log in to FusionInsight Manager, choose **Cluster** > **Services** > **ClickHouse**. On the page that is displayed, click the **Configurations** tab then the **All Configurations** sub-tab. Click **ClickHouseServer(Role)** > **Customization**, and add the following content to the **\_user-xml-content** configuration item in the right pane:
+#. Log in to MRS Manager, choose **Cluster** > **Services** > **ClickHouse**. On the page that is displayed, click the **Configurations** tab then the **All Configurations** sub-tab. Click **ClickHouseServer(Role)** > **Customization**, and add the following content to the **\_user-xml-content** configuration item in the right pane:
 
    .. code-block::
 

@@ -210,7 +210,7 @@ In MRS 3.x and later versions, the default installation path of the client is /o
 
    Download the authentication credential.
 
-   -  For clusters of MRS 3.\ *x* or later, log in to FusionInsight Manager and choose **System** > **Permission** > **User**. In the **Operation** column of the newly created user, choose **More** > **Download Authentication Credential**.
+   -  For clusters of MRS 3.\ *x* or later, log in to MRS Manager and choose **System** > **Permission** > **User**. In the **Operation** column of the newly created user, choose **More** > **Download Authentication Credential**.
    -  For clusters whose version is earlier than MRS 3.\ *x*, log in to MRS Manager and choose **System** > **Manage User**. In the **Operation** column of the newly created user, choose **More** > **Download Authentication Credential**.
 
 #. Upload JAR files related to the job to the cluster. In this example, the sample JAR file built in Spark is used. It is stored in **$SPARK_HOME/examples/jars**.
