@@ -48,7 +48,7 @@ Creating a Security Cluster and Logging In to Manager
 
       c. Select **I confirm that xx.xx.xx.xx is a trusted public IP address and MRS Manager can be accessed using this IP address.**
 
-#. Click **OK**. The Manager login page is displayed. To assign permissions to other users to access Manager, add their public IP addresses as trusted ones by referring to :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+#. Click **OK**. The Manager login page is displayed. To assign permissions to other users to access Manager, add their public IP addresses as trusted ones by referring to :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 #. Enter the default username **admin** and the password you set when creating the cluster, and click **Log In**.
 
 If the cluster version is earlier than MRS 1.8.0, perform the following steps:

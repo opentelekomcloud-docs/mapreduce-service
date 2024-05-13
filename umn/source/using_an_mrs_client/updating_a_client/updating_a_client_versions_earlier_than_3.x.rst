@@ -22,7 +22,7 @@ During cluster creation, the original client is stored in the **/opt/client** di
 
 **Method 1:**
 
-#. Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`. Then, choose **Services**.
+#. Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`. Then, choose **Services**.
 
 #. Click **Download Client**.
 
@@ -106,7 +106,7 @@ After installing the patch on the cluster, you need to update the client on the 
 
 #. .. _mrs_01_0089__li6500547131416:
 
-   Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`. Then, choose **Services**.
+   Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`. Then, choose **Services**.
 
 #. Click **Download Client**.
 

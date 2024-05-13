@@ -120,7 +120,7 @@ Procedure
 
 #. In the address box of the browser, enter the address for accessing Manager.
 
-   Address format: **https://**\ *Floating IP address of FusionInsight Manager*\ **:28443/web**
+   Address format: **https://**\ *Floating IP address of MRS Manager*\ **:28443/web**
 
    The username and password of the MRS cluster need to be entered for accessing clusters with Kerberos authentication enabled, for example, user **admin**. They are not required for accessing clusters with Kerberos authentication disabled.
 

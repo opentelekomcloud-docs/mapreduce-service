@@ -12,7 +12,7 @@ This section provides overview of MRS clusters and describes how to view, custom
 Procedure
 ---------
 
-#. Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+#. Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 
 #. Choose **Dashboard** on MRS Manager.
 
@@ -96,7 +96,7 @@ For MRS 1.7.2 or earlier, the real-time monitoring page and historical report pa
 
 -  Real-time monitoring
 
-   #. Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+   #. Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 
    #. On MRS Manager, choose **Dashboard** > **Real time**.
 
@@ -132,7 +132,7 @@ For MRS 1.7.2 or earlier, the real-time monitoring page and historical report pa
 
    #. View a monitoring report.
 
-      a. Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+      a. Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 
       b. On MRS Manager, click **Dashboard**.
 

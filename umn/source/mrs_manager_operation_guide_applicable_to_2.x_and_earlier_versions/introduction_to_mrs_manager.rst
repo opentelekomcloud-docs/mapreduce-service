@@ -18,7 +18,7 @@ MRS manages and analyzes massive data and helps you rapidly obtain desired data 
 Introduction to the MRS Manager GUI
 -----------------------------------
 
-MRS Manager provides a unified cluster management platform, facilitating rapid and easy O&M for clusters. For details about how to access MRS Manager, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+MRS Manager provides a unified cluster management platform, facilitating rapid and easy O&M for clusters. For details about how to access MRS Manager, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 
 :ref:`Table 1 <mrs_01_0101__en-us_topic_0035209593_table13549662121428>` describes the functions of each operation entry.
 

@@ -10,7 +10,7 @@ Create a tenant on Manager.
 Procedure
 ---------
 
-#. Log in to FusionInsight Manager and choose **Tenant Resources**.
+#. Log in to MRS Manager and choose **Tenant Resources**.
 
 #. In the tenant list on the left, select a parent tenant and click |image1|. On the page for adding a sub-tenant, set attributes for the sub-tenant according to :ref:`Table 1 <mrs_03_1221__en-us_topic_0263899594_tc983b52ccd084798871c7fa2b49856dd>`.
 

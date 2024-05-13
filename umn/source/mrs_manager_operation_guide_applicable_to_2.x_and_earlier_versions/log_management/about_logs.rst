@@ -15,7 +15,7 @@ MRS cluster logs are stored in the **/var/log/Bigdata** directory. The following
    +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Type             | Description                                                                                                                                                                                       |
    +==================+===================================================================================================================================================================================================+
-   | Installation log | Installation logs record information about FusionInsight Manager, cluster, and service installation to help users locate installation errors.                                                     |
+   | Installation log | Installation logs record information about MRS Manager, cluster, and service installation to help users locate installation errors.                                                               |
    +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Run logs         | Run logs record the running track information, debugging information, status changes, potential problems, and error information generated during the running of services.                         |
    +------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -128,9 +128,9 @@ Run logs
 Audit logs
 ----------
 
-Audit information recorded in audit logs includes FusionInsight Manager audit information and component audit information.
+Audit information recorded in audit logs includes MRS Manager audit information and component audit information.
 
-.. table:: **Table 4** Audit information of FusionInsight Manager
+.. table:: **Table 4** Audit information of MRS Manager
 
    +-----------------------+------------------------+-------------------------------------------------------------+
    | Audit Log             | Operation Type         | Operation                                                   |

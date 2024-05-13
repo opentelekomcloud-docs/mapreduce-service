@@ -12,7 +12,7 @@ Before performing the following operations, ensure that you have configured a st
 Using Spark Beeline After Cluster Installation
 ----------------------------------------------
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **Spark2x** > **Configurations** > **All Configurations**.
+#. Log in to MRS Manager and choose **Cluster** > **Services** > **Spark2x** > **Configurations** > **All Configurations**.
 
    In the left navigation tree, choose **JDBCServer2x** > **Customization**. Add **dfs.namenode.acls.enabled** to the **spark.hdfs-site.customized.configs** parameter and set its value to **false**.
 

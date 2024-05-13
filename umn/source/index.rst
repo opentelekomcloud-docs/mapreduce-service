@@ -14,7 +14,7 @@ MapReduce Service - User Guide
    configuring_a_cluster_with_storage_and_compute_decoupled/index
    accessing_web_pages_of_open_source_components_managed_in_mrs_clusters/index
    accessing_manager/index
-   fusioninsight_manager_operation_guide_applicable_to_3.x/index
+   mrs_manager_operation_guide_applicable_to_3.x/index
    mrs_manager_operation_guide_applicable_to_2.x_and_earlier_versions/index
    security_description/index
    high-risk_operations

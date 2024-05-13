@@ -34,7 +34,7 @@ OMS Status Check
 
 #. Log in to the active management node and run the **su - omm** command to switch to user **omm**. Run the **${CONTROLLER_HOME}/sbin/status-oms.sh** command to check the status of OMS.
 #. If the HA status is NULL, the system may be restarting. NULL is an intermediate state, and the HA status will automatically change to a normal state.
-#. If the resource status is abnormal, certain component resources of FusionInsight Manager are abnormal. Check whether the status of components such as acs, aos cep, controller, feed_watchdog, fms, guassDB, httpd, iam, ntp, okerberos, oldap, pms, and tomcat component is normal.
+#. If the resource status is abnormal, certain component resources of MRS Manager are abnormal. Check whether the status of components such as acs, aos cep, controller, feed_watchdog, fms, guassDB, httpd, iam, ntp, okerberos, oldap, pms, and tomcat component is normal.
 #. If any Manager component resource is abnormal, see Manager component status check to rectify the fault.
 
 Manager Component Status Check

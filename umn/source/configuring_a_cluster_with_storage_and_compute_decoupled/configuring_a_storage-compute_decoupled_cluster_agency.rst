@@ -237,7 +237,7 @@ Step 4: Accessing the OBS File System
 
                **Figure 5** Downloading the Presto user authentication credential
 
-         #. On FusionInsight Manager for MRS 3.x or later,, choose **System > Permission > User**. In the row that contains the newly added user, click **More > Download Authentication Credential**.
+         #. On MRS Manager for MRS 3.x or later,, choose **System > Permission > User**. In the row that contains the newly added user, click **More > Download Authentication Credential**.
 
 
             .. figure:: /_static/images/en-us_image_0000001296058088.png

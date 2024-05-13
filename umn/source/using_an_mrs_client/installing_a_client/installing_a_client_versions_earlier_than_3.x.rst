@@ -126,7 +126,7 @@ Installing a Client on a Node Outside the Cluster
 
 #. .. _mrs_01_0091__li1148114223118:
 
-   Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`. Then, choose **Services**.
+   Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`. Then, choose **Services**.
 
 #. Click **Download Client**.
 

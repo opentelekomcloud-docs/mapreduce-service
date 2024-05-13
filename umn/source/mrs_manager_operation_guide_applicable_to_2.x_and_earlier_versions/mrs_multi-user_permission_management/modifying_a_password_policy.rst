@@ -25,7 +25,7 @@ If a new password policy needs to be used for a new user's password or the passw
 Procedure
 ---------
 
-#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
+#. Access MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
 
 #. On MRS Manager, click **System**.
 

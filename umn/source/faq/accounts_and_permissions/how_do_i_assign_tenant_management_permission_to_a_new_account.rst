@@ -22,7 +22,7 @@ The operations vary depending on the MRS cluster version:
 
 **Procedure for MRS cluster 3.x and later versions:**
 
-#. Log in to FusionInsight Manager and choose **System** > **Permission** > **User**.
+#. Log in to MRS Manager and choose **System** > **Permission** > **User**.
 
 #. Locate the user and click **Modify**.
 

@@ -36,7 +36,7 @@ Using the HBase Client (Versions Earlier Than MRS 3.x)
 
    **source bigdata_env**
 
-#. If Kerberos authentication is enabled for the current cluster, run the following command to authenticate the current user. The current user must have the permission to create HBase tables. For details about how to configure a role with corresponding permissions, see `Creating a Role <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0343.html>`__ To bind a role to a user, see `Creating a User <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0345.html>`__. If Kerberos authentication is disabled for the current cluster, skip this step.
+#. If Kerberos authentication is enabled for the current cluster, run the following command to authenticate the current user. The current user must have the permission to create HBase tables.. If Kerberos authentication is disabled for the current cluster, skip this step.
 
    **kinit** *Component service user*
 
@@ -63,7 +63,7 @@ Using the HBase Client (MRS 3.x or Later)
 
    **source HBase2/component_env**
 
-#. If Kerberos authentication is enabled for the current cluster, run the following command to authenticate the current user. The current user must have the permission to create HBase tables. For details about how to configure a role with corresponding permissions, see `Creating a Role <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0343.html>`__ To bind a role to a user, see `Creating a User <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0345.html>`__. If Kerberos authentication is disabled for the current cluster, skip this step.
+#. If Kerberos authentication is enabled for the current cluster, run the following command to authenticate the current user. The current user must have the permission to create HBase tables.. If Kerberos authentication is disabled for the current cluster, skip this step.
 
    **kinit** *Component service user*
 

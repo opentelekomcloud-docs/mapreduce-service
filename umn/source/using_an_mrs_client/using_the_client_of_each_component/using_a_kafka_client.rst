@@ -72,7 +72,7 @@ Using the Kafka Client (MRS 3.x or Later)
 
 #. Access the ZooKeeper instance page.
 
-   Log in to FusionInsight Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`. Choose **Cluster** > *Name of the desired cluster* > **Services** > **ZooKeeper** > **Instance**.
+   Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`. Choose **Cluster** > *Name of the desired cluster* > **Services** > **ZooKeeper** > **Instance**.
 
 #. View the IP addresses of the ZooKeeper role instance.
 
@@ -92,7 +92,7 @@ Using the Kafka Client (MRS 3.x or Later)
 
    **kinit** *Kafka user*
 
-#. Log in to FusionInsight Manager, choose **Cluster** > **Name of the desired cluster** > **Services** > **ZooKeeper**, and click the **Configurations** tab and then **All Configurations**. On the displayed page, search for the **clientPort** parameter and record its value.
+#. Log in to MRS Manager, choose **Cluster** > **Name of the desired cluster** > **Services** > **ZooKeeper**, and click the **Configurations** tab and then **All Configurations**. On the displayed page, search for the **clientPort** parameter and record its value.
 
 #. .. _mrs_01_24191__en-us_topic_0264266588_li4808125415465:
 

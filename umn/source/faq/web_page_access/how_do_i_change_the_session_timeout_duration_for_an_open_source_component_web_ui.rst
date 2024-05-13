@@ -18,7 +18,7 @@ Checking Whether the Cluster Supports Session Timeout Duration Adjustment
 
       If **http.server.session.timeout.secs** does not exist, the cluster does not support change of the session timeout duration. If the parameter exists, perform the following steps to modify it.
 
--  MRS 3.x and later: Log in to FusionInsight Manager and choose **Cluster** > **Services** > **meta**. On the displayed page, click **Configurations** and select **All Configurations**. Search for the **http.server.session.timeout.secs** configuration item. If this configuration item exists, perform the following steps to modify it. If the configuration item does not exist, the version does not support dynamic adjustment of the session duration.
+-  MRS 3.x and later: Log in to MRS Manager and choose **Cluster** > **Services** > **meta**. On the displayed page, click **Configurations** and select **All Configurations**. Search for the **http.server.session.timeout.secs** configuration item. If this configuration item exists, perform the following steps to modify it. If the configuration item does not exist, the version does not support dynamic adjustment of the session duration.
 
    |image1|
 
@@ -86,7 +86,7 @@ Modifying the Timeout Duration for an Open-Source Component Web UI
 
    -  For MRS cluster version 3.\ *x* or later:
 
-      Log in to FusionInsight Manager and choose **Cluster** > **Services** > **meta**. On the displayed page, click **Configurations** and select **All Configurations**.
+      Log in to MRS Manager and choose **Cluster** > **Services** > **meta**. On the displayed page, click **Configurations** and select **All Configurations**.
 
 #. Change the value of **http.server.session.timeout.secs** under **meta** as required. The unit is second.
 

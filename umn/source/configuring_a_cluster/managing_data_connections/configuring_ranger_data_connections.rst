@@ -22,7 +22,7 @@ Preparing for MySQL Database Ranger Metadata Configuration
 
 This operation is required only for **MRS 3.1.0 or later**.
 
-#. Log in to FusionInsight Manager. For details, see :ref:`Accessing FusionInsight Manager (MRS 3.x or Later) <mrs_01_0129>`. Choose **Clusters** > **Services** > *Service name*.
+#. Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager <mrs_01_0129>`. Choose **Clusters** > **Services** > *Service name*.
 
    Currently, the following components in an MRS 3.1.\ *x* cluster support Ranger authentication: HDFS, HBase, Hive, Spark, Impala, Storm, and Kafka.
 
@@ -37,7 +37,7 @@ This operation is required only for **MRS 3.1.0 or later**.
 
 #. (Optional) To use an existing authentication policy, perform this step to export the authentication policy on the Ranger web page. After the Ranger metadata is switched, you can import the existing authentication policy again. The following uses Hive as an example. After the export, a policy file in JSON format is generated in a local directory.
 
-   a. Log in to FusionInsight Manager.
+   a. Log in to MRS Manager.
 
    b. Choose **Cluster** > **Services** > **Ranger** to go to the Ranger service overview page.
 
@@ -85,7 +85,7 @@ Configuring a Data Connection for an MRS Cluster
 
 #. After the test is successful, click **OK** to complete the data connection configuration.
 
-#. Log in to FusionInsight Manager.
+#. Log in to MRS Manager.
 
 #. Choose **Cluster** > **Services** > **Ranger** to go to the Ranger service overview page.
 
@@ -105,7 +105,7 @@ Configuring a Data Connection for an MRS Cluster
 
    Currently, the following components in an MRS 3.1.\ *x* cluster support Ranger authentication: HDFS, HBase, Hive, Spark, Impala, Storm, and Kafka.
 
-   a. Log in to FusionInsight Manager and choose **Cluster** > **Services** > *Service Name*.
+   a. Log in to MRS Manager and choose **Cluster** > **Services** > *Service Name*.
 
    b. In the upper right corner of the **Dashboard** page, click **More** and select **Enable Ranger**.
 
@@ -132,7 +132,7 @@ Configuring a Data Connection for an MRS Cluster
 
 #. Restart the component for which Ranger authentication is enabled.
 
-   a. Log in to FusionInsight Manager.
+   a. Log in to MRS Manager.
 
    b. Choose **Cluster** > **Services** > **Hive** to go to the Hive service overview page.
 

@@ -17,7 +17,7 @@ How Do I Improve the Resource Utilization of Core Nodes in a Cluster?
 
          If the **Components** tab is unavailable, complete IAM user synchronization first. (On the **Dashboard** page, click **Synchronize** on the right side of **IAM User Sync** to synchronize IAM users.)
 
-   -  MRS 3.\ *x* or later: Log in to FusionInsight Manager. Choose **Cluster** > *Name of the desired cluster* > **Services** > **Yarn** > **Configurations** > **All Configurations**.
+   -  MRS 3.\ *x* or later: Log in to MRS Manager. Choose **Cluster** > *Name of the desired cluster* > **Services** > **Yarn** > **Configurations** > **All Configurations**.
 
 #. Search for **yarn.nodemanager.resource.memory-mb**, and increase the value based on the actual memory of the cluster nodes.
 #. Save the change and restart the affected services or instances.

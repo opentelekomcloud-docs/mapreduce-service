@@ -12,7 +12,7 @@ Updating the Client Configuration
 
 **Method 1**:
 
-#. Log in to FusionInsight Manager. For details, see :ref:`Accessing FusionInsight Manager (MRS 3.x or Later) <mrs_01_0129>`. Click the name of the cluster to be operated in the **Cluster** drop-down list.
+#. Log in to MRS Manager. For details, see :ref:`Accessing MRS Manager <mrs_01_0129>`. Click the name of the cluster to be operated in the **Cluster** drop-down list.
 
 #. Choose **More** > **Download Client** > **Configuration Files Only**.
 
@@ -73,7 +73,7 @@ Updating the Client Configuration
 
    **sh autoRefreshConfig.sh**
 
-#. Enter the username and password of the FusionInsight Manager administrator and the floating IP address of FusionInsight Manager.
+#. Enter the username and password of the MRS Manager administrator and the floating IP address of MRS Manager.
 
 #. Enter the names of the components whose configuration needs to be updated. Use commas (,) to separate the component names. Press **Enter** to update the configurations of all components if necessary.
 

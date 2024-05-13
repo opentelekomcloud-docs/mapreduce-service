@@ -206,7 +206,7 @@ In MRS 3.x and later versions, the default installation path of the client is /o
 
    Download the authentication credential.
 
-   -  For clusters of MRS 3.\ *x* or later, log in to FusionInsight Manager and choose **System** > **Permission** > **User**. In the **Operation** column of the newly created user, choose **More** > **Download Authentication Credential**.
+   -  For clusters of MRS 3.\ *x* or later, log in to MRS Manager and choose **System** > **Permission** > **User**. In the **Operation** column of the newly created user, choose **More** > **Download Authentication Credential**.
    -  For clusters whose version is earlier than MRS 3.\ *x*, log in to MRS Manager and choose **System** > **Manage User**. In the **Operation** column of the newly created user, choose **More** > **Download Authentication Credential**.
 
 #. Log in to the node where the Spark client is located, upload the user authentication credential created in :ref:`2 <mrs_01_0526__li145131249134814>` to the **/opt** directory of the cluster, and run the following command to decompress the package:

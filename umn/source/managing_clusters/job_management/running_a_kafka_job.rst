@@ -18,7 +18,7 @@ Query the instance addresses of ZooKeeper and Kafka, and then run the Kafka job.
 
 #. Log in to the MRS console.
 #. Choose **Clusters** > **Active Clusters**, select a running cluster, and click its name to switch to the cluster details page.
-#. Go to the FusionInsight Manager page. For details, see :ref:`Accessing FusionInsight Manager (MRS 3.x or Later) <mrs_01_0129>`. On MRS Manager, choose **Services** > **ZooKeeper** > **Instance** to query the IP addresses of ZooKeeper instances. Record any IP address of a ZooKeeper instance.
+#. Go to the MRS Manager page. For details, see :ref:`Accessing MRS Manager <mrs_01_0129>`. On MRS Manager, choose **Services** > **ZooKeeper** > **Instance** to query the IP addresses of ZooKeeper instances. Record any IP address of a ZooKeeper instance.
 #. Choose **Services** > **Kafka** > **Instance** to query the IP addresses of Kafka instances. Record any IP address of a Kafka instance.
 
 Querying the Instance Address (Versions Earlier Than 3.x)
@@ -29,7 +29,7 @@ Querying the Instance Address (Versions Earlier Than 3.x)
 
    .. note::
 
-      For MRS 1.7.2 or earlier, log in to MRS Manager. For details, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`. Choose **Services** > **ZooKeeper** > **Instance** to query the IP addresses of ZooKeeper instances. Record any IP address of a ZooKeeper instance.
+      For MRS 1.7.2 or earlier, log in to MRS Manager. For details, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`. Choose **Services** > **ZooKeeper** > **Instance** to query the IP addresses of ZooKeeper instances. Record any IP address of a ZooKeeper instance.
 
 #. Choose **Components > Kafka > Instance** to query the IP addresses of Kafka instances. Record any IP address of a Kafka instance.
 

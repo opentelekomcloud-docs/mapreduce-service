@@ -10,15 +10,15 @@ Purpose
 
 Custers of versions earlier than MRS 3.x use MRS Manager to manage and monitor MRS clusters. On the Cluster Management page of the MRS management console, you can view cluster details, manage nodes, components, alarms, patches, files, jobs, tenants, and backup and restoration. In addition, you can configure Bootstrap actions and manage tags.
 
-MRS 3.x uses FusionInsight Manager to manage and monitor clusters. On the Cluster Management page of the MRS management console, you can view cluster details, manage nodes, components, alarms, files, jobs, Bootstrap actions, and tags.
+MRS 3.x uses MRS Manager to manage and monitor clusters. On the Cluster Management page of the MRS management console, you can view cluster details, manage nodes, components, alarms, files, jobs, Bootstrap actions, and tags.
 
-Some maintenance operations of the MRS 3.x cluster are different from those of earlier versions. For details, see :ref:`MRS Manager Operation Guide (Applicable to 2.x and Earlier Versions) <mrs_01_0648>` and :ref:`FusionInsight Manager Operation Guide (Applicable to 3.x) <mrs_01_0606>`.
+Some maintenance operations of the MRS 3.x cluster are different from those of earlier versions. For details, see :ref:`MRS Manager Operation Guide (Applicable to 2.x and Earlier Versions) <mrs_01_0648>` and :ref:`MRS Manager Operation Guide (Applicable to 3.x) <mrs_01_0606>`.
 
 Accessing MRS Manager
 ---------------------
 
--  For details about how to access MRS Manager of versions earlier than MRS 3.x, see :ref:`Accessing MRS Manager MRS 2.1.0 or Earlier) <mrs_01_0102>`.
--  For details about how to access FusionInsight Manager of MRS 3.x, see :ref:`Accessing FusionInsight Manager (MRS 3.x or Later) <mrs_01_0129>`.
+-  For details about how to access MRS Manager of versions earlier than MRS 3.x, see :ref:`Accessing MRS Manager (MRS 2.x or Earlier) <mrs_01_0102>`.
+-  For details about how to access MRS Manager of MRS 3.x, see :ref:`Accessing MRS Manager <mrs_01_0129>`.
 
 Modifying MRS Cluster Service Configuration Parameters
 ------------------------------------------------------
@@ -41,9 +41,9 @@ Modifying MRS Cluster Service Configuration Parameters
 
       Check whether there is any service whose configuration has expired in the cluster. If yes, restart the corresponding service or role instance for the configuration to take effect. You can also select **Restart the affected services or instances** when saving the configuration.
 
--  In MRS 3.x, you need to log in to FusionInsight Manager to modify service configuration parameters.
+-  In MRS 3.x, you need to log in to MRS Manager to modify service configuration parameters.
 
-   #. Log in to FusionInsight Manager.
+   #. Log in to MRS Manager.
 
    #. Choose **Cluster** > **Services**.
 

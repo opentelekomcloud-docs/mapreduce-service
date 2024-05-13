@@ -29,7 +29,7 @@ Procedure
 
    .. note::
 
-      For the operations on MRS Manager of MRS 1.7.2 or earlier, see :ref:`Performing a Health Check <mrs_01_0274>`; for the operations on FusionInsight Manager of MRS 3.\ *x* or later, see :ref:`Overview <admin_guide_000011>`.
+      For the operations on MRS Manager of MRS 1.7.2 or earlier, see :ref:`Performing a Health Check <mrs_01_0274>`; for the operations on MRS Manager of MRS 3.\ *x* or later, see :ref:`Overview <admin_guide_000011>`.
 
       -  The cluster health check includes Manager, service, and host status checks.
       -  To perform cluster health checks, you can also choose **System** > **Check Health Status** > **Start Cluster Health Check** on MRS Manager.

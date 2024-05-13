@@ -26,4 +26,4 @@ Binding an EIP to a Cluster and Adding a Security Group Rule
    d. Select the checkbox stating that **I confirm that xx.xx.xx.xx is a trusted public IP address and MRS Manager can be accessed using this IP address**.
    e. Click **OK**. The login page is displayed. Enter the username **admin** and the password set during cluster creation.
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **HDFS**. On the displayed page, click **NameNode(**\ *Host name*\ **, active)** to access the HDFS web UI. The HDFS NameNode is used as an example. For details about the web UIs of other components, see :ref:`Web UIs of Open Source Components <mrs_01_0362>`.
+#. Log in to MRS Manager and choose **Cluster** > **Services** > **HDFS**. On the displayed page, click **NameNode(**\ *Host name*\ **, active)** to access the HDFS web UI. The HDFS NameNode is used as an example. For details about the web UIs of other components, see :ref:`Web UIs of Open Source Components <mrs_01_0362>`.
