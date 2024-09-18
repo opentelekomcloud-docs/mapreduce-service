@@ -12,7 +12,6 @@ Using HBase
 -  :ref:`Configuring HBase Parameters <mrs_01_0443>`
 -  :ref:`Enabling Cross-Cluster Copy <mrs_01_0502>`
 -  :ref:`Using the ReplicationSyncUp Tool <mrs_01_0510>`
--  :ref:`GeoMesa Command Line <mrs_01_24119>`
 -  :ref:`Configuring HBase DR <mrs_01_1609>`
 -  :ref:`Configuring HBase Data Compression and Encoding <mrs_01_24112>`
 -  :ref:`Performing an HBase DR Service Switchover <mrs_01_1610>`
@@ -36,7 +35,6 @@ Using HBase
    configuring_hbase_parameters
    enabling_cross-cluster_copy
    using_the_replicationsyncup_tool
-   geomesa_command_line
    configuring_hbase_dr
    configuring_hbase_data_compression_and_encoding
    performing_an_hbase_dr_service_switchover

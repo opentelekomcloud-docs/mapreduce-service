@@ -23,21 +23,14 @@ Prerequisites
 
    .. table:: **Table 1** Reference list
 
-      +-------------------------+--------+-------------------------------------------------+
-      | CPU Architecture        | OS     | Supported Version                               |
-      +=========================+========+=================================================+
-      | x86 computing           | Euler  | EulerOS 2.5                                     |
-      +-------------------------+--------+-------------------------------------------------+
-      |                         | SUSE   | SUSE Linux Enterprise Server 12 SP4 (SUSE 12.4) |
-      +-------------------------+--------+-------------------------------------------------+
-      |                         | RedHat | Red Hat-7.5-x86_64 (Red Hat 7.5)                |
-      +-------------------------+--------+-------------------------------------------------+
-      |                         | CentOS | CentOS 7.6                                      |
-      +-------------------------+--------+-------------------------------------------------+
-      | Kunpeng computing (Arm) | Euler  | EulerOS 2.8                                     |
-      +-------------------------+--------+-------------------------------------------------+
-      |                         | CentOS | CentOS 7.6                                      |
-      +-------------------------+--------+-------------------------------------------------+
+      ================ ====== ===============================================
+      CPU Architecture OS     Supported Version
+      ================ ====== ===============================================
+      x86 computing    Euler  EulerOS 2.5
+      \                SUSE   SUSE Linux Enterprise Server 12 SP4 (SUSE 12.4)
+      \                RedHat Red Hat-7.5-x86_64 (Red Hat 7.5)
+      \                CentOS CentOS 7.6
+      ================ ====== ===============================================
 
    In addition, sufficient disk space is allocated for the ECS, for example, 40 GB.
 
@@ -132,7 +125,7 @@ Installing a Client on a Node Inside a Cluster
       -  If the clients of all or some services use the **/opt/client** directory, other directories must be used when you install other service clients.
       -  You must delete the client installation directory when uninstalling a client.
       -  To ensure that an installed client can only be used by the installation user (for example, **user_client**), add parameter **-o** during the installation. That is, run the **./install.sh /opt/client -o** command to install the client.
-      -  If an HBase client is installed, it is recommended that the client installation directory contain only uppercase and lowercase letters, digits, and characters ``(_-?.@+=)`` due to the limitation of the Ruby syntax used by HBase.
+      -  If an HBase client is installed, it is recommended that the client installation directory contain only uppercase and lowercase letters, digits, and characters\ ``(_-?.@+=)`` due to the limitation of the Ruby syntax used by HBase.
 
 Using a Client
 --------------

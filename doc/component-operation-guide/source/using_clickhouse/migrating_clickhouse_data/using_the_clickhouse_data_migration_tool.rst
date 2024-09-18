@@ -19,6 +19,9 @@ Procedure
 ---------
 
 #. Log in to Manager and choose **Cluster** > **Services** > **ClickHouse**. On the ClickHouse service page, click the **Data Migration** tab.
+
+   |image1|
+
 #. Click **Add Task**.
 
 3. On the page for creating a migration task, set the migration task parameters. For details, see :ref:`Table 1 <mrs_01_24198__table1724256152117>`.
@@ -48,7 +51,7 @@ Procedure
 
       -  **Maximum Bandwidth** is optional. If it is not specified, there is no upper limit. The maximum bandwidth can be set to **10000** MB/s.
 
-5. On the **Select Data Table** page, click |image1| next to **Database**, select the database to be migrated on the source node, and select the data table to be migrated for **Data Table**. The data table drop-down list displays the partitioned MergeTree tables in the selected database. In the **Node Information** area, the space usage of the ClickHouse service data directory on the current source and destination nodes is displayed. Click **Next**.
+5. On the **Select Data Table** page, click |image2| next to **Database**, select the database to be migrated on the source node, and select the data table to be migrated for **Data Table**. The data table drop-down list displays the partitioned MergeTree tables in the selected database. In the **Node Information** area, the space usage of the ClickHouse service data directory on the current source and destination nodes is displayed. Click **Next**.
 
 6. Confirm the task information and click **Submit**.
 
@@ -62,4 +65,5 @@ Procedure
 
 9. After the migration is complete, choose **More** > **Results** to view the migration result and choose **More** > **Delete** to delete the directories related to the migration task on ZooKeeper and the source node.
 
-.. |image1| image:: /_static/images/en-us_image_0000001349170269.png
+.. |image1| image:: /_static/images/en-us_image_0000001533052357.png
+.. |image2| image:: /_static/images/en-us_image_0000001349170269.png

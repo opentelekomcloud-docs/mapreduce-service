@@ -14,7 +14,7 @@ The maximum number of topics depends on the number of file handles (mainly used 
 
 #. Run the **ulimit -n** command to view the maximum number of file handles that can be opened in the process.
 #. Run the **lsof -p** *<Kafka PID>* command to view the file handles (which may keep increasing) that are opened in the Kafka process on the current single node.
-#. Determine whether the maximum number of file handles will be reached and whether the running of Kafka is affected after required topics are created, and estimate the maximum size of data that each partition folder can store and the number of data (``*``.log file, whose default size is 1 GB and can be adjusted by modifying **log.segment.bytes**) and index (``*``.index file, whose default size is 10 MB and can be adjusted by modifying **log.index.size.max.bytes**) files that will be produced after required topics are created.
+#. Determine whether the maximum number of file handles will be reached and whether the running of Kafka is affected after required topics are created, and estimate the maximum size of data that each partition folder can store and the number of data ``*``\ log file, whose default size is 1 GB and can be adjusted by modifying **log.segment.bytes**) and index ``*``\ index file, whose default size is 10 MB and can be adjusted by modifying **log.index.size.max.bytes**) files that will be produced after required topics are created.
 
 Number of Concurrent Consumers
 ------------------------------

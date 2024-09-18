@@ -7,14 +7,14 @@ Using the Spark Client
 
 After an MRS cluster is created, you can create and submit jobs on the client. The client can be installed on nodes inside or outside the cluster.
 
--  Nodes inside the cluster: After an MRS cluster is created, the client has been installed on the master and core nodes in the cluster by default. For details, see `Using an MRS Client on Nodes Inside a Cluster <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0090.html>`__. Then, log in to the node where the MRS client is installed..
--  Nodes outside the cluster: You can install the client on nodes outside a cluster. For details about how to install a client, see `Using an MRS Client on Nodes Outside a Cluster <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0091.html>`__, and log in to the node where the MRS client is installed..
+-  Nodes inside the cluster: After an MRS cluster is created, the client has been installed on the master and core nodes in the cluster by default.
+-  Nodes outside the cluster: You can install the client on nodes outside a cluster.
 
 
 Using the Spark Client
 ----------------------
 
-#. Based on the client location, log in to the node where the client is installed. For details, see `Using an MRS Client on Nodes Inside a Cluster <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0090.html>`__, or `Using an MRS Client on Nodes Outside a Cluster <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0091.html>`__.
+#. Based on the client location, log in to the node where the client is installed.
 
 #. Run the following command to go to the client installation directory:
 

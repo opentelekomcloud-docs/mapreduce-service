@@ -17,7 +17,7 @@ Procedure
 
    The default scheduling policy of Spark is **FIFO**, which may cause a failure of short tasks in multi-task scenarios. Therefore, the fair scheduling policy must be used in multi-task scenarios to prevent task failure.
 
-   a. For details about how to configure Fair Scheduler in Spark, visit http://spark.apache.org/docs/3.1.1/job-scheduling.html#scheduling-within-an-application.
+   a. For details about how to configure Fair Scheduler in Spark, visit https://archive.apache.org/dist/spark/docs/3.1.1/job-scheduling.html#scheduling-within-an-application.
    b. Configure Fair Scheduler on the JDBC client.
 
       #. In the Beeline command line client or the code defined by JDBC, run the following statement:

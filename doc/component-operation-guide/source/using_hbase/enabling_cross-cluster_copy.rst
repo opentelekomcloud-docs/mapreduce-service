@@ -33,10 +33,6 @@ Procedure
 
 #. Log in to the service page.
 
-   For versions earlier than MRS 1.9.2: Log in to `MRS Manager <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0102.html>`__, and choose **Services**.
-
-   For MRS 1.9.2 or later: Click the cluster name on the MRS console and choose **Components**.
-
 #. Go to the **All Configurations** page of the Yarn service. For details, see :ref:`Modifying Cluster Service Configuration Parameters <mrs_01_2125>`.
 
    .. note::
@@ -56,10 +52,6 @@ Procedure
    **dfs.namenode.rpc-address.haclusterX.remotenn1** and **dfs.namenode.rpc-address.haclusterX.remotenn2** do not distinguish active and standby NameNode instances. The default NameNode RPC port is 9820 and cannot be modified on MRS Manager.
 
    For example, **10.1.1.1:9820** and **10.1.1.2:9820**.
-
-   .. note::
-
-      For MRS 1.6.2 or earlier, the default port number is **25000**. For details, see `List of Open Source Component Ports <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0504.html>`__.
 
 #. Save the configuration. On the **Dashboard** tab page, and choose **More** > **Restart Service** to restart the Yarn service.
 

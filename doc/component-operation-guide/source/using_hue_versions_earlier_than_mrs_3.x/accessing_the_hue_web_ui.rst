@@ -28,7 +28,7 @@ Site trust must be added to the browser when you access Manager and Hue web UI f
 Prerequisites
 -------------
 
-When Kerberos authentication is enabled, the MRS cluster administrator has assigned the permission for using Hive to the user. For details, see `Creating a User <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0345.html>`__. For example, create a human-machine user named **hueuser**, add the user to user groups **hive** (the primary group), **hadoop**, and **supergroup**, and role **System_administrator**.
+When Kerberos authentication is enabled, the MRS cluster administrator has assigned the permission for using Hive to the user. For example, create a human-machine user named **hueuser**, add the user to user groups **hive** (the primary group), **hadoop**, and **supergroup**, and role **System_administrator**.
 
 This user is used to log in to the Hue WebUI.
 
