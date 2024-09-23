@@ -21,7 +21,8 @@ Procedure
 
    a. **Service**: Click |image1| and select a service.
    b. **Host**: Enter the IP address of the host where the service is deployed. You can also click |image2| to select the required host.
-   c. Click |image3| in the upper right corner and configure **Start Time** and **End Time**.
+   c. **Max. Concurrent Nodes**: Set the maximum number of concurrent nodes for log collection as you need. MRS 3.3.0 or later supports this parameter.
+   d. Click |image3| in the upper right corner and configure **Start Time** and **End Time**.
 
 #. Click **Download**.
 

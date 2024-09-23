@@ -25,6 +25,11 @@ Procedure
 
 #. Log in to MRS Manager.
 #. Choose **Cluster** > *Name of the desired cluster* > **Dashboard**.
+
+   .. note::
+
+      For MRS 3.3.0 or later, the \ **Cluster**\  > \ **Dashboard**\  page has been removed from Manager. You can choose \ **More**\  in the upper right corner of the \ **Homepage**\  to access cluster maintenance and management functions.
+
 #. On this page, choose **More** > **Synchronize Configuration**.
 #. In the dialog box that is displayed, click **OK**.
 

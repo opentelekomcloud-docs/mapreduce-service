@@ -41,5 +41,5 @@ Procedure
    For the cluster, the default password complexity requirements are as follows:
 
    -  The password must contain at least eight characters.
-   -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters (``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``).
+   -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters ``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``.
    -  The password cannot be the username or the reverse username.

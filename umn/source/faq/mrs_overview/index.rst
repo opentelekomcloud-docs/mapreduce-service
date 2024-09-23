@@ -6,7 +6,6 @@ MRS Overview
 ============
 
 -  :ref:`What Is MRS Used For? <mrs_03_0001>`
--  :ref:`What Types of Distributed Storage Does MRS Support? <mrs_03_1005>`
 -  :ref:`How Do I Create an MRS Cluster Using a Custom Security Group? <mrs_03_1012>`
 -  :ref:`How Do I Use MRS? <mrs_03_1013>`
 -  :ref:`Can I Configure a Phoenix Connection Pool? <mrs_03_1105>`
@@ -29,8 +28,8 @@ MRS Overview
 -  :ref:`What Is Spark ThriftServer? <en-us_topic_0000001442773925>`
 -  :ref:`What Access Protocols Are Supported by Kafka? <en-us_topic_0000001442494337>`
 -  :ref:`What Is the Compression Ratio of zstd? <en-us_topic_0000001392255170>`
--  :ref:`CreatedWhy Are the HDFS, YARN, and MapReduce Components Unavailable When an MRS Cluster Is BoughtCreated? <mrs_03_1202>`
--  :ref:`CreatedWhy Is the ZooKeeper Component Unavailable When an MRS Cluster Is BoughtCreated? <mrs_03_1204>`
+-  :ref:`Why Are the HDFS, YARN, and MapReduce Components Unavailable When an MRS Cluster Is Created? <mrs_03_1202>`
+-  :ref:`Why Is the ZooKeeper Component Unavailable When an MRS Cluster Is Created? <mrs_03_1204>`
 -  :ref:`Which Python Versions Are Supported by Spark Tasks in an MRS 3.1.0 Cluster? <mrs_03_1216>`
 -  :ref:`How Do I Enable Different Service Programs to Use Different YARN Queues? <mrs_03_1221>`
 -  :ref:`Differences and Relationships Between the MRS Management Console and Cluster Manager <mrs_03_1233>`
@@ -41,7 +40,6 @@ MRS Overview
    :hidden: 
 
    what_is_mrs_used_for
-   what_types_of_distributed_storage_does_mrs_support
    how_do_i_create_an_mrs_cluster_using_a_custom_security_group
    how_do_i_use_mrs
    can_i_configure_a_phoenix_connection_pool
@@ -64,8 +62,8 @@ MRS Overview
    what_is_spark_thriftserver
    what_access_protocols_are_supported_by_kafka
    what_is_the_compression_ratio_of_zstd
-   createdwhy_are_the_hdfs_yarn_and_mapreduce_components_unavailable_when_an_mrs_cluster_is_boughtcreated
-   createdwhy_is_the_zookeeper_component_unavailable_when_an_mrs_cluster_is_boughtcreated
+   why_are_the_hdfs_yarn_and_mapreduce_components_unavailable_when_an_mrs_cluster_is_created
+   why_is_the_zookeeper_component_unavailable_when_an_mrs_cluster_is_created
    which_python_versions_are_supported_by_spark_tasks_in_an_mrs_3.1.0_cluster
    how_do_i_enable_different_service_programs_to_use_different_yarn_queues
    differences_and_relationships_between_the_mrs_management_console_and_cluster_manager

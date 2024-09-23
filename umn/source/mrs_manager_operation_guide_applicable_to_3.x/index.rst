@@ -16,6 +16,7 @@ MRS Manager Operation Guide (Applicable to 3.x)
 -  :ref:`Cluster Management <admin_guide_000166>`
 -  :ref:`Log Management <admin_guide_000192>`
 -  :ref:`Backup and Recovery Management <admin_guide_000198>`
+-  :ref:`SQL Inspector <admin_guide_000407>`
 -  :ref:`Security Management <admin_guide_000233>`
 -  :ref:`Alarm Reference (Applicable to MRS 3.x) <mrs_01_1298>`
 
@@ -34,5 +35,6 @@ MRS Manager Operation Guide (Applicable to 3.x)
    cluster_management/index
    log_management/index
    backup_and_recovery_management/index
+   sql_inspector/index
    security_management/index
    alarm_reference_applicable_to_mrs_3.x/index

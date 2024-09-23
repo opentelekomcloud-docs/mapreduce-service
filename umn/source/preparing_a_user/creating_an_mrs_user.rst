@@ -15,11 +15,6 @@ If your cloud account does not require IAM users, skip this section.
 
 This section describes the procedure for granting permissions (see :ref:`Figure 1 <mrs_01_0453__fig8523123435310>`).
 
-Prerequisites
--------------
-
-Learn about the permissions. For the permissions of other services, see `Permission Description <https://docs.otc.t-systems.com/en-us/permissions/index.html>`__.
-
 Process Flow
 ------------
 

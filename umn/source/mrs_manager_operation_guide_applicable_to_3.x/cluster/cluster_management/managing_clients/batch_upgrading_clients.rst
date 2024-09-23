@@ -17,7 +17,7 @@ Procedure
 
 #. Log in to MRS Manager.
 
-#. Choose **Cluster**, click the name of the desired cluster, click **More**, and select **Download Client** to download the complete client to the specified directory on the server.
+#. Choose **Cluster**, click the name of the desired cluster, click **More**, and select **Download Client** (for MRS 3.3.0 or later, click **Download Client** on the **Homepage** page) to download the complete client to the specified directory on the server.
 
    For details, see :ref:`Downloading the Client <admin_guide_000014>`.
 

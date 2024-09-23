@@ -34,7 +34,7 @@ The Spark component of MRS has the following advantages:
 -  The Spark component of MRS also supports graph data processing and allows modeling using graphs during graph computing.
 -  Spark SQL of MRS is compatible with some Hive syntax (based on the 64 SQL statements of the Hive-Test-benchmark test set) and standard SQL syntax (based on the 99 SQL statements of the TPC-DS test set).
 
-For details about Spark architecture and principles, visit https://spark.apache.org/docs/3.1.1/quick-start.html.
+For details about Spark architecture and principles, visit https://archive.apache.org/dist/spark/docs/3.1.1/quick-start.html.
 
 Architecture
 ------------
@@ -81,7 +81,7 @@ Spark Application Running Principle
 
 #. An application is running in the cluster as a collection of processes. Driver coordinates the running of the application.
 #. To run an application, Driver connects to the cluster manager (such as Standalone, Mesos, and Yarn) to apply for the executor resources, and start ExecutorBackend. The cluster manager schedules resources between different applications. Driver schedules DAGs, divides stages, and generates tasks for the application at the same time.
-#. Then, Spark sends the codes of the application (the codes transferred to `SparkContext <https://spark.apache.org/docs/2.3.2/api/scala/index.html#org.apache.spark.SparkContext>`__, which is defined by JAR or Python) to an executor.
+#. Then, Spark sends the codes of the application (the codes transferred to `SparkContext <https://archive.apache.org/dist/spark/docs/3.1.1/api/scala/org/apache/spark/index.html#org.apache.spark.SparkContext>`__, which is defined by JAR or Python) to an executor.
 #. After all tasks are finished, the running of the user application is stopped.
 
 .. _mrs_08_00081__f871db8b05ff94680980627313c214b86:
@@ -484,7 +484,7 @@ Basic Concepts
 
    -  Main program: processes data.
 
-   For details about how to submit an application, visit https://spark.apache.org/docs/3.1.1/submitting-applications.html.
+   For details about how to submit an application, visit `https://spark.apache.org/docs/3.1.1/submitting-applications.html <https://archive.apache.org/dist/spark/docs/3.1.1/submitting-applications.html>`__.
 
 -  **Spark Shell Commands**
 

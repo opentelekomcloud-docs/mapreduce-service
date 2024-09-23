@@ -5,16 +5,14 @@
 Configuring a Cluster with Storage and Compute Decoupled
 ========================================================
 
--  :ref:`Introduction to Storage-Compute Decoupling <mrs_01_0467>`
--  :ref:`Configuring a Storage-Compute Decoupled Cluster (Agency) <mrs_01_0768>`
--  :ref:`Configuring a Storage-Compute Decoupled Cluster (AK/SK) <mrs_01_0468>`
--  :ref:`Using a Storage-Compute Decoupled Cluster <mrs_01_0643>`
+-  :ref:`MRS Storage-Compute Decoupling <mrs_01_0467>`
+-  :ref:`Interconnecting with OBS Using the Cluster Agency Mechanism <mrs_01_249279>`
+-  :ref:`Interconnecting with OBS Using the Guardian Service <mrs_01_248986>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   introduction_to_storage-compute_decoupling
-   configuring_a_storage-compute_decoupled_cluster_agency
-   configuring_a_storage-compute_decoupled_cluster_ak_sk
-   using_a_storage-compute_decoupled_cluster/index
+   mrs_storage-compute_decoupling
+   interconnecting_with_obs_using_the_cluster_agency_mechanism/index
+   interconnecting_with_obs_using_the_guardian_service/index

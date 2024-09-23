@@ -10,16 +10,15 @@ Description
 
 The system checks the partition status every 60 seconds. This alarm is generated when the system detects that a partition to which service directories are mounted is lost (because the device is removed or goes offline, or the partition is deleted). The system checks the partition status periodically.
 
-This alarm must be manually cleared.
-
 Attribute
 ---------
 
-======== ============== ==========
-Alarm ID Alarm Severity Auto Clear
-======== ============== ==========
-12014    Major          No
-======== ============== ==========
++-----------------------+-----------------------+----------------------------------------+
+| Alarm ID              | Alarm Severity        | Auto Clear                             |
++=======================+=======================+========================================+
+| 12014                 | Major                 | -  Yes: MRS 3.3.0 and later versions   |
+|                       |                       | -  No: Versions earlier than MRS 3.3.0 |
++-----------------------+-----------------------+----------------------------------------+
 
 Parameters
 ----------
@@ -84,25 +83,34 @@ Procedure
 
 #. Wait 20 to 30 minutes (The disk size determines the waiting time), and run the **mount** command to check whether the disk has been mounted to the **DirName** directory.
 
-   -  If yes, manually clear the alarm. No further operation is required.
-   -  If no, go to :ref:`9 <alm-12014__li1607193817587>`.
+   -  If yes, go to \ :ref:`9 <alm-12014__li4349723135320>` for MRS 3.3.0 and later versions. For clusters earlier than MRS 3.3.0, manually clear the alarm. No further action is required.
+   -  If no, go to :ref:`10 <alm-12014__li1607193817587>`.
+
+#. .. _alm-12014__li4349723135320:
+
+   Wait about 2 minute and check whether the alarm is cleared.
+
+   -  If yes, no further action is required.
+   -  If no, go to :ref:`10 <alm-12014__li1607193817587>`.
 
 **Collect fault information.**
 
-9.  .. _alm-12014__li1607193817587:
+10. .. _alm-12014__li1607193817587:
 
     On the MRS Manager, choose **O&M** > **Log > Download**.
 
-10. Select the **OmmServer** from the Services drop-down list and click **OK**.
+11. Select the **OmmServer** from the Services drop-down list and click **OK**.
 
-11. Set Start Date for log collection to 10 minutes ahead of the alarm generation time and End Date to 10 minutes behind the alarm generation time and click **Download**.
+12. Set Start Date for log collection to 10 minutes ahead of the alarm generation time and End Date to 10 minutes behind the alarm generation time and click **Download**.
 
-12. Contact the O&M personnel and send the collected log information.
+13. Contact the O&M personnel and send the collected log information.
 
 Alarm Clearing
 --------------
 
-After the fault is rectified, the system does not automatically clear this alarm, and you need to manually clear the alarm.
+MRS 3.3.0 and later versions: After the fault is rectified, the system automatically clears this alarm.
+
+Versions earlier than MRS 3.3.0: After the fault is rectified, the system does not automatically clear this alarm, and you need to manually clear the alarm.
 
 Related Information
 -------------------

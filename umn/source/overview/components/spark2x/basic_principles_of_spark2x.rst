@@ -66,7 +66,7 @@ Spark Principle
 
 #. An application is running in the cluster as a collection of processes. Driver coordinates the running of the application.
 #. To run an application, Driver connects to the cluster manager (such as Standalone, Mesos, and Yarn) to apply for the executor resources, and start ExecutorBackend. The cluster manager schedules resources between different applications. Driver schedules DAGs, divides stages, and generates tasks for the application at the same time.
-#. Then, Spark sends the codes of the application (the codes transferred to `SparkContext <https://spark.apache.org/docs/1.3.1/api/scala/index.html#org.apache.spark.SparkContext>`__, which is defined by JAR or Python) to an executor.
+#. Then, Spark sends the codes of the application (the codes transferred to `SparkContext <https://archive.apache.org/dist/spark/docs/3.1.1/api/scala/org/apache/spark/index.html#org.apache.spark.SparkContext>`__, which is defined by JAR or Python) to an executor.
 #. After all tasks are finished, the running of the user application is stopped.
 
 .. _mrs_08_007101__f5f9e60b5ec204699b5c44c357b11ba9f:
@@ -479,7 +479,7 @@ Concepts
 
    -  Main program: processes data.
 
-   For details about how to submit an application, visit https://spark.apache.org/docs/3.1.1/submitting-applications.html.
+   For details about how to submit an application, visit https://archive.apache.org/dist/spark/docs/3.1.1/submitting-applications.html.
 
 -  **Spark Shell Commands**
 

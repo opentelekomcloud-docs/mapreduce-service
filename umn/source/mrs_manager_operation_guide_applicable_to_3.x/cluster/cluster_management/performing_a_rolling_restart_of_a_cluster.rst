@@ -29,6 +29,10 @@ Procedure
 
 #. Choose **Cluster** > *Name of the target cluster* > **Dashboard**. On this tab page, choose **More** > **Rolling-restart Service**.
 
+   .. note::
+
+      For MRS 3.3.0 or later, the \ **Cluster**\  > \ **Dashboard**\  page has been removed from Manager. You can choose \ **More**\  in the upper right corner of the \ **Homepage**\  to access cluster maintenance and management functions.
+
 #. In the dialog box that is displayed, enter the password of the current login user and click **OK**.
 
 #. Configure the parameters based on site requirements.

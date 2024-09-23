@@ -17,6 +17,10 @@ Procedure
 
 #. Choose **Cluster** > *Name of the desired cluster* > **Dashboard**. On the page that is displayed, choose **More** > **Download Client**.
 
+   .. note::
+
+      For MRS 3.3.0 or later, the **Cluster** > **Dashboard** page has been removed from Manager.
+
    The **Download Cluster Client** dialog box is displayed.
 
 #. Select a client type for **Select Client Type**.

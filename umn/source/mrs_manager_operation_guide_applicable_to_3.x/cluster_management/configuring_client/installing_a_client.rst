@@ -172,7 +172,7 @@ Procedure
       -  You must delete the client installation directory when uninstalling a client.
       -  To ensure that an installed client can only be used by the installation user (for example, **user_client**), add parameter **-o** during the installation. That is, run the **./install.sh /opt/hadoopclient -o** command to install the client.
       -  If the NTP server is to be installed in **chrony** mode, ensure that the parameter **chrony** is added during the installation, that is, run the **./install.sh /opt/client -o** **chrony** command to install the client.
-      -  If an HBase client is installed, it is recommended that the client installation directory contain only uppercase and lowercase letters, digits, and special characters ``(_-?.@+=)`` due to the limitation of the Ruby syntax used by HBase.
+      -  If an HBase client is installed, it is recommended that the client installation directory contain only uppercase and lowercase letters, digits, and special characters\ ``(_-?.@+=)`` due to the limitation of the Ruby syntax used by HBase.
       -  If the client node is a server outside the cluster and cannot communicate with the service plane IP address of the active OMS node or cannot access port 20029 of the active OMS node, the client can be successfully installed but cannot be registered with the cluster or displayed on the UI.
 
 #. Log in to the client to check whether the client is successfully installed.

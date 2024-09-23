@@ -9,7 +9,7 @@ Security Overview
 -  :ref:`Right Mechanism <admin_guide_000236>`
 -  :ref:`Authentication Policies <admin_guide_000237>`
 -  :ref:`Permission Verification Policies <admin_guide_000238>`
--  :ref:`User Account ListUser Account ListSystem User Description <admin_guide_000239>`
+-  :ref:`User Account List <admin_guide_000239>`
 -  :ref:`Default Permission Information <admin_guide_000240>`
 -  :ref:`MRS Manager Security Functions <admin_guide_000241>`
 
@@ -21,6 +21,6 @@ Security Overview
    right_mechanism
    authentication_policies
    permission_verification_policies
-   user_account_listuser_account_listsystem_user_description
+   user_account_list
    default_permission_information
    mrs_manager_security_functions

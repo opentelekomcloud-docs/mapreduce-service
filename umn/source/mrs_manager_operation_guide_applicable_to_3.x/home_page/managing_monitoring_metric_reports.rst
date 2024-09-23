@@ -14,13 +14,23 @@ On MRS Manager, you can customize monitoring items to display on the homepage an
 
    The interval on the horizontal axis of the chart varies depending on the time period you specify. Data monitoring rules are as follows:
 
+   -  If the disk usage of the partition where GaussDB resides exceeds 80%, real-time monitoring data and monitoring data whose interval is 5 minutes will be deleted.
+   -  **Storage resources (HDFS) in Tenant Resources (0 to 300 hours)**: The interval is 1 hour. The cluster must have been installed for at least 1 hour, and monitoring data of a maximum of 3 months is saved.
+
+   **For clusters of versions earlier than MRS 3.3.0**:
+
    -  **0 to 25 hours**: The interval is 5 minutes. The cluster must have been installed for at least 10 minutes, and monitoring data of a maximum of 15 days is saved.
    -  **25 to 150 hours**: The interval is 30 minutes. The cluster must have been installed for at least 30 minutes, and monitoring data of a maximum of 3 months is saved.
    -  **150 to 300 hours**: The interval is 1 hour. The cluster must have been installed for at least 1 hour, and monitoring data of a maximum of 3 months is saved.
    -  **300 hours to 300 days**: The interval is 1 day. The cluster must have been installed for at least 1 day, and monitoring data of a maximum of 6 months is saved.
    -  **Over 300 days**: The interval is 7 days. The cluster must have been installed for more than 7 days, and monitoring data of a maximum of 1 year is saved.
-   -  If the disk usage of the partition where GaussDB resides exceeds 80%, real-time monitoring data and monitoring data whose interval is 5 minutes will be deleted.
-   -  **Storage resources (HDFS) in Tenant Resources (0 to 300 hours)**: The interval is 1 hour. The cluster must have been installed for at least 1 hour, and monitoring data of a maximum of 3 months is saved.
+
+   **For clusters of MRS 3.3.0 or later versions**:
+
+   -  **0 to 21 hours and 20 minutes**: The interval is 5 minutes. The cluster must have been installed for at least 10 minutes, and monitoring data of a maximum of 90 days is saved.
+   -  **21 hours and 20 minutes to 128 hours**: The interval is 30 minutes. The cluster must have been installed for at least 30 minutes, and monitoring data of a maximum of 90 days is saved.
+   -  **128 to 256 hours**: The interval is 1 hour. The cluster must have been installed for at least 1 hour, and monitoring data of a maximum of 90 days is saved.
+   -  **256 hours to 256 days**: The interval is 1 day. The cluster must have been installed for at least 1 day, and monitoring data of a maximum of 90 days is saved.
 
 Customizing a Monitoring Metric Report
 --------------------------------------

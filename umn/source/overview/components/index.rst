@@ -11,8 +11,10 @@ Components
 -  :ref:`ClickHouse <mrs_08_0108>`
 -  :ref:`CDL <mrs_08_0097>`
 -  :ref:`DBService <mrs_08_0060>`
+-  :ref:`Apache Doris <mrs_08_0161>`
 -  :ref:`Flink <mrs_08_0034>`
 -  :ref:`Flume <mrs_08_0016>`
+-  :ref:`Guardian <mrs_08_0159>`
 -  :ref:`HBase <mrs_08_0010>`
 -  :ref:`HDFS <mrs_08_0007>`
 -  :ref:`HetuEngine <mrs_08_0068>`
@@ -20,6 +22,7 @@ Components
 -  :ref:`Hudi <mrs_08_0083>`
 -  :ref:`Hue <mrs_08_0012>`
 -  :ref:`IoTDB <mrs_08_0093>`
+-  :ref:`JobGateway <mrs_08_0149>`
 -  :ref:`Kafka <mrs_08_0013>`
 -  :ref:`KafkaManager <mrs_08_0032>`
 -  :ref:`KrbServer and LdapServer <mrs_08_0064>`
@@ -47,8 +50,10 @@ Components
    clickhouse
    cdl/index
    dbservice/index
+   apachedoris/index
    flink/index
    flume/index
+   guardian
    hbase/index
    hdfs/index
    hetuengine/index
@@ -56,6 +61,7 @@ Components
    hudi
    hue/index
    iotdb/index
+   jobgateway/index
    kafka/index
    kafkamanager
    krbserver_and_ldapserver/index

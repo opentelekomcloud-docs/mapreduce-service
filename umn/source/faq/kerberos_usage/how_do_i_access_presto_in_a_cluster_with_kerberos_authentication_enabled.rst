@@ -52,8 +52,6 @@ How Do I Access Presto in a Cluster with Kerberos Authentication Enabled?
       -  *User's principal*: principal obtained in :ref:`3.f <mrs_03_1153__li165280118198>`.
       -  *presto username*: user created in :ref:`3.b <mrs_03_1153__li55542531841>`, for example, **presto001**.
 
-      Example: **presto_cli.sh --krb5-config-path /opt/client/Presto/krb5.conf --krb5-principal prest001@xxx_xxx_xxx_xxx.COM --krb5-keytab-path /opt/client/Presto/user.keytab --user presto001**
-
    h. On the Presto client, run the following statement to create a schema:
 
       **CREATE SCHEMA hive.demo01 WITH (location = 'obs://presto-demo002/');**

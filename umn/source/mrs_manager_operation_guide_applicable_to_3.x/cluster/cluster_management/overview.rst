@@ -12,6 +12,10 @@ Log in to MRS Manager and choose **Cluster** > *Name of the desired cluster* > *
 
 On the **Dashboard** tab page, you can start, stop, perform a rolling restart of, synchronize configurations to, and perform other basic operations on the current cluster.
 
+.. note::
+
+   For MRS 3.3.0 or later, the \ **Cluster**\  > \ **Dashboard**\  page has been removed from Manager. You can choose \ **More**\  in the upper right corner of the \ **Homepage**\  to access cluster maintenance and management functions.
+
 .. _admin_guide_000011__table17943743105914:
 
 .. table:: **Table 1** Maintenance and management operations

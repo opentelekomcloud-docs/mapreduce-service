@@ -29,7 +29,7 @@ Procedure
 
    #. Click **Create Global User Policy**. In the displayed dialog box, set the following parameters:
 
-      -  **Cluster**: Select the target cluster.
+      -  **Cluster**: Select the target cluster. (This parameter is unavailable for clusters of MRS 3.3.0 or later.)
       -  **Username**: indicates the user for whom resource scheduling is controlled. Enter an existing username in the current cluster.
       -  **Max Running Apps**: indicates the maximum number of tasks that the user can run in the current cluster.
       -  **Max Pending Apps**: indicates the maximum number of tasks that the user can suspend in the current cluster.

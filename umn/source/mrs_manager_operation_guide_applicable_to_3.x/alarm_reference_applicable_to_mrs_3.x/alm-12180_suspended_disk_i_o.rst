@@ -8,6 +8,24 @@ ALM-12180 Suspended Disk I/O
 Description
 -----------
 
+**For MRS 3.3.0 and its later versions:**
+
+-  For HDDs, the alarm is triggered when any of the following conditions is met:
+
+   -  By default, the system collects data every 3 seconds. The svctm latency reaches 6 seconds within 30 seconds in at least seven collection periods.
+   -  By default, the system collects data every 3 seconds. The disk queue depth (**avgqu-sz**) is greater than 0, the IOPS or bandwidth is 0, and **ioutil** is greater than 99% in at least 10 collection periods within 30 seconds.
+   -  By default, the system collects data every 3 seconds. At least 50% of detected svctm take no less than 1000 ms within 300 seconds.
+
+-  For SSDs, the alarm is triggered when any of the following conditions is met:
+
+   -  By default, the system collects data every 3 seconds. The svctm latency reaches 3 seconds within 30 seconds in at least seven collection periods.
+   -  By default, the system collects data every 3 seconds. The disk queue depth (**avgqu-sz**) is greater than 0, the IOPS or bandwidth is 0, and **ioutil** is greater than 99% in at least 10 collection periods within 30 seconds.
+   -  By default, the system collects data every 3 seconds. At least 50% of detected svctm take no less than 500 ms within 300 seconds.
+
+The collection period is 3 seconds, and the detection period is 30 or 300 seconds. This alarm is automatically cleared when neither of the preceding conditions is met for three consecutive detection periods (30 or 300 seconds).
+
+**For versions earlier than MRS 3.3.0:**
+
 -  For HDDs, the alarm is triggered when any of the following conditions is met:
 
    -  The system collects data every 3 seconds, and detects that the **svctm** value exceeds 6s for 10 consecutive periods within 30 seconds.
@@ -48,23 +66,29 @@ This alarm is automatically cleared when the preceding conditions have not been 
 
       svctm = (tot_ticks_new - tot_ticks_old)/(rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old)
 
-      If **rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old** is **0**, then **svctm** is **0**.
+   -  Versions earlier than MRS 3.3.0: If **rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old = 0**, then **svctm = 0**.
 
-      The parameters can be obtained as follows:
+   -  MRS 3.3.0 and its later versions:
 
-      The system runs the **cat /proc/diskstats** command every 3 seconds to collect data. For example:
+      When the detection period is 30 seconds, if **rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old = 0**, then **svctm = 0**.
 
-      |image3|
+      When the detection period is 300 seconds and **rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old = 0**, if **tot_ticks_new - tot_ticks_old = 0**, then **svctm = 0**; otherwise, the value of **svctm** is infinite.
 
-      In these two commands:
+   The parameters can be obtained as follows:
 
-      In the data collected for the first time, the number in the fourth column is the **rd_ios_old** value, the number in the eighth column is the **wr_ios_old** value, and the number in the thirteenth column is the **tot_ticks_old** value.
+   The system runs the **cat /proc/diskstats** command every 3 seconds to collect data. For example:
 
-      In the data collected for the second time, the number in the fourth column is the **rd_ios_new** value, the number in the eighth column is the **wr_ios_new** value, and the number in the thirteenth column is the **tot_ticks_new** value.
+   |image3|
 
-      In this case, the value of **svctm** is as follows:
+   In these two commands:
 
-      (19571460 - 19569526)/(1101553 + 28747977 - 1101553 - 28744856) = 0.6197
+   In the data collected for the first time, the number in the fourth column is the **rd_ios_old** value, the number in the eighth column is the **wr_ios_old** value, and the number in the thirteenth column is the **tot_ticks_old** value.
+
+   In the data collected for the second time, the number in the fourth column is the **rd_ios_new** value, the number in the eighth column is the **wr_ios_new** value, and the number in the thirteenth column is the **tot_ticks_new** value.
+
+   In this case, the value of **svctm** is as follows:
+
+   (19571460 - 19569526)/(1101553 + 28747977 - 1101553 - 28744856) = 0.6197
 
 Attribute
 ---------

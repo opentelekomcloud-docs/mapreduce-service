@@ -23,7 +23,7 @@ Procedure
 
 #. Set resource pool attributes.
 
-   -  **Cluster**: Select the cluster to which the resource pool is to be added.
+   -  **Cluster**: Select the cluster to which the resource pool is to be added. (This parameter is unavailable for clusters of MRS 3.3.0 or later.)
    -  **Name**: Enter the name of the resource pool. The name contains 1 to 50 characters, including digits, letters, and underscores (_), and cannot start with an underscore (_).
    -  **Resource Label**: Enter the resource label of the resource pool. The value can contain 1 to 50 characters, including digits, letters, underscores (_), and hyphens (-), and must start with a digit or letter.
    -  **Resource**: In the **Available Hosts** area, select specified hosts and click |image1| to add the hosts to the **Selected Hosts** area. Only hosts in the cluster can be selected. The host list in the resource pool can be left blank.
