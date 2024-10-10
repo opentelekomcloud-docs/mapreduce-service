@@ -235,7 +235,29 @@ Response
    +-----------------------+-----------------------+--------------------------------------------------------------------------+
    | Parameter             | Type                  | Description                                                              |
    +=======================+=======================+==========================================================================+
-   | componentId           | String                | Component ID                                                             |
+   | componentId           | String                | Component ID:                                                            |
+   |                       |                       |                                                                          |
+   |                       |                       | -  Component IDs of MRS 3.3.0-LTS.1 are as follows:                      |
+   |                       |                       |                                                                          |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_001: Hadoop                                        |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_002: HBase                                         |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_003: Hive                                          |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_004: Spark                                         |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_006: Flink                                         |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_008: Kafka                                         |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_009: Flume                                         |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_013: Loader                                        |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_014: Hue                                           |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_015: Ooize                                         |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_018: DBService                                     |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_019: ZooKeeper                                     |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_022: Ranger                                        |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_023: HetuEngine                                    |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_024: Tez                                           |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_025: ClickHouse                                    |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_033: JobGateway                                    |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_034: Guardian                                      |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_035: Doris                                         |
    |                       |                       |                                                                          |
    |                       |                       | -  Component IDs of MRS 3.2.0-LTS.2 are as follows:                      |
    |                       |                       |                                                                          |

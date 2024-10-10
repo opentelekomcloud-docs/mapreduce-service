@@ -55,8 +55,10 @@ Roles and components supported by MRS
    HSBroker         HetuEngine
    HSConsole        HetuEngine
    QAS              HetuEngine
-   CDLConnector     CDL
-   CDLService       CDL
-   IoTDBServer      IoTDB
-   ConfigNode       IoTDB
+   FE               Doris
+   BE               Doris
+   DBroker          Doris
+   TokenServer      Guardian
+   JobServer        JobGateway
+   JobBalancer      JobGateway
    ================ ==========

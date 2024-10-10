@@ -138,7 +138,7 @@ Decompress the downloaded package and reference the obtained JAR files as depend
 
       To obtain the project ID in the URLs, see :ref:`Obtaining a Project ID <mrs_02_0011>`.
 
-      To obtain the endpoint, see `Regions and Endpoints <https://docs.otc.t-systems.com/en-us/endpoint/index.html>`__.
+      To obtain the endpoint, see `Regions and Endpoints <https://docs.otc.t-systems.com/regions-and-endpoints/index.html>`__.
 
       .. code-block::
 
