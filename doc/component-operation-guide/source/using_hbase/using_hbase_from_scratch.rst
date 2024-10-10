@@ -48,9 +48,7 @@ Procedure
 
 For versions earlier than MRS 3.x, perform the following operations:
 
-#. .. _mrs_01_0368__en-us_topic_0229422393_en-us_topic_0173178212_l6b58a848ef0f4fe6a361d4ef0ac39fb8:
-
-   Download the client configuration file.
+#. Download the client configuration file.
 
    a. Log in to MRS Manager. For details, see :ref:`Accessing Manager <mrs_01_2123>`. Then, choose **Services**.
 
@@ -96,9 +94,7 @@ For versions earlier than MRS 3.x, perform the following operations:
 
    **cd /opt/client**
 
-#. .. _mrs_01_0368__en-us_topic_0229422393_en-us_topic_0173178212_lc39cdd52f6ac479ab273ecabbffd083b:
-
-   Run the following command to update the client configuration for the active management node.
+#. Run the following command to update the client configuration for the active management node.
 
    **sh refreshConfig.sh /opt/client** *Full path of the client configuration file package*
 
@@ -112,10 +108,6 @@ For versions earlier than MRS 3.x, perform the following operations:
 
       ReFresh components client config is complete.
       Succeed to refresh components client config.
-
-   .. note::
-
-      You can refer to steps :ref:`1 <mrs_01_0368__en-us_topic_0229422393_en-us_topic_0173178212_l6b58a848ef0f4fe6a361d4ef0ac39fb8>` to :ref:`4 <mrs_01_0368__en-us_topic_0229422393_en-us_topic_0173178212_lc39cdd52f6ac479ab273ecabbffd083b>` or Method 2 in `Updating a Client <https://docs.otc.t-systems.com/en-us/usermanual/mrs/mrs_01_0089.html>`__.
 
 #. Use the client on a Master node.
 

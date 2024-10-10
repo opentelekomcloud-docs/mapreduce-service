@@ -28,4 +28,4 @@ To solve the query problem, update metadata before starting a Spark SQL query.
 
 When the query statement is executed, the latest inserted data can be obtained.
 
-For details, visit https://spark.apache.org/docs/3.1.1/sql-programming-guide.html#metadata-refreshing.
+For details, visit https://archive.apache.org/dist/spark/docs/3.1.1/sql-programming-guide.html#metadata-refreshing.

@@ -16,7 +16,7 @@ Prerequisites
 -  The active and standby clusters have been successfully installed and started (the cluster status is **Running** on the **Active Clusters** page), and you have the administrator rights of the clusters.
 
 -  The network between the active and standby clusters is normal and ports can be used properly.
--  Cross-cluster mutual trust has been configured. For details, see `Configuring Cross-Cluster Mutual Trust Relationships <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0354.html>`__.
+-  Cross-cluster mutual trust has been configured.
 -  If historical data exists in the active cluster and needs to be synchronized to the standby cluster, cross-cluster replication must be configured for the active and standby clusters. For details, see :ref:`Enabling Cross-Cluster Copy <mrs_01_0502>`.
 -  Time is consistent between the active and standby clusters and the Network Time Protocol (NTP) service on the active and standby clusters uses the same time source.
 -  Mapping relationships between the names of all hosts in the active and standby clusters and service IP addresses have been configured in the **/etc/hosts** file by appending **192.***.***.**\* host1** to the **hosts** file.
@@ -40,7 +40,7 @@ Procedure
 
    Log in to the service page.
 
-   For versions earlier than MRS 1.9.2: Log in to `MRS Manager <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0102.html>`__, and choose **Services**.
+   For versions earlier than MRS 1.9.2: Log in to MRS Manager, and choose **Services**.
 
    For MRS 1.9.2 or later: Click the cluster name on the MRS console and choose **Components**.
 
@@ -110,7 +110,7 @@ Procedure
 
       -  In versions earlier than MRS 3.x, you do not need to set this parameter. Skip :ref:`8 <mrs_01_0501__li3244131341713>`.
       -  When bulkload replication is enabled, you need to manually place the HBase client configuration files (**core-site.xml**, **hdfs-site.xml**, and **hbase-site.xml**) in the active cluster on all RegionServer nodes in the standby cluster. The actual path for placing the configuration file is **${hbase.replication.conf.dir}/${hbase.replication.cluster.id}**. For example, if **hbase.replication.conf.dir** of the standby cluster is set to **/home** and **hbase.replication.cluster.id** of the active cluster is set to **replication1**, the actual path for placing the configuration files in the standby cluster is **/home/replication1**. You also need to change the corresponding directory and file permissions by running the **chown -R omm:wheel /home/replication1** command.
-      -  You can obtain the client configuration files from the client in the active cluster, for example, the **/opt/client/HBase/hbase/conf** path. For details about how to update the configuration file, see `Updating a Client <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0089.html>`__.
+      -  You can obtain the client configuration files from the client in the active cluster, for example, the **/opt/client/HBase/hbase/conf** path.
 
 9. On the HBase configuration page of the active cluster, search for and change the value of **hbase.replication.bulkload.enabled** to **true** to enable bulkload replication.
 
@@ -122,7 +122,7 @@ Procedure
 
 11. .. _mrs_01_0501__li11385192216347:
 
-    In the active and standby clusters of MRS 1.9.2 or earlier, choose **Cluster** > **Dashboard** > **More** > **Download Client** of MRS 1.9.2 or later, choose **Cluster** > **Dashboard** > **More** > **Download Client**. For details about how to update the client configuration file, see `Updating a Client <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0089.html>`__.
+    In the active and standby clusters of MRS 1.9.2 or earlier, choose **Cluster** > **Dashboard** > **More** > **Download Client** of MRS 1.9.2 or later, choose **Cluster** > **Dashboard** > **More** > **Download Client**.
 
 **Synchronize table data of the active cluster. (Skip this step if the active cluster has no data.)**
 
@@ -188,10 +188,6 @@ Procedure
        **ActiveNameNodeIP** indicates the IP address of the active NameNode in the standby cluster.
 
        Example: **hadoop distcp /user/hbase/t1 hdfs://192.168.40.2:9820/user/hbase/t1**
-
-       .. note::
-
-          In MRS 1.6.2 and earlier versions, the default port number is 25000. For details, see `List of Open Source Component Ports <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0504.html>`__.
 
     c. Import data to the standby cluster as the HBase table user of the standby cluster.
 

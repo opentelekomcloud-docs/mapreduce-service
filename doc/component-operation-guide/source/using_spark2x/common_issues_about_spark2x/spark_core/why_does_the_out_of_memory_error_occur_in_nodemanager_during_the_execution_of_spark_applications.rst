@@ -58,8 +58,8 @@ To configure the **GC_OPTS** parameter, log in to FusionInsight Manager, choose 
 
 .. table:: **Table 1** Parameter description
 
-   ========= ==================================== =============
-   Parameter Description                          Default Value
-   ========= ==================================== =============
-   GC_OPTS   The GC parameter of YARN NodeManger. 128M
-   ========= ==================================== =============
+   ========= ===================================== =============
+   Parameter Description                           Default Value
+   ========= ===================================== =============
+   GC_OPTS   The GC parameter of YARN NodeManager. 128M
+   ========= ===================================== =============

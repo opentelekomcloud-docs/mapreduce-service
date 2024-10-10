@@ -8,6 +8,10 @@ Change History
 +-----------------------------------+-------------------------------------------------------------------------------------------------+
 | Released On                       | What's New                                                                                      |
 +===================================+=================================================================================================+
+| 2023-08-02                        | -  Removed section "GeoMesa Command Line" from HBase.                                           |
+|                                   | -  Removed section "Hive Materialized View" from Hive.                                          |
+|                                   | -  Fixed link errors in some sections.                                                          |
++-----------------------------------+-------------------------------------------------------------------------------------------------+
 | 2022-11\ ``-``\ 01                | Modified the following content:                                                                 |
 |                                   |                                                                                                 |
 |                                   | Updated the screenshots in the operation guides for ClickHouse, Ranger, Spark2x, Tez, and Yarn. |
