@@ -53,7 +53,7 @@ After the permissions are assigned, you can use HQL statements that are similar 
 
 #. On MRS Manager, create a human-machine user, for example, **hbase_creates_user**, add the user to the **hive** group, and bind the **hive_hbase_create** role to the user so that the user can create Hive and HBase tables.
 
-#. Log in to the node where the client is installed. For details, see `Installing a Client <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0091.html>`__.
+#. Log in to the node where the client is installed.
 
 #. Run the following command to configure environment variables:
 

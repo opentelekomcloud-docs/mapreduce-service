@@ -41,9 +41,7 @@ Suppose a user develops an application to manage users who use service A in an e
 Procedure
 ---------
 
-#. .. _mrs_01_0442__l6b58a848ef0f4fe6a361d4ef0ac39fb8:
-
-   Download the client configuration file.
+#. Download the client configuration file.
 
    -  For versions earlier than MRS 3.x, perform the following operations:
 
@@ -71,7 +69,7 @@ Procedure
 
          The active and standby management nodes of MRS Manager are installed on Master nodes by default. Because Master1 and Master2 are switched over in active and standby mode, Master1 is not always the active management node of MRS Manager. Run a command in Master1 to check whether Master1 is active management node of MRS Manager. For details about the command, see :ref:`2.d <mrs_01_0442__le8e7045cece741e8b6209b929a50ff22>`.
 
-      b. Log in to the Master1 node using the password as user **root**. For details, see `Logging In to a Cluster <https://docs.otc.t-systems.com/en-us/usermanual/mrs/mrs_01_0083.html>`__.
+      b. Log in to the Master1 node using the password as user **root**.
 
       c. Run the following commands to switch to user **omm**:
 
@@ -125,9 +123,7 @@ Procedure
 
    The cluster client has been installed in advance. The following client installation directory is used as an example. Change it based on the site requirements.
 
-#. .. _mrs_01_0442__li15639738131312:
-
-   Run the following command to update the client configuration for the active management node.
+#. Run the following command to update the client configuration for the active management node.
 
    **sh refreshConfig.sh /opt/client** *Full path of the client configuration file package*
 
@@ -141,10 +137,6 @@ Procedure
 
        ReFresh components client config is complete.
        Succeed to refresh components client config.
-
-   .. note::
-
-      You can refer to Method 2 in `Updating a Client <https://docs.otc.t-systems.com/en-us/usermanual/mrs/mrs_01_0089.html>`__ to perform operations in steps :ref:`1 <mrs_01_0442__l6b58a848ef0f4fe6a361d4ef0ac39fb8>` to :ref:`4 <mrs_01_0442__li15639738131312>`.
 
 #. Use the client on a Master node.
 
@@ -162,7 +154,7 @@ Procedure
 
       Example: user **kinit hiveuser**
 
-      The current user must have the permission to create Hive tables. To create a role with the permission, refer to `Creating a Role <https://docs.otc.t-systems.com/en-us/usermanual/mrs/mrs_01_0343.html>`__. To bind the role to the current user, refer to `Creating a User <https://docs.otc.t-systems.com/en-us/usermanual/mrs/mrs_01_0345.html>`__.If Kerberos authentication is disabled, skip this step.
+      The current user must have the permission to create Hive tables.If Kerberos authentication is disabled, skip this step.
 
    d. Run the client command of the Hive component directly.
 

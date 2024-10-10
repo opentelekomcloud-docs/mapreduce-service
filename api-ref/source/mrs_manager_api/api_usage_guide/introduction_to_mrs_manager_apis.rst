@@ -155,4 +155,4 @@ You can initiate a request based on the constructed request message using any of
 
 -  REST client
 
-   Both Mozilla Firefox and Google Chrome provide a graphical browser plug-in, that is, REST client, to send and process requests. For Mozilla Firefox, see `Firefox REST Client <https://addons.mozilla.org/en-US/firefox/addon/restclient/>`__. For Google Chrome, see `Chrome REST Client <https://code.google.com/archive/p/rest-client>`__.
+   Both Mozilla Firefox and Google Chrome provide a graphical browser plug-in, that is, REST client, to send and process requests. For Mozilla Firefox, see `Firefox REST Client <https://addons.mozilla.org/en-US/firefox/addon/rest-client-apishub/>`__. For Google Chrome, see `Chrome REST Client <https://code.google.com/archive/p/rest-client>`__.

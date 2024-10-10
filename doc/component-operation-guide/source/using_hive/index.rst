@@ -32,7 +32,6 @@ Using Hive
 -  :ref:`HiveServer Lease Isolation <mrs_01_0974>`
 -  :ref:`Hive Supporting Transactions <mrs_01_0975>`
 -  :ref:`Switching the Hive Execution Engine to Tez <mrs_01_1750>`
--  :ref:`Hive Materialized View <mrs_01_2311>`
 -  :ref:`Hive Log Overview <mrs_01_0976>`
 -  :ref:`Hive Performance Tuning <mrs_01_0977>`
 -  :ref:`Common Issues About Hive <mrs_01_1752>`
@@ -68,7 +67,6 @@ Using Hive
    hiveserver_lease_isolation
    hive_supporting_transactions
    switching_the_hive_execution_engine_to_tez
-   hive_materialized_view
    hive_log_overview
    hive_performance_tuning/index
    common_issues_about_hive/index

@@ -50,7 +50,7 @@ Answer
 
 -  Syntax:
 
-   **LOAD DATA INPATH** *'path to data' INTO TABLE table_name OPTIONS ``('...');``*
+   **LOAD DATA INPATH** *'path to data' INTO TABLE table_name OPTIONS\ ``('...');``*
 
    .. note::
 
@@ -60,7 +60,7 @@ Answer
 
    -  Sample viewFS path:
 
-      **LOAD DATA INPATH** *'viewfs://ClusterX/dir/data.csv' INTO TABLE table_name OPTIONS ``('...');``*
+      **LOAD DATA INPATH** *'viewfs://ClusterX/dir/data.csv' INTO TABLE table_name OPTIONS\ ``('...');``*
 
    -  Sample relative path:
 

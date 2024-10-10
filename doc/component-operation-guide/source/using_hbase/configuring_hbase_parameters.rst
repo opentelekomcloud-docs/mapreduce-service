@@ -13,7 +13,7 @@ If the default parameter settings of the MRS service cannot meet your requiremen
 
 #. Log in to the service page.
 
-   For versions earlier than MRS 1.9.2: Log in to `MRS Manager <https://docs.otc.t-systems.com/usermanual/mrs/mrs_01_0102.html>`__, and choose **Services**.
+   For versions earlier than MRS 1.9.2: Log in to MRS Manager, and choose **Services**.
 
    For MRS 1.9.2 or later: Click the cluster name on the MRS console and choose **Components**.
 
