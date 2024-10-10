@@ -55,7 +55,7 @@ Procedure
    The password must meet the following complexity requirements by default:
 
    -  The password contains at least 8 characters.
-   -  The password contains at least four types of the following characters: Uppercase letters, lowercase letters, digits, spaces, and special characters which can only be :literal:`~`!?,.;-_'(){}[]/<>@#$%^&*+|\\=.`
+   -  The password contains at least four types of the following characters: Uppercase letters, lowercase letters, digits, spaces, and special characters which can only be\ :literal:`~`!?,.;-_'(){}[]/<>@#$%^&*+|\\=.`
    -  The password cannot be the same as the username or the username spelled backwards.
    -  The password cannot be a common easily-cracked passwords, for example, **Admin@12345**.
    -  The password cannot be the same as the password used in latest *N* times. *N* indicates the value of **Number of Historical Passwords** configured in :ref:`Configuring Password Policies <admin_guide_000150>`. This policy applies to only human-machine accounts.

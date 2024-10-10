@@ -20,7 +20,6 @@ MRS Multi-User Permission Management
 -  :ref:`Modifying a Password Policy <mrs_01_0353>`
 -  :ref:`Configuring Cross-Cluster Mutual Trust Relationships <mrs_01_0354>`
 -  :ref:`Configuring Users to Access Resources of a Trusted Cluster <mrs_01_0355>`
--  :ref:`Configuring Fine-Grained Permissions for MRS Multi-User Access to OBS <mrs_01_0632>`
 
 .. toctree::
    :maxdepth: 1
@@ -41,4 +40,3 @@ MRS Multi-User Permission Management
    modifying_a_password_policy
    configuring_cross-cluster_mutual_trust_relationships
    configuring_users_to_access_resources_of_a_trusted_cluster
-   configuring_fine-grained_permissions_for_mrs_multi-user_access_to_obs

@@ -9,7 +9,7 @@ Configuring a Cluster
 -  :ref:`Quick Creation of a Cluster <mrs_01_24297>`
 -  :ref:`Creating a Custom Cluster <mrs_01_0513>`
 -  :ref:`Creating a Custom Topology Cluster <mrs_01_0121>`
--  :ref:`Adding a Tag to a Cluster <mrs_01_0048>`
+-  :ref:`Adding a Tag to a Cluster/Node <mrs_01_0048>`
 -  :ref:`Communication Security Authorization <mrs_01_0786>`
 -  :ref:`Configuring an Auto Scaling Rule <mrs_01_0061>`
 -  :ref:`Managing Data Connections <mrs_01_24050>`
@@ -25,7 +25,7 @@ Configuring a Cluster
    quick_creation_of_a_cluster/index
    creating_a_custom_cluster
    creating_a_custom_topology_cluster
-   adding_a_tag_to_a_cluster
+   adding_a_tag_to_a_cluster_node
    communication_security_authorization
    configuring_an_auto_scaling_rule
    managing_data_connections/index

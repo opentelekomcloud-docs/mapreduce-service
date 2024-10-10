@@ -54,6 +54,10 @@ Alarm Analysis
 
 On the **Alarm Analysis** tab page, you can view the **Top 20 Alarms** table and **Analysis on Top 3 Alarms** chart. You can click an alarm name in the **Top 20 Alarms** table to view analysis information of this alarm only. Alarm analysis allows you to view top alarms and their occurrence time so you can handle alarms accordingly, improving system stability.
 
+.. note::
+
+   For MRS 3.3.0 and later versions, the alarm information page is different from that of other versions.
+
 .. |image1| image:: /_static/images/en-us_image_0000001392734034.png
 .. |image2| image:: /_static/images/en-us_image_0000001442494125.png
 .. |image3| image:: /_static/images/en-us_image_0000001392254958.png

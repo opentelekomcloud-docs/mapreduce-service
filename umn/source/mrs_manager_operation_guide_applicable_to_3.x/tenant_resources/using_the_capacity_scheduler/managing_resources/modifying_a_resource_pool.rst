@@ -15,7 +15,7 @@ Procedure
 
 #. Log in to MRS Manager.
 #. Choose **Tenant Resources** > **Resource Pool**.
-#. Locate the row that contains the specified resource pool, and click **Edit** in the **Operation** column.
+#. Locate the row that contains the specified resource pool, and click **Edit** in the **Operation** column (for MRS 3.3.0 or later, click **Modify**).
 #. In the **Resource** area, modify hosts.
 
    -  Adding hosts: Select desired hosts in **Available Hosts** and click |image1| to add them to the resource pool.

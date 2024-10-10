@@ -41,7 +41,7 @@ You can perform the following steps to import files and directories:
 
    -  The folder name contains a maximum of 255 characters, and the full path cannot exceed 1,023 characters.
    -  The folder name cannot be empty.
-   -  The folder name cannot contain the following special characters: :literal:`/:*?"<>|\\;&,'`!{}[]$%+`
+   -  The folder name cannot contain the following special characters::literal:`/:*?"<>|\\;&,'`!{}[]$%+`
    -  The value cannot start or end with a period (.).
    -  The spaces at the beginning and end are ignored.
 
@@ -52,14 +52,14 @@ You can perform the following steps to import files and directories:
       -  The path must start with **obs://**. MRS 1.7.2 or earlier: The value must start with **s3a://**.
       -  Files or programs encrypted by KMS cannot be imported.
       -  An empty folder cannot be imported.
-      -  The directory and file name can contain letters, digits, hyphens (-), and underscores (_), but cannot contain the following special characters: ``;|&>,<'$*?\``
+      -  The directory and file name can contain letters, digits, hyphens (-), and underscores (_), but cannot contain the following special characters:``;|&>,<'$*?\``
       -  The directory and file name cannot start or end with a space, but can contain spaces between them.
       -  The OBS full path contains a maximum of 1,023 characters.
 
    -  HDFS path
 
       -  The path starts with **/user** by default.
-      -  The directory and file name can contain letters, digits, hyphens (-), and underscores (_), but cannot contain the following special characters: ``;|&>,<'$*?\``
+      -  The directory and file name can contain letters, digits, hyphens (-), and underscores (_), but cannot contain the following special characters:``;|&>,<'$*?\``
       -  The directory and file name cannot start or end with a space, but can contain spaces between them.
       -  The HDFS full path contains a maximum of 1,023 characters.
       -  The HDFS parent directory in **HDFS File List** is displayed in the **HDFS Path** text box by default.
@@ -92,14 +92,14 @@ You can perform the following steps to export files and directories:
    -  OBS path
 
       -  The path must start with **obs://**. MRS 1.7.2 or earlier: The value must start with **s3a://**.
-      -  The directory and file name can contain letters, digits, hyphens (-), and underscores (_), but cannot contain the following special characters: ``;|&>,<'$*?\``
+      -  The directory and file name can contain letters, digits, hyphens (-), and underscores (_), but cannot contain the following special characters:``;|&>,<'$*?\``
       -  The directory and file name cannot start or end with a space, but can contain spaces between them.
       -  The OBS full path contains a maximum of 1,023 characters.
 
    -  HDFS path
 
       -  The path starts with **/user** by default.
-      -  The directory and file name can contain letters, digits, hyphens (-), and underscores (_), but cannot contain the following special characters: ``;|&>,<'$*?\``
+      -  The directory and file name can contain letters, digits, hyphens (-), and underscores (_), but cannot contain the following special characters:``;|&>,<'$*?\``
       -  The directory and file name cannot start or end with a space, but can contain spaces between them.
       -  The HDFS full path contains a maximum of 1,023 characters.
       -  The HDFS parent directory in **HDFS File List** is displayed in the **HDFS Path** text box by default.

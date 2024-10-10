@@ -37,7 +37,7 @@ Changing the Password of User admin on the Cluster Node
    For the MRS 1.6.3 or later cluster, the default password complexity requirements are as follows:
 
    -  The password must contain at least eight characters.
-   -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters (``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``).
+   -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters ``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``.
    -  The password cannot be the username or the reverse username.
 
 Changing the Password of User admin on MRS Manager
@@ -54,7 +54,7 @@ You can change the password of user **admin** on MRS Manager only for clusters w
       The default password complexity requirements are as follows:
 
       -  The password must contain 8 to 32 characters.
-      -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters (``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``).
+      -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters ``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``.
       -  The password cannot be the username or the reverse username.
 
 #. Click **OK**. Log in to MRS Manager with the new password.
@@ -93,5 +93,5 @@ Resetting the Password for User **admin**
    For the cluster, the default password complexity requirements are as follows:
 
    -  The password must contain 8 to 32 characters.
-   -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters (``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``).
+   -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters ``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``.
    -  The password cannot be the username or the reverse username.

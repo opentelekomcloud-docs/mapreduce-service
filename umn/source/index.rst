@@ -22,5 +22,4 @@ MapReduce Service - User Guide
    data_backup_and_restoration/index
    appendix/index
    faq/index
-   glossary
    change_history

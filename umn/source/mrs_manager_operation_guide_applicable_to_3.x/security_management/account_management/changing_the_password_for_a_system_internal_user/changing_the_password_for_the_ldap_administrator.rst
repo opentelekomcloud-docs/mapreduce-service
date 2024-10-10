@@ -5,6 +5,10 @@
 Changing the Password for the LDAP Administrator
 ================================================
 
+.. note::
+
+   This section applies only to MRS 3.1.0. For later versions, see :ref:`Modifying OMS Service Configuration Parameters <admin_guide_000162>`.
+
 Scenario
 --------
 
@@ -55,7 +59,7 @@ Procedure
    The password complexity requirements are as follows:
 
    -  The password contains 16 to 32 characters.
-   -  The password contains at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters which can only be :literal:`\`~!@#$%^&*()-_=+|[{}];,<.>/?.`
+   -  The password contains at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters which can only be\ :literal:`\`~!@#$%^&*()-_=+|[{}];,<.>/?.`
    -  The password cannot be the same as the current password.
 
    If the following information is displayed, the password is changed successfully.

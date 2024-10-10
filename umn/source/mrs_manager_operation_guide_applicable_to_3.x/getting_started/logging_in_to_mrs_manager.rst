@@ -22,7 +22,7 @@ Procedure
    The password must:
 
    -  Contain 8 to 64 characters.
-   -  Contain at least four types of the following characters: uppercase letters, lowercase letters, digits, spaces, and special characters (:literal:`\`~!@#$%^&*()-_=+|[{}];',<.>/\\?`).
+   -  Contain at least four types of the following characters: uppercase letters, lowercase letters, digits, spaces, and special characters :literal:`\`~!@#$%^&*()-_=+|[{}];',<.>/\\?`.
    -  Be different from the username or the username spelled backwards.
    -  Be different from the current password.
 

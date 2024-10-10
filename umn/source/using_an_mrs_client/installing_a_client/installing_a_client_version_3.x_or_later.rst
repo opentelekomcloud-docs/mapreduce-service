@@ -125,7 +125,7 @@ Installing a Client on a Node Inside a Cluster
       -  If the clients of all or some services use the **/opt/client** directory, other directories must be used when you install other service clients.
       -  You must delete the client installation directory when uninstalling a client.
       -  To ensure that an installed client can only be used by the installation user (for example, **user_client**), add parameter **-o** during the installation. That is, run the **./install.sh /opt/client -o** command to install the client.
-      -  If an HBase client is installed, it is recommended that the client installation directory contain only uppercase and lowercase letters, digits, and characters ``(_-?.@+=)`` due to the limitation of the Ruby syntax used by HBase.
+      -  If an HBase client is installed, it is recommended that the client installation directory contain only uppercase and lowercase letters, digits, and characters\ ``(_-?.@+=)`` due to the limitation of the Ruby syntax used by HBase.
 
 Using a Client
 --------------

@@ -16,9 +16,18 @@ Some instances do not support the recommissioning and decommissioning functions.
 
    The following roles support decommissioning and recommissioning: HDFS DataNode, YARN NodeManager, and HBase RegionServer.
 
-   -  If the number of the DataNodes is less than or equal to that of HDFS replicas, decommissioning cannot be performed. If the number of HDFS replicas is three and the number of DataNodes is less than four in the system, decommissioning cannot be performed. In this case, an error will be reported and force MRS Manager to exit the decommissioning 30 minutes after MRS Manager attempts to perform the decommissioning.
+   -  By default, if the number of the DataNodes is less than or equal to that of HDFS replicas, decommissioning cannot be performed. If the number of HDFS replicas is three and the number of DataNodes is less than four in the system, decommissioning cannot be performed. In this case, an error will be reported and force MRS Manager to exit the decommissioning 30 minutes after MRS Manager attempts to perform the decommissioning.
+
+   -  You can enable quick decommissioning before decommissioning DataNodes for clusters of MRS 3.3.0 or later. In this case, when the number of DataNodes meets the value of **dfs.namenode.decommission.force.replication.min**, the system decommissions the nodes and adds HDFS copies at the same time. **If data is written during quick decommissioning, data may be lost. Exercise caution when performing this operation.** The parameters related to quick decommissioning are listed as follows. You can search for and view the parameters on the HDFS configuration page on FusionInsight Manager.
+
+      **dfs.namenode.decommission.force.enabled**: whether to enable quick decommissioning for DataNode. If this parameter is set to **true**, the function is enabled.
+
+      **dfs.namenode.decommission.force.replication.min**: minimum number of available copies of a block required for DataNode quick decommissioning. The value ranges from 1 to 3.
+
    -  During MapReduce task execution, files with 10 replicas are generated. Therefore, if the number of DataNode instances is less than 10, decommissioning cannot be performed.
+
    -  If the number of DataNode racks (the number of racks is determined by the number of racks configured for each DataNode) is greater than 1 before the decommissioning, and after some DataNodes are decommissioned, that of the remaining DataNodes changes to 1, the decommissioning will fail. Therefore, before decommissioning DataNode instances, you need to evaluate the impact of decommissioning on the number of racks to adjust the DataNodes to be decommissioned.
+
    -  If multiple DataNodes are decommissioned at the same time, and each of them stores a large volume of data, the DataNodes may fail to be decommissioned due to timeout. To avoid this problem, it is recommended that one DataNode be decommissioned each time and multiple decommissioning operations be performed.
 
 Procedure

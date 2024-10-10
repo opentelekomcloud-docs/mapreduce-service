@@ -8,6 +8,22 @@ ALM-12033 Slow Disk Fault
 Description
 -----------
 
+**For MRS 3.3.0 and its later versions:**
+
+-  For HDDs, the alarm is triggered when any of the following conditions is met:
+
+   -  By default, the system collects data every 3 seconds. The svctm latency reaches 1000 ms within 30 seconds in at least seven collection periods.
+   -  By default, the system collects data every 3 seconds. At least 50% of detected svctm take no less than 150 ms within 300 seconds.
+
+-  For SSDs, the alarm is triggered when any of the following conditions is met:
+
+   -  By default, the system collects data every 3 seconds. The svctm latency reaches 1000 ms within 30 seconds in at least seven collection periods.
+   -  By default, the system collects data every 3 seconds. At least 50% of detected svctm take no less than 20 ms within 300 seconds.
+
+The collection period is 3 seconds, and the detection period is 30 or 300 seconds. This alarm is automatically cleared when neither of the preceding conditions is met for three consecutive detection periods (30 or 300 seconds).
+
+**For versions earlier than MRS 3.3.0:**
+
 -  For HDDs, the alarm is triggered when any of the following conditions is met:
 
    -  The system runs the **iostat** command every 3 seconds, and detects that the **svctm** value exceeds 1000 ms for 7 consecutive periods within 30 seconds.
@@ -32,7 +48,15 @@ This alarm is automatically cleared when the preceding conditions have not been 
 
    -  Versions later than MRS 3.1.0:
 
-   svctm = (tot_ticks_new - tot_ticks_old)/(rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old)
+      svctm = (tot_ticks_new - tot_ticks_old)/(rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old)
+
+   -  Versions earlier than MRS 3.3.0: If **rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old = 0**, then **svctm = 0**.
+
+   -  MRS 3.3.0 and its later versions:
+
+      When the detection period is 30 seconds, if **rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old = 0**, then **svctm = 0**.
+
+      When the detection period is 300 seconds and **rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old = 0**, if **tot_ticks_new - tot_ticks_old = 0**, then **svctm = 0**; otherwise, the value of **svctm** is infinite.
 
    If **rd_ios_new + wr_ios_new - rd_ios_old - wr_ios_old** is **0**, then **svctm** is **0**.
 
@@ -55,11 +79,12 @@ This alarm is automatically cleared when the preceding conditions have not been 
 Attribute
 ---------
 
-======== ============== ==========
-Alarm ID Alarm Severity Auto Clear
-======== ============== ==========
-12033    Minor          Yes
-======== ============== ==========
++-----------------------+--------------------------------------------+-----------------------+
+| Alarm ID              | Alarm Severity                             | Auto Clear            |
++=======================+============================================+=======================+
+| 12033                 | -  Minor: MRS 3.3.0 and its later versions | Yes                   |
+|                       | -  Major: versions earlier than MRS 3.3.0  |                       |
++-----------------------+--------------------------------------------+-----------------------+
 
 Parameters
 ----------

@@ -34,7 +34,7 @@ Changing the Password on MRS Manager
    By default, the password must meet the following complexity requirements:
 
    -  The password contains at least 8 characters.
-   -  The password must contain at least four types of the following characters: uppercase letters, lowercase letters, digits, spaces, and special characters (:literal:`\`~!@#$%^&*()-_=+|[{}];',<.>/\\?`).
+   -  The password must contain at least four types of the following characters: uppercase letters, lowercase letters, digits, spaces, and special characters :literal:`\`~!@#$%^&*()-_=+|[{}];',<.>/\\?`.
    -  The password cannot be the same as the username or the username spelled backwards.
    -  The password cannot be a common easily-cracked password.
    -  The password cannot be the same as the password used in the latest *N* times. *N* indicates the value of **Repetition Rule** configured in :ref:`Configuring Password Policies <admin_guide_000150>`.
@@ -61,7 +61,7 @@ Changing the Password on the Client
    By default, the password must meet the following complexity requirements:
 
    -  The password contains at least 8 characters.
-   -  The password must contain at least four types of the following characters: uppercase letters, lowercase letters, digits, spaces, and special characters (:literal:`\`~!@#$%^&*()-_=+|[{}];',<.>/\\?`).
+   -  The password must contain at least four types of the following characters: uppercase letters, lowercase letters, digits, spaces, and special characters :literal:`\`~!@#$%^&*()-_=+|[{}];',<.>/\\?`.
    -  The password cannot be the same as the username or the username spelled backwards.
    -  The password cannot be a common easily-cracked password.
    -  The password cannot be the same as the password used in the latest *N* times. *N* indicates the value of **Repetition Rule** configured in :ref:`Configuring Password Policies <admin_guide_000150>`.

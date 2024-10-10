@@ -28,6 +28,7 @@ Procedure
    For example, after selecting **Host Memory Usage**, the information about this indicator threshold is displayed.
 
    -  If the alarm sending switch is displayed as |image1|, an alarm is triggered if the threshold is reached.
+   -  When **Alarm Severity** is on, hierarchical alarms are enabled. The system dynamically reports alarms at each severity based on the real-time metric values and hierarchical thresholds set for the severity. MRS 3.3.0 or later supports this function.
    -  **Alarm ID** and **Alarm Name**: alarm information triggered against the threshold
    -  **Trigger Count**: MRS Manager checks whether the value of a monitoring metric reaches the threshold. If the number of consecutive checks reaches the value of **Trigger Count**, an alarm is generated. **Trigger Count** is configurable.
    -  **Check Period (s)**: interval for the system to check the monitoring metric.
@@ -77,6 +78,10 @@ Monitoring Metric Reference
 ---------------------------
 
 MRS Manager alarm monitoring metrics are classified as node information metrics and cluster service metrics. :ref:`Table 2 <admin_guide_000071__table4447741>` describes the metrics for which you can configure thresholds on nodes.
+
+.. note::
+
+   On FusionInsight Manager of MRS 3.3.0 or later, alarms of some components can be reported by severity. Each alarm severity has a threshold. You can view them on the FusionInsight Manager configuration page.
 
 .. _admin_guide_000071__table4447741:
 

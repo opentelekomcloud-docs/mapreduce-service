@@ -8,12 +8,12 @@ Internal an Internal System User
 Scenario
 --------
 
-If the service is abnormal, the internal user of the system may be locked. Unlock the user promptly, or the cluster cannot run properly. For the list of system internal users, see :ref:`User Account ListUser Account ListSystem User Description <admin_guide_000239>` in . The internal user of the system cannot be unlocked using MRS Manager.
+If the service is abnormal, the internal user of the system may be locked. Unlock the user promptly, or the cluster cannot run properly. For the list of system internal users, see :ref:`User Account List <admin_guide_000239>` in . The internal user of the system cannot be unlocked using MRS Manager.
 
 Prerequisites
 -------------
 
-Obtain the default password of the LDAP administrator **cn=root,dc=hadoop,dc=com** by referring to :ref:`User Account ListUser Account ListSystem User Description <admin_guide_000239>` in .
+Obtain the default password of the LDAP administrator **cn=root,dc=hadoop,dc=com** by referring to :ref:`User Account List <admin_guide_000239>` in .
 
 Procedure
 ---------

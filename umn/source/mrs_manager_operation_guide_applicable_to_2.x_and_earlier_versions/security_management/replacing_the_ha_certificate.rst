@@ -27,7 +27,7 @@ Prerequisites
    To avoid potential security risks, the password must meet the following complexity requirements:
 
    -  The password must contain at least eight characters.
-   -  The password must contain at least four types of the following characters: uppercase letters, lowercase letters, digits, and special characters (:literal:`~`!?,.:;-_'(){}[]/<>@#$%^&*+|\\=`).
+   -  The password must contain at least four types of the following characters: uppercase letters, lowercase letters, digits, and special characters :literal:`~`!?,.:;-_'(){}[]/<>@#$%^&*+|\\=`.
 
 Procedure
 ---------

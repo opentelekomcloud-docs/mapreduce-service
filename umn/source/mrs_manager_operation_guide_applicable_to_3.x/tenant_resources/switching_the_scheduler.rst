@@ -16,8 +16,71 @@ Prerequisites
 -  The network connectivity of the cluster is proper and secure, and the YARN service status is normal.
 -  During scheduler switching, tenants cannot be added, deleted, or modified. In addition, services cannot be started or stopped.
 
-Impact on the System
---------------------
+Switching Between the Capacity Scheduler and Superior Scheduler (Available for Clusters of MRS 3.3.0 or Later)
+--------------------------------------------------------------------------------------------------------------
+
+This function is only available for clusters of MRS 3.3.0 or later.
+
+**Constraints**
+
+-  This operation is available for only the scenario where a cluster is newly provisioned and the scheduler needs to be switched.
+-  During the scheduler switchover, do not perform any operation on the cluster. Otherwise, the operation may fail due to database modification.
+
+**Impact on the system**
+
+-  Because the ResourceManager is restarted during scheduler switching, submitting jobs to Yarn will fail at that time.
+-  After the scheduler is switched, the parameters of the scheduler that takes over the workload are used.
+
+**Procedure**
+
+#. Log in to FusionInsight Manager. Choose **Cluster** > **Services** > **Yarn** and check whether the Yarn service status is normal. If the service is abnormal, restore the service.
+#. Log in to the active management node as user **omm**.
+#. Switch the scheduler.
+
+   -  Run the following command to switch from the Capacity scheduler to the Superior scheduler:
+
+      **sh ${BIGDATA_HOME}/om-server/om/sbin/cleanSwitchScheduler.sh 1**
+
+      If information similar to the following is displayed, the switch is successful:
+
+      .. code-block::
+
+         Will change scheduler type to SUPERIOR
+         Start to delete all tenant resource.
+         End to delete all tenant resource.
+         Start to delete all resource pool.
+         End to delete all resource pool.
+         ...
+         End to switch scheduler by reset.
+
+   -  Run the following command to switch from the Capacity scheduler to the Superior scheduler:
+
+      **sh ${BIGDATA_HOME}/om-server/om/sbin/cleanSwitchScheduler.sh 0**
+
+      If information similar to the following is displayed, the switch is successful:
+
+      .. code-block::
+
+         Will change scheduler type to CAPACITY
+         Start to delete all tenant resource.
+         End to delete all tenant resource.
+         Start to delete all resource pool.
+         End to delete all resource pool.
+         ...
+         End to switch scheduler by reset.
+
+   .. note::
+
+      You can query the scheduler switching logs on the active management node.
+
+      -  ${BIGDATA_LOG_HOME}/controller/aos/clean_switch_scheduler.log
+      -  ${BIGDATA_LOG_HOME}/controller/aos/aos.log
+      -  ${BIGDATA_LOG_HOME}/controller/aos/plugin.log
+
+Switching from the Capacity Scheduler to the Superior Scheduler
+---------------------------------------------------------------
+
+**Impact on the System**
 
 -  Because the ResourceManager is restarted during scheduler switching, submitting jobs to YARN will fail at that time.
 -  During scheduler switching, tasks in a job being executed on YARN will continue, but new tasks cannot be started.
@@ -28,12 +91,11 @@ Impact on the System
 
    .. note::
 
-      -  The recommended observation period for scheduler switching is one week. If resource pools, YARN node labels, or tenants are added or deleted during this period, the observation period ends immediately.
+      The recommended observation period for scheduler switching is one week. If resource pools, YARN node labels, or tenants are added or deleted during this period, the observation period ends immediately.
 
 -  The scheduler rollback may cause the loss of partial or all YARN job information.
 
-Switching from the Capacity Scheduler to the Superior Scheduler
----------------------------------------------------------------
+**Procedure**
 
 #. Modify YARN service parameters and ensure that the YARN service status is normal.
 

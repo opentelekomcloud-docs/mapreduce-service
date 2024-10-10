@@ -1,0 +1,108 @@
+:original_name: ALM-45292.html
+
+.. _ALM-45292:
+
+ALM-45292 PolicySync GC Duration Exceeds the Threshold
+======================================================
+
+.. note::
+
+   This section applies only to MRS 3.3.0 or later.
+
+Alarm Description
+-----------------
+
+The system checks the GC duration of the PolicySync process every 60 seconds. This alarm is generated when the GC duration of the PolicySync process exceeds the threshold for five consecutive times. This alarm is cleared when the GC duration is less than the threshold.
+
+Alarm Attributes
+----------------
+
++-----------------------+---------------------------------------+-----------------------+
+| Alarm ID              | Alarm Severity                        | Auto Cleared          |
++=======================+=======================================+=======================+
+| 45292                 | Critical (default threshold: 20000ms) | Yes                   |
+|                       |                                       |                       |
+|                       | Major (default threshold: 12000ms)    |                       |
++-----------------------+---------------------------------------+-----------------------+
+
+Alarm Parameters
+----------------
+
++-------------------+---------------------------------------------------------+
+| Parameter         | Description                                             |
++===================+=========================================================+
+| Source            | Specifies the cluster for which the alarm is generated. |
++-------------------+---------------------------------------------------------+
+| ServiceName       | Specifies the service for which the alarm is generated. |
++-------------------+---------------------------------------------------------+
+| RoleName          | Specifies the role for which the alarm is generated.    |
++-------------------+---------------------------------------------------------+
+| HostName          | Specifies the host for which the alarm is generated.    |
++-------------------+---------------------------------------------------------+
+| Trigger Condition | Specifies the threshold for triggering the alarm.       |
++-------------------+---------------------------------------------------------+
+
+Impact on the System
+--------------------
+
+PolicySync responds slowly.
+
+Possible Causes
+---------------
+
+The heap memory of the PolicySync process is overused or inappropriately allocated, causing frequent occurrence of the GC process.
+
+Handling Procedure
+------------------
+
+**Check the GC duration.**
+
+#. Log in to FusionInsight Manager and choose **O&M** > **Alarm** > **Alarms** > **ALM-45292 PolicySync GC Duration Exceeds the Threshold**. Check the location information of the alarm and view the host name of the instance for which the alarm is generated.
+
+#. .. _alm-45292__li43047473:
+
+   On FusionInsight Manager, choose **Cluster** > **Services** > **Ranger** > **Instance**. Select the role corresponding to the host name of the instance for which the alarm is generated and click the drop-down list in the upper right corner of the chart area. Choose **Customize** > **GC** > **PolicySync GC Duration**. Click **OK**.
+
+#. Check whether the GC duration of the PolicySync process collected every minute exceeds the threshold (12 seconds by default).
+
+   -  If yes, go to :ref:`4 <alm-45292__d0e44388>`.
+   -  If no, go to :ref:`6 <alm-45292__d0e44409>`.
+
+#. .. _alm-45292__d0e44388:
+
+   On FusionInsight Manager, choose **Cluster** > **Services** > **Ranger** > **Instance** > **PolicySync**. Click **Instance Configuration** and then **All Configurations**, and choose **PolicySync** > **System**. Set **-Xmx** in the **GC_OPTS** parameter to a larger value based on site requirements and save the configuration.
+
+   .. note::
+
+      If this alarm is generated, the heap memory configured for PolicySync cannot meet the heap memory required by the PolicySync process. You are advised to change the value of **-Xmx** in **GC_OPTS** to twice that of the heap memory used by PolicySync. You can change the value based on the actual service scenario. Refer to :ref:`2 <alm-45292__li43047473>` to view the PolicySync heap memory usage.
+
+#. Restart the affected services or instances and check whether the alarm is cleared.
+
+   -  If yes, no further action is required.
+   -  If no, go to :ref:`6 <alm-45292__d0e44409>`.
+
+      .. important::
+
+         When the service is rebooted, it becomes unavailable and can disrupt business operations. When the instance is rebooted, it cannot be used and any tasks running on the current instance node will fail.
+
+**Collect fault information.**
+
+6. .. _alm-45292__d0e44409:
+
+   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+
+7. Expand the **Service** drop-down list, and select **Ranger** for the target cluster.
+
+8. Click the edit icon in the upper right corner, and set **Start Date** and **End Date** for log collection to 10 minutes ahead of and after the alarm generation time, respectively. Then, click **Download**.
+
+9. Contact O&M personnel and provide the collected logs.
+
+Alarm Clearance
+---------------
+
+This alarm is automatically cleared after the fault is rectified.
+
+Related Information
+-------------------
+
+None.

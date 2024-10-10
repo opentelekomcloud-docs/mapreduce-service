@@ -98,7 +98,7 @@ User group
 User
 ----
 
-For details, see :ref:`User Account ListUser Account ListSystem User Description <admin_guide_000239>`.
+For details, see :ref:`User Account List <admin_guide_000239>`.
 
 Service-related User Security Parameters
 ----------------------------------------

@@ -16,6 +16,7 @@ Security Hardening
 -  :ref:`Configuring HDFS Data Encryption During Transmission <admin_guide_000282>`
 -  :ref:`Encrypting the Communication Between the Controller and the Agent <admin_guide_000284>`
 -  :ref:`Updating SSH Keys for User omm <admin_guide_000285>`
+-  :ref:`Changing the Timeout Duration of the Manager Page <admin_guide_000410>`
 
 .. toctree::
    :maxdepth: 1
@@ -32,3 +33,4 @@ Security Hardening
    configuring_hdfs_data_encryption_during_transmission
    encrypting_the_communication_between_the_controller_and_the_agent
    updating_ssh_keys_for_user_omm
+   changing_the_timeout_duration_of_the_manager_page

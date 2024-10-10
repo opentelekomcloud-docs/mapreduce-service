@@ -139,7 +139,7 @@ Using the Flume Client (Versions Earlier Than MRS 3.x)
       client.sinks.kafka_sink.flumeBatchSize = 1000
       client.sinks.kafka_sink.kafka.producer.type = sync
       client.sinks.kafka_sink.kafka.security.protocol = SASL_PLAINTEXT
-      client.sinks.kafka_sink.kafka.kerberos.domain.name = Kafka domain name. This parameter is mandatory for a security cluster, for example, hadoop.xxx.com.
+      client.sinks.kafka_sink.kafka.kerberos.domain.name = Kafka domain name. This parameter is mandatory for a security cluster.
       client.sinks.kafka_sink.requiredAcks = 0
 
       client.sources.static_log_source.channels = static_log_channel
@@ -283,7 +283,7 @@ Using the Flume Client (MRS 3.x or Later)
          client.sinks.kafka_sink.flumeBatchSize = 1000
          client.sinks.kafka_sink.kafka.producer.type = sync
          client.sinks.kafka_sink.kafka.security.protocol = SASL_PLAINTEXT
-         client.sinks.kafka_sink.kafka.kerberos.domain.name = Kafka domain name. This parameter is mandatory for a security cluster, for example, hadoop.xxx.com.
+         client.sinks.kafka_sink.kafka.kerberos.domain.name = Kafka domain name. This parameter is mandatory for a security cluster.
          client.sinks.kafka_sink.requiredAcks = 0
 
          client.sources.static_log_source.channels = static_log_channel
