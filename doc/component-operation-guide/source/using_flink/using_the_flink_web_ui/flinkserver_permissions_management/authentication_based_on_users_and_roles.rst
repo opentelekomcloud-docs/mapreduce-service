@@ -45,4 +45,4 @@ Procedure
 
    .. note::
 
-      After the FlinkServer role is created, create a FlinkServer user and bind the user to the role and user group. For details, see `Creating a User <https://docs.otc.t-systems.com/usermanual/mrs/admin_guide_000137.html>`__.
+      After the FlinkServer role is created, create a FlinkServer user and bind the user to the role and user group.

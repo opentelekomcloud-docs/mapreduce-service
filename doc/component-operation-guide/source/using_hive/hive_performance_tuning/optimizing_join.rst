@@ -23,7 +23,7 @@ Hive Map Join applies to small tables (the table size is less than 25 MB) that c
 
 Map Join has two methods:
 
--  Use ``/*+ MAPJOIN(join_table) */``.
+-  Use\ ``/*+ MAPJOIN(join_table) */``.
 
 -  Set the following parameter before running the statement. The default value is true in the current version.
 

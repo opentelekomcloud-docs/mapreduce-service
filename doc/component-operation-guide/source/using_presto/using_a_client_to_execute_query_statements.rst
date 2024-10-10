@@ -21,11 +21,11 @@ Procedure
 
 #. .. _mrs_01_0434__li17987144152514:
 
-   For clusters with Kerberos authentication enabled, log in to MRS Manager and create a role with the **Hive Admin Privilege** permission. For details about how to create a role, see `Creating a Role <https://docs.otc.t-systems.com/en-us/usermanual/mrs/mrs_01_0343.html>`__.
+   For clusters with Kerberos authentication enabled, log in to MRS Manager and create a role with the **Hive Admin Privilege** permission.
 
 #. .. _mrs_01_0434__li9368161132311:
 
-   Create a user that belongs to the **Presto** and **Hive** groups, bind the role created in :ref:`1 <mrs_01_0434__li17987144152514>` to the user, and download the user authentication file. For details, see `Creating a User <https://docs.otc.t-systems.com/en-us/usermanual/mrs/mrs_01_0345.html>`__ and `Downloading a User Authentication File <https://docs.otc.t-systems.com/en-us/usermanual/mrs/mrs_01_0352.html>`__.
+   Create a user that belongs to the **Presto** and **Hive** groups, bind the role created in :ref:`1 <mrs_01_0434__li17987144152514>` to the user, and download the user authentication file.
 
 #. .. _mrs_01_0434__li861292619304:
 
@@ -39,7 +39,7 @@ Procedure
 
    Prepare a client based on service conditions and log in to the node where the client is installed.
 
-   For example, if you have updated the client on the Master2 node, log in to the Master2 node to use the client. For details, see `Updating a Client <https://docs.otc.t-systems.com/en-us/usermanual/mrs/mrs_01_0089.html>`__.
+   For example, if you have updated the client on the Master2 node, log in to the Master2 node to use the client.
 
 #. Run the following command to switch the user:
 

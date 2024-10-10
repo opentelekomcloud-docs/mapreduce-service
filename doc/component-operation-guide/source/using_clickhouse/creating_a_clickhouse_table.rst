@@ -9,8 +9,6 @@ ClickHouse implements the replicated table mechanism based on the ReplicatedMerg
 
 ClickHouse also implements the distributed table mechanism based on the Distributed engine. Views are created on all shards (local tables) for distributed query, which is easy to use. ClickHouse has the concept of data sharding, which is one of the features of distributed storage. That is, parallel read and write are used to improve efficiency.
 
-The ClickHouse cluster table engine that uses Kunpeng as the CPU architecture does not support HDFS and Kafka.
-
 .. _mrs_01_2398__section1386435625:
 
 Viewing cluster and Other Environment Parameters of ClickHouse

@@ -61,7 +61,7 @@ The following describes how to optimize the join operation in Spark SQL. Assume 
       |                                      |                       | -  When the size of a field in a table involved in an SQL statement is less than the value of this parameter, the system broadcasts the SQL statement. |
       |                                      |                       | -  If the value is set to **-1**, broadcast is not performed.                                                                                          |
       |                                      |                       |                                                                                                                                                        |
-      |                                      |                       | For details, visit https://spark.apache.org/docs/3.1.1/sql-programming-guide.html.                                                                     |
+      |                                      |                       | For details, visit https://archive.apache.org/dist/spark/docs/3.1.1/sql-programming-guide.html.                                                        |
       +--------------------------------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
    Methods for configuring the threshold for automatic broadcasting:
