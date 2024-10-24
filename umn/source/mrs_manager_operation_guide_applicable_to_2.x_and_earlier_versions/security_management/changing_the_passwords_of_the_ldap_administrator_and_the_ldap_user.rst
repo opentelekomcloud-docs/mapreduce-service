@@ -29,7 +29,7 @@ Procedure
    The default password complexity requirements are as follows:
 
    -  The password contains 16 to 32 characters.
-   -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, and special characters :literal:`\`~!@#$%^&*()-_=+\\|[{}];:",<.>/?`.
+   -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, and special characters (:literal:`\`~!@#$%^&*()-_=+\\|[{}];:",<.>/?`).
    -  The password cannot be the username or the reverse username.
    -  The new password cannot be the same as the current password.
 

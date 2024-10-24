@@ -36,7 +36,7 @@ Procedure
    The password complexity requirements are as follows:
 
    -  The password of the DBService database user contains 16 to 32 characters. The password of the Loader, Hive, or Hue database user contains 8 to 32 characters.
-   -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, and special characters ``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``.
+   -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, and special characters (``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``).
    -  The password cannot be the username or the reverse username.
    -  The password cannot be the same as the last 20 historical passwords.
 

@@ -48,5 +48,5 @@ Procedure
       The default password complexity requirements of the MRS cluster are as follows:
 
       -  The password must contain at least eight characters.
-      -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters ``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``.
+      -  The password must contain at least three types of the following: uppercase letters, lowercase letters, digits, spaces, and special characters (``'~!@#$%^&*()-_=+\|[{}];:'",<.>/?``).
       -  The new password cannot be the same as last five historical passwords.

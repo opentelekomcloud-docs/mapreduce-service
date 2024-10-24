@@ -32,7 +32,7 @@ Prerequisites
    To avoid potential security risks, the password must meet the following complexity requirements:
 
    -  It must contain at least eight characters.
-   -  It must contain at least four of the following character types: uppercase letters, lowercase letters, digits, and special characters\ :literal:`~`!?,.:;-_'(){}[]/<>@#$%^&*+|\\=.`
+   -  It must contain at least four of the following character types: uppercase letters, lowercase letters, digits, and special characters :literal:`~`!?,.:;-_'(){}[]/<>@#$%^&*+|\\=.`
 
 -  When applying for certificates from the certificate administrator, you have provided the password for accessing the key file and applied for the certificate files in CRT, CER, CERT, and PEM formats and the key files in KEY and PEM formats. The requested certificates must have the issuing function.
 
