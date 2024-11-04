@@ -50,7 +50,7 @@ The syntax elements of the **MATCH_RECOGNIZE** clause are defined as follows:
 
 (Optional) **-AFTER MATCH**: specifies the start position for processing after the next pattern is successfully matched.
 
-**-PATTERN**: defines the matching pattern as a regular expression. The following operators can be used in the **PATTERN** clause: join operators, quantifier operators ``*`` +, ?, {n}, {n,}, {n,m}, and {,m}), branch operators (vertical bar \|), and differential operators ('{- -}').
+**-PATTERN**: defines the matching pattern as a regular expression. The following operators can be used in the **PATTERN** clause: join operators, quantifier operators (``*``, +, ?, {n}, {n,}, {n,m}, and {,m}), branch operators (vertical bar \|), and differential operators ('{- -}').
 
 (Optional) **-WITHIN**: outputs a pattern clause match only when the match occurs within the specified time.
 

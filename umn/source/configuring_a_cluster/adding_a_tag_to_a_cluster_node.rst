@@ -29,21 +29,21 @@ A tag consists of a tag key and a tag value. :ref:`Table 1 <mrs_01_0048__t7d9a64
 
 .. table:: **Table 1** Tag key and value requirements
 
-   +-----------------------+------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-   | Parameter             | Requirement                                                                                                                  | Example               |
-   +=======================+==============================================================================================================================+=======================+
-   | Key                   | A tag key cannot be left blank.                                                                                              | Organization          |
-   |                       |                                                                                                                              |                       |
-   |                       | A tag key must be unique in a cluster.                                                                                       |                       |
-   |                       |                                                                                                                              |                       |
-   |                       | A tag key contains a maximum of 36 characters.                                                                               |                       |
-   |                       |                                                                                                                              |                       |
-   |                       | A tag value cannot contain special characters\ ``(=*<>\,|/)`` or start or end with spaces.                                   |                       |
-   +-----------------------+------------------------------------------------------------------------------------------------------------------------------+-----------------------+
-   | Value                 | A tag value contains a maximum of 43 characters.                                                                             | Apache                |
-   |                       |                                                                                                                              |                       |
-   |                       | A tag value cannot contain special characters\ ``(=*<>\,|/)`` or start or end with spaces. This parameter can be left blank. |                       |
-   +-----------------------+------------------------------------------------------------------------------------------------------------------------------+-----------------------+
+   +-----------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------+
+   | Parameter             | Requirement                                                                                                                 | Example               |
+   +=======================+=============================================================================================================================+=======================+
+   | Key                   | A tag key cannot be left blank.                                                                                             | Organization          |
+   |                       |                                                                                                                             |                       |
+   |                       | A tag key must be unique in a cluster.                                                                                      |                       |
+   |                       |                                                                                                                             |                       |
+   |                       | A tag key contains a maximum of 36 characters.                                                                              |                       |
+   |                       |                                                                                                                             |                       |
+   |                       | A tag value cannot contain special characters ``(=*<>\,|/)`` or start or end with spaces.                                   |                       |
+   +-----------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------+
+   | Value                 | A tag value contains a maximum of 43 characters.                                                                            | Apache                |
+   |                       |                                                                                                                             |                       |
+   |                       | A tag value cannot contain special characters ``(=*<>\,|/)`` or start or end with spaces. This parameter can be left blank. |                       |
+   +-----------------------+-----------------------------------------------------------------------------------------------------------------------------+-----------------------+
 
 Adding Tags to a Cluster
 ------------------------
