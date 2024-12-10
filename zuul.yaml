@@ -4,6 +4,13 @@
     default-branch: main
     templates:
       - helpcenter-base-jobs
+    vars:
+      sphinx_pdf_files:
+        - mrs-operation-guide-lts.pdf
+        - mrs-umn.pdf
+        - mrs-api-ref.pdf
+        - mrs-operation-guide.pdf
+        - mrs-best-practice.pdf
     check:
       jobs:
         - noop
