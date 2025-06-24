@@ -83,6 +83,14 @@ Procedure
 
    In the **Basic Information** area on the **Dashboard** page, click **Synchronize** on the right side of **IAM User Sync** to synchronize IAM users.
 
+#. In the **IAM User Sync** dialog box, search for the user group to which the IAM user to be synchronized belongs and click the user group name. In the **User** column, select the desired IAM user and click **Synchronize**.
+
+   .. note::
+
+      -  You can select all users to synchronize them at a time.
+      -  If you select user groups only, users will not be synchronized. You must select specific user names in the user group.
+      -  All user groups are displayed. Those cannot be selected cannot be synchronized.
+
 #. After a synchronization request is sent, choose **Operation Logs** in the left navigation pane on the MRS console to check whether the synchronization is successful. For details about the logs, see :ref:`Viewing MRS Operation Logs <en-us_topic_0012808265>`.
 
 #. After the synchronization is successful, use the user synchronized with IAM to perform subsequent operations.
@@ -105,7 +113,7 @@ Procedure
 
       c. Modify the role bound to the user group to which the user belongs to control user permissions on Manager. For details, see :ref:`Related Tasks <mrs_01_0344__s855da92cb75446818be082dff6e197f1>`. For details about how to create and modify a role, see :ref:`Creating a Role <mrs_01_0343>`. After the component role bound to the user group to which the user belongs is modified, it takes some time for the role permissions to take effect.
 
-      d. Log in to Manager using the user synchronized with IAM and the password after the initialization in :ref:`6.b <mrs_01_0495__li169901714175>`.
+      d. Log in to Manager using the user synchronized with IAM and the password after the initialization in :ref:`7.b <mrs_01_0495__li169901714175>`.
 
       .. note::
 
@@ -113,3 +121,9 @@ Procedure
 
          -  System user: If all user groups to which an IAM user belongs are bound to system policies (RABC policies and fine-grained policies belong to system policies), the IAM user is a system user.
          -  Custom user: If the user group to which an IAM user belongs is bound to any custom policy, the IAM user is a custom user.
+
+8. Undo IAM user synchronization.
+
+   To undo the synchronization of an IAM user, select the user in the **User** column in the **Synchronized** tab and click **Undo Sync**.
+
+   To undo the synchronization of all users in an IAM user group, select the user group in the **User Group** column in the **Synchronized** tab and click **Undo Sync**.

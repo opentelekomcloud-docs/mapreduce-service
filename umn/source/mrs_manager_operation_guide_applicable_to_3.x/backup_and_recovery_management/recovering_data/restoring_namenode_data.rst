@@ -27,7 +27,7 @@ Impact on the System
 
 -  After the data is restored, the data generated after the data backup and before the data restoration is lost.
 -  After the data is recovered, the NameNode needs to be restarted and is unavailable during the restart.
--  After data is restored, metadata and service data may not be matched, the HDFS enters the security mode, and the HDFS service fails to be started. .
+-  After data is restored, metadata and service data may not be matched, the HDFS enters the security mode, and the HDFS service fails to be started.
 
 Prerequisites
 -------------

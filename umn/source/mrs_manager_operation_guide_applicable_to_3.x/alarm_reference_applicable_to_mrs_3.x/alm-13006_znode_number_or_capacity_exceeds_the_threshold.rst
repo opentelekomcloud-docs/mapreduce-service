@@ -93,6 +93,6 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001828886549.png
-.. |image2| image:: /_static/images/en-us_image_0000001782327888.png
+.. |image1| image:: /_static/images/en-us_image_0000002278171933.png
+.. |image2| image:: /_static/images/en-us_image_0000002278292689.png
 .. |image3| image:: /_static/images/en-us_image_0000001583087513.png
