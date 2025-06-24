@@ -68,7 +68,7 @@ Procedure
 
 #. .. _alm-13007__li1373973122619:
 
-   Click\ |image1| in the **Number of Connections** **(by Client IP Address)** to enter the **Thresholds** page, and click **Modify** under **Operation**. Increase the threshold by referring to the value of **maxClientCnxns** by choosing **Cluster >** *Name of the desired cluster* **> Services** > **ZooKeeper** > **Configurations > All Configurations > quorumpeer**.
+   Click |image1| in the **Number of Connections** **(by Client IP Address)** to enter the **Thresholds** page, and click **Modify** under **Operation**. Increase the threshold by referring to the value of **maxClientCnxns** by choosing **Cluster >** *Name of the desired cluster* **> Services** > **ZooKeeper** > **Configurations > All Configurations > quorumpeer**.
 
 #. Check whether the alarm is cleared.
 
@@ -97,5 +97,5 @@ Related Information
 
 None
 
-.. |image1| image:: /_static/images/en-us_image_0000001830029997.png
+.. |image1| image:: /_static/images/en-us_image_0000002243257660.png
 .. |image2| image:: /_static/images/en-us_image_0000001532927402.png

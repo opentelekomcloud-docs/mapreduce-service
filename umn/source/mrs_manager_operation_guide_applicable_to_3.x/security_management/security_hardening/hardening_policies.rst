@@ -34,20 +34,13 @@ LDAP is hardened as follows after a cluster is installed:
 Hardening JDK
 -------------
 
--  If the client process uses the AES256 encryption algorithm, JDK security hardening is required. The operations are as follows:
+If the client process uses the AES256 encryption algorithm, JDK security hardening is required. The operations are as follows:
 
-   Obtain the Java Cryptography Extension (JCE) package whose version matches that of JDK. The JCE package contains **local_policy.jar** and **US_export_policy.jar**. Copy the JAR files to the following directory and replace the files in the directory.
+Obtain the Java Cryptography Extension (JCE) package whose version matches that of JDK. The JCE package contains **local_policy.jar** and **US_export_policy.jar**. Copy the JAR files to the following directory and replace the files in the directory.
 
-   -  Linux: *JDK installation directory*\ **/jre/lib/security**
-   -  Windows: *JDK installation directory*\ **\\jre\\lib\\security**
+-  Linux: *JDK installation directory*\ **/jre/lib/security**
+-  Windows: *JDK installation directory*\ **\\jre\\lib\\security**
 
-   .. note::
+.. note::
 
-      Access the Open JDK open-source community to obtain the JCE file.
-
--  If the client process uses the SM4 encryption algorithm, the JAR package needs to be updated.
-
-   Obtain **SMS4JA.jar** in the *client installation directory*\ **/JDK/jdk/jre/lib/ext/** directory, and copy the JAR package to the following directory:
-
-   -  Linux: *JDK installation directory*\ **/jre/lib/ext/**
-   -  Windows: *JDK installation directory*\ **\\jre\\lib\\ext\\**
+   Access the Open JDK open-source community to obtain the JCE file.

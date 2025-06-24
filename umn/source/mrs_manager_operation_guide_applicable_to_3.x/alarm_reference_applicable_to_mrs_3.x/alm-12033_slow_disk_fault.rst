@@ -146,7 +146,7 @@ Procedure
 
    |image3|
 
-   -  If yes, go to :ref:`7 <alm-12033__li2583597491458>`. .
+   -  If yes, go to :ref:`7 <alm-12033__li2583597491458>`.
    -  If no, go to :ref:`22 <alm-12033__li4518231891458>`.
 
 #. .. _alm-12033__li2583597491458:

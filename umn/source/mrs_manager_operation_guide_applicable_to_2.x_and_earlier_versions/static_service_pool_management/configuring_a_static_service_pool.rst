@@ -116,8 +116,8 @@ Procedure
 
    **Operation succeeded** is displayed. click **Finish**. The service is started successfully.
 
-.. |image1| image:: /_static/images/en-us_image_0000001829060901.png
+.. |image1| image:: /_static/images/en-us_image_0000002278456009.png
 .. |image2| image:: /_static/images/en-us_image_0000001295738420.jpg
-.. |image3| image:: /_static/images/en-us_image_0000001829066453.png
-.. |image4| image:: /_static/images/en-us_image_0000001829186485.png
-.. |image5| image:: /_static/images/en-us_image_0000001782506694.png
+.. |image3| image:: /_static/images/en-us_image_0000002278456193.png
+.. |image4| image:: /_static/images/en-us_image_0000002243537010.png
+.. |image5| image:: /_static/images/en-us_image_0000002278536077.png

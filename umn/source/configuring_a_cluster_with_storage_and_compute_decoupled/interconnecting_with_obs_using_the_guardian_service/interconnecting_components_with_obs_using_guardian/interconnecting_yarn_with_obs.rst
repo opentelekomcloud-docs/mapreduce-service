@@ -36,7 +36,7 @@ Interconnecting with OBS
 
       **yarn jar** *Client installation directory*\ **/HDFS/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-*.jar pi -Dmapreduce.job.hdfs-servers=NAMESERVICE -fs obs://**\ *OBS parallel file system name* **1 1**
 
-   **NAMESERVICE** indicates the NameService in HDFS. The default value is **hdfs://hacluster**. If there are multiple NameServices, separate them with **,**.
+   **NAMESERVICE** indicates the NameService in HDFS. The default value is **hdfs://hacluster**. If there are multiple NameServices, separate them with **",**".
 
    The following command is an example:
 

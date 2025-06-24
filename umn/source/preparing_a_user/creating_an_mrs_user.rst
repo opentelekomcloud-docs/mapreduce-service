@@ -20,7 +20,7 @@ Process Flow
 
 .. _mrs_01_0453__fig8523123435310:
 
-.. figure:: /_static/images/en-us_image_0000001782509630.png
+.. figure:: /_static/images/en-us_image_0000002243727990.png
    :alt: **Figure 1** Process for granting MRS permissions
 
    **Figure 1** Process for granting MRS permissions
