@@ -45,4 +45,4 @@ Procedure
       | Default Resource Pool          | Specifies the resource pool used by a queue. The default value is **Default**. If you want to change the resource pool, configure the queue capacity first. For details, see :ref:`Configuring the Queue Capacity Policy of a Resource Pool <mrs_01_0548>`.     |
       +--------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000001782347050.png
+.. |image1| image:: /_static/images/en-us_image_0000002278903341.png
