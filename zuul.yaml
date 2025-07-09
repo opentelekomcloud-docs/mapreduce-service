@@ -6,6 +6,8 @@
       - helpcenter-base-jobs
     vars:
       sphinx_pdf_files:
+        - mrs-api-ref.pdf
+        - mrs-operation-guide.pdf
     check:
       jobs:
         - noop
