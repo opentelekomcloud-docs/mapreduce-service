@@ -52,7 +52,7 @@ Handling Procedure
 
 **Check whether a disk alarm is generated.**
 
-#. On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms** and check whether **ALM-12014 Partition Lost** or **ALM-12033 Slow Disk Fault** exists.
+#. On MRS Manager, choose **O&M** > **Alarm** > **Alarms** and check whether **ALM-12014 Partition Lost** or **ALM-12033 Slow Disk Fault** exists.
 
    -  If yes, go to :ref:`2 <alm-50222__li106705312711>`.
    -  If no, go to :ref:`4 <alm-50222__li76681531273>`.
@@ -105,7 +105,7 @@ Handling Procedure
 
 8.  .. _alm-50222__li206502049133310:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 9.  Expand the **Service** drop-down list, and select **Doris** and **OMS** for the target cluster.
 

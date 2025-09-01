@@ -50,13 +50,13 @@ Handling Procedure
 
 **Check whether there are too many requests in a single region of HBase.**
 
-#. Log in to FusionInsight Manager, and Choose **O&M** > **Alarm** > **Alarms**.
+#. Log in to MRS Manager, and Choose **O&M** > **Alarm** > **Alarms**.
 
 #. .. _alm-19023__li864533612584:
 
    In **Additional Information** of **Region Traffic Restriction for HBase**, view the reported table name and region information.
 
-#. On FusionInsight Manager, choose **Cluster** > **Service** > **HBase** and click the hyperlink on the right of HMaster web UI.
+#. On MRS Manager, choose **Cluster** > **Service** > **HBase** and click the hyperlink on the right of HMaster web UI.
 
 #. Click **Table Details** and adjust service configurations in the region where the table in :ref:`2 <alm-19023__li864533612584>` is deployed.
 
@@ -69,7 +69,7 @@ Handling Procedure
 
 6.  .. _alm-19023__li16644173610580:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 7.  Expand the **Service** drop-down list, and select **HBase** for the target cluster.
 

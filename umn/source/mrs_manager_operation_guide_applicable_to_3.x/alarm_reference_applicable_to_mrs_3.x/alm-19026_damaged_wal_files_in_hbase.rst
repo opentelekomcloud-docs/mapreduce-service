@@ -16,7 +16,7 @@ This alarm applies only to MRS 3.3.0 or later.
 
 .. note::
 
-   **hdfs://hacluster** indicates the name of the file system used by HBase, and **/hbase** indicates the root directory of HBase in the file system. You can log in to FusionInsight Manager, choose **Cluster** > **Services** > **HBase** and click **Configuration**. Search for **fs.defaultFS** and **hbase.data.rootdir**.
+   **hdfs://hacluster** indicates the name of the file system used by HBase, and **/hbase** indicates the root directory of HBase in the file system. You can log in to MRS Manager, choose **Cluster** > **Services** > **HBase** and click **Configuration**. Search for **fs.defaultFS** and **hbase.data.rootdir**.
 
 Alarm Attributes
 ----------------
@@ -52,7 +52,7 @@ The WAL files are damaged.
 Handling Procedure
 ------------------
 
-#. Log in to FusionInsight Manager and choose **O&M**. In the navigation pane on the left, choose **Alarm** > **Alarms**. On the page that is displayed, locate the row containing the alarm whose **Alarm ID** is **19026**, and view the service in **Location**.
+#. Log in to MRS Manager and choose **O&M**. In the navigation pane on the left, choose **Alarm** > **Alarms**. On the page that is displayed, locate the row containing the alarm whose **Alarm ID** is **19026**, and view the service in **Location**.
 
 #. Log in to the node where the HDFS clients are installed as the client installation user and run the following commands:
 
@@ -70,7 +70,7 @@ Handling Procedure
 
 4. .. _alm-19026__li135201823182014:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 5. Expand the **Service** drop-down list, and select **HBase** for the target cluster.
 

@@ -21,8 +21,6 @@ Introduction to the MRS Manager GUI
 
 MRS Manager provides a unified cluster management platform, facilitating rapid and easy O&M for clusters.
 
-|image1|
-
 The upper part of the page is the operation bar, the middle part is the display area, and the bottom part is the taskbar.
 
 :ref:`Table 1 <admin_guide_000002__t2e8dff27d0214c0885ce9fa207af6953>` describes the functions of each portal on the operation bar.
@@ -48,5 +46,3 @@ The upper part of the page is the operation bar, the middle part is the display 
    +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | System           | Provides system management settings of MRS Manager, such as user permission settings. For details, see :ref:`System Configuration <admin_guide_000134>`.                                                                                                                                                                       |
    +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-.. |image1| image:: /_static/images/en-us_image_0000001392574002.png

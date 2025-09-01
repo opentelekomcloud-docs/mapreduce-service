@@ -60,7 +60,7 @@ Handling Procedure
 
 **Check whether the threshold is set properly.**
 
-#. Log in to FusionInsight Manager and choose **O&M** > **Alarm** > **Thresholds**. In the service list, choose **HetuEngine** > **Disk** > **QAS Disk Usage (QAS)**. Check whether the alarm threshold is set properly. The default threshold is 80% of the disk capacity. You can change the threshold as required.
+#. Log in to MRS Manager and choose **O&M** > **Alarm** > **Thresholds**. In the service list, choose **HetuEngine** > **Disk** > **QAS Disk Usage (QAS)**. Check whether the alarm threshold is set properly. The default threshold is 80% of the disk capacity. You can change the threshold as required.
 
    -  If the threshold is set properly, go to :ref:`4 <alm-45003__li1561212104442>`.
    -  If the threshold is not set properly, go to :ref:`2 <alm-45003__li1673781151015>`.
@@ -106,7 +106,7 @@ Handling Procedure
 
 9.  .. _alm-45003__li1573581113104:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 10. Expand the **Service** drop-down list, select **HetuEngine** for the target cluster, and click **OK**.
 

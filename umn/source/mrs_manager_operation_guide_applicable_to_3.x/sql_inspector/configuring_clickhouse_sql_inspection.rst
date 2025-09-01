@@ -8,7 +8,7 @@ Configuring ClickHouse SQL Inspection
 Scenario
 --------
 
-You can configure rules for ClickHouse SQL inspection on FusionInsight Manager and configure rule parameters as you need.
+You can configure rules for ClickHouse SQL inspection on MRS Manager and configure rule parameters as you need.
 
 Prerequisites
 -------------
@@ -28,7 +28,7 @@ Constraints
 Procedure
 ---------
 
-#. Log in to FusionInsight Manager, click **Cluster**, and choose **SQL Inspector**. The **SQL Inspector** page is displayed.
+#. Log in to MRS Manager, click **Cluster**, and choose **SQL Inspector**. The **SQL Inspector** page is displayed.
 
 #. Add rules for ClickHouse by referring to :ref:`Adding an SQL Inspection <admin_guide_000409>`.
 

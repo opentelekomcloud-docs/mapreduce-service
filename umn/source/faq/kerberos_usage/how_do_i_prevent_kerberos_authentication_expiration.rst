@@ -37,4 +37,4 @@ How Do I Prevent Kerberos Authentication Expiration?
 
    Example:
 
-   **spark-shell --principal spark2x/hadoop.**\ <*System domain name*>@<*System domain name*>\ ** --keytab ${BIGDATA_HOME}/FusionInsight_Spark2x_8.1.0.1/install/FusionInsight-Spark2x-2.4.5/keytab/spark2x/SparkResource/spark2x.keytab --master yarn**
+   **spark-shell --principal spark2x/hadoop.**\ <*System domain name*>@<*System domain name*>\ ** --keytab ${BIGDATA_HOME}/*_Spark2x_8.1.0.1/install/*-Spark2x-2.4.5/keytab/spark2x/SparkResource/spark2x.keytab --master yarn**

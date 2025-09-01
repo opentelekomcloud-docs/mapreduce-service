@@ -65,7 +65,7 @@ MRS architecture includes infrastructure and big data processing phases.
 Product Advantages
 ------------------
 
-MRS has a powerful Hadoop kernel team and is deployed based on enterprise-level FusionInsight big data platform. MRS has been deployed on tens of thousands of nodes and can ensure Service Level Agreements (SLAs) for multi-level users.
+MRS has a powerful Hadoop kernel team and is deployed based on enterprise-level big data platform. MRS has been deployed on tens of thousands of nodes and can ensure Service Level Agreements (SLAs) for multi-level users.
 
 MRS has the following advantages:
 

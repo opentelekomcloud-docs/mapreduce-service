@@ -21,7 +21,7 @@ Quick Creation of a Hadoop Analysis Cluster
 
    -  **Region**: Use the default value.
    -  **Cluster Name**: You can use the default name. However, you are advised to include a project name abbreviation or date for consolidated memory and easy distinguishing, for example, **mrs_20180321**.
-   -  **Cluster Type**: Use the default value.
+   -  **Cluster Type**: Select **Analysis Cluster**.
    -  **Cluster Version**: Select the latest version, which is the default value. (The components provided by a cluster vary according to the cluster version. Select a cluster version based on site requirements.)
    -  **Component**: Select **Hadoop analysis cluster**.
    -  **AZ**: Use the default value.

@@ -10,6 +10,7 @@ Backing Up Data
 -  :ref:`Backing Up ClickHouse Metadata <admin_guide_000348>`
 -  :ref:`Backing Up ClickHouse Service Data <admin_guide_000349>`
 -  :ref:`Backing Up DBService Data <admin_guide_000203>`
+-  :ref:`Backing Up Doris Data <admin_guide_000423>`
 -  :ref:`Backing Up HBase Metadata <admin_guide_000204>`
 -  :ref:`Backing Up HBase Service Data <admin_guide_000205>`
 -  :ref:`Backing Up NameNode Data <admin_guide_000208>`
@@ -28,6 +29,7 @@ Backing Up Data
    backing_up_clickhouse_metadata
    backing_up_clickhouse_service_data
    backing_up_dbservice_data
+   backing_up_doris_data
    backing_up_hbase_metadata
    backing_up_hbase_service_data
    backing_up_namenode_data

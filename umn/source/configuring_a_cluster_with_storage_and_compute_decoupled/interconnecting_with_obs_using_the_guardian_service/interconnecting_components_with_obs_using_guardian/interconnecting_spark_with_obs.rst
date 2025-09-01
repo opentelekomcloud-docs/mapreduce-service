@@ -30,7 +30,7 @@ In an MRS cluster, **Location** can be set to an OBS file system path during Spa
 
    #. Complete the configurations by referring to :ref:`Interconnecting the Guardian Service with OBS <mrs_01_248978>`.
 
-   #. Log in to FusionInsight Manager, choose **Cluster** > **Services** > **Spark** and choose **Configurations** > **All Configurations**.
+   #. Log in to MRS Manager, choose **Cluster** > **Services** > **Spark** and choose **Configurations** > **All Configurations**.
 
    #. In the navigation pane on the left, choose **SparkResource** > **Customization**. In the custom configuration items, add **spark.sql.warehouse.location.first** to the **custom** parameter and set its value to **true**.
 
@@ -114,7 +114,7 @@ In an MRS cluster, **Location** can be set to an OBS file system path during Spa
 Configuring Ranger Permissions
 ------------------------------
 
-#. Log in to FusionInsight Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group**.
+#. Log in to MRS Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group**.
 
 #. .. _mrs_01_248992__en-us_topic_0000001705424157_li55372842617:
 
@@ -140,7 +140,7 @@ Configuring Permissions for CDL Service Users
 
 If Kerberos authentication is enabled for the cluster (the cluster is in security mode) and you need to store real-time data to OBS after the interconnection, perform the following operations to grant the **Read** and **Write** permissions on the corresponding OBS path to the specific user:
 
-#. Log in to FusionInsight Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group**.
+#. Log in to MRS Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group**.
 
 #. Create a user group without a role, for example, **obs_cdl**, and bind the user group to the corresponding CDL service user, for example, **cdluser**.
 

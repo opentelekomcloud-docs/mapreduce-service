@@ -29,6 +29,7 @@ Prerequisites
 -  The HDFS in the standby cluster has sufficient space. You are advised to save backup files in a custom directory.
 -  On the HDFS client, you have executed the **hdfs lsSnapshottableDir** command as user **hdfs** to check the list of directories for which HDFS snapshots have been created in the current cluster and ensured that the HDFS parent directory or subdirectory where data files to be backed up are stored does not have HDFS snapshots. Otherwise, the backup task cannot be created.
 -  If you want to back up data to NAS, you have deployed the NAS server in advance.
+-  If you want to back up data to OBS, you have connected the current cluster to OBS and have the permission to access OBS.
 
 Procedure
 ---------
@@ -129,6 +130,16 @@ Procedure
       -  **Maximum Number of Maps**: indicates the maximum number of maps in a MapReduce task. The default value is **20**.
       -  **Maximum Bandwidth of a Map (MB/s)**: indicates the maximum bandwidth of a map. The default value is **100**.
       -  **NameService Name**: indicates the NameService name of the backup directory. The default value is **hacluster**.
+
+   -  **OBS**: indicates that backup files are stored in OBS. (available in MRS 3.5.0 and later)
+
+      If you select this option, configure the following parameters:
+
+      -  **Target Path**: indicates the OBS directory for storing backup data.
+      -  **Maximum Number of Backup Copies**: indicates the number of backup file sets that can be retained in the backup directory.
+      -  **Queue Name**: indicates the name of the Yarn queue used for backup task execution. The name must be the same as the name of the queue that is running properly in the cluster.
+      -  **Maximum Number of Maps**: indicates the maximum number of maps in a MapReduce task. The default value is **20**.
+      -  **Maximum Bandwidth of a Map (MB/s)**: indicates the maximum bandwidth of a map. The default value is **100**.
 
 #. Set **Maximum Number of Recovery Points** to the number of snapshots that can be retained in the cluster.
 

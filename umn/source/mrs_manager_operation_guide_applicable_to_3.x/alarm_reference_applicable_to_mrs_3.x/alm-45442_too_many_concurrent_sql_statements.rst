@@ -53,7 +53,7 @@ The ClickHouse service is overloaded.
 Handling Procedure
 ------------------
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
 
 #. Choose **Cluster** > **ClickHouse** > **Instance**, select an instance based on the alarm information. Choose **Chart** > **Concurrency** to check whether the actual number of concurrent SQL statements is greater than SQL concurrency threshold.
 
@@ -69,7 +69,7 @@ Handling Procedure
 
 #. .. _alm-45442__li99531855012:
 
-   On FusionInsight Manager, choose **O&M** and click **Alarm** > **Thresholds** in the navigation pane on the left. On the displayed page, click **ClickHouse** > **Concurrency** and adjust the threshold, or wait until the task is complete. Check whether the alarm is cleared.
+   On MRS Manager, choose **O&M** and click **Alarm** > **Thresholds** in the navigation pane on the left. On the displayed page, click **ClickHouse** > **Concurrency** and adjust the threshold, or wait until the task is complete. Check whether the alarm is cleared.
 
    -  If yes, no further action is required.
    -  If no, go to :ref:`5 <alm-45442__li6769733151816>`.
@@ -78,7 +78,7 @@ Handling Procedure
 
 5. .. _alm-45442__li6769733151816:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 6. Expand the **Service** drop-down list, and select **ClickHouse** for the target cluster.
 

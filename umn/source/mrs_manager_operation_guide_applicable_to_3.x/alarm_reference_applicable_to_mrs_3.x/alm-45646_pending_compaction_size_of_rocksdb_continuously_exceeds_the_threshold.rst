@@ -56,7 +56,7 @@ Handling Procedure
 
 **Check TaskManager logs for the number of pending compaction requests and collect logs.**
 
-#. Log in to FusionInsight Manager as a user who has the FlinkServer management permission.
+#. Log in to MRS Manager as a user who has the FlinkServer management permission.
 #. Choose **O&M** > **Alarm** > **Alarms** > **ALM-45646 Pending Compaction Size of RocksDB Continuously Exceeds the Threshold**, view **Location**, and obtain the name of the task for which the alarm is generated.
 #. Choose **Cluster** > **Services** > **Yarn** and click the link next to **ResourceManager WebUI** to go to the native Yarn page.
 

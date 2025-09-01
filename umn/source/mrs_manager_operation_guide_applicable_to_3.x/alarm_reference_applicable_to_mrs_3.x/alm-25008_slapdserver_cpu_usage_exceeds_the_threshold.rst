@@ -56,7 +56,7 @@ Handling Procedure
 
 **Check whether the alarm threshold or alarm trigger count is properly configured.**
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, choose **LdapServer** > **Other** > **SlapdServer Service Total CPU Percentage**, and check whether the alarm trigger count and alarm threshold are set properly.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, choose **LdapServer** > **Other** > **SlapdServer Service Total CPU Percentage**, and check whether the alarm trigger count and alarm threshold are set properly.
 
    -  If yes, go to :ref:`4 <alm-25008__li848412361466>`.
    -  If no, go to :ref:`2 <alm-25008__li174859361464>`.
@@ -74,7 +74,7 @@ Handling Procedure
 
 4. .. _alm-25008__li848412361466:
 
-   On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**. In the right pane, click this alarm and obtain the host name in **Location**.
+   On MRS Manager, choose **O&M** > **Alarm** > **Alarms**. In the right pane, click this alarm and obtain the host name in **Location**.
 
 5. .. _alm-25008__li1248417366465:
 
@@ -105,7 +105,7 @@ Handling Procedure
 
 9.  .. _alm-25008__li89991152124618:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 10. Expand the **Service** drop-down list, and select **LdapServer** for the target cluster.
 

@@ -53,7 +53,7 @@ Handling Procedure
 
 **Check whether the alarm threshold or alarm trigger count is properly configured.**
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, and choose **Doris** > **Queue** > **Number of tasks that are queuing in the thread pool for interaction between the FE and the BE (FE)**.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, and choose **Doris** > **Queue** > **Number of tasks that are queuing in the thread pool for interaction between the FE and the BE (FE)**.
 #. Click the edit button next to **Trigger Count**, change the number based on site requirements, and click **OK**.
 #. Click **Modify** in the **Operation** column, change the alarm threshold based on site requirements, and click **OK**.
 #. Wait 2 minutes and check whether the alarm is automatically cleared.
@@ -65,7 +65,7 @@ Handling Procedure
 
 5. .. _alm-50213__li1370620220:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 6. Expand the **Service** drop-down list, and select **Doris** for the target cluster.
 

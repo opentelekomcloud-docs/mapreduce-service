@@ -53,11 +53,11 @@ Handling Procedure
 
 **Check the GC duration.**
 
-#. Log in to FusionInsight Manager and choose **O&M** > **Alarm** > **Alarms** > **ALM-45740 TokenServer GC Duration Exceeds the Threshold**. Check the location information of the alarm and view the host name of the instance for which the alarm is generated.
+#. Log in to MRS Manager and choose **O&M** > **Alarm** > **Alarms** > **ALM-45740 TokenServer GC Duration Exceeds the Threshold**. Check the location information of the alarm and view the host name of the instance for which the alarm is generated.
 
 #. .. _alm-45740__li43047473:
 
-   On FusionInsight Manager, choose **Cluster** > **Services** > **Guardian**. On the page that is displayed, click the **Instance** tab. On this tab page, select the role corresponding to the host name of the instance for which the alarm is generated and click the drop-down list in the upper right corner of the chart area. Choose **Customize** > **GC** > **TokenServer GC Duration**. Then click **OK**.
+   On MRS Manager, choose **Cluster** > **Services** > **Guardian**. On the page that is displayed, click the **Instance** tab. On this tab page, select the role corresponding to the host name of the instance for which the alarm is generated and click the drop-down list in the upper right corner of the chart area. Choose **Customize** > **GC** > **TokenServer GC Duration**. Then click **OK**.
 
 #. Check whether the GC duration of the TokenServer process collected every minute exceeds the threshold (12 seconds by default).
 
@@ -66,7 +66,7 @@ Handling Procedure
 
 #. .. _alm-45740__d0e44388:
 
-   On FusionInsight Manager, choose **Cluster** > **Services** > **Guardian**. On the page that is displayed, click the **Instance** tab. On this tab page, choose **TokenServer** > **Instance Configuration**. Click **All Configurations**, and choose **TokenServer** > **System**. Set **-Xmx** in the **GC_OPTS** parameter to a larger value based on site requirements and save the configuration.
+   On MRS Manager, choose **Cluster** > **Services** > **Guardian**. On the page that is displayed, click the **Instance** tab. On this tab page, choose **TokenServer** > **Instance Configuration**. Click **All Configurations**, and choose **TokenServer** > **System**. Set **-Xmx** in the **GC_OPTS** parameter to a larger value based on site requirements and save the configuration.
 
    .. note::
 
@@ -85,7 +85,7 @@ Handling Procedure
 
 6. .. _alm-45740__d0e44409:
 
-   On FusionInsight Manager, choose **O&M** > **Log** > **Download**.
+   On MRS Manager, choose **O&M** > **Log** > **Download**.
 
 7. Expand the **Service** drop-down list, and select **Guardian** for the destination cluster.
 

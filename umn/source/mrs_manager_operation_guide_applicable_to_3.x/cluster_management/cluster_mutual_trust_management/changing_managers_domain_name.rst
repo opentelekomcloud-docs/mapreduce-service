@@ -122,7 +122,7 @@ Procedure
 
    .. code-block::
 
-      Modify realm successfully. Use the new password to log into FusionInsight again.
+      Modify realm successfully...
 
    .. note::
 

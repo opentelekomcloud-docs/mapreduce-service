@@ -44,7 +44,7 @@ Procedure
    -  Click **Add User Policy** to add a user policy.
 
       -  **Username**: indicates the name of a user.
-      -  **Weight**: indicates the resources that the user can obtain.
+      -  **Priority**: When task queues need to compete for resources, a queue with a higher priority obtains resources first. However, not all containers can be started. (This parameter is displayed for MRS 3.5.0 and later versions only.)
       -  **Max vCores**: indicates the maximum number of virtual cores that the user can obtain.
       -  **Max Memory(MB)**: indicates the maximum memory that the user can obtain.
 

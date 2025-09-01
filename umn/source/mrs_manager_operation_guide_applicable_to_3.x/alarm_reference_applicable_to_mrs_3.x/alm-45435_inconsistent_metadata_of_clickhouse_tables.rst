@@ -65,7 +65,7 @@ Table metadata modification fails or is not executed on one or more ClickHouseSe
 Handling Procedure
 ------------------
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
 
 #. Log in to the node where the client is installed as the client installation user and run the following commands:
 
@@ -119,7 +119,7 @@ Handling Procedure
 
 6.  .. _alm-45435__li153021955172417:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 7.  Expand the **Service** drop-down list, and select **ClickHouse** for the target cluster.
 

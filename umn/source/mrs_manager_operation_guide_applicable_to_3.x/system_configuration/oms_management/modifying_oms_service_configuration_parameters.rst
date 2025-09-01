@@ -100,7 +100,7 @@ Procedure
 
          .. code-block::
 
-            Modify realm successfully. Use the new password to log into FusionInsight again.
+            Modify realm successfully...
 
       b. Run the **sh $CONTROLLER_HOME/sbin/acs_cmd.sh stop** command to stop ACS.
 

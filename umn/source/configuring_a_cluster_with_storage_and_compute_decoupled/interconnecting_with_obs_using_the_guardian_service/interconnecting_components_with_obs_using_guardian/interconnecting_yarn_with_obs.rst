@@ -71,9 +71,9 @@ Configuring Ranger Permissions
 
 #. .. _mrs_01_248997__en-us_topic_0000001657144846_li468863917426:
 
-   Log in to FusionInsight Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group** to create a user group without any roles, for example, **obs_hadoop1**.
+   Log in to MRS Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group** to create a user group without any roles, for example, **obs_hadoop1**.
 
-#. Back to FusionInsight Manager and choose **System** > **Permission** > **User**. On the displayed page, click **Create User** to create a user that is associated with the **obs_hadoop1** user group and the **default** role, for example, **hadoopuser1**.
+#. Back to MRS Manager and choose **System** > **Permission** > **User**. On the displayed page, click **Create User** to create a user that is associated with the **obs_hadoop1** user group and the **default** role, for example, **hadoopuser1**.
 
 #. Log in to the Ranger management page as the **rangeradmin** user.
 

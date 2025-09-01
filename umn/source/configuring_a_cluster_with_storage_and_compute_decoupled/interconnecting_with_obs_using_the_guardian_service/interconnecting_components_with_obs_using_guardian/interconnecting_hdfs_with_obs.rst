@@ -57,9 +57,9 @@ Interconnecting with OBS
 Configuring Ranger Permissions
 ------------------------------
 
-#. Log in to FusionInsight Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group** to create a user group without any roles, for example, **obs_hadoop**.
+#. Log in to MRS Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group** to create a user group without any roles, for example, **obs_hadoop**.
 
-#. Back to FusionInsight Manager and choose **System** > **Permission** > **User**. On the displayed page, click **Create User** to create a user that is associated only with the **obs_hadoop** user group, for example, **hadoopuser**.
+#. Back to MRS Manager and choose **System** > **Permission** > **User**. On the displayed page, click **Create User** to create a user that is associated only with the **obs_hadoop** user group, for example, **hadoopuser**.
 
 #. Log in to the Ranger management page as the **rangeradmin** user.
 
