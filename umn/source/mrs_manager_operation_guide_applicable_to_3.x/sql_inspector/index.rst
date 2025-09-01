@@ -11,6 +11,7 @@ SQL Inspector
 -  :ref:`Configuring ClickHouse SQL Inspection <admin_guide_000413>`
 -  :ref:`Configuring HetuEngine SQL Inspection <admin_guide_000416>`
 -  :ref:`Configuring Spark SQL Inspection <admin_guide_000414>`
+-  :ref:`Configuring Doris SQL Inspection <admin_guide_000427>`
 
 .. toctree::
    :maxdepth: 1
@@ -22,3 +23,4 @@ SQL Inspector
    configuring_clickhouse_sql_inspection
    configuring_hetuengine_sql_inspection
    configuring_spark_sql_inspection
+   configuring_doris_sql_inspection

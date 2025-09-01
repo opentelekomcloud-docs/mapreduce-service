@@ -56,7 +56,7 @@ Handling Procedure
 
 **Check the maximum number of threads that can be concurrently opened by user omm is properly set.**
 
-#. Log in to FusionInsight Manager and choose **O&M** > **Alarm** > **Alarms**. On the page that is displayed, click |image1| in the row containing the alarm, and view the name of the host for which the alarm is generated in **Location**. Click the host name to view its IP address.
+#. Log in to MRS Manager and choose **O&M** > **Alarm** > **Alarms**. On the page that is displayed, click |image1| in the row containing the alarm, and view the name of the host for which the alarm is generated in **Location**. Click the host name to view its IP address.
 
 #. Log in to the host for which the alarm is generated as user **omm**.
 
@@ -82,7 +82,7 @@ Handling Procedure
 
 6. .. _alm-12186__li18602412348:
 
-   On FusionInsight Manager of the cluster, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager of the cluster, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 7. Expand the **Service** drop-down list, select **OmmServer** and **NodeAgent** for the target cluster, and click **OK**.
 

@@ -52,7 +52,7 @@ Possible Causes
 Handling Procedure
 ------------------
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
 #. Expand the disk capacity of the node for which the alarm is generated.
 #. Go to :ref:`4 <alm-50221__li153021955172417>` if the expansion fails or the alarm persists after the expansion.
 
@@ -60,7 +60,7 @@ Handling Procedure
 
 4. .. _alm-50221__li153021955172417:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 5. Expand the **Service** drop-down list, and select **Doris** for the target cluster.
 

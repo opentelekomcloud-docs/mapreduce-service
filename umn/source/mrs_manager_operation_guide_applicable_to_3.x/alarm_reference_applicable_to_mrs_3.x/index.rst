@@ -79,6 +79,16 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-12187 Failed to Expand Disk Partition Capacity <alm-12187>`
 -  :ref:`ALM-12188 diskmgt Disk Monitoring Unavailable <alm-12188>`
 -  :ref:`ALM-12190 Number of Knox Connections Exceeds the Threshold <alm-12190>`
+-  :ref:`ALM-12191 Disk I/O Usage Exceeds the Threshold <alm-12191>`
+-  :ref:`ALM-12192 Host Load Exceeds the Threshold <alm-12192>`
+-  :ref:`ALM-12200 Password Is About to Expire <alm-12200>`
+-  :ref:`ALM-12201 Process CPU Usage Exceeds the Threshold <alm-12201>`
+-  :ref:`ALM-12202 Process Memory Usage Exceeds the Threshold <alm-12202>`
+-  :ref:`ALM-12203 Process Full GC Duration Exceeds the Threshold <alm-12203>`
+-  :ref:`ALM-12204 Wait Duration of a Disk Read Exceeds the Threshold <alm-12204>`
+-  :ref:`ALM-12205 Wait Duration of a Disk Write Exceeds the Threshold <alm-12205>`
+-  :ref:`ALM-12206 Password Has Expired <alm-12206>`
+-  :ref:`ALM-12207 Slow Disk Processing Timeout <alm-12207>`
 -  :ref:`ALM-13000 ZooKeeper Service Unavailable <alm-13000>`
 -  :ref:`ALM-13001 Available ZooKeeper Connections Are Insufficient <alm-13001>`
 -  :ref:`ALM-13002 ZooKeeper Direct Memory Usage Exceeds the Threshold <alm-13002>`
@@ -124,6 +134,10 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-14033 ZKFC Process Is Abnormal <alm-14033>`
 -  :ref:`ALM-14034 Router Process Is Abnormal <alm-14034>`
 -  :ref:`ALM-14035 HttpFS Process Is Abnormal <alm-14035>`
+-  :ref:`ALM-14036 NameNode Is In Safe Mode <alm-14036>`
+-  :ref:`ALM-14037 DataNodes Outside the Cluster <alm-14037>`
+-  :ref:`ALM-14038 Router Heap Memory Usage Exceeds the Threshold <alm-14038>`
+-  :ref:`ALM-14039 Slow DataNodes Exist in the Cluster <alm-14039>`
 -  :ref:`ALM-16000 Percentage of Sessions Connected to the HiveServer to Maximum Number Allowed Exceeds the Threshold <alm-16000>`
 -  :ref:`ALM-16001 Hive Warehouse Space Usage Exceeds the Threshold <alm-16001>`
 -  :ref:`ALM-16002 Hive SQL Execution Success Rate Is Lower Than the Threshold <alm-16002>`
@@ -138,11 +152,18 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-16046 Hive Data Warehouse Permission Is Modified <alm-16046>`
 -  :ref:`ALM-16047 HiveServer Has Been Deregistered from ZooKeeper <alm-16047>`
 -  :ref:`ALM-16048 Tez or Spark Library Path Does Not Exist <alm-16048>`
+-  :ref:`ALM-16051 Percentage of Sessions Connected to MetaStore Exceeds the Threshold <alm-16051>`
+-  :ref:`ALM-16052 Latency for MetaStore to Access the Meta Database During Table Creation Exceeds the Threshold <alm-16052>`
+-  :ref:`ALM-16053 Average HQL Submission Time of Hive in the Last 5 Minutes Exceeds the Threshold <alm-16053>`
 -  :ref:`ALM-17003 Oozie Service Unavailable <alm-17003>`
 -  :ref:`ALM-17004 Oozie Heap Memory Usage Exceeds the Threshold <alm-17004>`
 -  :ref:`ALM-17005 Oozie Non Heap Memory Usage Exceeds the Threshold <alm-17005>`
 -  :ref:`ALM-17006 Oozie Direct Memory Usage Exceeds the Threshold <alm-17006>`
 -  :ref:`ALM-17007 Garbage Collection (GC) Time of the Oozie Process Exceeds the Threshold <alm-17007>`
+-  :ref:`ALM-17008 Abnormal Connection Between Oozie and ZooKeeper <alm-17008>`
+-  :ref:`ALM-17009 Abnormal Connection Between Oozie and DBService <alm-17009>`
+-  :ref:`ALM-17010 Abnormal Connection Between Oozie and HDFS <alm-17010>`
+-  :ref:`ALM-17011 Abnormal Connection Between Oozie and YARN <alm-17011>`
 -  :ref:`ALM-18000 Yarn Service Unavailable <alm-18000>`
 -  :ref:`ALM-18002 NodeManager Heartbeat Lost <alm-18002>`
 -  :ref:`ALM-18003 NodeManager Unhealthy <alm-18003>`
@@ -186,6 +207,13 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-19024 RPC Requests P99 Latency on RegionServer Exceeds the Threshold <alm-19024>`
 -  :ref:`ALM-19025 Damaged StoreFile in HBase <alm-19025>`
 -  :ref:`ALM-19026 Damaged WAL Files in HBase <alm-19026>`
+-  :ref:`ALM-19030 P99 Latency of RegionServer RPC Request Exceeds the Threshold <alm-19030>`
+-  :ref:`ALM-19031 Number of RegionServer RPC Connections Exceeds the Threshold <alm-19031>`
+-  :ref:`ALM-19032 Number of Tasks in the RegionServer RPC Write Queue Exceeds the Threshold <alm-19032>`
+-  :ref:`ALM-19033 Number of Tasks in the RegionServer RPC Read Queue Exceeds the Threshold <alm-19033>`
+-  :ref:`ALM-19034 Number of RegionServer WAL Write Timeouts Exceeds the Threshold <alm-19034>`
+-  :ref:`ALM-19035 Size of the RegionServer Call Queue Exceeds the Threshold <alm-19035>`
+-  :ref:`ALM-19036 Bad Blocks Exist in HBase Key Directory Data <alm-19036>`
 -  :ref:`ALM-20002 Hue Service Unavailable <alm-20002>`
 -  :ref:`ALM-23001 Loader Service Unavailable <alm-23001>`
 -  :ref:`ALM-23003 Loader Task Execution Failure <alm-23003>`
@@ -245,6 +273,13 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`(Applicable to Versions Later Than MRS 3.1.0)ALM-38009 Busy Broker Disk I/Os (Applicable to Versions Later Than MRS 3.1.0) <alm-38009>`
 -  :ref:`ALM-38010 Topics with Single Replica <alm-38010>`
 -  :ref:`ALM-38011 User Connection Usage on Broker Exceeds the Threshold <alm-38011>`
+-  :ref:`ALM-38012 Number of Broker Partitions Exceeds the Threshold <alm-38012>`
+-  :ref:`ALM-38013 Produce Request Latency in the Request Queue Exceeds the Threshold <alm-38013>`
+-  :ref:`ALM-38014 Total Produce Request Latency Exceeds the Threshold <alm-38014>`
+-  :ref:`ALM-38015 Fetch Request Latency in the Request Queue Exceeds the Threshold <alm-38015>`
+-  :ref:`ALM-38016 Total Fetch Request Latency Exceeds the Threshold <alm-38016>`
+-  :ref:`ALM-38017 Partition Reassignment Duration Exceeds the Threshold <alm-38017>`
+-  :ref:`ALM-38018 Kafka Consumer Lag <alm-38018>`
 -  :ref:`ALM-43001 Spark2x Service Unavailable <alm-43001>`
 -  :ref:`ALM-43006 Heap Memory Usage of the JobHistory2x Process Exceeds the Threshold <alm-43006>`
 -  :ref:`ALM-43007 Non-Heap Memory Usage of the JobHistory2x Process Exceeds the Threshold <alm-43007>`
@@ -261,12 +296,20 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-43021 Direct Memory Usage of the IndexServer2x Process Exceeds the Threshold <alm-43021>`
 -  :ref:`ALM-43022 IndexServer2x Process GC Time Exceeds the Threshold <alm-43022>`
 -  :ref:`ALM-43023 IndexServer2x Process Full GC Number Exceeds the Threshold <alm-43023>`
+-  :ref:`ALM-43028 JDBCServer Session Overflow <alm-43028>`
+-  :ref:`ALM-43029 JDBCServer Job Submission Timed Out <alm-43029>`
 -  :ref:`ALM-44004 Presto Coordinator Resource Group Queuing Tasks Exceed the Threshold <alm-44004>`
 -  :ref:`ALM-44005 Presto Coordinator Process GC Time Exceeds the Threshold <alm-44005>`
 -  :ref:`ALM-44006 Presto Worker Process GC Time Exceeds the Threshold <alm-44006>`
 -  :ref:`ALM-45000 HetuEngine Service Unavailable <alm-45000>`
 -  :ref:`ALM-45001 Faulty HetuEngine Compute Instances <alm-45001>`
 -  :ref:`ALM-45003 HetuEngine QAS Disk Capacity Is Insufficient <alm-45003>`
+-  :ref:`ALM-45004 Tasks Stacked on HetuEngine Compute Instance <alm-45004>`
+-  :ref:`ALM-45005 CPU Usage of HetuEngine Compute Instance Exceeded the Threshold <alm-45005>`
+-  :ref:`ALM-45006 Memory Usage of a HetuEngine Compute Instance Exceeded the Threshold <alm-45006>`
+-  :ref:`ALM-45007 Number of Workers of a HetuEngine Compute Instance Is Less Than the Threshold <alm-45007>`
+-  :ref:`ALM-45008 Query Latency of HetuEngine Compute Instances Exceeds the Threshold <alm-45008>`
+-  :ref:`ALM-45009 Task Failure Rate of HetuEngine Compute Instances Exceeds the Threshold <alm-45009>`
 -  :ref:`ALM-45175 Average Time for Calling OBS Metadata APIs Is Greater than the Threshold <alm-45175>`
 -  :ref:`ALM-45176 Success Rate of Calling OBS Metadata APIs Is Lower than the Threshold <alm-45176>`
 -  :ref:`ALM-45177 Success Rate of Calling OBS Data Read APIs Is Lower than the Threshold <alm-45177>`
@@ -293,6 +336,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-45290 PolicySync Direct Memory Usage Exceeds the Threshold <alm-45290>`
 -  :ref:`ALM-45291 PolicySync Non-Heap Memory Usage Exceeds the Threshold <alm-45291>`
 -  :ref:`ALM-45292 PolicySync GC Duration Exceeds the Threshold <alm-45292>`
+-  :ref:`ALM-45293 Ranger User Synchronization Exception <alm-45293>`
+-  :ref:`ALM-45294 RangerKMS Process Is Abnormal <alm-45294>`
 -  :ref:`ALM-45425 ClickHouse Service Unavailable <alm-45425>`
 -  :ref:`ALM-45426 ClickHouse Service Quantity Quota Usage in ZooKeeper Exceeds the Threshold <alm-45426>`
 -  :ref:`ALM-45427 ClickHouse Service Capacity Quota Usage in ZooKeeper Exceeds the Threshold <alm-45427>`
@@ -313,6 +358,21 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-45442 Too Many Concurrent SQL Statements <alm-45442>`
 -  :ref:`ALM-45443 Slow SQL Queries in the Cluster <alm-45443>`
 -  :ref:`ALM-45444 Abnormal ClickHouse Process <alm-45444>`
+-  :ref:`ALM-45445 Failed to Send Data Files to Remote Shards When ClickHouse Writes Data to a Distributed Table <alm-45445>`
+-  :ref:`ALM-45446 Mutation Task of ClickHouse Is Not Complete for a Long Time <alm-45446>`
+-  :ref:`ALM-45447 ClickHouse Table Read-Only <alm-45447>`
+-  :ref:`ALM-45448 Rapid Increase of Znodes Used by ClickHouse <alm-45448>`
+-  :ref:`ALM-45449 The Counter Number of zxid Used by ClickHouse Exceeds the Threshold <alm-45449>`
+-  :ref:`ALM-45450 ClickHouse Failed to Obtain a Temporary Agency Credential <alm-45450>`
+-  :ref:`ALM-45451 ClickHouse Failed to Access OBS <alm-45451>`
+-  :ref:`ALM-45452 ClickHouse's Local Disk Space Is Below the Cold-Hot Separation Threshold <alm-45452>`
+-  :ref:`ALM-45475 A Single Replica Exists in the Kudu Data Table <alm-45475>`
+-  :ref:`ALM-45476 Kudu Failed to Enter the Maintenance Mode <alm-45476>`
+-  :ref:`ALM-45477 Failed to Restore Data After a Disk of Kudu Is Replaced <alm-45477>`
+-  :ref:`ALM-45478 Kudu Failed Data Balancing <alm-45478>`
+-  :ref:`ALM-45479 Number of Tablets of the Tserver Process Exceeds the Threshold <alm-45479>`
+-  :ref:`ALM-45480 Tablet Leaders of a Tserver Process Are Unevenly Distributed <alm-45480>`
+-  :ref:`ALM-45481 KuduTserver Has Full Disks <alm-45481>`
 -  :ref:`ALM-45585 IoTDB Service Unavailable <alm-45585>`
 -  :ref:`ALM-45586 IoTDBServer Heap Memory Usage Exceeds the Threshold <alm-45586>`
 -  :ref:`ALM-45587 IoTDBServer GC Duration Exceeds the Threshold <alm-45587>`
@@ -357,6 +417,12 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-45741 Failed to Call the ECS securitykey API <alm-45741>`
 -  :ref:`ALM-45742 Failed to Call the ECS Metadata API <alm-45742>`
 -  :ref:`ALM-45743 Failed to Call the IAM API <alm-45743>`
+-  :ref:`ALM-45744 Average RPC Processing Time of the Guardian TokenServer Exceeds the Threshold <alm-45744>`
+-  :ref:`ALM-45745 Average RPC Queuing Time of the Guardian TokenServer Exceeds the Threshold <alm-45745>`
+-  :ref:`ALM-47001 MemArtsCC Service Unavailable <alm-47001>`
+-  :ref:`ALM-47002 MemArtsCC Disk Fault <alm-47002>`
+-  :ref:`ALM-47003 Memory Usage of the MemArtsCC Worker Process Exceeds the Threshold <alm-47003>`
+-  :ref:`ALM-47004 Average Latency of MemArtsCC Worker Read Requests Exceeds the Threshold <alm-47004>`
 -  :ref:`ALM-50201 Doris Service Unavailable <alm-50201>`
 -  :ref:`ALM-50202 FE CPU Usage Exceeds the Threshold <alm-50202>`
 -  :ref:`ALM-50203 FE Memory Usage Exceeds the Threshold <alm-50203>`
@@ -381,8 +447,17 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-50224 Failures a Certain Task Type on BE Are Increasing <alm-50224>`
 -  :ref:`ALM-50225 FE Instance Fault <alm-50225>`
 -  :ref:`ALM-50226 BE Instance Fault <alm-50226>`
+-  :ref:`ALM-50227 Concurrent Doris Tenant Queries Exceeds the Threshold <alm-50227>`
+-  :ref:`ALM-50228 Memory Usage of a Doris Tenant Exceeds the Threshold <alm-50228>`
+-  :ref:`ALM-50229 Doris FE Failed to Connect to OBS <alm-50229>`
+-  :ref:`ALM-50230 Doris BE Cannot Connect to OBS <alm-50230>`
+-  :ref:`ALM-50231 Abnormal Tablets Exist in Doris <alm-50231>`
+-  :ref:`ALM-50232 Large Tablets in Doris <alm-50232>`
 -  :ref:`ALM-50401 Number of JobServer Jobs Waiting to Be Executed Exceeds the Threshold <alm-50401>`
 -  :ref:`ALM-50402 JobGateway Service Unavailable <alm-50402>`
+-  :ref:`ALM-50406 Failure Rate of the JobServer Job Submission API Exceeds the Threshold <alm-50406>`
+-  :ref:`ALM-50407 Failure Rate of the JobServer Job Query API Exceeds the Threshold <alm-50407>`
+-  :ref:`ALM-50408 Failure Rate of the JobServer Job Termination API Exceeds the Threshold <alm-50408>`
 
 .. toctree::
    :maxdepth: 1
@@ -462,6 +537,16 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-12187_failed_to_expand_disk_partition_capacity
    alm-12188_diskmgt_disk_monitoring_unavailable
    alm-12190_number_of_knox_connections_exceeds_the_threshold
+   alm-12191_disk_i_o_usage_exceeds_the_threshold
+   alm-12192_host_load_exceeds_the_threshold
+   alm-12200_password_is_about_to_expire
+   alm-12201_process_cpu_usage_exceeds_the_threshold
+   alm-12202_process_memory_usage_exceeds_the_threshold
+   alm-12203_process_full_gc_duration_exceeds_the_threshold
+   alm-12204_wait_duration_of_a_disk_read_exceeds_the_threshold
+   alm-12205_wait_duration_of_a_disk_write_exceeds_the_threshold
+   alm-12206_password_has_expired
+   alm-12207_slow_disk_processing_timeout
    alm-13000_zookeeper_service_unavailable
    alm-13001_available_zookeeper_connections_are_insufficient
    alm-13002_zookeeper_direct_memory_usage_exceeds_the_threshold
@@ -507,6 +592,10 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-14033_zkfc_process_is_abnormal
    alm-14034_router_process_is_abnormal
    alm-14035_httpfs_process_is_abnormal
+   alm-14036_namenode_is_in_safe_mode
+   alm-14037_datanodes_outside_the_cluster
+   alm-14038_router_heap_memory_usage_exceeds_the_threshold
+   alm-14039_slow_datanodes_exist_in_the_cluster
    alm-16000_percentage_of_sessions_connected_to_the_hiveserver_to_maximum_number_allowed_exceeds_the_threshold
    alm-16001_hive_warehouse_space_usage_exceeds_the_threshold
    alm-16002_hive_sql_execution_success_rate_is_lower_than_the_threshold
@@ -521,11 +610,18 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-16046_hive_data_warehouse_permission_is_modified
    alm-16047_hiveserver_has_been_deregistered_from_zookeeper
    alm-16048_tez_or_spark_library_path_does_not_exist
+   alm-16051_percentage_of_sessions_connected_to_metastore_exceeds_the_threshold
+   alm-16052_latency_for_metastore_to_access_the_meta_database_during_table_creation_exceeds_the_threshold
+   alm-16053_average_hql_submission_time_of_hive_in_the_last_5_minutes_exceeds_the_threshold
    alm-17003_oozie_service_unavailable
    alm-17004_oozie_heap_memory_usage_exceeds_the_threshold
    alm-17005_oozie_non_heap_memory_usage_exceeds_the_threshold
    alm-17006_oozie_direct_memory_usage_exceeds_the_threshold
    alm-17007_garbage_collection_gc_time_of_the_oozie_process_exceeds_the_threshold
+   alm-17008_abnormal_connection_between_oozie_and_zookeeper
+   alm-17009_abnormal_connection_between_oozie_and_dbservice
+   alm-17010_abnormal_connection_between_oozie_and_hdfs
+   alm-17011_abnormal_connection_between_oozie_and_yarn
    alm-18000_yarn_service_unavailable
    alm-18002_nodemanager_heartbeat_lost
    alm-18003_nodemanager_unhealthy
@@ -569,6 +665,13 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-19024_rpc_requests_p99_latency_on_regionserver_exceeds_the_threshold
    alm-19025_damaged_storefile_in_hbase
    alm-19026_damaged_wal_files_in_hbase
+   alm-19030_p99_latency_of_regionserver_rpc_request_exceeds_the_threshold
+   alm-19031_number_of_regionserver_rpc_connections_exceeds_the_threshold
+   alm-19032_number_of_tasks_in_the_regionserver_rpc_write_queue_exceeds_the_threshold
+   alm-19033_number_of_tasks_in_the_regionserver_rpc_read_queue_exceeds_the_threshold
+   alm-19034_number_of_regionserver_wal_write_timeouts_exceeds_the_threshold
+   alm-19035_size_of_the_regionserver_call_queue_exceeds_the_threshold
+   alm-19036_bad_blocks_exist_in_hbase_key_directory_data
    alm-20002_hue_service_unavailable
    alm-23001_loader_service_unavailable
    alm-23003_loader_task_execution_failure
@@ -628,6 +731,13 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    applicable_to_versions_later_than_mrs_3.1.0alm-38009_busy_broker_disk_i_os_applicable_to_versions_later_than_mrs_3.1.0
    alm-38010_topics_with_single_replica
    alm-38011_user_connection_usage_on_broker_exceeds_the_threshold
+   alm-38012_number_of_broker_partitions_exceeds_the_threshold
+   alm-38013_produce_request_latency_in_the_request_queue_exceeds_the_threshold
+   alm-38014_total_produce_request_latency_exceeds_the_threshold
+   alm-38015_fetch_request_latency_in_the_request_queue_exceeds_the_threshold
+   alm-38016_total_fetch_request_latency_exceeds_the_threshold
+   alm-38017_partition_reassignment_duration_exceeds_the_threshold
+   alm-38018_kafka_consumer_lag
    alm-43001_spark2x_service_unavailable
    alm-43006_heap_memory_usage_of_the_jobhistory2x_process_exceeds_the_threshold
    alm-43007_non-heap_memory_usage_of_the_jobhistory2x_process_exceeds_the_threshold
@@ -644,12 +754,20 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-43021_direct_memory_usage_of_the_indexserver2x_process_exceeds_the_threshold
    alm-43022_indexserver2x_process_gc_time_exceeds_the_threshold
    alm-43023_indexserver2x_process_full_gc_number_exceeds_the_threshold
+   alm-43028_jdbcserver_session_overflow
+   alm-43029_jdbcserver_job_submission_timed_out
    alm-44004_presto_coordinator_resource_group_queuing_tasks_exceed_the_threshold
    alm-44005_presto_coordinator_process_gc_time_exceeds_the_threshold
    alm-44006_presto_worker_process_gc_time_exceeds_the_threshold
    alm-45000_hetuengine_service_unavailable
    alm-45001_faulty_hetuengine_compute_instances
    alm-45003_hetuengine_qas_disk_capacity_is_insufficient
+   alm-45004_tasks_stacked_on_hetuengine_compute_instance
+   alm-45005_cpu_usage_of_hetuengine_compute_instance_exceeded_the_threshold
+   alm-45006_memory_usage_of_a_hetuengine_compute_instance_exceeded_the_threshold
+   alm-45007_number_of_workers_of_a_hetuengine_compute_instance_is_less_than_the_threshold
+   alm-45008_query_latency_of_hetuengine_compute_instances_exceeds_the_threshold
+   alm-45009_task_failure_rate_of_hetuengine_compute_instances_exceeds_the_threshold
    alm-45175_average_time_for_calling_obs_metadata_apis_is_greater_than_the_threshold
    alm-45176_success_rate_of_calling_obs_metadata_apis_is_lower_than_the_threshold
    alm-45177_success_rate_of_calling_obs_data_read_apis_is_lower_than_the_threshold
@@ -676,6 +794,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-45290_policysync_direct_memory_usage_exceeds_the_threshold
    alm-45291_policysync_non-heap_memory_usage_exceeds_the_threshold
    alm-45292_policysync_gc_duration_exceeds_the_threshold
+   alm-45293_ranger_user_synchronization_exception
+   alm-45294_rangerkms_process_is_abnormal
    alm-45425_clickhouse_service_unavailable
    alm-45426_clickhouse_service_quantity_quota_usage_in_zookeeper_exceeds_the_threshold
    alm-45427_clickhouse_service_capacity_quota_usage_in_zookeeper_exceeds_the_threshold
@@ -696,6 +816,21 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-45442_too_many_concurrent_sql_statements
    alm-45443_slow_sql_queries_in_the_cluster
    alm-45444_abnormal_clickhouse_process
+   alm-45445_failed_to_send_data_files_to_remote_shards_when_clickhouse_writes_data_to_a_distributed_table
+   alm-45446_mutation_task_of_clickhouse_is_not_complete_for_a_long_time
+   alm-45447_clickhouse_table_read-only
+   alm-45448_rapid_increase_of_znodes_used_by_clickhouse
+   alm-45449_the_counter_number_of_zxid_used_by_clickhouse_exceeds_the_threshold
+   alm-45450_clickhouse_failed_to_obtain_a_temporary_agency_credential
+   alm-45451_clickhouse_failed_to_access_obs
+   alm-45452_clickhouses_local_disk_space_is_below_the_cold-hot_separation_threshold
+   alm-45475_a_single_replica_exists_in_the_kudu_data_table
+   alm-45476_kudu_failed_to_enter_the_maintenance_mode
+   alm-45477_failed_to_restore_data_after_a_disk_of_kudu_is_replaced
+   alm-45478_kudu_failed_data_balancing
+   alm-45479_number_of_tablets_of_the_tserver_process_exceeds_the_threshold
+   alm-45480_tablet_leaders_of_a_tserver_process_are_unevenly_distributed
+   alm-45481_kudutserver_has_full_disks
    alm-45585_iotdb_service_unavailable
    alm-45586_iotdbserver_heap_memory_usage_exceeds_the_threshold
    alm-45587_iotdbserver_gc_duration_exceeds_the_threshold
@@ -740,6 +875,12 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-45741_failed_to_call_the_ecs_securitykey_api
    alm-45742_failed_to_call_the_ecs_metadata_api
    alm-45743_failed_to_call_the_iam_api
+   alm-45744_average_rpc_processing_time_of_the_guardian_tokenserver_exceeds_the_threshold
+   alm-45745_average_rpc_queuing_time_of_the_guardian_tokenserver_exceeds_the_threshold
+   alm-47001_memartscc_service_unavailable
+   alm-47002_memartscc_disk_fault
+   alm-47003_memory_usage_of_the_memartscc_worker_process_exceeds_the_threshold
+   alm-47004_average_latency_of_memartscc_worker_read_requests_exceeds_the_threshold
    alm-50201_doris_service_unavailable
    alm-50202_fe_cpu_usage_exceeds_the_threshold
    alm-50203_fe_memory_usage_exceeds_the_threshold
@@ -764,5 +905,14 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-50224_failures_a_certain_task_type_on_be_are_increasing
    alm-50225_fe_instance_fault
    alm-50226_be_instance_fault
+   alm-50227_concurrent_doris_tenant_queries_exceeds_the_threshold
+   alm-50228_memory_usage_of_a_doris_tenant_exceeds_the_threshold
+   alm-50229_doris_fe_failed_to_connect_to_obs
+   alm-50230_doris_be_cannot_connect_to_obs
+   alm-50231_abnormal_tablets_exist_in_doris
+   alm-50232_large_tablets_in_doris
    alm-50401_number_of_jobserver_jobs_waiting_to_be_executed_exceeds_the_threshold
    alm-50402_jobgateway_service_unavailable
+   alm-50406_failure_rate_of_the_jobserver_job_submission_api_exceeds_the_threshold
+   alm-50407_failure_rate_of_the_jobserver_job_query_api_exceeds_the_threshold
+   alm-50408_failure_rate_of_the_jobserver_job_termination_api_exceeds_the_threshold

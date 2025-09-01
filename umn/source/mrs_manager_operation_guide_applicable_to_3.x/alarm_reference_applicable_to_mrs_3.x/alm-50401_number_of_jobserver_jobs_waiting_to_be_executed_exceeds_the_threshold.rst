@@ -56,7 +56,7 @@ Too many jobs are submitted instantaneously.
 Handling Procedure
 ------------------
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **JobGateway**.
+#. Log in to MRS Manager and choose **Cluster** > **Services** > **JobGateway**.
 #. Click the **Instances** tab, click **Add Instance**, and add JobServer instances based on the number of submitted jobs.
 
 3. After the instances are added, restart the JobGateway service.
@@ -75,7 +75,7 @@ Handling Procedure
 
 5. .. _alm-50401__li1559486215:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 6. Expand the **Service** drop-down list, and select **JobGateway** for the target cluster.
 

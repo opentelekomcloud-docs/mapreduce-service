@@ -142,7 +142,7 @@ Configuring a Cloud Service Agency
 Granting OBS Access Permission to Guardian
 ------------------------------------------
 
-#. Log in to FusionInsight Manager, choose **Cluster** > **Services** > **Guardian**, click **Configurations**, and then **All Configurations**. On the displayed page, search for and modify the following parameters.
+#. Log in to MRS Manager, choose **Cluster** > **Services** > **Guardian**, click **Configurations**, and then **All Configurations**. On the displayed page, search for and modify the following parameters.
 
    +---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
    | Parameter                             | Description                                                                                                                                                                                    | Value                                                                                   |
@@ -156,7 +156,7 @@ Granting OBS Access Permission to Guardian
    | token.server.access.label.agency.name | Name of the specified IAM agency, which is the agency created in :ref:`Creating an Agency for a Regular Account <mrs_01_248978__en-us_topic_0000001705424181_section189891846103018>`.         | agency-MRS-to-OBS                                                                       |
    +---------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
 
-#. Save the service configuration, choose **More** > **Restart Configuration-Expired Instances** on the FusionInsight Manager home page, and restart all service instances whose configurations have expired as prompted.
+#. Save the service configuration, choose **More** > **Restart Configuration-Expired Instances** on the MRS Manager home page, and restart all service instances whose configurations have expired as prompted.
 
 #. To submit jobs on the MRS console, log in to the active OMS node as user **omm** and run the following command to refresh the built-in client configuration:
 
@@ -167,7 +167,7 @@ Granting OBS Access Permission to Guardian
 Enabling Cascading Authorization for Hive Tables
 ------------------------------------------------
 
-#. Log in to FusionInsight Manager, choose **Cluster** > **Services** > **Ranger** and click **Configurations**.
+#. Log in to MRS Manager, choose **Cluster** > **Services** > **Ranger** and click **Configurations**.
 
 #. Search for the **ranger.ext.authorization.cascade.enable** parameter and set it to **true**.
 

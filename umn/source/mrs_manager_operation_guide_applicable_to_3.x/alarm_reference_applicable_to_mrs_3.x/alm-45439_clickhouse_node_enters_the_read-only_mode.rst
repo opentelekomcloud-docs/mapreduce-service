@@ -20,7 +20,7 @@ This alarm is automatically cleared when the system detects that the disk capaci
 
    If the ClickHouseServer node is in read-only mode and you need to log in to the client to clear data, you can manually exit the read-only mode using the following method:
 
-   Log in to FusionInsight Manager, choose **Cluster** > **Services** > **ClickHouse** > **Configurations** > **All Configurations**, search for **profiles.default.readonly**, and change its value to **0**.
+   Log in to MRS Manager, choose **Cluster** > **Services** > **ClickHouse** > **Configurations** > **All Configurations**, search for **profiles.default.readonly**, and change its value to **0**.
 
 Alarm Attributes
 ----------------
@@ -61,7 +61,7 @@ The disk usage of the ClickHouse node exceeds 90%.
 Handling Procedure
 ------------------
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
 #. Expand the disk capacity of the node for which the alarm is generated.
 #. Go to :ref:`4 <alm-45439__li153021955172417>` if the expansion fails or the alarm persists after the expansion.
 
@@ -73,7 +73,7 @@ Handling Procedure
 
 4. .. _alm-45439__li153021955172417:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 5. Expand the **Service** drop-down list, and select **ClickHouse** for the target cluster.
 

@@ -57,14 +57,14 @@ Handling Procedure
 
    |image1|
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**, and check whether the alarm whose **Alarm ID** is **29014** exists in the alarm list.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Alarms**, and check whether the alarm whose **Alarm ID** is **29014** exists in the alarm list.
 
    -  If yes, go to :ref:`3 <alm-29014__li244181931712>`.
    -  If no, no further action is required.
 
 #. .. _alm-29014__li244181931712:
 
-   On FusionInsight Manager, choose **Cluster** > **Impala**, click the **Instance** tab, select the Catalog instance for which the alarm is generated, then click the **Chart** tab, locate the **Process FGCT** chart, and check whether the FGC time is greater than the threshold in :ref:`1 <alm-29014__li10982129144318>`.
+   On MRS Manager, choose **Cluster** > **Impala**, click the **Instance** tab, select the Catalog instance for which the alarm is generated, then click the **Chart** tab, locate the **Process FGCT** chart, and check whether the FGC time is greater than the threshold in :ref:`1 <alm-29014__li10982129144318>`.
 
    -  If yes, go to :ref:`4 <alm-29014__li12325539141817>`.
    -  If no, go to :ref:`5 <alm-29014__li1698242954313>`.
@@ -80,7 +80,7 @@ Handling Procedure
 
 5. .. _alm-29014__li1698242954313:
 
-   On FusionInsight Manager of the active or standby cluster, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager of the active or standby cluster, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 6. Expand the **Service** drop-down list, and select **Impala** for the target cluster.
 

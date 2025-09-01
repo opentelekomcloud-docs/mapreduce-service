@@ -53,7 +53,7 @@ Handling Procedure
 
 **Check the GC duration.**
 
-#. On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**. In the alarm list, view the role name and obtain the IP address of the instance in **Location** of the alarm whose ID is **50211**.
+#. On MRS Manager, choose **O&M** > **Alarm** > **Alarms**. In the alarm list, view the role name and obtain the IP address of the instance in **Location** of the alarm whose ID is **50211**.
 
 #. Choose **Cluster** > **Services** > **Doris** > **Instances**, click the FE instance for which the alarm is generated, and click the **Chart** tab of the instance.
 
@@ -78,7 +78,7 @@ Handling Procedure
 
 5. .. _alm-50211__li196491423155013:
 
-   Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, and choose **Doris** > **Queue** > **Queue Length of BE Periodic Report Tasks on the FE (FE)**.
+   Log in to MRS Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, and choose **Doris** > **Queue** > **Queue Length of BE Periodic Report Tasks on the FE (FE)**.
 
 6. Click the edit button next to **Trigger Count**, change the number based on site requirements, and click **OK**.
 
@@ -93,7 +93,7 @@ Handling Procedure
 
 9.  .. _alm-50211__li1058072415565:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 10. Expand the **Service** drop-down list, and select **Doris** for the target cluster.
 

@@ -56,7 +56,7 @@ Handling Procedure
 
 **Check whether the compaction pressure of RocksDB is too high and ALM-45646 is generated.**
 
-#. On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**.
+#. On MRS Manager, choose **O&M** > **Alarm** > **Alarms**.
 
 #. In the alarm list, check whether **ALM-45646 Pending Compaction Size of RocksDB Continuously Exceeds the Threshold** exists.
 
@@ -94,7 +94,7 @@ Handling Procedure
 
 8.  .. _alm-45644__li168007412119:
 
-    Log in to FusionInsight Manager as a user who has the FlinkServer management permission.
+    Log in to MRS Manager as a user who has the FlinkServer management permission.
 
 9.  Choose **O&M** > **Alarm** > **Alarms** > **ALM-45644 Number of SST Files at Level 0 of RocksDB Continuously Exceeds the Threshold**, view **Location**, and obtain the name of the task for which the alarm is generated.
 

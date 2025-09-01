@@ -56,7 +56,7 @@ Handling Procedure
 
 **Check whether the number of SST files at level 0 is too large.**
 
-#. On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**.
+#. On MRS Manager, choose **O&M** > **Alarm** > **Alarms**.
 
 #. In the alarm list, check whether **ALM-45644 Number of SST Files at Level 0 of RocksDB Continuously Exceeds the Threshold** exists.
 
@@ -76,7 +76,7 @@ Handling Procedure
 
 5. .. _alm-45649__li2091153718402:
 
-   Log in to FusionInsight Manager as a user who has the FlinkServer management permission.
+   Log in to MRS Manager as a user who has the FlinkServer management permission.
 
 6. Choose **O&M** > **Alarm** > **Alarms** > **ALM-45649 P95 Latency of RocksDB Get Requests Continuously Exceeds the Threshold**, view **Location**, and obtain the name of the task for which the alarm is generated.
 

@@ -96,7 +96,7 @@ Interconnecting with OBS
 Configuring Ranger Permissions
 ------------------------------
 
-#. Log in to FusionInsight Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group**.
+#. Log in to MRS Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group**.
 
 #. .. _mrs_01_248993__en-us_topic_0000001705304929_li55372842617:
 

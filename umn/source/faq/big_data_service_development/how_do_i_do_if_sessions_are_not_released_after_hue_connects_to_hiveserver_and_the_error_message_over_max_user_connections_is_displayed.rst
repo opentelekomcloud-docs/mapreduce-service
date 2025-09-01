@@ -9,7 +9,7 @@ Applicable versions: MRS 3.1.0 and earlier
 
 #. Modify the following file on the two Hue nodes:
 
-   /opt/Bigdata/FusionInsight_Porter_8.*/install/FusionInsight-Hue-``*``/hue/apps/beeswax/src/beeswax/models.py
+   /opt/Bigdata/``*``_Porter_8.*/install/``*``-Hue-``*``/hue/apps/beeswax/src/beeswax/models.py
 
 #. Change the configurations in lines 396 and 404.
 

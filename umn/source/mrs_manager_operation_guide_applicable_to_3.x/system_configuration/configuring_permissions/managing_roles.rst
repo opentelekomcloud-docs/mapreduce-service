@@ -85,10 +85,12 @@ Task Example (Creating a Manager Role)
 
    -  Tenant
 
-      **management** permission: permission for management on the **Tenant** page and permission to view alarms and events under **O&M** > **Alarm**.
+      -  **view** permission: permission to view information on the **Tenant Resources** page.
+      -  **management** permission: permission for management on the **Tenant** page and permission to view alarms and events under **O&M** > **Alarm**.
 
    -  System
 
-      **management** permission: permission for management on all pages except those under **Permission** on the **System** page and permission to view alarms and events under **O&M** > **Alarm**.
+      -  **view** permission: permission to view all pages except those under **Permission** on the **System** module.
+      -  **management** permission: permission for management on all pages except those under **Permission** on the **System** page and permission to view alarms and events under **O&M** > **Alarm**.
 
 #. Click **OK**.

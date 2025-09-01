@@ -49,7 +49,7 @@ Handling Procedure
 
 **Check the HDFS service status.**
 
-#. Log in to FusionInsight Manager and choose **O&M** > **Alarm** > **Alarms**. On the page that is displayed, check whether "ALM-14000 HDFS Service Unavailable" is reported.
+#. Log in to MRS Manager and choose **O&M** > **Alarm** > **Alarms**. On the page that is displayed, check whether "ALM-14000 HDFS Service Unavailable" is reported.
 
    -  If yes, go to :ref:`2 <alm-45736__l0ca5fe03ce10420c9ad6c90f8583a4bd>`.
    -  If no, go to :ref:`3 <alm-45736__li43869374161349>`.
@@ -83,7 +83,7 @@ Handling Procedure
 
 5. .. _alm-45736__li16749195915615:
 
-   On FusionInsight Manager, choose **O&M** > **Log** > **Download**.
+   On MRS Manager, choose **O&M** > **Log** > **Download**.
 
 6. Expand the **Service** drop-down list, and select **Guardian** for the destination cluster.
 

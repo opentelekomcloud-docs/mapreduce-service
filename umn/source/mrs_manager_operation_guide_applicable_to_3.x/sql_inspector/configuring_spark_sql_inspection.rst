@@ -8,7 +8,7 @@ Configuring Spark SQL Inspection
 Scenario
 --------
 
-You can configure rules for Spark SQL inspection on FusionInsight Manager and configure rule parameters as you need.
+You can configure rules for Spark SQL inspection on MRS Manager and configure rule parameters as you need.
 
 Prerequisites
 -------------
@@ -34,7 +34,7 @@ Constraints
 Procedure
 ---------
 
-#. Log in to FusionInsight Manager, click **Cluster**, and choose **SQL Inspector**. The **SQL Inspector** page is displayed.
+#. Log in to MRS Manager, click **Cluster**, and choose **SQL Inspector**. The **SQL Inspector** page is displayed.
 
 #. .. _admin_guide_000414__en-us_topic_0000001625860966_li7650134142117:
 
@@ -100,7 +100,7 @@ Procedure
 
    In Spark Beeline, you can obtain SQL inspection details from logs.
 
-   a. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **Yarn**. On the **Dashboard** page, click the link next to **ResourceManager WebUI** to enter the Yarn web UI.
+   a. Log in to MRS Manager and choose **Cluster** > **Services** > **Yarn**. On the **Dashboard** page, click the link next to **ResourceManager WebUI** to enter the Yarn web UI.
 
    b. Click the ID of the target application on the **All Applications** page. The application details page is displayed.
 

@@ -48,7 +48,7 @@ Handling Procedure
 
 **Check whether the ZooKeeper service on which Flink depends is abnormal.**
 
-#. Log in to FusionInsight Manager and choose **O&M** > **Alarm** > **Alarms**.
+#. Log in to MRS Manager and choose **O&M** > **Alarm** > **Alarms**.
 
 #. In the alarm list, check whether "ALM-13000 ZooKeeper Service Unavailable" exists.
 
@@ -68,7 +68,7 @@ Handling Procedure
 
 5. .. _alm-45652__li936635985913:
 
-   On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**.
+   On MRS Manager, choose **O&M** > **Alarm** > **Alarms**.
 
 6. In the alarm list, check whether "ALM-14000 HDFS Service Unavailable" exists.
 
@@ -88,7 +88,7 @@ Handling Procedure
 
 9.  .. _alm-45652__li1540834513593:
 
-    On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**.
+    On MRS Manager, choose **O&M** > **Alarm** > **Alarms**.
 
 10. In the alarm list, check whether "ALM-18000 Yarn Service Unavailable" exists.
 
@@ -108,7 +108,7 @@ Handling Procedure
 
 13. .. _alm-45652__li10537624124112:
 
-    On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**.
+    On MRS Manager, choose **O&M** > **Alarm** > **Alarms**.
 
 14. In the alarm list, check whether "ALM-25500 KrbServer Service Unavailable" exists.
 
@@ -128,7 +128,7 @@ Handling Procedure
 
 17. .. _alm-45652__li1957661133312:
 
-    On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**.
+    On MRS Manager, choose **O&M** > **Alarm** > **Alarms**.
 
 18. In the alarm list, check whether "ALM-27001 DBService Service Unavailable" exists.
 
@@ -148,7 +148,7 @@ Handling Procedure
 
 21. .. _alm-45652__li4749473185459:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 22. Expand the **Service** drop-down list, and select **Flink** for the target cluster.
 

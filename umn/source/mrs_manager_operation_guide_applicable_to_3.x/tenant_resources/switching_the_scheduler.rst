@@ -33,7 +33,7 @@ This function is only available for clusters of MRS 3.3.0 or later.
 
 **Procedure**
 
-#. Log in to FusionInsight Manager. Choose **Cluster** > **Services** > **Yarn** and check whether the Yarn service status is normal. If the service is abnormal, restore the service.
+#. Log in to MRS Manager. Choose **Cluster** > **Services** > **Yarn** and check whether the Yarn service status is normal. If the service is abnormal, restore the service.
 #. Log in to the active management node as user **omm**.
 #. Switch the scheduler.
 

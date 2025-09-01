@@ -54,7 +54,7 @@ Handling Procedure
 
 **Check whether growpart is installed.**
 
-#. Log in to FusionInsight Manager, click **O&M**, and choose **Alarm** > **Alarms** to view the alarm details. In the **Location** column, check the name of the host and mount directory for which the alarm is generated. Click the host name to view its IP address.
+#. Log in to MRS Manager, click **O&M**, and choose **Alarm** > **Alarms** to view the alarm details. In the **Location** column, check the name of the host and mount directory for which the alarm is generated. Click the host name to view its IP address.
 
 #. Log in to the node for which the alarm is generated as user **root**.
 
@@ -69,7 +69,7 @@ Handling Procedure
       [root@xxx ~]#which growpart
       /usr/bin/growpart
 
-4. Wait for 5 minutes, then choose **O&M**, and choose **Alarm** > **Alarms** on FusionInsight Manager. Check whether the alarm is cleared.
+4. Wait for 5 minutes, then choose **O&M**, and choose **Alarm** > **Alarms** on MRS Manager. Check whether the alarm is cleared.
 
    -  If yes, no further action is required.
    -  If no, go to :ref:`5 <alm-12187__li88865011163>`.
@@ -112,7 +112,7 @@ Handling Procedure
 
    |image3|
 
-8. Wait for 5 minutes, click **O&M**, and choose **Alarm** > **Alarms** on FusionInsight Manager. Check whether the alarm is cleared.
+8. Wait for 5 minutes, click **O&M**, and choose **Alarm** > **Alarms** on MRS Manager. Check whether the alarm is cleared.
 
    -  If yes, no further action is required.
    -  If no, contact O&M personnel.

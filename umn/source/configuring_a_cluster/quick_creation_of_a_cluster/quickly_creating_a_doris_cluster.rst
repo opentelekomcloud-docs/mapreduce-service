@@ -7,7 +7,7 @@ Quickly Creating a Doris Cluster
 
 This section describes how to quickly create a Doris cluster. Doris is a high-performance, real-time analytical database, suitable for report analysis, ad hoc query, and federated data lake query acceleration.
 
-A Doris cluster contains only the Doris 1.2.3 component.
+A Doris cluster contains only the Doris component.
 
 
 Quickly Creating a Doris Cluster
@@ -27,13 +27,12 @@ Quickly Creating a Doris Cluster
    -  **Cluster Version**: The latest version is selected by default. (Components vary depending on the version type. Select a version type as needed.)
    -  **Component**: Select **Doris Cluster**.
    -  **AZ**: Retain the default value.
-   -  **Enterprise Project**: Select the default project.
    -  **VPC**: Retain the default value. If there is no available VPC, click **View VPC** to access the VPC console and create one.
    -  **Subnet**: Retain the default value.
    -  **CPU Architecture**: Use the default value.
    -  **Cluster Nodes**: Set the number of cluster nodes and node specifications based on your needs. For MRS 3.\ *x* and later, the memory of a master node must be at least 64 GB.
    -  **Kerberos Authentication**: Whether to enable Kerberos authentication. This option cannot be changed after you create a cluster.
-   -  **Username**: The default value is **root**/**admin**. User **root** is used to remotely log in to ECSs and user **admin** is used to access FusionInsight Manager.
+   -  **Username**: The default value is **root**/**admin**. User **root** is used to remotely log in to ECSs and user **admin** is used to access MRS Manager.
    -  **Password**: Set a password for user **root**/**admin**.
    -  **Confirm Password**: Enter the password of user **root**/**admin** again.
 

@@ -55,9 +55,9 @@ Handling Procedure
 
 #. .. _alm-50402__li431925741816:
 
-   Log in to FusionInsight Manager, choose **Cluster** > **Services** > **JobGateway**, and click the **Instance** tab. Check for JobServer or JobBalancer instances that are faulty or not started and view the host names of these instances.
+   Log in to MRS Manager, choose **Cluster** > **Services** > **JobGateway**, and click the **Instance** tab. Check for JobServer or JobBalancer instances that are faulty or not started and view the host names of these instances.
 
-#. On the **Alarm** page of FusionInsight Manager, check whether the **NodeAgent Process Is Abnormal** alarm is generated.
+#. On the **Alarm** page of MRS Manager, check whether the **NodeAgent Process Is Abnormal** alarm is generated.
 
    -  If yes, go to :ref:`3 <alm-50402__li854418235198>`.
    -  If no, go to :ref:`6 <alm-50402__li2051913258201>`.
@@ -82,7 +82,7 @@ Handling Procedure
 
 6. .. _alm-50402__li2051913258201:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 7. Expand the **Service** drop-down list, and select **JobGateway** for the target cluster.
 

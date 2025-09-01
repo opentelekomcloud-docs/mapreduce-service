@@ -54,7 +54,7 @@ Handling Procedure
 
 **Check whether the disaster process is normal.**
 
-#. In the alarm list on FusionInsight Manager, locate the row that contains the alarm, and click |image1| to view the name of the host for which the alarm is generated.
+#. In the alarm list on MRS Manager, locate the row that contains the alarm, and click |image1| to view the name of the host for which the alarm is generated.
 
 #. Log in to the host for which the alarm is generated as user **root**.
 
@@ -78,7 +78,7 @@ Handling Procedure
 
 7.  .. _alm-12091__li6152360163635:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 8.  Expand the **Service** drop-down list, select **Disaster** for the target cluster, and click **OK**.
 

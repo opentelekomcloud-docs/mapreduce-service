@@ -69,7 +69,7 @@ Handling Procedure
 
 4. .. _alm-50220__li727840151813:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 5. Expand the **Service** drop-down list, and select **Doris** for the target cluster.
 

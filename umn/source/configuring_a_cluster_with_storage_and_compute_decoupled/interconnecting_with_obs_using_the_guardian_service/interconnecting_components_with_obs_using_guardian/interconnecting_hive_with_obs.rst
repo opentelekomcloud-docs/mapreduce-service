@@ -16,7 +16,7 @@ Interconnecting Hive with OBS through Metastore
 
 #. You have configured storage and compute decoupling by referring to :ref:`Interconnecting the Guardian Service with OBS <mrs_01_248978>`.
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **Hive**, and click **Configurations**.
+#. Log in to MRS Manager and choose **Cluster** > **Services** > **Hive**, and click **Configurations**.
 
 #. Search for **hive.metastore.warehouse.dir** in the search box and change the parameter value to an OBS path, for example, **obs://hivetest/user/hive/warehouse/**. **hivetest** indicates the OBS file system name.
 
@@ -73,7 +73,7 @@ Configuring Ranger Permissions
 
 -  Granting the read and write permissions on OBS paths to a custom user group
 
-   #. Log in to FusionInsight Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group**.
+   #. Log in to MRS Manager and choose **System** > **Permission** > **User Group**. On the displayed page, click **Create User Group**.
 
    #. Create a user group without a role, for example, **hiveobs1**, and bind the user group to the corresponding user.
 

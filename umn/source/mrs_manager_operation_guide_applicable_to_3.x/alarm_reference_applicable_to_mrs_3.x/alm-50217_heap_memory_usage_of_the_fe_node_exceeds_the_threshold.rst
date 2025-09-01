@@ -53,12 +53,12 @@ Handling Procedure
 
 **Check heap memory usage.**
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds**, select the name of the desired cluster, and choose **Doris** > **CPU and Memory** > **Heap memory usage of the FE node (FE)**.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Thresholds**, select the name of the desired cluster, and choose **Doris** > **CPU and Memory** > **Heap memory usage of the FE node (FE)**.
 
    a. Click the edit button next to **Trigger Count**, change the number based on site requirements, and click **OK**.
    b. Click **Modify** in the **Operation** column, change the alarm threshold based on site requirements, and click **OK**.
 
-#. On FusionInsight Manager, choose **Cluster** > **Services** > **Doris** > **FE** > **Configurations** > **All Configurations**, search for the **FE_GC_OPTS** parameter, increase the value of **-Xmx** as required, click **Save**, and click **OK**.
+#. On MRS Manager, choose **Cluster** > **Services** > **Doris** > **FE** > **Configurations** > **All Configurations**, search for the **FE_GC_OPTS** parameter, increase the value of **-Xmx** as required, click **Save**, and click **OK**.
 
    .. note::
 
@@ -80,7 +80,7 @@ Handling Procedure
 
 4. .. _alm-50217__li884043751319:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 5. Expand the **Service** drop-down list, and select **Doris** for the target cluster.
 
