@@ -51,7 +51,7 @@ Handling Procedure
 
 **Check whether the alarm threshold or alarm trigger count is properly configured.**
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, and choose **Doris** > **Performance** > **Maximum compaction score of all BE nodes (BE)**.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, and choose **Doris** > **Performance** > **Maximum compaction score of all BE nodes (BE)**.
 
 #. Click the edit button next to **Trigger Count**, change the number based on site requirements, and click **OK**.
 
@@ -81,7 +81,7 @@ Handling Procedure
 
 8.  .. _alm-50210__li1550365453611:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 9.  Expand the **Service** drop-down list, select **Doris** for the target cluster, and click **OK**.
 

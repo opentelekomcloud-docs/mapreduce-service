@@ -53,7 +53,7 @@ Handling Procedure
 
 **Check the execution status of FE tasks.**
 
-#. On FusionInsight Manager, choose **Cluster** > **Services** > **Doris**. Click the **Chart** tab, select **Connection** from **Chart Category** in the left pane, and view the **FE MySQL Port Connections** chart. If the number of connections is large, click **Instances**, select the FE instance, and click the **Chart** tab. Select **CPU and Memory** from **Chart Category** and view the **CPU Usage of FE** chart. If the CPU usage is high, check the **Time** field in FE audit **log /var/log/Bigdata/audit/doris/fe/fe.audit.log** to collect statistics on the average task duration. If the value is also high, the alarm is caused by large concurrent tasks.
+#. On MRS Manager, choose **Cluster** > **Services** > **Doris**. Click the **Chart** tab, select **Connection** from **Chart Category** in the left pane, and view the **FE MySQL Port Connections** chart. If the number of connections is large, click **Instances**, select the FE instance, and click the **Chart** tab. Select **CPU and Memory** from **Chart Category** and view the **CPU Usage of FE** chart. If the CPU usage is high, check the **Time** field in FE audit **log /var/log/Bigdata/audit/doris/fe/fe.audit.log** to collect statistics on the average task duration. If the value is also high, the alarm is caused by large concurrent tasks.
 
 #. After connecting to Doris, run the following command to check whether the default value of **queryTimeout** is too large. The default value is **300** seconds.
 
@@ -70,7 +70,7 @@ Handling Procedure
 
 #. .. _alm-50214__li178613815419:
 
-   Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, and choose **Doris** > **Queue** > **Queue Length of Query Execution Thread Pool (BE)**.
+   Log in to MRS Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, and choose **Doris** > **Queue** > **Queue Length of Query Execution Thread Pool (BE)**.
 
 #. Click the edit button next to **Trigger Count**, change the number based on site requirements, and click **OK**.
 
@@ -85,7 +85,7 @@ Handling Procedure
 
 8.  .. _alm-50214__li727840151813:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 9.  Expand the **Service** drop-down list, and select **Doris** for the target cluster.
 

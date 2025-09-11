@@ -48,7 +48,7 @@ Handling Procedure
 
 **View alarm information.**
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms** > **ALM-45655 Flink HA Certificate File Has Expired**, view **Location**, obtain the name of the host for which the alarm is generated, and click the host name to view its IP address.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Alarms** > **ALM-45655 Flink HA Certificate File Has Expired**, view **Location**, obtain the name of the host for which the alarm is generated, and click the host name to view its IP address.
 
 **Check whether the HA certificate file in the system is valid. If it is not, generate a new one.**
 
@@ -90,7 +90,7 @@ Handling Procedure
 
 9.  .. _alm-45655__li593632253716:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 10. Expand the **Service** drop-down list, and select **Flink** for the target cluster.
 

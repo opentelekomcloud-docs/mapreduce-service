@@ -56,7 +56,7 @@ Handling Procedure
 
 **Check whether the ClickHouse service load is heavy.**
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**, and view the database name, table name, role name and IP address for the hostname in **Location**.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Alarms**, and view the database name, table name, role name and IP address for the hostname in **Location**.
 
 #. Log in to the node where the client is installed as the client installation user and run the following commands:
 
@@ -114,7 +114,7 @@ Handling Procedure
 
 #. .. _alm-45440__li1295605909:
 
-   On FusionInsight Manager, choose **Cluster** > **Services** > **ClickHouse** > **Configurations** > **All Configurations**, and check whether the value of **background_pool_size** is twice the number of cores on the node.
+   On MRS Manager, choose **Cluster** > **Services** > **ClickHouse** > **Configurations** > **All Configurations**, and check whether the value of **background_pool_size** is twice the number of cores on the node.
 
    -  If yes, go to :ref:`9 <alm-45440__li1927623020184>`.
    -  If no, go to :ref:`8 <alm-45440__li69571258018>`.
@@ -134,7 +134,7 @@ Handling Procedure
 
     .. note::
 
-       To view the ZooKeeper port number, choose **Cluster** > **Services** > **ZooKeeper** > **Configurations** > **All Configurations** on FusionInsight Manager, and check the value of **clientPort**.
+       To view the ZooKeeper port number, choose **Cluster** > **Services** > **ZooKeeper** > **Configurations** > **All Configurations** on MRS Manager, and check the value of **clientPort**.
 
     .. code-block::
 
@@ -168,7 +168,7 @@ Handling Procedure
 
 11. .. _alm-45440__li6769733151816:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 12. Expand the **Service** drop-down list, and select **ClickHouse** for the target cluster.
 

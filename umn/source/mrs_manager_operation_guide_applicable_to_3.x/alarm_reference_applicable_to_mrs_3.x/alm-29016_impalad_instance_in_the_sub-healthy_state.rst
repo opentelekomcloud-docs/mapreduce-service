@@ -49,7 +49,7 @@ The Impalad service maintains too many queries.
 Handling Procedure
 ------------------
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **Impala** > **Impalad Web UI**. On the displayed page, click any node to go to the web UI.
+#. Log in to MRS Manager and choose **Cluster** > **Services** > **Impala** > **Impalad Web UI**. On the displayed page, click any node to go to the web UI.
 
 #. On the web UI, click **/backends** to view the Impala instance list. Locate the instance for which the alarm is generated and click **Web UI**. After the web UI of the subhealthy node is displayed, click **/queries** to check the task execution status and check whether any task is executed slowly.
 
@@ -65,7 +65,7 @@ Handling Procedure
 
 #. .. _alm-29016__li668151171315:
 
-   On FusionInsight Manager, choose **Cluster** > **Services** > **Impala** > **Instances**, select the Impala instance for which the alarm is generated, click **More**, and select **Restart Instance**. Then, check whether the alarm is cleared.
+   On MRS Manager, choose **Cluster** > **Services** > **Impala** > **Instances**, select the Impala instance for which the alarm is generated, click **More**, and select **Restart Instance**. Then, check whether the alarm is cleared.
 
    -  If yes, no further action is required.
    -  If no, go to :ref:`5 <alm-29016__li1698242954313>`.
@@ -78,7 +78,7 @@ Handling Procedure
 
 5. .. _alm-29016__li1698242954313:
 
-   On FusionInsight Manager of the active or standby cluster, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager of the active or standby cluster, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 6. Expand the **Service** drop-down list, and select **Impala** for the target cluster.
 

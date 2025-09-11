@@ -8,7 +8,7 @@ Configuring Hive SQL Inspection
 Scenario
 --------
 
-You can configure rules for Hive SQL inspection on FusionInsight Manager and configure rule parameters as you need.
+You can configure rules for Hive SQL inspection on MRS Manager and configure rule parameters as you need.
 
 Prerequisites
 -------------
@@ -28,7 +28,7 @@ Constraints
 Procedure
 ---------
 
-#. Log in to FusionInsight Manager, click **Cluster**, and choose **SQL Inspector**. The **SQL Inspector** page is displayed.
+#. Log in to MRS Manager, click **Cluster**, and choose **SQL Inspector**. The **SQL Inspector** page is displayed.
 
 #. .. _admin_guide_000412__en-us_topic_0000001662482833_li7650134142117:
 

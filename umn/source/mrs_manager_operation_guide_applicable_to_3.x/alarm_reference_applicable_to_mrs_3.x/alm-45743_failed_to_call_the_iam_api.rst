@@ -46,7 +46,7 @@ Handling Procedure
 
 **Collect fault information.**
 
-#. On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+#. On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 #. Expand the **Service** drop-down list, and select **Guardian** for the target cluster.
 #. Click |image1| in the upper right corner, and set **Start Date** and **End Date** for log collection to 1 hour ahead of and after the alarm generation time, respectively. Then, click **Download**.
 #. Contact O&M personnel and provide the collected logs.

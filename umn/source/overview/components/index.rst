@@ -21,14 +21,17 @@ Components
 -  :ref:`Hive <mrs_08_0011>`
 -  :ref:`Hudi <mrs_08_0083>`
 -  :ref:`Hue <mrs_08_0012>`
+-  :ref:`Impala <mrs_08_0038>`
 -  :ref:`IoTDB <mrs_08_0093>`
 -  :ref:`JobGateway <mrs_08_0149>`
 -  :ref:`Kafka <mrs_08_0013>`
 -  :ref:`KafkaManager <mrs_08_0032>`
 -  :ref:`KrbServer and LdapServer <mrs_08_0064>`
+-  :ref:`Kudu <mrs_08_0039>`
 -  :ref:`Loader <mrs_08_0017>`
 -  :ref:`Manager <mrs_08_0066>`
 -  :ref:`MapReduce <mrs_08_0050>`
+-  :ref:`MemArtsCC <mrs_08_0116>`
 -  :ref:`Oozie <mrs_08_0067>`
 -  :ref:`OpenTSDB <mrs_08_0035>`
 -  :ref:`Presto <mrs_08_0031>`
@@ -60,14 +63,17 @@ Components
    hive/index
    hudi
    hue/index
+   impala
    iotdb/index
    jobgateway/index
    kafka/index
    kafkamanager
    krbserver_and_ldapserver/index
+   kudu
    loader/index
    manager/index
    mapreduce/index
+   memartscc/index
    oozie/index
    opentsdb
    presto

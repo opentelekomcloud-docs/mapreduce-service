@@ -59,7 +59,7 @@ Handling Procedure
 
 **Check whether write traffic limiting or write stop is caused due to too many MemTables.**
 
-#. On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**.
+#. On MRS Manager, choose **O&M** > **Alarm** > **Alarms**.
 
 #. In the alarm list, check whether **ALM-45643 MemTable Size of RocksDB Continuously Exceeds the Threshold** exists.
 
@@ -79,7 +79,7 @@ Handling Procedure
 
 5. .. _alm-45650__li88241531181819:
 
-   On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**.
+   On MRS Manager, choose **O&M** > **Alarm** > **Alarms**.
 
 6. In the alarm list, check whether **ALM-45644 Number of SST Files at Level 0 of RocksDB Continuously Exceeds the Threshold** exists.
 
@@ -117,7 +117,7 @@ Handling Procedure
 
 12. .. _alm-45650__li1826072651812:
 
-    Log in to FusionInsight Manager as a user who has the FlinkServer management permission.
+    Log in to MRS Manager as a user who has the FlinkServer management permission.
 
 13. Choose **O&M** > **Alarm** > **Alarms** > **ALM-45650 P95 Latency of RocksDB Write Requests Continuously Exceeds the Threshold**, view **Location**, and obtain the name of the task for which the alarm is generated.
 

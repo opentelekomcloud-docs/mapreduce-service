@@ -14,7 +14,7 @@ The configuration file paths of commonly used components are as follows:
 +-----------------------------------+-------------------------------------------------------------------------------------+
 | Flink                             | *Client installation directory*\ **/Flink/flink/conf**                              |
 +-----------------------------------+-------------------------------------------------------------------------------------+
-| Flume                             | *Client installation directory/*\ **fusioninsight-flume-**\ *xxx*\ **/conf**        |
+| Flume                             | *Client installation directory/*\ **\*-flume-**\ *xxx*\ **/conf**                   |
 +-----------------------------------+-------------------------------------------------------------------------------------+
 | HBase                             | *Client installation directory*\ **/HBase/hbase/conf**                              |
 +-----------------------------------+-------------------------------------------------------------------------------------+

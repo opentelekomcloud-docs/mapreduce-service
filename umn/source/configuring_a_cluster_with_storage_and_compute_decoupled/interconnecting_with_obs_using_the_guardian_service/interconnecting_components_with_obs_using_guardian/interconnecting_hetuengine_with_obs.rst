@@ -14,7 +14,7 @@ In an MRS cluster, **Location** can be set to an OBS file system path during Het
 
    #. If a HetuEngine compute instance is running, restart it.
 
-      Log in to FusionInsight Manager as a user who has permission to access the HetuEngine web UI. Choose **Cluster** > **Services** > **HetuEngine**. In the **Basic Information** area in the Dashboard tab, click the link next to **HSConsole WebUI**. On the displayed HSConsole page, click **Compute Instance**. In the instance list, click **Restart** in the **Operation** column and operate as prompted.
+      Log in to MRS Manager as a user who has permission to access the HetuEngine web UI. Choose **Cluster** > **Services** > **HetuEngine**. In the **Basic Information** area in the Dashboard tab, click the link next to **HSConsole WebUI**. On the displayed HSConsole page, click **Compute Instance**. In the instance list, click **Restart** in the **Operation** column and operate as prompted.
 
    #. Log in to the node where the HetuEngine service client is located as the client installation user and run the following command:
 
@@ -41,7 +41,7 @@ In an MRS cluster, **Location** can be set to an OBS file system path during Het
 -  Interconnecting with OBS through Hive Metastore
 
    #. Complete the configurations by referring to :ref:`Interconnecting Hive with OBS using MetaStore <mrs_01_248989__en-us_topic_0000001656985526_section18127143141811>`.
-   #. Log in to FusionInsight Manager, choose **Cluster** > **Services** > **HetuEngine**. On the displayed page, choose **More** > **Synchronize Configuration**. After the synchronization is complete, choose **More** > **Synchronize Configuration** again and then restart the HetuEngine service as prompted.
+   #. Log in to MRS Manager, choose **Cluster** > **Services** > **HetuEngine**. On the displayed page, choose **More** > **Synchronize Configuration**. After the synchronization is complete, choose **More** > **Synchronize Configuration** again and then restart the HetuEngine service as prompted.
 
       .. important::
 

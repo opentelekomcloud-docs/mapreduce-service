@@ -141,6 +141,6 @@ Related Information
 None
 
 .. |image1| image:: /_static/images/en-us_image_0000001532927450.png
-.. |image2| image:: /_static/images/en-us_image_0000001532607778.png
-.. |image3| image:: /_static/images/en-us_image_0000001583087429.png
+.. |image2| image:: /_static/images/en-us_image_0000002413688652.png
+.. |image3| image:: /_static/images/en-us_image_0000002413848564.png
 .. |image4| image:: /_static/images/en-us_image_0000001582807721.png

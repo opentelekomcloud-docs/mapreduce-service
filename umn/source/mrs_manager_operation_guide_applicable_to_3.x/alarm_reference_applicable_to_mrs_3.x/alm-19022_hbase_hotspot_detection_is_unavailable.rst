@@ -55,7 +55,7 @@ Handling Procedure
 
 **Check the ZooKeeper service status.**
 
-#. In the service list on FusionInsight Manager, check whether **Running Status** of ZooKeeper is **Normal**.
+#. In the service list on MRS Manager, check whether **Running Status** of ZooKeeper is **Normal**.
 
    -  If yes, go to :ref:`5 <alm-19022__li18661164216271>`.
    -  If no, go to :ref:`2 <alm-19022__li1267193701920>`.
@@ -80,7 +80,7 @@ Handling Procedure
 
 5. .. _alm-19022__li18661164216271:
 
-   In the service list on FusionInsight Manager, check whether **Running Status** of HBase is **Normal**.
+   In the service list on MRS Manager, check whether **Running Status** of HBase is **Normal**.
 
    -  If yes, go to :ref:`9 <alm-19022__li61381651152817>`.
    -  If no, go to :ref:`6 <alm-19022__li18662154292714>`.
@@ -105,7 +105,7 @@ Handling Procedure
 
 9.  .. _alm-19022__li61381651152817:
 
-    On FusionInsight Manager, choose **Cluster** > **Service** > **HBase**, and click **Instances** to check whether the **MetricController(Active)** instance exists.
+    On MRS Manager, choose **Cluster** > **Service** > **HBase**, and click **Instances** to check whether the **MetricController(Active)** instance exists.
 
     -  If yes, go to :ref:`12 <alm-19022__li182979395366>`.
     -  If no, go to :ref:`10 <alm-19022__li12138165182818>`.
@@ -141,7 +141,7 @@ Handling Procedure
 
 15. .. _alm-19022__li107641231103617:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 16. Expand the **Service** drop-down list, and select **HBase** for the target cluster.
 

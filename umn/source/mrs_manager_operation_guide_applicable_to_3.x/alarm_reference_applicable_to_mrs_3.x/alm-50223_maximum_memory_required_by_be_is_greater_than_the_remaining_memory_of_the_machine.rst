@@ -53,7 +53,7 @@ Handling Procedure
 
 **Check whether the maximum memory set for the BE node is proper.**
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, and choose **Doris** > **CPU and Memory** > **Relationship between the maximum memory size of the BE and the remaining memory size of the machine (BE)**.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, and choose **Doris** > **CPU and Memory** > **Relationship between the maximum memory size of the BE and the remaining memory size of the machine (BE)**.
 #. Click the edit button next to **Trigger Count**, change the number based on site requirements, and click **OK**.
 #. Click **Modify** in the **Operation** column, change the alarm threshold based on site requirements, and click **OK**.
 #. Wait 2 minutes and check whether the alarm is automatically cleared.
@@ -72,7 +72,7 @@ Handling Procedure
 
    Log in to the BE node for which the alarm is generated as user **omm** and run the **free -g** command to check the total memory and remaining memory in the system and estimate the memory usage.
 
-7. On FusionInsight Manager, choose **Cluster** > **Services** > **Doris** > **Configurations** > **All Configurations** > **BE(Role)** > **Memory** and decrease the value of **mem_limit**. This parameter specifies the maximum memory allowed for BE. Then save the modification and restart the BE instance.
+7. On MRS Manager, choose **Cluster** > **Services** > **Doris** > **Configurations** > **All Configurations** > **BE(Role)** > **Memory** and decrease the value of **mem_limit**. This parameter specifies the maximum memory allowed for BE. Then save the modification and restart the BE instance.
 
    .. important::
 
@@ -87,7 +87,7 @@ Handling Procedure
 
 9.  .. _alm-50223__li1199710143919:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 10. Expand the **Service** drop-down list, and select **Doris** for the target cluster.
 

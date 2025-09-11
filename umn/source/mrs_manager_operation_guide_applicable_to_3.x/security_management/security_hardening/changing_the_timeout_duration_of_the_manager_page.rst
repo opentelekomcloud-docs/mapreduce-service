@@ -5,7 +5,7 @@
 Changing the Timeout Duration of the Manager Page
 =================================================
 
-FusionInsight Manager allows you to configure the timeout duration of the Manager page based on service requirements. You must properly set the timeout duration to prevent information leakage in long-time exposure of the web page.
+MRS Manager allows you to configure the timeout duration of the Manager page based on service requirements. You must properly set the timeout duration to prevent information leakage in long-time exposure of the web page.
 
 .. note::
 
@@ -15,7 +15,7 @@ FusionInsight Manager allows you to configure the timeout duration of the Manage
 Changing the Timeout Duration of the Manager Page
 -------------------------------------------------
 
-#. Log in to FusionInsight Manager.
+#. Log in to MRS Manager.
 #. Choose **System** > **OMS**.
 #. In the list, locate the row that contains **tomcat** and click **Modify Configuration**.
 #. On the displayed page, set **Session Timeout** as required and click **OK**.

@@ -26,14 +26,68 @@ Procedure
 
    The generated compressed file contains the configuration files of all services.
 
-#. Determine whether to generate a configuration file on the cluster node.
+#. Select the path for saving the downloaded client configuration file.
 
-   -  If yes, select **Save to Path**, and click **OK** to generate the client file. By default, the client file is generated in **/tmp/FusionInsight-Client** on the active management node. You can also store the client file in other directories, and user **omm** has the read, write, and execute permissions on the directories. Then, go to :ref:`4 <admin_guide_000173__en-us_topic_0193213946_l6af983f03121493ca3526296f5b650c3>`.
-   -  If no, click **OK** and specify a local save path to download the complete client. Wait until the download is complete, and go to :ref:`4 <admin_guide_000173__en-us_topic_0193213946_l6af983f03121493ca3526296f5b650c3>`.
+   -  **Server**: Download the file to the active OMS node of the cluster.
 
-#. .. _admin_guide_000173__en-us_topic_0193213946_l6af983f03121493ca3526296f5b650c3:
+      The generated file is stored in the **/tmp/FusionInsight-Client** directory on the active OMS node by default. You can also store the client file in other directories, and user **omm** has the read, write, and execute permissions on the directory. If the client file already exists in the path, the existing client file will be replaced.
 
-   Use WinSCP to save the compressed file to the installation directory of the client as the client installation user, such as **/opt/hadoopclient**.
+      .. note::
+
+         When a cluster has many services installed, the cluster client file becomes quite large. Additionally, decompressing this file during installation can consume significant disk space. It's recommended to download the client files to a different directory that has ample space, or to promptly remove unnecessary files from the client download directory after installation. Doing so helps avoid exhausting the **/tmp directory**'s disk space, which could interrupt the normal operation of the cluster nodes.
+
+      After the file is generated, copy the obtained package to another directory, for example, **/opt/Bigdata/hadoopclient**, as user **omm** or client installation user.
+
+   -  **Browser**: Download the file to the local computer.
+
+   -  **Remote node:** Download the file to a node other than the active OMS node. If you select this option, you need to set the following parameters:
+
+      .. table:: **Table 1** Parameters
+
+         +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+         | Parameter             | Description                                                                                                                                                                   | Example Value                     |
+         +=======================+===============================================================================================================================================================================+===================================+
+         | Save to Path          | Path for storing client files.                                                                                                                                                | /tmp/FusionInsight-Client-Remote/ |
+         |                       |                                                                                                                                                                               |                                   |
+         |                       | If there is already a client file in the path, it will be overwritten. For a remote node, write permission for the path is required.                                          |                                   |
+         +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+         | Host IP Address       | IP address of the remote node.                                                                                                                                                | x.x.x.x                           |
+         |                       |                                                                                                                                                                               |                                   |
+         |                       | .. note::                                                                                                                                                                     |                                   |
+         |                       |                                                                                                                                                                               |                                   |
+         |                       |    The platform type of the remote node must be the same as that of the downloaded client. Otherwise, the client may fail to be installed.                                    |                                   |
+         +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+         | Host Port             | Host port of the remote node.                                                                                                                                                 | 22                                |
+         +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+         | Username              | Username for logging in to the remote node.                                                                                                                                   | xxx                               |
+         |                       |                                                                                                                                                                               |                                   |
+         |                       | For a remote node, write permission for the path is required.                                                                                                                 |                                   |
+         +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+         | Authentication Method | You can choose one of the following methods:                                                                                                                                  | Password                          |
+         |                       |                                                                                                                                                                               |                                   |
+         |                       | -  **Password**: Use the password for login.                                                                                                                                  |                                   |
+         |                       | -  **SSH private keys**: Use SSH private keys for login.                                                                                                                      |                                   |
+         |                       | -  **None**: To use this method, passwordless login needs to be enabled for the node.                                                                                         |                                   |
+         +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+         | Password              | This parameter is mandatory when **Authentication Method** is set to **Password**.                                                                                            | xxx                               |
+         |                       |                                                                                                                                                                               |                                   |
+         |                       | This parameter indicates the password used for login.                                                                                                                         |                                   |
+         +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+         | SSH Private Keys      | This parameter is mandatory when **Authentication Method** is set to **SSH private keys**.                                                                                    | ``-``                             |
+         |                       |                                                                                                                                                                               |                                   |
+         |                       | Click **Select File** and select a local file to upload.                                                                                                                      |                                   |
+         +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+         | Auto Deployment       | Whether to enable auto deployment. This parameter is mandatory when **Select Client Type** is set to **Complete Client**.                                                     | Yes                               |
+         |                       |                                                                                                                                                                               |                                   |
+         |                       | -  If you set this parameter to **yes**, the client is automatically installed and deployed on the current node.                                                              |                                   |
+         |                       | -  If you set this parameter to **no**, the client will not be automatically installed and deployed. You need to manually install the client after it is downloaded.          |                                   |
+         +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+         | Deployment Path       | This parameter is mandatory when **Auto Deployment** is set to **Yes**. If only the configuration file is downloaded, this parameter will not be displayed.                   | /opt/testclient                   |
+         |                       |                                                                                                                                                                               |                                   |
+         |                       | The deployment path must be empty if it already exists on the remote node. Otherwise, it will be created automatically. The path also requires operate and write permissions. |                                   |
+         +-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+
+#. Use WinSCP to save the compressed file to the installation directory of the client as the client installation user, such as **/opt/hadoopclient**.
 
 #. Decompress the software package.
 

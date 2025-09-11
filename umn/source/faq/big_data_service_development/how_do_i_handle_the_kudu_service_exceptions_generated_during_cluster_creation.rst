@@ -50,7 +50,7 @@ If this exception occurs when the Kudu service is installed for the first time, 
 
    **find /opt -name master.gflagfile**
 
-   **cat /opt/Bigdata/FusionInsight_Kudu_*/*_KuduMaster/etc/master.gflagfile \| grep fs\_**
+   **cat /opt/Bigdata\ ``/*_Kudu_*/``\ \*_KuduMaster/etc/master.gflagfile \| grep fs\_**
 
 #. On the cluster details page, choose **Components** > **Kudu** and click **Stop Service**.
 

@@ -52,7 +52,7 @@ Handling Procedure
 
 **Check whether the diskmgt disk monitoring service exists.**
 
-#. Log in to FusionInsight Manager, click **O&M**, and choose **Alarm** > **Alarms** to view the alarm details. In the **Location** column, check the name of the host for which the alarm is generated. Click the host name to view its IP address.
+#. Log in to MRS Manager, click **O&M**, and choose **Alarm** > **Alarms** to view the alarm details. In the **Location** column, check the name of the host for which the alarm is generated. Click the host name to view its IP address.
 
 #. Log in to the node for which the alarm is generated as user **root**.
 
@@ -80,7 +80,7 @@ Handling Procedure
 
 6. .. _alm-12188__li09010504164:
 
-   Wait for 5 minutes, click **O&M**, and choose **Alarm** > **Alarms** on FusionInsight Manager. Check whether the alarm is cleared.
+   Wait for 5 minutes, click **O&M**, and choose **Alarm** > **Alarms** on MRS Manager. Check whether the alarm is cleared.
 
    -  If yes, no further action is required.
    -  If no, contact O&M personnel.

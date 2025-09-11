@@ -8,7 +8,7 @@ Configuring HetuEngine SQL Inspection
 Scenario
 --------
 
-You can configure rules for HetuEngine SQL inspection on FusionInsight Manager and configure rule parameters as you need.
+You can configure rules for HetuEngine SQL inspection on MRS Manager and configure rule parameters as you need.
 
 Prerequisites
 -------------
@@ -30,7 +30,7 @@ Constraints
 Procedure
 ---------
 
-#. Log in to FusionInsight Manager, click **Cluster**, and choose **SQL Inspector**. The **SQL Inspector** page is displayed.
+#. Log in to MRS Manager, click **Cluster**, and choose **SQL Inspector**. The **SQL Inspector** page is displayed.
 
 #. .. _admin_guide_000416__en-us_topic_0000001625941690_li7650134142117:
 

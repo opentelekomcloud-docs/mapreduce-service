@@ -81,7 +81,7 @@ MRS Manager alarm monitoring metrics are classified as node information metrics 
 
 .. note::
 
-   On FusionInsight Manager of MRS 3.3.0 or later, alarms of some components can be reported by severity. Each alarm severity has a threshold. You can view them on the FusionInsight Manager configuration page.
+   On MRS Manager of MRS 3.3.0 or later, alarms of some components can be reported by severity. Each alarm severity has a threshold. You can view them on the MRS Manager configuration page.
 
 .. _admin_guide_000071__table4447741:
 

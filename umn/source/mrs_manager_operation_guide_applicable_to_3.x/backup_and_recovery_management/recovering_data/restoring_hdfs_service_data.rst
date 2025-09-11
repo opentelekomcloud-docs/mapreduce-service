@@ -121,6 +121,17 @@ Procedure
       -  **Maximum Number of Maps**: indicates the maximum number of maps in a MapReduce task. The default value is **20**.
       -  **Maximum Bandwidth of a Map (MB/s)**: indicates the maximum bandwidth of a map. The default value is **100**.
 
+   -  **OBS**: indicates that backup files are stored in OBS (supported in MRS 3.5.0 and later only).
+
+      If you select this option, configure the following parameters:
+
+      -  **Source Path**: indicates the full OBS path of a backup file, for example, *Backup path/xxx/Backup task name_Data source_Task creation time/Version_Data source_Task execution time*\ **.tar.gz**.
+      -  **Queue Name**: indicates the name of the YARN queue used for executing the backup task.
+      -  **Recovery Point List**: Click **Refresh** and select an OBS directory that has been backed up.
+      -  **Target NameService Name**: indicates the NameService name of the backup directory. The default value is **hacluster**.
+      -  **Maximum Number of Maps**: indicates the maximum number of maps in a MapReduce task. The default value is **20**.
+      -  **Maximum Bandwidth of a Map (MB/s)**: indicates the maximum bandwidth of a map. The default value is **100**.
+
 #. In the **Backup Data** column of the **Data Configuration** page, select one or more pieces of backup data that needs to be restored based on service requirements. In the **Target Path** column, specify the target location after backup data restoration.
 
    You are advised to set **Target Path** to a new path that is different from the backup path.

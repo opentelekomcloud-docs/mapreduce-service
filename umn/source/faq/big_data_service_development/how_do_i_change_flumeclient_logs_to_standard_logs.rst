@@ -11,7 +11,7 @@ How Do I Change FlumeClient Logs to Standard Logs?
 
    For example, if the FlumeClient installation directory is **/opt/FlumeClient**, run the following command:
 
-   **cd /opt/FlumeClient/fusioninsight-flume-1.9.0/bin**
+   **cd /opt/FlumeClient/*-flume-1.9.0/bin**
 
 #. Run the **./flume-manage.sh stop** command to stop FlumeClient.
 

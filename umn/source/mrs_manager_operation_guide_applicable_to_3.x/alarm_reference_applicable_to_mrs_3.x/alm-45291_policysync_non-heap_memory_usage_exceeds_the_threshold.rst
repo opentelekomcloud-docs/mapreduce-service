@@ -55,9 +55,9 @@ Handling Procedure
 
 **Check non-heap memory usage.**
 
-#. Log in to FusionInsight Manager and choose **O&M** > **Alarm** > **Alarms** > **ALM-45291 PolicySync Non-Heap Memory Usage Exceeds the Threshold**. Check the location information of the alarm and view the host name of the instance for which the alarm is generated.
+#. Log in to MRS Manager and choose **O&M** > **Alarm** > **Alarms** > **ALM-45291 PolicySync Non-Heap Memory Usage Exceeds the Threshold**. Check the location information of the alarm and view the host name of the instance for which the alarm is generated.
 
-#. On FusionInsight Manager, choose **Cluster** > **Services** > **Ranger** > **Instance**. Select the role corresponding to the host name of the instance for which the alarm is generated. Click the drop-down list in the upper right corner of the chart area and choose **Customize** > **CPU and Memory** > **PolicySync Non-Heap Memory Usage**. Click **OK**.
+#. On MRS Manager, choose **Cluster** > **Services** > **Ranger** > **Instance**. Select the role corresponding to the host name of the instance for which the alarm is generated. Click the drop-down list in the upper right corner of the chart area and choose **Customize** > **CPU and Memory** > **PolicySync Non-Heap Memory Usage**. Click **OK**.
 
 #. Check whether the non-heap memory used by PolicySync reaches the threshold (90% of the maximum heap memory by default).
 
@@ -66,7 +66,7 @@ Handling Procedure
 
 #. .. _alm-45291__li29985659161559:
 
-   On FusionInsight Manager, choose **Cluster** > **Services** > **Ranger** > **Instance** > **PolicySync**. Click **Instance Configuration** and then **All Configurations**, and choose **PolicySync** > **System**. Set **-XX: MaxPermSize** in the **GC_OPTS** parameter to a larger value based on site requirements and save the configuration.
+   On MRS Manager, choose **Cluster** > **Services** > **Ranger** > **Instance** > **PolicySync**. Click **Instance Configuration** and then **All Configurations**, and choose **PolicySync** > **System**. Set **-XX: MaxPermSize** in the **GC_OPTS** parameter to a larger value based on site requirements and save the configuration.
 
    .. note::
 
@@ -85,7 +85,7 @@ Handling Procedure
 
 6. .. _alm-45291__d0e44186:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 7. Expand the **Service** drop-down list, and select **Ranger** for the target cluster.
 
