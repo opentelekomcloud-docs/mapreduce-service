@@ -53,7 +53,7 @@ Handling Procedure
 
 **Check the Doris service status.**
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **Doris**.
+#. Log in to MRS Manager and choose **Cluster** > **Services** > **Doris**.
 
 #. Check whether **Running Status** of the Doris service is **Normal**.
 
@@ -75,7 +75,7 @@ Handling Procedure
 
 5. .. _alm-50209__li39839699173731:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 6. Expand the **Service** drop-down list, select **Doris** for the target cluster, and click **OK**.
 

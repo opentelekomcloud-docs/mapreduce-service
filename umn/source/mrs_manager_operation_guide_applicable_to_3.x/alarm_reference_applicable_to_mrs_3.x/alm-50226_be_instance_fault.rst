@@ -51,7 +51,7 @@ The BE instance is faulty or restarted.
 Handling Procedure
 ------------------
 
-#. Log in to FusionInsight Manager and choose **O&M** > **Alarm** > **Alarms**. In the alarm list, view the role name and obtain the IP address of the instance in **Location** of the alarm whose ID is **50226**.
+#. Log in to MRS Manager and choose **O&M** > **Alarm** > **Alarms**. In the alarm list, view the role name and obtain the IP address of the instance in **Location** of the alarm whose ID is **50226**.
 
 #. Choose **Cluster** > **Services** > **Doris** > **Instances**, click the BE instance for which the alarm is generated, and check whether **Running Status** of the instance is **Restoring**.
 
@@ -69,7 +69,7 @@ Handling Procedure
 
 4. .. _alm-50226__li1268173162114:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 5. Expand the **Service** drop-down list, select **Doris** for the target cluster, and click **OK**.
 

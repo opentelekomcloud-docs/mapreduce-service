@@ -53,7 +53,7 @@ Handling Procedure
 
 **Check whether the alarm threshold or alarm trigger count is properly configured.**
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds**, select the name of the desired cluster, and choose **Doris** > **CPU and Memory** > **Memory Usage of FE (FE)**.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Thresholds**, select the name of the desired cluster, and choose **Doris** > **CPU and Memory** > **Memory Usage of FE (FE)**.
 #. Click the edit button next to **Trigger Count**, change the number based on site requirements, and click **OK**.
 
    .. note::
@@ -70,7 +70,7 @@ Handling Procedure
 
 5. .. _alm-50203__li39839699173731:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 6. Expand the **Service** drop-down list, select **Doris** for the target cluster, and click **OK**.
 

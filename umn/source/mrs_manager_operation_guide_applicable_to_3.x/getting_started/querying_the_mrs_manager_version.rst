@@ -28,7 +28,7 @@ By viewing the MRS Manager version, you can prepare for system upgrade and routi
       .. code-block::
 
               Version             Package                                                          Cputype
-              ***                 FusionInsight_Manager_***                                        x86_64
+              ***                 ***_Manager_***                                                  x86_64
 
       .. note::
 

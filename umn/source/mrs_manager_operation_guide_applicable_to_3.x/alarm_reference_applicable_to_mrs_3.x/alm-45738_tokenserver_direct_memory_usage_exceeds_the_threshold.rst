@@ -53,11 +53,11 @@ Handling Procedure
 
 **Check the direct memory usage.**
 
-#. Log in to FusionInsight Manager and choose **O&M** > **Alarm** > **Alarms** > **ALM-45738 TokenServer Direct Memory Usage Exceeds the Threshold**. Check the location information of the alarm and view the host name of the instance for which the alarm is generated.
+#. Log in to MRS Manager and choose **O&M** > **Alarm** > **Alarms** > **ALM-45738 TokenServer Direct Memory Usage Exceeds the Threshold**. Check the location information of the alarm and view the host name of the instance for which the alarm is generated.
 
 #. .. _alm-45738__li7677390:
 
-   On FusionInsight Manager, choose **Cluster** > **Services** > **Guardian**. On the page that is displayed, click the **Instance** tab. On this tab page, select the role corresponding to the host name of the instance for which the alarm is generated. Click the drop-down list in the upper right corner of the chart area and choose **Customize** > **CPU and Memory** > **TokenServer Direct Memory Usage**. Then click **OK**.
+   On MRS Manager, choose **Cluster** > **Services** > **Guardian**. On the page that is displayed, click the **Instance** tab. On this tab page, select the role corresponding to the host name of the instance for which the alarm is generated. Click the drop-down list in the upper right corner of the chart area and choose **Customize** > **CPU and Memory** > **TokenServer Direct Memory Usage**. Then click **OK**.
 
 #. Check whether the direct memory used by TokenServer reaches the threshold (80% of the maximum direct memory by default).
 
@@ -66,7 +66,7 @@ Handling Procedure
 
 #. .. _alm-45738__li10450762161055:
 
-   On FusionInsight Manager, choose **Cluster** > **Services** > **Guardian**. On the page that is displayed, click the **Instance** tab. On this tab page, choose **TokenServer** > **Instance Configuration**. Click **All Configurations**, and choose **TokenServer** > **System**. Set **-XX:MaxDirectMemorySize** in the **GC_OPTS** parameter to a larger value based on site requirements and save the configuration.
+   On MRS Manager, choose **Cluster** > **Services** > **Guardian**. On the page that is displayed, click the **Instance** tab. On this tab page, choose **TokenServer** > **Instance Configuration**. Click **All Configurations**, and choose **TokenServer** > **System**. Set **-XX:MaxDirectMemorySize** in the **GC_OPTS** parameter to a larger value based on site requirements and save the configuration.
 
    .. note::
 
@@ -85,7 +85,7 @@ Handling Procedure
 
 6. .. _alm-45738__d0e43963:
 
-   On FusionInsight Manager, choose **O&M** > **Log** > **Download**.
+   On MRS Manager, choose **O&M** > **Log** > **Download**.
 
 7. Expand the **Service** drop-down list, and select **Guardian** for the destination cluster.
 

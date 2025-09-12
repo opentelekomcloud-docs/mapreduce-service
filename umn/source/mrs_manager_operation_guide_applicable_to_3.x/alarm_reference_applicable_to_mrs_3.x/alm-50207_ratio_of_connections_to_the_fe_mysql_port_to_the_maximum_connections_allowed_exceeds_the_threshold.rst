@@ -54,7 +54,7 @@ Handling Procedure
 
 **Check whether the alarm threshold or alarm trigger count is properly configured.**
 
-#. Log in to FusionInsight Manager, choose **O&M**, and click **Alarm** > **Thresholds** in the navigation pane on the left. Click the name of the desired cluster > **Doris** > **Connection** > **FE MySQL Port Connections (FE)**.
+#. Log in to MRS Manager, choose **O&M**, and click **Alarm** > **Thresholds** in the navigation pane on the left. Click the name of the desired cluster > **Doris** > **Connection** > **FE MySQL Port Connections (FE)**.
 #. Click the edit button next to **Trigger Count**, change the number based on site requirements, and click **OK**.
 #. Click **Modify** in the **Operation** column, change the alarm threshold based on site requirements, and click **OK**.
 
@@ -71,7 +71,7 @@ Handling Procedure
 
 5. .. _alm-50207__li0702050145917:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 6. Expand the **Service** drop-down list, select **Doris** for the target cluster, and click **OK**.
 

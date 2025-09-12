@@ -59,7 +59,7 @@ Handling Procedure
 
 **Check whether there are too many MemTables.**
 
-#. On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**.
+#. On MRS Manager, choose **O&M** > **Alarm** > **Alarms**.
 
 #. In the alarm list, check whether **ALM-45643 MemTable Size of RocksDB Continuously Exceeds the Threshold** exists.
 
@@ -79,7 +79,7 @@ Handling Procedure
 
 5. .. _alm-45648__li88241531181819:
 
-   On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**.
+   On MRS Manager, choose **O&M** > **Alarm** > **Alarms**.
 
 6. In the alarm list, check whether **ALM-45644 Number of SST Files at Level 0 of RocksDB Continuously Exceeds the Threshold** exists.
 

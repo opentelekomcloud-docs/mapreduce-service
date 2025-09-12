@@ -51,7 +51,7 @@ The Impalad service has maintained a large number of queries, or the threshold i
 Handling Procedure
 ------------------
 
-#. On FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds** > **Impala** > **Query Task Sum Statistics** > **Total number of Queries Being Executed (Impalad)** and check the threshold.
+#. On MRS Manager, choose **O&M** > **Alarm** > **Thresholds** > **Impala** > **Query Task Sum Statistics** > **Total number of Queries Being Executed (Impalad)** and check the threshold.
 
    |image1|
 
@@ -76,7 +76,7 @@ Handling Procedure
 
 5. .. _alm-29011__li17918612154249:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 6. Expand the **Service** drop-down list, and select **Impala** for the target cluster.
 

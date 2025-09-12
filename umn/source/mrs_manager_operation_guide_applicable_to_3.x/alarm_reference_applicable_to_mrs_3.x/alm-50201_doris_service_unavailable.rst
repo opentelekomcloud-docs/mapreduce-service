@@ -39,7 +39,7 @@ Alarm Parameters
 Impact on the System
 --------------------
 
-FusionInsight Manager cannot be used to perform cluster operations on the Doris service, and Doris service functions are unavailable.
+MRS Manager cannot be used to perform cluster operations on the Doris service, and Doris service functions are unavailable.
 
 Possible Causes
 ---------------
@@ -51,7 +51,7 @@ Handling Procedure
 
 **Restart the Doris service.**
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **Doris**.
+#. Log in to MRS Manager and choose **Cluster** > **Services** > **Doris**.
 
 2. On the page that is displayed, click **More** and select **Restart Service**. In the displayed dialog box, verify the password and click **OK** to restart the Doris service. After the service is started, go to :ref:`3 <alm-50201__li1548775612109>`.
 
@@ -61,7 +61,7 @@ Handling Procedure
 
 3. .. _alm-50201__li1548775612109:
 
-   On FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**. In the alarm list, check whether this alarm is cleared.
+   On MRS Manager, choose **O&M** > **Alarm** > **Alarms**. In the alarm list, check whether this alarm is cleared.
 
    -  If yes, no further action is required.
    -  If no, go to :ref:`4 <alm-50201__li14530162016228>`.
@@ -70,7 +70,7 @@ Handling Procedure
 
 4. .. _alm-50201__li14530162016228:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 5. Expand the **Service** drop-down list, select **Doris** for the target cluster, and click **OK**.
 

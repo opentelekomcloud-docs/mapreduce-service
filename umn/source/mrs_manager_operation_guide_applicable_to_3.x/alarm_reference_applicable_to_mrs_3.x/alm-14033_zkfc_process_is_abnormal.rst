@@ -48,7 +48,7 @@ Handling Procedure
 
 **Check whether the process is in the D, Z, or T state.**
 
-#. Log in to FusionInsight Manager and choose **O&M** > **Alarm** > **Alarms**. Wait for about 10 minutes and check whether the alarm is automatically cleared.
+#. Log in to MRS Manager and choose **O&M** > **Alarm** > **Alarms**. Wait for about 10 minutes and check whether the alarm is automatically cleared.
 
    -  If the alarm is not in the list, no further action is required.
    -  If the alarm is in the list, view the alarm details and record the IP address of the host where the alarm is generated. Run the command in :ref:`2 <alm-14033__li191311041031>`.
@@ -79,7 +79,7 @@ Handling Procedure
 
 7.  .. _alm-14033__li17799174711116:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 8.  Expand the drop-down list next to the **Service** field. In the **Services** dialog box that is displayed, select **HDFS** for the target cluster.
 

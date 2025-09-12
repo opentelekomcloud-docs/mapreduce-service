@@ -84,7 +84,7 @@ Procedure
 
    .. code-block::
 
-      Modify realm successfully. Use the new password to log into FusionInsight again.
+      Modify realm successfully...
 
    After the restart, some hosts and services cannot be accessed and an alarm is generated. This problem can be automatically resolved in about 1 minute after **restart-RealmConfig.sh** is run.
 

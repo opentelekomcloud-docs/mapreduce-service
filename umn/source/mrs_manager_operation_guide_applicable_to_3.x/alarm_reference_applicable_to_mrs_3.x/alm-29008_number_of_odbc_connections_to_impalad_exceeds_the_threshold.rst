@@ -51,7 +51,7 @@ The number of client connections maintained by the Impalad service is too large 
 Handling Procedure
 ------------------
 
-#. On FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds** > **Impala** > **Connections** > **Number of ODBC Connections to Impalad Process (Impalad)** to check the threshold.
+#. On MRS Manager, choose **O&M** > **Alarm** > **Thresholds** > **Impala** > **Connections** > **Number of ODBC Connections to Impalad Process (Impalad)** to check the threshold.
 
 #. Check the number of ODBC applications connected to Impalad and stop idle applications. Check whether the alarm is automatically cleared.
 
@@ -60,7 +60,7 @@ Handling Procedure
 
 #. .. _alm-29008__li1507754134111:
 
-   On FusionInsight Manager, choose **Cluster** > **Impala** > **Configurations** > **All Configurations** > **Impalad** > **Customization**. Add the custom parameter **--fe_service_threads**. The default value of this parameter is **64**. Change the value as required and click **Save**.
+   On MRS Manager, choose **Cluster** > **Impala** > **Configurations** > **All Configurations** > **Impalad** > **Customization**. Add the custom parameter **--fe_service_threads**. The default value of this parameter is **64**. Change the value as required and click **Save**.
 
 #. After the query tasks on all clients are complete, click the **Instances** tab. Select all Impalad instances, and restart them.
 
@@ -77,7 +77,7 @@ Handling Procedure
 
 6. .. _alm-29008__li17918612154249:
 
-   On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 7. Expand the **Service** drop-down list, and select **Impala** for the target cluster.
 

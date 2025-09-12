@@ -7,6 +7,7 @@ Changing the Password for a System User
 
 -  :ref:`Changing the Password for User admin <admin_guide_000250>`
 -  :ref:`Changing the Password for an OS User <admin_guide_000251>`
+-  :ref:`Changing the OS User Password Validity Period <admin_guide_000420>`
 
 .. toctree::
    :maxdepth: 1
@@ -14,3 +15,4 @@ Changing the Password for a System User
 
    changing_the_password_for_user_admin
    changing_the_password_for_an_os_user
+   changing_the_os_user_password_validity_period

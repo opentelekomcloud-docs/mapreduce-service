@@ -56,7 +56,7 @@ Handling Procedure
 
 **Check whether ZooKeeper is normal.**
 
-#. On FusionInsight Manager, choose **Cluster** > **Services** > **ZooKeeper** > **quorumpeer**.
+#. On MRS Manager, choose **Cluster** > **Services** > **ZooKeeper** > **quorumpeer**.
 
 #. Check whether ZooKeeper instances are normal.
 
@@ -83,7 +83,7 @@ Handling Procedure
 
 6. .. _alm-45441__li15319205119354:
 
-   Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
+   Log in to MRS Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
 
 7. Log in to the node where the client is installed as the client installation user and run the following commands:
 
@@ -119,7 +119,7 @@ Handling Procedure
 
 10. .. _alm-45441__li6769733151816:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 11. Expand the **Service** drop-down list, and select **ClickHouse** for the target cluster.
 

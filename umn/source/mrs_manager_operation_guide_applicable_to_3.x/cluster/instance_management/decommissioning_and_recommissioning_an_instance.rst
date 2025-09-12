@@ -18,7 +18,7 @@ Some instances do not support the recommissioning and decommissioning functions.
 
    -  By default, if the number of the DataNodes is less than or equal to that of HDFS replicas, decommissioning cannot be performed. If the number of HDFS replicas is three and the number of DataNodes is less than four in the system, decommissioning cannot be performed. In this case, an error will be reported and force MRS Manager to exit the decommissioning 30 minutes after MRS Manager attempts to perform the decommissioning.
 
-   -  You can enable quick decommissioning before decommissioning DataNodes for clusters of MRS 3.3.0 or later. In this case, when the number of DataNodes meets the value of **dfs.namenode.decommission.force.replication.min**, the system decommissions the nodes and adds HDFS copies at the same time. **If data is written during quick decommissioning, data may be lost. Exercise caution when performing this operation.** The parameters related to quick decommissioning are listed as follows. You can search for and view the parameters on the HDFS configuration page on FusionInsight Manager.
+   -  You can enable quick decommissioning before decommissioning DataNodes for clusters of MRS 3.3.0 or later. In this case, when the number of DataNodes meets the value of **dfs.namenode.decommission.force.replication.min**, the system decommissions the nodes and adds HDFS copies at the same time. **If data is written during quick decommissioning, data may be lost. Exercise caution when performing this operation.** The parameters related to quick decommissioning are listed as follows. You can search for and view the parameters on the HDFS configuration page on MRS Manager.
 
       **dfs.namenode.decommission.force.enabled**: whether to enable quick decommissioning for DataNode. If this parameter is set to **true**, the function is enabled.
 
@@ -29,6 +29,24 @@ Some instances do not support the recommissioning and decommissioning functions.
    -  If the number of DataNode racks (the number of racks is determined by the number of racks configured for each DataNode) is greater than 1 before the decommissioning, and after some DataNodes are decommissioned, that of the remaining DataNodes changes to 1, the decommissioning will fail. Therefore, before decommissioning DataNode instances, you need to evaluate the impact of decommissioning on the number of racks to adjust the DataNodes to be decommissioned.
 
    -  If multiple DataNodes are decommissioned at the same time, and each of them stores a large volume of data, the DataNodes may fail to be decommissioned due to timeout. To avoid this problem, it is recommended that one DataNode be decommissioned each time and multiple decommissioning operations be performed.
+
+   -  During broker decommissioning, if the number of remaining brokers after decommissioning is less than the number of built-in topic replicas (3 by default) of the Kafka service, the broker cannot be decommissioned. If the instance is forcibly deleted, the service functions are unavailable. (The following broker constraints are added to MRS 3.5.0.)
+
+   -  If multiple brokers are decommissioned at the same time and the data volume of the topic partitions maintained by each broker is large, the brokers may fail to be decommissioned due to timeout. To avoid this problem, you are advised to decommission only one broker each time.
+
+   -  You can view the partition migration progress during broker decommissioning on the Kafka UI, and increase traffic limit to accelerate partition migration during off-peak hours. To avoid service interruption, you can reduce the partition migration traffic or cancel ongoing partition migration tasks.
+
+   -  Do not delete topics during broker decommissioning. Otherwise, there will be residual metadata of the migration tasks.
+
+   -  After adding a broker instance or recommissioning a broker, the system triggers partition balancing in 10 minutes. (You can use the **auto.reassign.check.interval.ms** parameter of the Kafka component on Manager to adjust the trigger time.)
+
+   -  Decommissioning or recommissioning constraints for Doris BE nodes
+
+      -  After decommissioning, the remaining normal BE nodes must be no less than the copies of any table. Otherwise, decommissioning will fail.
+
+      -  **BE node storage space**
+
+         Before cluster decommissioning, the disk space of non-decommissioned BE nodes in the cluster must be enough to store data of all BE nodes to be decommissioned. About 10% of the storage space of each non-decommissioned BE node must be reserved after decommissioning to ensure that the remaining instances can run properly.
 
 Procedure
 ---------

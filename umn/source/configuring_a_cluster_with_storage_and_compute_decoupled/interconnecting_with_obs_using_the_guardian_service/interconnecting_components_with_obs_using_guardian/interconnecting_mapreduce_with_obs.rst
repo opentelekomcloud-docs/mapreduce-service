@@ -8,7 +8,7 @@ Interconnecting MapReduce with OBS
 Interconnecting with OBS
 ------------------------
 
-#. Log in to FusionInsight Manager, choose **Cluster** > **Services** > **MapReduce** and choose **Configurations** > **All Configurations**. In the navigation tree, choose **MapReduce** > **Customization**. In the customized configuration items, add the configuration item **mapreduce.jobhistory.always-scan-user-dir** to **core-site.xml** and set the parameter to **true**.
+#. Log in to MRS Manager, choose **Cluster** > **Services** > **MapReduce** and choose **Configurations** > **All Configurations**. In the navigation tree, choose **MapReduce** > **Customization**. In the customized configuration items, add the configuration item **mapreduce.jobhistory.always-scan-user-dir** to **core-site.xml** and set the parameter to **true**.
 
    |image1|
 

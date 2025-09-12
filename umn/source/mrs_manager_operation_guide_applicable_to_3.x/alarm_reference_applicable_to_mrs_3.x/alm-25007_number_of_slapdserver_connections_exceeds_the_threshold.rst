@@ -54,7 +54,7 @@ Handling Procedure
 
 **Check whether there are too many SlapdServer process connections.**
 
-#. Log in to FusionInsight Manager and choose **Cluster** > **Services** > **LdapServer**.
+#. Log in to MRS Manager and choose **Cluster** > **Services** > **LdapServer**.
 
 #. On the LdapServer dashboard page, observe the SlapdServer process connections and decrease the connections based on service requirements.
 
@@ -73,7 +73,7 @@ Handling Procedure
 
 4. .. _alm-25007__li1860517366397:
 
-   On FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, choose **LdapServer** > **Other** > **SlapdServer Service Connections**, and check whether the alarm trigger count and alarm threshold are set properly.
+   On MRS Manager, choose **O&M** > **Alarm** > **Thresholds**, click the name of the desired cluster, choose **LdapServer** > **Other** > **SlapdServer Service Connections**, and check whether the alarm trigger count and alarm threshold are set properly.
 
    -  If yes, go to :ref:`7 <alm-25007__li2086435114014>`.
    -  If no, go to :ref:`5 <alm-25007__li20605336193916>`.
@@ -91,7 +91,7 @@ Handling Procedure
 
 7.  .. _alm-25007__li2086435114014:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 8.  Expand the **Service** drop-down list, and select **LdapServer** for the target cluster.
 

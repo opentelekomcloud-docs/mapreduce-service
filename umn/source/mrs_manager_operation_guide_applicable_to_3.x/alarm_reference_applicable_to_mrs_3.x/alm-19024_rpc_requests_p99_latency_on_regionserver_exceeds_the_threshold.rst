@@ -58,11 +58,11 @@ Handling Procedure
 
 #. .. _alm-19024__li187081734191516:
 
-   Log in to FusionInsight Manager and choose **O&M**. In the navigation pane on the left, choose **Alarm** > **Alarms**. On the page that is displayed, locate the row containing the alarm whose **Alarm ID** is **19024**, and view the service instance and host name in **Location**.
+   Log in to MRS Manager and choose **O&M**. In the navigation pane on the left, choose **Alarm** > **Alarms**. On the page that is displayed, locate the row containing the alarm whose **Alarm ID** is **19024**, and view the service instance and host name in **Location**.
 
 **Check the GC duration of RegionServer.**
 
-2. In the alarm list on FusionInsight Manager, check whether the "HBase GC Duration Exceeds the Threshold" alarm is generated for the service instance in :ref:`1 <alm-19024__li187081734191516>`.
+2. In the alarm list on MRS Manager, check whether the "HBase GC Duration Exceeds the Threshold" alarm is generated for the service instance in :ref:`1 <alm-19024__li187081734191516>`.
 
    -  If yes, go to :ref:`3 <alm-19024__li167081134161511>`.
    -  If no, go to :ref:`5 <alm-19024__li2708203154412>`.
@@ -80,7 +80,7 @@ Handling Procedure
 
 5. .. _alm-19024__li2708203154412:
 
-   In the alarm list on FusionInsight Manager, check whether alarm "Average NameNode RPC Processing Time Exceeds the Threshold" is generated for the HDFS service on which the HBase service depends.
+   In the alarm list on MRS Manager, check whether alarm "Average NameNode RPC Processing Time Exceeds the Threshold" is generated for the HDFS service on which the HBase service depends.
 
    -  If yes, go to :ref:`6 <alm-19024__li87091331184413>`.
    -  If no, go to :ref:`8 <alm-19024__li2133184710441>`.
@@ -98,7 +98,7 @@ Handling Procedure
 
 8.  .. _alm-19024__li2133184710441:
 
-    In the alarm list on FusionInsight Manager, check whether the "Handler Usage of RegionServer Exceeds the Threshold" alarm is generated for the service instance in :ref:`1 <alm-19024__li187081734191516>`.
+    In the alarm list on MRS Manager, check whether the "Handler Usage of RegionServer Exceeds the Threshold" alarm is generated for the service instance in :ref:`1 <alm-19024__li187081734191516>`.
 
     -  If yes, go to :ref:`9 <alm-19024__li1781144374611>`.
     -  If no, go to :ref:`11 <alm-19024__li959275915215>`.
@@ -116,7 +116,7 @@ Handling Procedure
 
 11. .. _alm-19024__li959275915215:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 12. Expand the **Service** drop-down list, and select **HBase** for the target cluster.
 

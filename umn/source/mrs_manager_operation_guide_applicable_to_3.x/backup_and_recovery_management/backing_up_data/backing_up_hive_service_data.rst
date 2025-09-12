@@ -16,6 +16,7 @@ You can create a backup task on MRS Manager to back up Hive service data. Both a
 -  Hive backup and restoration do not support Hive on RDB data tables. You need to back up and restore original data tables in external databases independently.
 -  If the backup data of the standby cluster is lost in an existing Hive backup task that contains Hive on HBase tables, the next incremental backup will fail, and you need to create a Hive backup task again. However, the next full backup task will be normal.
 -  After the backup function of MRS Manager is used to back up the HDFS directories at the Hive table level, the Hive tables cannot be deleted and recreated.
+-  If you want to back up data to OBS in MRS 3.5.0 and later, you have connected the current cluster to OBS and have the permission to access OBS.
 
 Prerequisites
 -------------
@@ -123,6 +124,16 @@ Procedure
       -  **Maximum Number of Maps**: indicates the maximum number of maps in a MapReduce task. The default value is **20**.
       -  **Maximum Bandwidth of a Map (MB/s)**: indicates the maximum bandwidth of a map. The default value is **100**.
       -  **NameService Name**: indicates the NameService name of the backup directory. The default value is **hacluster**.
+
+   -  **OBS**: indicates that backup files are stored in OBS.
+
+      If you select this option, set the following parameters:
+
+      -  **Target Path**: indicates the OBS directory for storing backup data.
+      -  **Maximum Number of Backup Copies**: indicates the number of backup file sets that can be retained in the backup directory.
+      -  **Queue Name**: indicates the name of the Yarn queue used for backup task execution. The name must be the same as the name of the queue that is running properly in the cluster.
+      -  **Maximum Number of Maps**: indicates the maximum number of maps in a MapReduce task. The default value is **20**.
+      -  **Maximum Bandwidth of a Map (MB/s)**: indicates the maximum bandwidth of a map. The default value is **100**.
 
 #. Set **Maximum Number of Recovery Points** to the number of snapshots that can be retained in the cluster.
 

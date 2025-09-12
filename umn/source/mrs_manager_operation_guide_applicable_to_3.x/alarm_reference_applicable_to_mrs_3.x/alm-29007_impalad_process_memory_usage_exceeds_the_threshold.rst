@@ -51,7 +51,7 @@ The Impalad process is executing a large number of query tasks.
 Handling Procedure
 ------------------
 
-#. On FusionInsight Manager, choose **O&M** > **Alarm** > **Thresholds** > **Impala** > **CPU and Memory** > **Impalad Process Memory Usage (Impalad)** and check the threshold.
+#. On MRS Manager, choose **O&M** > **Alarm** > **Thresholds** > **Impala** > **CPU and Memory** > **Impalad Process Memory Usage (Impalad)** and check the threshold.
 
 #. If the alarm threshold is smaller than 80%, increase the alarm threshold as required and check whether the alarm is cleared.
 
@@ -73,7 +73,7 @@ Handling Procedure
 
 4. .. _alm-29007__li1698242954313:
 
-   On FusionInsight Manager of the active or standby cluster, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+   On MRS Manager of the active or standby cluster, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 5. Expand the **Service** drop-down list, and select **Impala** for the target cluster.
 

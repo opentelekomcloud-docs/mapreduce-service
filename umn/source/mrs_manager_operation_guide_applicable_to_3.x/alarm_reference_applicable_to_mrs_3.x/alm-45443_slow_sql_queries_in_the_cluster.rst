@@ -56,7 +56,7 @@ Handling Procedure
 
 **Check whether the ClickHouse service load is heavy.**
 
-#. Log in to FusionInsight Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
+#. Log in to MRS Manager, choose **O&M** > **Alarm** > **Alarms**, and view the role name and the IP address for the hostname in **Location**.
 
 #. Log in to the node where the client is installed as the client installation user and run the following commands:
 
@@ -85,7 +85,7 @@ Handling Procedure
 
 4. .. _alm-45443__li1927623020184:
 
-   Check the logical cluster to which the alarm object belongs. Log in to FusionInsight Manager, click **Cluster**, choose **Services** > **ClickHouse**, and click **Logic Cluster**. On the displayed page, choose **Query Management** > **Ongoing Slow Queries**. Check which SQL statements take a long time on the displayed page, confirm with the user to adjust services, optimize slow SQL statements, and check whether the optimization is successful.
+   Check the logical cluster to which the alarm object belongs. Log in to MRS Manager, click **Cluster**, choose **Services** > **ClickHouse**, and click **Logic Cluster**. On the displayed page, choose **Query Management** > **Ongoing Slow Queries**. Check which SQL statements take a long time on the displayed page, confirm with the user to adjust services, optimize slow SQL statements, and check whether the optimization is successful.
 
    -  If yes, go to :ref:`5 <alm-45443__li1043716190409>`.
    -  If no, go to :ref:`6 <alm-45443__li6769733151816>`.
@@ -101,7 +101,7 @@ Handling Procedure
 
 6.  .. _alm-45443__li6769733151816:
 
-    On FusionInsight Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
+    On MRS Manager, choose **O&M**. In the navigation pane on the left, choose **Log** > **Download**.
 
 7.  Expand the **Service** drop-down list, and select **ClickHouse** for the target cluster.
 
