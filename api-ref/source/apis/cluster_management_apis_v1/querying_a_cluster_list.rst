@@ -15,7 +15,7 @@ URI
 
 -  Format
 
-   GET /v1.1/{project_id}/cluster_infos?pageSize={page_size}&currentPage={current_page}&clusterState={cluster_state}&tags={tags}
+   GET /v1.1/{project_id}/cluster_infos
 
 -  Parameter description
 
