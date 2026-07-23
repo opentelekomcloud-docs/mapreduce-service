@@ -8,7 +8,7 @@ Stream SQL Join
 Enhanced Open Source Feature: Stream SQL Join
 ---------------------------------------------
 
-Flink's Table API&SQL is an integrated query API for Scala and Java that allows the composition of queries from relational operators such as selection, filter, and join in an intuitive way. For details about Table API&SQL, visit the official website at https://ci.apache.org/projects/flink/flink-docs-release-1.12/dev/table/index.html.
+Flink's Table API&SQL is an integrated query API for Scala and Java that allows the composition of queries from relational operators such as selection, filter, and join in an intuitive way. For details about Table API&SQL, visit the official website at https://flink.apache.org/.
 
 **Introduction to Stream SQL Join**
 

@@ -89,7 +89,7 @@ Procedure
 
 5. After the maximum number of database connections is changed, restart DBService (do not restart the upper-layer services).
 
-   Procedure: Log in to MRS Manager and choose **Cluster** > *Name of the desired cluster* > **Services** > **DBService**. On the displayed page, choose **More** > **Restart** **Service**. Enter the password of the current login user and click **OK**. Do not select **Restart upper-layer services.**, click **OK**.
+   Procedure: Log in to MRS Manager and choose **Cluster** > *Name of the desired cluster* > **Services** > **DBService**. On the displayed page, choose **More** > **Restart** **Service**. Enter the password of the current login user and click **OK**. Do not select **Restart upper-layer services**, click **OK**.
 
 6. After the service is restarted, wait for 2 minutes and check whether the alarm is cleared.
 

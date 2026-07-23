@@ -36,7 +36,7 @@ Using the HBase Client (Versions Earlier Than MRS 3.x)
 
    **source bigdata_env**
 
-#. If Kerberos authentication is enabled for the current cluster, run the following command to authenticate the current user. The current user must have the permission to create HBase tables.. If Kerberos authentication is disabled for the current cluster, skip this step.
+#. If Kerberos authentication is enabled for the current cluster, run the following command to authenticate the current user. The current user must have the permission to create HBase tables. If Kerberos authentication is disabled for the current cluster, skip this step.
 
    **kinit** *Component service user*
 
@@ -63,7 +63,7 @@ Using the HBase Client (MRS 3.x or Later)
 
    **source HBase2/component_env**
 
-#. If Kerberos authentication is enabled for the current cluster, run the following command to authenticate the current user. The current user must have the permission to create HBase tables.. If Kerberos authentication is disabled for the current cluster, skip this step.
+#. If Kerberos authentication is enabled for the current cluster, run the following command to authenticate the current user. The current user must have the permission to create HBase tables. If Kerberos authentication is disabled for the current cluster, skip this step.
 
    **kinit** *Component service user*
 
@@ -76,7 +76,7 @@ Using the HBase Client (MRS 3.x or Later)
 Common HBase client commands
 ----------------------------
 
-The following table lists common HBase client commands. For more commands, see http://hbase.apache.org/2.2/book.html.
+The following table lists common HBase client commands. For more commands, see https://hbase.apache.org/2.2/book.html.
 
 .. table:: **Table 1** HBase client commands
 

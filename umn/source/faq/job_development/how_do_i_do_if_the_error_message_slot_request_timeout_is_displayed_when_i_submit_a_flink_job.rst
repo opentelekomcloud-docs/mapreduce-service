@@ -26,4 +26,4 @@ Solution
 
 #. Add resources to the YARN queue.
 #. Exclude the Flink and Hadoop dependencies in your JAR files so that Flink and Hadoop can depend only on the JAR files in the environment.
-#. Reconfigure the SSL certificate of Flink..
+#. Reconfigure the SSL certificate of Flink.

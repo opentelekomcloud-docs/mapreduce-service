@@ -71,6 +71,7 @@ You can configure an agency when creating a cluster or bind an agency to an exis
    -  **Kerberos Authentication**: This function is enabled by default. You can enable or disable it.
    -  **Username**: The default username is **admin**, which is used to log in to MRS Manager.
    -  **Password**: Set a password for user **admin**.
+   -  **Enterprise Project**: Use the default value.
    -  **Confirm Password**: Enter the password of user **admin** again.
    -  **Key Pair**: Select a key pair from the drop-down list to log in to an ECS. Select **"I acknowledge that I have obtained private key file** *SSHkey-xxx* **and that without this file I will not be able to log in to my ECS.**" If you have never created a key pair, click **View Key Pair** to create or import a key pair. And then, obtain a private key file.
 

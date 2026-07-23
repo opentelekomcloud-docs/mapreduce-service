@@ -123,6 +123,18 @@ Procedure
       -  **Memory**: The maximum value of this parameter is **100**, in percentage. For example, if this parameter is set to **80**, the total memory that can be used by the current tenant is calculated as follows: Available memory x 80%.
       -  **Concurrency**: The maximum number of concurrent resources available for all the users bound to the tenant. This parameter is required for clusters of MRS 3.3.0 or later.
 
+   -  MRS 3.5.0 or later: Select **Doris** for **Service**.
+
+      -  **Association Type**: The default value is **Shared**.
+      -  **CPU Quota Usage**: CPU usage per unit time. The value ranges from 1 to 100.
+      -  **Memory Quota**: proportion of available memory. For example, if the value is **20**, the available memory of the current tenant on each BE instance node is: Physical memory x **mem_limit** (BE memory limit in percentage) x 20%.
+      -  **Concurrency**: maximum number of concurrent query tasks that can be executed on a single FE instance.
+      -  **Queue Length**: indicates the maximum number of query tasks waiting to be executed in the queue because the number of concurrent query tasks exceeds the upper limit.
+      -  **Waiting Duration (ms)**: maximum waiting time of a task in the queue, in milliseconds
+      -  **Soft Memory Limit**: whether a tenant can use more memory resources than it is allowed If this function is enabled and the system has idle memory resources, you can use more memory than the limit. Your tasks that occupy the most memory in the group will be canceled only when resources are insufficient.
+      -  **Scheduling Policy**: scheduling mode of Doris tasks in MRS 3.6.0 or later. The default scheduling policy is the fair scheduler.
+      -  **CPU Usage Limit (%)**: maximum CPU usage allowed for a tenant in MRS 3.6.0 or later.
+
    .. note::
 
       -  Only HBase can be associated with a new tenant. However, HDFS, HBase, and Yarn can be associated with existing tenants.

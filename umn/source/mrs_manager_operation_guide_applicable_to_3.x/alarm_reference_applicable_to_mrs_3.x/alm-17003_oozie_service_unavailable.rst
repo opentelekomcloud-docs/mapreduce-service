@@ -141,7 +141,7 @@ Procedure
 
     Log in to HDFS to check whether the Oozie file directory structure is complete.
 
-    a. Download and install an HDFS client..
+    a. Download and install an HDFS client.
 
     b. Log in to the client node as user **root** and run the following commands to check whether **/user/oozie/share** exists.
 

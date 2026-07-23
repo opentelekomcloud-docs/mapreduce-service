@@ -8,7 +8,7 @@ Sample Scripts
 Zeppelin
 --------
 
-Zeppelin is a web-based notebook that supports interactive data analysis. For more information, visit the Zeppelin official website at http://zeppelin.apache.org/.
+Zeppelin is a web-based notebook that supports interactive data analysis. For more information, visit the Zeppelin official website at https://zeppelin.apache.org/.
 
 This sample script is used to automatically install Zeppelin. Select the corresponding script path based on the region where the cluster is to be created. Enter the script path in **Script Path** on the **Bootstrap Action** page when adding a bootstrap action during cluster creation. You do not need to enter parameters for this script. Based on the Zeppelin usage habit, you only need to run the script on the active Master node.
 
@@ -24,7 +24,7 @@ Method 2: Start a Windows ECS in the same VPC. Access port 7510 of the active Ma
 Presto
 ------
 
-Presto is an open-source distributed SQL query engine, which is applicable to interactive analysis and query. For more information, visit the official website at http://prestodb.io/.
+Presto is an open-source distributed SQL query engine, which is applicable to interactive analysis and query. For more information, visit the official website at https://prestodb.io/.
 
 The sample script can be used to automatically install Presto. The script path is as follows:
 

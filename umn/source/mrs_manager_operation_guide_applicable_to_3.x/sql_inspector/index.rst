@@ -7,6 +7,7 @@ SQL Inspector
 
 -  :ref:`Overview <admin_guide_000408>`
 -  :ref:`Adding an SQL Inspection <admin_guide_000409>`
+-  :ref:`Configuring Whitelist for SQL Inspection Rules <mrs_01_300638>`
 -  :ref:`Configuring Hive SQL Inspection <admin_guide_000412>`
 -  :ref:`Configuring ClickHouse SQL Inspection <admin_guide_000413>`
 -  :ref:`Configuring HetuEngine SQL Inspection <admin_guide_000416>`
@@ -19,6 +20,7 @@ SQL Inspector
 
    overview
    adding_an_sql_inspection
+   configuring_whitelist_for_sql_inspection_rules
    configuring_hive_sql_inspection
    configuring_clickhouse_sql_inspection
    configuring_hetuengine_sql_inspection

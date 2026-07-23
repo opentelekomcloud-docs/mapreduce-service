@@ -50,20 +50,24 @@ Logs are listed in chronological order by default in the log list, with the most
    +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Time                              | Operation time. For a deleted cluster, only logs generated within the last six months are displayed. To view logs generated six months ago, contact technical support.                        |
    +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Enterprise Project                | Enterprise project to which the cluster belongs                                                                                                                                               |
+   +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. table:: **Table 2** Icon description
 
    +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | Icon                              | Description                                                                                                                                                                                       |
    +===================================+===================================================================================================================================================================================================+
-   | |image1|                          | Select an operation type from the drop-down list box to filter logs.                                                                                                                              |
+   | |image1|                          | Select an enterprise project from the drop-down list box to filter logs.                                                                                                                          |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |image2|                          | Select an operation type from the drop-down list box to filter logs.                                                                                                                              |
    |                                   |                                                                                                                                                                                                   |
    |                                   | -  **All Operation Types**: Filter all logs.                                                                                                                                                      |
    |                                   | -  **Cluster**: Filter logs for **Cluster**.                                                                                                                                                      |
    |                                   | -  **Job**: Filter logs for **Job**.                                                                                                                                                              |
    |                                   | -  **Data**: Filter logs for **Data**.                                                                                                                                                            |
    +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | |image2|                          | Filter logs by time.                                                                                                                                                                              |
+   | |image3|                          | Filter logs by time.                                                                                                                                                                              |
    |                                   |                                                                                                                                                                                                   |
    |                                   | #. Click the input box.                                                                                                                                                                           |
    |                                   | #. Specify the date and time.                                                                                                                                                                     |
@@ -71,14 +75,15 @@ Logs are listed in chronological order by default in the log list, with the most
    |                                   |                                                                                                                                                                                                   |
    |                                   | The left-side input box indicates the start time and the right-side one indicates the end time. The start time must be earlier than or equal to the end time. Otherwise, logs cannot be filtered. |
    +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | |image3|                          | Enter a keyword of the **Operation Details** in the search box and click |image4| to search for logs.                                                                                             |
+   | |image4|                          | Enter a keyword of the **Operation Details** in the search box and click |image5| to search for logs.                                                                                             |
    +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | |image5|                          | Click |image6| to manually refresh the log list.                                                                                                                                                  |
+   | |image6|                          | Click |image7| to manually refresh the log list.                                                                                                                                                  |
    +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000001349257469.png
-.. |image2| image:: /_static/images/en-us_image_0000001348738189.jpg
-.. |image3| image:: /_static/images/en-us_image_0000001349057965.png
+.. |image1| image:: /_static/images/en-us_image_0000001349137881.png
+.. |image2| image:: /_static/images/en-us_image_0000001349257469.png
+.. |image3| image:: /_static/images/en-us_image_0000001348738189.jpg
 .. |image4| image:: /_static/images/en-us_image_0000001349057965.png
-.. |image5| image:: /_static/images/en-us_image_0000001349057929.png
+.. |image5| image:: /_static/images/en-us_image_0000001349057965.png
 .. |image6| image:: /_static/images/en-us_image_0000001349057929.png
+.. |image7| image:: /_static/images/en-us_image_0000001349057929.png

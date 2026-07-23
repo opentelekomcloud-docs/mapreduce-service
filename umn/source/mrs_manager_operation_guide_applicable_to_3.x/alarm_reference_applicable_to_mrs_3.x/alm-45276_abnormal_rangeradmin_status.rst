@@ -12,6 +12,10 @@ The alarm module checks the RangerAdmin service status every 60 seconds. This al
 
 This alarm is automatically cleared after the RangerAdmin service recovers.
 
+.. note::
+
+   MRS 3.6.0 and later versions do not support this alarm.
+
 Attributes
 ----------
 

@@ -29,4 +29,4 @@ After the standby ResourceManager promotes to be the active one, the upper-layer
 
 For more information about the Yarn HA solution, visit the following website:
 
-http://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/ResourceManagerHA.html
+https://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/ResourceManagerHA.html

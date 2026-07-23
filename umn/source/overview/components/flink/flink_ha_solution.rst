@@ -23,9 +23,7 @@ Flink supports the HA mode and job exception recovery that highly depend on ZooK
 
 Flink JobManager and Yarn ApplicationMaster are in the same process. Yarn ResourceManager monitors ApplicationMaster. If ApplicationMaster is abnormal, Yarn restarts it and restores all JobManager metadata from HDFS. During the recovery, existing tasks cannot run and new tasks cannot be submitted. ZooKeeper stores JobManager metadata, such as information about jobs, to be used by the new JobManager. A TaskManager failure is listened and processed by the DeathWatch mechanism of Akka on JobManager. When a TaskManager fails, a container is requested again from Yarn and a TaskManager is created.
 
-For more information about the HA solution of Flink on Yarn, visit `https://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/ResourceManagerHA.html <http://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/ResourceManagerHA.html>`__.
-
-For details about how to set **yarn-site.xml**, visit https://ci.apache.org/projects/flink/flink-docs-release-1.12/ops/jobmanager_high_availability.html.
+For more information about the HA solution of Flink on Yarn, visit https://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/ResourceManagerHA.html.
 
 **Standalone**
 
@@ -50,7 +48,7 @@ Flink JobManager and Yarn ApplicationMaster are in the same process. Yarn Resour
 
 If you want to restore jobs, ensure that the startup policy is configured in Flink configuration files. Supported restart policies are **fixed-delay**, **failure-rate**, and **none**. Jobs can be restored only when the policy is configured to **fixed-delay** or **failure-rate**. If the restart policy is configured to **none** and checkpoint is configured for jobs, the restart policy is automatically configured to **fixed-delay** and the value of **restart-strategy.fixed-delay.attempts** (which specifies the number of retry times) is configured to **Integer.MAX_VALUE**.
 
-For details about the three strategies, visit https://ci.apache.org/projects/flink/flink-docs-release-1.12/dev/task_failure_recovery.html. The following is an example of the restart policy configuration:
+For details about the three strategies, visit https://nightlies.apache.org/flink/flink-docs-stable/docs/ops/state/task_failure_recovery/. The following is an example of the restart policy configuration:
 
 .. code-block::
 
@@ -66,4 +64,4 @@ Jobs will be restored in the following scenarios:
 
    .. note::
 
-      For details about how to configure the restart policy of a job, visit https://ci.apache.org/projects/flink/flink-docs-release-1.12/ops/jobmanager_high_availability.html.
+      For details about how to configure the restart policy of a job, visit https://flink.apache.org/.
