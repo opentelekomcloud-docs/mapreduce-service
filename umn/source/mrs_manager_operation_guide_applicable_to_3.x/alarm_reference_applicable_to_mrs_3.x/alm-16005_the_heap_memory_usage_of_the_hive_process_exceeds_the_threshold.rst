@@ -53,7 +53,7 @@ Procedure
 
 **Check heap memory usage.**
 
-#. On the MRS Manager portal, click **O&M > Alarm > Alarms** and select the alarm whose **Alarm ID** is **16005**. Then check the role name in **Location** and confirm the IP adress of the instance.
+#. On the MRS Manager portal, click **O&M > Alarm > Alarms** and select the alarm whose **Alarm ID** is **16005**. Then check the role name in **Location** and confirm the IP address of the instance.
 
    -  If the role for which the alarm is generated is HiveServer, go to :ref:`2 <alm-16005__li2900058143018>`.
    -  If the role for which the alarm is generated is MetaStore, go to :ref:`3 <alm-16005__li46068501143018>`.

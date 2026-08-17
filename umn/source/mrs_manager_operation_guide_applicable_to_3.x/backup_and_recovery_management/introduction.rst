@@ -171,14 +171,32 @@ Specifications
 
 .. table:: **Table 4** Specifications of the backup and restoration feature
 
-   ======================================================= =============
-   Item                                                    Specification
-   ======================================================= =============
-   Maximum number of backup or restoration tasks           100
-   Number of concurrent tasks in a cluster                 1
-   Maximum number of waiting tasks                         199
-   Maximum size (GB) of backup files on a Linux local disk 600
-   ======================================================= =============
+   +---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+   | Item                                                    | Specification                                                                                                                   |
+   +=========================================================+=================================================================================================================================+
+   | Maximum number of backup or restoration tasks           | 100                                                                                                                             |
+   +---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+   | Number of concurrent tasks in a cluster                 | -  MRS 3.6.0-LTS and earlier versions: 1                                                                                        |
+   |                                                         | -  MRS 3.6.0-LTS.1 and later versions: The default value is 2, and the maximum value is 8.                                      |
+   |                                                         |                                                                                                                                 |
+   |                                                         | For MRS 3.6.0-LTS.1 and later versions, perform the following operations to modify this parameter:                              |
+   |                                                         |                                                                                                                                 |
+   |                                                         | #. Log in to the active and standby OMS nodes in the cluster as user **omm** and run the following commands to modify the file: |
+   |                                                         |                                                                                                                                 |
+   |                                                         |    **vi $BIGDATA_HOME/om-server/om/etc/om/controller.properties**                                                               |
+   |                                                         |                                                                                                                                 |
+   |                                                         |    Change the value of **controller.conf.backup.task.parallel.num** as required.                                                |
+   |                                                         |                                                                                                                                 |
+   |                                                         | #. On the active OMS node, run the following command to restart the controller for the modification to take effect:             |
+   |                                                         |                                                                                                                                 |
+   |                                                         |    **sh ${BIGDATA_HOME}/om-server/om/sbin/restart-controller.sh**                                                               |
+   |                                                         |                                                                                                                                 |
+   |                                                         | Service data of the SFTP type cannot be backed up and restored concurrently.                                                    |
+   +---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+   | Maximum number of waiting tasks                         | 199                                                                                                                             |
+   +---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+   | Maximum size (GB) of backup files on a Linux local disk | 600                                                                                                                             |
+   +---------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
 
 .. note::
 
@@ -202,7 +220,7 @@ Specifications
          .. code-block::
 
             WatchedEvent state:SyncConnected type:None path:null
-            [zk: ip:port(CONNECIED) 0]
+            [zk: ip:port(CONNECTED) 0]
 
       #. Run the **getusage** command to check the number of znodes in the directory to be backed up.
 

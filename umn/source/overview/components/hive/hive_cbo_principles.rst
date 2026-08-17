@@ -42,7 +42,7 @@ For example, there is a table **table_a** whose total number of data records is 
 
 .. code-block::
 
-   Select * from table_a where colum_a='value1';
+   Select * from table_a where column_a='value1';
 
 The estimated number of queried data entries is: 1,000,000 x 1/50 = 20,000. The selection rate is 2%.
 

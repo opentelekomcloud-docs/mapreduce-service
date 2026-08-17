@@ -26,4 +26,4 @@ For details about how to harden the JDK, see "Hardening JDK" in :ref:`Hardening 
 Public IP Addresses in Hue
 --------------------------
 
-Hue uses the test cases of third-party packages, such as **ipadrress**, **requests**, and **Django**, and uses the public IP addresses in the comments of the test cases. However, these public IP addresses are not involved when Hue provides services, and the Hue configuration file does not involve these public IP addresses.
+Hue uses the test cases of third-party packages, such as **ipaddress**, **requests**, and **Django**, and uses the public IP addresses in the comments of the test cases. However, these public IP addresses are not involved when Hue provides services, and the Hue configuration file does not involve these public IP addresses.

@@ -51,7 +51,7 @@ Procedure
 
          For MRS 1.8.10 or earlier, log in to MRS Manager and choose **Alarms**.
 
-   b. Select the alarm whose **Alarm ID** is **44006**. Then check the role name in **Location** and confirm the IP adress of the instance.
+   b. Select the alarm whose **Alarm ID** is **44006**. Then check the role name in **Location** and confirm the IP address of the instance.
 
    c. Choose **Components** > **Presto** > **Instances** > **Worker** (business IP address of the instance for which the alarm is generated) > **Customize** > **Presto Garbage Collection Time**. Click **OK** to view the GC time.
 
