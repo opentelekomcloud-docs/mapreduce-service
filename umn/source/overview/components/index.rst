@@ -21,6 +21,7 @@ Components
 -  :ref:`Hive <mrs_08_0011>`
 -  :ref:`Hudi <mrs_08_0083>`
 -  :ref:`Hue <mrs_08_0012>`
+-  :ref:`Iceberg <mrs_08_0186>`
 -  :ref:`Impala <mrs_08_0038>`
 -  :ref:`IoTDB <mrs_08_0093>`
 -  :ref:`JobGateway <mrs_08_0149>`
@@ -64,6 +65,7 @@ Components
    hive/index
    hudi
    hue/index
+   iceberg
    impala
    iotdb/index
    jobgateway/index
