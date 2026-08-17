@@ -104,7 +104,7 @@ Related Information
 
 -  **Check the /etc/hosts configuration file.**
 
-   Run **cat /ect/hosts**. If any of the following situations occurs, the **/etc/hosts** configuration file is abnormal:
+   Run **cat /etc/hosts**. If any of the following situations occurs, the **/etc/hosts** configuration file is abnormal:
 
    #. The **/etc/hosts** file does not exist.
    #. The host name is not configured in the file.

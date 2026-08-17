@@ -292,7 +292,7 @@ Audit information recorded in audit logs includes MRS Manager audit information 
    |                                   |                                                                    |
    |                                   | Exporting report monitoring data.                                  |
    |                                   |                                                                    |
-   |                                   | Runing a command in asynchronous mode using SNMP.                  |
+   |                                   | Running a command in asynchronous mode using SNMP.                 |
    |                                   |                                                                    |
    |                                   | Restarting the Web service.                                        |
    |                                   |                                                                    |
