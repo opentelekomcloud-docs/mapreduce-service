@@ -248,7 +248,7 @@ Response
    |                       |                       |    -  MRS 3.3.0-LTS.1_009: Flume                                         |
    |                       |                       |    -  MRS 3.3.0-LTS.1_013: Loader                                        |
    |                       |                       |    -  MRS 3.3.0-LTS.1_014: Hue                                           |
-   |                       |                       |    -  MRS 3.3.0-LTS.1_015: Ooize                                         |
+   |                       |                       |    -  MRS 3.3.0-LTS.1_015: Oozie                                         |
    |                       |                       |    -  MRS 3.3.0-LTS.1_018: DBService                                     |
    |                       |                       |    -  MRS 3.3.0-LTS.1_019: ZooKeeper                                     |
    |                       |                       |    -  MRS 3.3.0-LTS.1_022: Ranger                                        |
@@ -270,7 +270,7 @@ Response
    |                       |                       |    -  MRS 3.2.0-LTS.2_009: Flume                                         |
    |                       |                       |    -  MRS 3.2.0-LTS.2_013: Loader                                        |
    |                       |                       |    -  MRS 3.2.0-LTS.2_014: Hue                                           |
-   |                       |                       |    -  MRS 3.2.0-LTS.2_015: Ooize                                         |
+   |                       |                       |    -  MRS 3.2.0-LTS.2_015: Oozie                                         |
    |                       |                       |    -  MRS 3.2.0-LTS.2_018: DBService                                     |
    |                       |                       |    -  MRS 3.2.0-LTS.2_019: ZooKeeper                                     |
    |                       |                       |    -  MRS 3.2.0-LTS.2_022: Ranger                                        |
@@ -291,7 +291,7 @@ Response
    |                       |                       |    -  MRS 3.1.2-LTS.6_009: Flume                                         |
    |                       |                       |    -  MRS 3.1.2-LTS.6_013: Loader                                        |
    |                       |                       |    -  MRS 3.1.2-LTS.6_014: Hue                                           |
-   |                       |                       |    -  MRS 3.1.2-LTS.6_015: Ooize                                         |
+   |                       |                       |    -  MRS 3.1.2-LTS.6_015: Oozie                                         |
    |                       |                       |    -  MRS 3.1.2-LTS.6_018: DBService                                     |
    |                       |                       |    -  MRS 3.1.2-LTS.6_019: ZooKeeper                                     |
    |                       |                       |    -  MRS 3.1.2-LTS.6_022: Ranger                                        |

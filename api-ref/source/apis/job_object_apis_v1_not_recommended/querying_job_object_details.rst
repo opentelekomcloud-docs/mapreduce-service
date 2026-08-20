@@ -87,7 +87,7 @@ Example
           "job": {
               "name": "my-mapreduce-job",
               "type": "MapReduce",
-              "description": "This is the Map Reduce job template",
+              "description": "This is the MapReduce job template",
               "mains": [],
               "libs": [
                   {

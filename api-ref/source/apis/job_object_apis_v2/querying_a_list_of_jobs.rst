@@ -176,7 +176,7 @@ Example
              "job_list": [{
                      "job_id": "981374c1-85da-44ee-be32-edfb4fba776c",
                      "user": "xxxx",
-                     "job_name": "SparkSubmitTset",
+                     "job_name": "SparkSubmitTest",
                      "job_result": "UNDEFINED",
                      "job_state": "ACCEPTED",
                      "job_progress": 0,
@@ -193,7 +193,7 @@ Example
                  {
                      "job_id": "c54c8aa0-c277-4f83-8acc-521d85cfa32b",
                      "user": "xxxx",
-                     "job_name": "SparkSubmitTset2",
+                     "job_name": "SparkSubmitTest2",
                      "job_result": "UNDEFINED",
                      "job_state": "ACCEPTED",
                      "job_progress": 0,
