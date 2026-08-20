@@ -17,7 +17,7 @@ How Do I Access Hive in a Cluster with Kerberos Authentication Enabled?
 
    Example: **kinit hiveuser**
 
-   The current user must have the permission to create Hive tables..
+   The current user must have the permission to create Hive tables.
 
 #. Run the client command of the Hive component.
 

@@ -19,7 +19,7 @@ Creating a Linux ECS Outside the Cluster to Access the MRS Cluster
 
    b. Click the **Inbound Rules** tab, and click **Add Rule**. In the **Add Inbound Rule** dialog box, configure the IP address of the ECS and enable all ports.
 
-   c. After the security group rule is added, you can download and install the client on the ECS..
+   c. After the security group rule is added, you can download and install the client on the ECS.
 
    d. Use the client.
 

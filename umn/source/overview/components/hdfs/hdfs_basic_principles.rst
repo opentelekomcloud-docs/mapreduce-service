@@ -87,4 +87,4 @@ The HDFS component of MRS supports the following features:
 -  Supports erasure code, reducing data redundancy to 50% and improving reliability. In addition, the striped block storage structure is introduced to maximize the use of the capability of a single node and multiple disks in an existing cluster. After the coding process is introduced, the data write performance is improved, and the performance is close to that with the multi-copy redundancy.
 -  Supports balanced node scheduling on HDFS and balanced disk scheduling on a single node, improving HDFS storage performance after node or disk scale-out.
 
-For details about the Hadoop architecture and principles, see `https://hadoop.apache.org/ <http://hadoop.apache.org/>`__.
+For details about the Hadoop architecture and principles, see https://hadoop.apache.org/.

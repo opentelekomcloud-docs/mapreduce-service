@@ -35,6 +35,38 @@ Procedure
    -  **Capacity (%)**: indicates the percentage of computing resources used by the current tenant.
    -  **Maximum Capacity (%)**: indicates the maximum percentage of computing resources used by the current tenant.
 
+#. On the **Modify Resource Allocation** page, click **Scheduled Policy** and set the user scheduling policy. (This operation is supported only in MRS 3.6.0 and later versions.)
+
+   -  Click **Add Scheduled Policy** to add a scheduled policy.
+
+      -  **Policy Name**: Enter a name of a scheduled policy, which is used to distinguish active policies in logs.
+
+      -  **Policy Frequency**: Select **Daily**, **Weekly**, or **Monthly**.
+
+      -  **Repeats On**: Select one or more days in a week or month for the policy to take effect. This parameter is displayed only when **Policy Frequency** is set to **Weekly** or **Monthly**.
+
+      -  **Time Window**: Select the time range in which the policy takes effect on the specified days. You can add multiple time ranges. The time range must be at least 2 hours.
+
+         For example, if this parameter is set to 08:00-16:00, the policy takes effect only in this time range.
+
+      -  **Resource Capacity(%)**: Resource capacity when the policy takes effect.
+
+      -  **Maximum Resource Capacity(%)**: Maximum resource capacity when the policy takes effect.
+
+      -  **Enable Policy**: Determine whether the policy takes effect within the specified time. Only one policy is allowed for a queue at a time.
+
+      .. important::
+
+         -  The resource configuration of queues and their sibling queues in a scheduled policy supports only the percentage-based allocation and does not support the absolute values.
+         -  If a scheduled policy that is taking effect is deleted, the default configuration is restored within ten minutes.
+         -  The scheduled policy is checked periodically. The check period is controlled by the parameter **yarn.resourcemanager.time-policy.check-interval-secs**. To change the parameter value, log in to Manager, choose **Cluster** > **Services** > **Yarn** > **Configurations** > **All Configurations**. Search for the parameter and change its value. Then restart the instance for the change to take effect.
+         -  A maximum of three scheduled policies can be added, and only one policy is allowed for each policy frequency.
+         -  Only one scheduled policy can be valid at a time.
+         -  After a scheduled policy takes effect, the total capacity cannot exceed 100.
+
+   -  Click **Modify** in the **Operation** column to modify an existing scheduled policy.
+   -  Click **Clear** in the **Operation** column to delete an existing scheduled policy.
+
 #. Click **OK**.
 
    .. note::

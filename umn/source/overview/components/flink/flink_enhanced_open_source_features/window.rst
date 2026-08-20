@@ -8,7 +8,7 @@ Window
 Enhanced Open Source Feature: Window
 ------------------------------------
 
-This section describes the sliding window of Flink and provides the sliding window optimization method. For details about windows, visit https://ci.apache.org/projects/flink/flink-docs-release-1.12/dev/stream/operators/windows.html.
+This section describes the sliding window of Flink and provides the sliding window optimization method.
 
 **Introduction to Window**
 

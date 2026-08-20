@@ -124,4 +124,4 @@ This alarm is automatically cleared after the fault is rectified.
 Related Information
 -------------------
 
-None.
+None

@@ -106,21 +106,40 @@ Procedure
 
 #. .. _admin_guide_000118__l95df8df02a794fd7adb2f27cfcb5c042:
 
-   Click **Associate Service** to configure other service resources used by the current tenant.
+   Click **Associate Service** to configure other service resources used by the current tenant, and click **OK**.
 
-   a. Set **Services** to **HBase**.
-   b. Set **Association Type** as follows:
+   -  Set **Service** to **HBase** and **Association Type** to **Exclusive** or **Shared**.
 
-      -  **Exclusive** indicates that the service resources are used by the tenant exclusively and cannot be associated with other tenants.
-      -  **Shared** indicates that the service resources can be shared with other tenants.
+      .. note::
+
+         -  **Exclusive** indicates that the service resources are used by the tenant exclusively and cannot be associated with other tenants.
+         -  **Shared** indicates that the service resources can be shared with other tenants.
+
+   -  MRS 3.2.0 or later: Set **Service** to **ClickHouse**.
+
+      -  **Association Type**: When **Service** is set to **ClickHouse**, **Association Type** can only be set to **Shared**. MRS 3.3.0 and later versions support Exclusive and Shared.
+      -  **Associate Logical Cluster**: If the logical cluster function is not enabled for ClickHouse, **default_cluster** is selected by default. If the function is enabled, select the logical cluster to which you want to associate.
+      -  **CPU Priority**: The CPU priority ranges from -20 to 19. This value is associated with the NICE value of the OS. A smaller value indicates a higher CPU priority.
+      -  **Memory**: The maximum value of this parameter is **100**, in percentage. For example, if this parameter is set to **80**, the total memory that can be used by the current tenant is calculated as follows: Available memory x 80%.
+      -  **Concurrency**: The maximum number of concurrent resources available for all the users bound to the tenant. This parameter is required for clusters of MRS 3.3.0 or later.
+
+   -  MRS 3.5.0 or later: Select **Doris** for **Service**.
+
+      -  **Association Type**: The default value is **Shared**.
+      -  **CPU Quota Usage**: CPU usage per unit time. The value ranges from 1 to 100.
+      -  **Memory Quota**: proportion of available memory. For example, if the value is **20**, the available memory of the current tenant on each BE instance node is: Physical memory x **mem_limit** (BE memory limit in percentage) x 20%.
+      -  **Concurrency**: maximum number of concurrent query tasks that can be executed on a single FE instance.
+      -  **Queue Length**: indicates the maximum number of query tasks waiting to be executed in the queue because the number of concurrent query tasks exceeds the upper limit.
+      -  **Waiting Duration (ms)**: maximum waiting time of a task in the queue, in milliseconds
+      -  **Soft Memory Limit**: whether a tenant can use more memory resources than it is allowed If this function is enabled and the system has idle memory resources, you can use more memory than the limit. Your tasks that occupy the most memory in the group will be canceled only when resources are insufficient.
+      -  **Scheduling Policy**: scheduling mode of Doris tasks in MRS 3.6.0 or later. The default scheduling policy is the fair scheduler.
+      -  **CPU Usage Limit (%)**: maximum CPU usage allowed for a tenant in MRS 3.6.0 or later.
 
    .. note::
 
       -  Only HBase can be associated with a new tenant. However, HDFS, HBase, and Yarn can be associated with existing tenants.
       -  To associate an existing tenant with service resources, click the target tenant in the tenant list, switch to the **Service Associations** page, and click **Associate Service** to configure resources to be associated with the tenant.
       -  To disassociate an existing tenant from service resources, click the target tenant in the tenant list, switch to the **Service Associations** page, and click **Delete** in the **Operation** column. In the displayed dialog box, select **I have read the information and understand the impact** and click **OK**.
-
-   c. Click **OK**.
 
 #. .. _admin_guide_000118__lea52c6efc12849b4aca946b1c510728d:
 

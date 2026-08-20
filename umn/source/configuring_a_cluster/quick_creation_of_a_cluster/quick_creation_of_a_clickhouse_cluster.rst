@@ -27,13 +27,14 @@ Quick Creation of a ClickHouse Cluster
    -  **AZ**: Use the default value.
    -  **VPC**: Use the default value. If there is no available VPC, click **View VPC** to access the VPC console and create a new VPC.
    -  **Subnet**: Use the default value.
-   -  **Enterprise Project**: Use the default value.
    -  **CPU Architecture**: Use the default value.
    -  **Cluster Nodes**: Select the number of cluster nodes and node specifications based on site requirements. For MRS 3.\ *x* or later, the memory of the master node must be greater than 64 GB.
    -  **Kerberos Authentication**: Select whether to enable Kerberos authentication.
    -  **Username**: The default value is **root/admin**. User **root** is used to remotely log in to ECSs, and user **admin** is used to access the cluster management page.
    -  **Password**: Set a password for user **root**/**admin**.
    -  **Confirm Password**: Enter the password of user **root**/**admin** again.
+   -  **Kerberos Encryption Type**: Encryption algorithm and method used by Kerberos.
+   -  **Enterprise Project**: Select the default project.
 
 #. Select **Enable** to enable secure communications. For details, see :ref:`Communication Security Authorization <mrs_01_0786>`.
 

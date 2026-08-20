@@ -12,7 +12,7 @@ Hive table data is stored in HDFS. Table data and the metadata of the table data
 
 The mainstream big data release editions in the industry support Sqoop installation. For on-premises big data clusters of the community version, you can download the Sqoop of the community version for installation. Use Sqoop to decouple the strong dependency between the metadata to be exported and the relational database and export Hive metadata to HDFS and migrate it together with the table data for restoration. The procedure is as follows:
 
-#. Download the Sqoop tool from the source cluster and install it. For details, see http://sqoop.apache.org/.
+#. Download the Sqoop tool from the source cluster and install it. For details, see https://sqoop.apache.org/.
 
 #. Download the JDBC driver of the relational database to the **$Sqoop_Home/lib** directory.
 

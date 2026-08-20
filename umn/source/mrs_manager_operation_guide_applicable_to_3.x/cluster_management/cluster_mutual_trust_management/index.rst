@@ -8,6 +8,7 @@ Cluster Mutual Trust Management
 -  :ref:`Overview of Mutual Trust Between Clusters <admin_guide_000175>`
 -  :ref:`Changing Manager's Domain Name <admin_guide_000176>`
 -  :ref:`Configuring Cross-Manager Mutual Trust Between Clusters <admin_guide_000177>`
+-  :ref:`Configuring Cross-Manager Cluster Mutual Trust for Unidirectional Access <admin_guide_000429>`
 -  :ref:`Assigning User Permissions After Cross-Cluster Mutual Trust Is Configured <admin_guide_000178>`
 
 .. toctree::
@@ -17,4 +18,5 @@ Cluster Mutual Trust Management
    overview_of_mutual_trust_between_clusters
    changing_managers_domain_name
    configuring_cross-manager_mutual_trust_between_clusters
+   configuring_cross-manager_cluster_mutual_trust_for_unidirectional_access
    assigning_user_permissions_after_cross-cluster_mutual_trust_is_configured

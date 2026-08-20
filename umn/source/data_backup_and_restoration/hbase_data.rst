@@ -39,7 +39,7 @@ Currently, HBase data can be backed up in the following modes:
 Snapshots
 ---------
 
-You can perform the snapshot operation on a table to generate a snapshot for the table. The snapshot can be used to back up the original table, roll back the original table when the original table is faulty, as well as back up data cross clusters. After a snapshot is executed, the **.hbase-snapshot** directory is generated in the HBase root directory (**/hbase** by default) on HBase. The directory contains details about each snapshot. When the **ExportSnapshot** command is executed to export the snapshot, an MR task is submitted locally to copy the snapshot information and table's **HFile** to **/hbase/.hbase-snapshot** and **/hbase/archive** of the standby cluster respectively. For details, see http://hbase.apache.org/2.2/book.html#ops.snapshots.
+You can perform the snapshot operation on a table to generate a snapshot for the table. The snapshot can be used to back up the original table, roll back the original table when the original table is faulty, as well as back up data cross clusters. After a snapshot is executed, the **.hbase-snapshot** directory is generated in the HBase root directory (**/hbase** by default) on HBase. The directory contains details about each snapshot. When the **ExportSnapshot** command is executed to export the snapshot, an MR task is submitted locally to copy the snapshot information and table's **HFile** to **/hbase/.hbase-snapshot** and **/hbase/archive** of the standby cluster respectively. For details, see https://hbase.apache.org/2.2/book.html#ops.snapshots.
 
 -  This backup mode has the following advantages:
 
@@ -75,7 +75,7 @@ Run the **restore** command to automatically create a table in the standby clust
 Replication
 -----------
 
-In Replication backup mode, a disaster recovery relationship is established between the active and standby clusters on HBase. When data is written to the active cluster, the active cluster pushes data to the standby cluster through WAL to implement real-time data synchronization between the active and standby clusters. For details, see http://hbase.apache.org/2.2/book.html#_cluster_replication.
+In Replication backup mode, a disaster recovery relationship is established between the active and standby clusters on HBase. When data is written to the active cluster, the active cluster pushes data to the standby cluster through WAL to implement real-time data synchronization between the active and standby clusters. For details, see https://hbase.apache.org/2.2/book.html#_cluster_replication.
 
 -  This backup mode has the following advantages:
 
@@ -150,7 +150,7 @@ In the command, **member** indicates the name of the table to be exported.
 CopyTable
 ---------
 
-The function of CopyTable is similar to that of Export. Like Export, CopyTable uses HBase API to create a MapReduce task to read data from the source table. However, the difference is that the output of CopyTable is an HBase table that can be stored in a local or remote cluster. For details, see http://hbase.apache.org/2.2/book.html#copy.table
+The function of CopyTable is similar to that of Export. Like Export, CopyTable uses HBase API to create a MapReduce task to read data from the source table. However, the difference is that the output of CopyTable is an HBase table that can be stored in a local or remote cluster. For details, see https://hbase.apache.org/2.2/book.html#copy.table
 
 -  This backup mode has the following advantages:
 

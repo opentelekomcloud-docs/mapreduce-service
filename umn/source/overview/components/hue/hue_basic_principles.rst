@@ -37,7 +37,7 @@ On the WebUI provided by Hue, you can perform the following operations on the co
 -  Oozie: Hue provides the Oozie job manager function, in this case, you can use Oozie in GUI mode.
 -  ZooKeeper: Hue provides the ZooKeeper browser function for you to use ZooKeeper in GUI mode.
 
-For details about Hue, visit `https://gethue.com/ <http://gethue.com/>`__.
+For details about Hue, visit https://gethue.com/.
 
 Architecture
 ------------

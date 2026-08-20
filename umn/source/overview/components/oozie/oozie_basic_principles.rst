@@ -8,7 +8,7 @@ Oozie Basic Principles
 Introduction to Oozie
 ---------------------
 
-`Oozie <http://oozie.apache.org/>`__ is an open-source workflow engine that is used to schedule and coordinate Hadoop jobs.
+`Oozie <https://oozie.apache.org/>`__ is an open-source workflow engine that is used to schedule and coordinate Hadoop jobs.
 
 Architecture
 ------------

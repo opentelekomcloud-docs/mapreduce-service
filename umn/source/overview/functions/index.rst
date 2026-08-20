@@ -11,6 +11,7 @@ Functions
 -  :ref:`Reliability Enhancement <mrs_08_0045>`
 -  :ref:`Job Management <mrs_08_0046>`
 -  :ref:`Bootstrap Actions <mrs_08_0025>`
+-  :ref:`Enterprise Project Management <mrs_08_0047>`
 -  :ref:`Metadata <mrs_08_0075>`
 -  :ref:`Cluster Management <mrs_08_0048>`
 -  :ref:`Cluster O&M <mrs_08_0049>`
@@ -26,6 +27,7 @@ Functions
    reliability_enhancement
    job_management
    bootstrap_actions
+   enterprise_project_management
    metadata
    cluster_management/index
    cluster_o_and_m

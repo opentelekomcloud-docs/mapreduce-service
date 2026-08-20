@@ -8,7 +8,7 @@ Service Details Page
 Overview
 --------
 
-Log in to MRS Manager and choose **Cluster** > *Name of the desired cluster* > **Services**. In the service list, click the specified service name to go to the service details page, including the **Dashboard**, **Instance**, **Instance Groups** and **Configurations** tab pages as well as function areas. For some services, the custom management tool page can be displayed.For details about the supported management tools, see :ref:`Table 1 <admin_guide_000030__table1936171313284>`..
+Log in to MRS Manager and choose **Cluster** > *Name of the desired cluster* > **Services**. In the service list, click the specified service name to go to the service details page, including the **Dashboard**, **Instance**, **Instance Groups** and **Configurations** tab pages as well as function areas. For some services, the custom management tool page can be displayed.For details about the supported management tools, see :ref:`Table 1 <admin_guide_000030__table1936171313284>`.
 
 .. _admin_guide_000030__table1936171313284:
 

@@ -32,6 +32,7 @@ Components
 -  :ref:`Manager <mrs_08_0066>`
 -  :ref:`MapReduce <mrs_08_0050>`
 -  :ref:`MemArtsCC <mrs_08_0116>`
+-  :ref:`MemArtsStore <mrs_08_0190>`
 -  :ref:`Oozie <mrs_08_0067>`
 -  :ref:`OpenTSDB <mrs_08_0035>`
 -  :ref:`Presto <mrs_08_0031>`
@@ -74,6 +75,7 @@ Components
    manager/index
    mapreduce/index
    memartscc/index
+   memartsstore
    oozie/index
    opentsdb
    presto

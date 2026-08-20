@@ -33,6 +33,8 @@ Quick Creation of a Hadoop Analysis Cluster
    -  **Username**: The default value is **root/admin**. User **root** is used to remotely log in to ECSs, and user **admin** is used to access the cluster management page.
    -  **Password**: Set a password for user **root**/**admin**.
    -  **Confirm Password**: Enter the password of user **root**/**admin** again.
+   -  **Kerberos Encryption Type**: Encryption algorithm and method used by Kerberos.
+   -  **Enterprise Project**: Select the default project.
 
 #. Select **Enable** to enable secure communications. For details, see :ref:`Communication Security Authorization <mrs_01_0786>`.
 

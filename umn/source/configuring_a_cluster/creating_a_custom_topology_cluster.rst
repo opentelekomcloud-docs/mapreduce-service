@@ -54,6 +54,8 @@ Customizing a Cluster
       -  **System Disk**: Retain the default **Ultra-high I/O** and storage capacity.
       -  **Data Disk**: Retain the default **Ultra-high I/O**, storage capacity, and quantity.
 
+   -  **Kerberos Encryption Type**: Encryption algorithm and method used by Kerberos.
+   -  **Enterprise Project**: Select the default project.
    -  **Topology Adjustment**: If the deployment mode in the **Common Node** does not meet the requirements, you need to manually install some instances that are not deployed by default, or you need to manually install some instances, set **Topology Adjustment** to **Enable** and adjust the instance deployment mode based on service requirements. For details, see :ref:`Topology Adjustment for a Custom Cluster <mrs_01_0121__section1948791193417>`.
 
 #. Click **Next** and set advanced options.
