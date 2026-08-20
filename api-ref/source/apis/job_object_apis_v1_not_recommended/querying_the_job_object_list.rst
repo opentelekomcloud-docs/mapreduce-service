@@ -137,7 +137,7 @@ Example
               {
                   "name": "my-mapreduce-job",
                   "type": "MapReduce",
-                  "description": "This is the Map Reduce job template",
+                  "description": "This is the MapReduce job template",
                   "mains": [],
                   "libs": [
                       {
@@ -162,7 +162,7 @@ Example
               {
                   "name": "my-mapreduce-job-update",
                   "type": "MapReduce",
-                  "description": "This is the Map Reduce job template",
+                  "description": "This is the MapReduce job template",
                   "mains": [],
                   "libs": [
                       {

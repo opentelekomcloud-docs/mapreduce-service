@@ -145,7 +145,7 @@ Example
           "interface": [ ],
           "is_public": false,
           "type": "MapReduce",
-          "description": "This is the Map Reduce job template"
+          "description": "This is the MapReduce job template"
       }
 
       The request example of Spark job:
@@ -210,7 +210,7 @@ Example
           "job": {
               "name": "my-mapreduce-job",
               "type": "MapReduce",
-              "description": "This is the Map Reduce job template",
+              "description": "This is the MapReduce job template",
               "mains": [],
               "libs": [
                   {

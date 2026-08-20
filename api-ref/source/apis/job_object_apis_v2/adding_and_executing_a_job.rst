@@ -103,7 +103,7 @@ Example
 
 -  Example request
 
-   The following is an example of an MapReduce job request:
+   The following is an example of a MapReduce job request:
 
    .. code-block::
 

@@ -140,7 +140,7 @@ Example
           "interface": [ ],
           "is_public": false,
           "type": "MapReduce",
-          "description": "This is the Map Reduce job template"
+          "description": "This is the MapReduce job template"
       }
 
 -  Example response
@@ -151,7 +151,7 @@ Example
           "job": {
               "name": "my-mapreduce-job-update",
               "type": "MapReduce",
-              "description": "This is the Map Reduce job template",
+              "description": "This is the MapReduce job template",
               "mains": [],
               "libs": [
                   {

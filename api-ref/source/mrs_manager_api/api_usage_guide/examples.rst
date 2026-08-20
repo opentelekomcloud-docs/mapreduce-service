@@ -518,7 +518,7 @@ This class provides specific GET and POST request methods.
        {
            if (operationUrl == null || operationUrl.isEmpty())
            {
-               LOG.error("The operationUrl is emptey.");
+               LOG.error("The operationUrl is empty.");
                return null;
            }
            LOG.info("The operationUrl is:{}", operationUrl);
@@ -588,7 +588,7 @@ This class provides specific GET and POST request methods.
        {
            if (jsonFilePath == null || jsonFilePath.isEmpty())
            {
-               LOG.error("The jsonFilePath is emptey.");
+               LOG.error("The jsonFilePath is empty.");
            }
 
            String filePath = jsonFilePath;
