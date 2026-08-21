@@ -8,7 +8,7 @@ ALM-12010 Manager Heartbeat Interruption Between the Active and Standby Nodes
 Description
 -----------
 
-This alarm is generated when the active Mager does not receive the heartbeat signal from the standby Manager within 7 seconds.
+This alarm is generated when the active Manager does not receive the heartbeat signal from the standby Manager within 7 seconds.
 
 This alarm is cleared when the active Manager receives heartbeat signals from the standby Manager.
 

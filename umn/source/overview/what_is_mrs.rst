@@ -37,7 +37,7 @@ MRS architecture includes infrastructure and big data processing phases.
 
 -  Data collection
 
-   The data collection layer provides the capability of importing data from various dta sources, such as Flume (data ingestion), Loader (relational data import), and Kafka (highly reliable message queue), to MRS big data clusters. Alternatively, you can use Cloud Data Migration (CDM) to import external data to MRS clusters.
+   The data collection layer provides the capability of importing data from various data sources, such as Flume (data ingestion), Loader (relational data import), and Kafka (highly reliable message queue), to MRS big data clusters. Alternatively, you can use Cloud Data Migration (CDM) to import external data to MRS clusters.
 
 -  Data storage
 

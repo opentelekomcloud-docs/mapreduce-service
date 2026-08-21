@@ -126,7 +126,7 @@ Apart from the enhanced system throughput and utilization, Superior Scheduler pr
 
    Superior Scheduler supports following functions except CPU and memory scheduling:
 
-   -  `Node labels <https://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/NodeLabel.html>`__ can be used to identify multi-dimensional attributes of nodes such as **GPU_ENABLED** and **SSD_ENBALED**, and can be scheduled based on these labels.
+   -  `Node labels <https://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/NodeLabel.html>`__ can be used to identify multi-dimensional attributes of nodes such as **GPU_ENABLED** and **SSD_ENABLED**, and can be scheduled based on these labels.
    -  Resource pools can be used to group resources of the same type and allocate them to specific tenants or queues.
 
 -  Fair scheduling of multiple users in a tenant

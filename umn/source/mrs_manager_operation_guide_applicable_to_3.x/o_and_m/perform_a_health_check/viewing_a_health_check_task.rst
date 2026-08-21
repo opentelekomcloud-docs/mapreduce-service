@@ -19,7 +19,7 @@ Procedure
 
    By default, all saved health check reports are listed. The parameters for a health check report are as follows:
 
-   .. table:: **Table 1** Parametes for a health check report
+   .. table:: **Table 1** Parameters for a health check report
 
       +--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Parameter    | Description                                                                                                                                                                               |

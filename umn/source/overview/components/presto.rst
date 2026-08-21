@@ -17,7 +17,7 @@ Presto allows querying data where it lives, including HDFS, Hive, HBase, Cassand
 
 Presto runs in a cluster in distributed mode and contains one coordinator and multiple worker processes. Query requests are submitted from clients (for example, CLI) to the coordinator. The coordinator parses SQL statements, generates execution plans, and distributes the plans to multiple worker processes for execution.
 
-For details about Presto, visit https://prestodb.github.io/ or https://prestosql.io/.
+For details about Presto, visit https://prestodb.github.io/.
 
 Multiple Presto Instances
 -------------------------
@@ -26,4 +26,4 @@ MRS supports the installation of multiple Presto instances for a large-scale clu
 
 Presto multi-instance applies only to the Arm architecture. Currently, a single node supports a maximum of four instances.
 
-For more Presto deployment information, see https://prestodb.io/docs/current/installation/deployment.html or https://trino.io/docs/current/installation/deployment.html.
+For more Presto deployment information, see https://trino.io/docs/current/installation/deployment.html.

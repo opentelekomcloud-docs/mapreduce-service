@@ -43,7 +43,7 @@ Alarm Parameters
 Impact on the System
 --------------------
 
-The CCWorker process process may restart, which temporarily reduces the cache hit ratio.
+The CCWorker process may restart, which temporarily reduces the cache hit ratio.
 
 Possible Causes
 ---------------

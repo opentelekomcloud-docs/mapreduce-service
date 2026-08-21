@@ -72,7 +72,7 @@ Procedure
 
       .. note::
 
-         The monitoring directory of spooDir is specified by the **.spoolDir** parameter in the **properties.properties** configuration file. If all files in the monitoring directory have been transferred, the file name extension of all files in the monitoring directory is **.COMPLETED**.
+         The monitoring directory of spoolDir is specified by the **.spoolDir** parameter in the **properties.properties** configuration file. If all files in the monitoring directory have been transferred, the file name extension of all files in the monitoring directory is **.COMPLETED**.
 
 #. .. _alm-24004__li3862672011655:
 
