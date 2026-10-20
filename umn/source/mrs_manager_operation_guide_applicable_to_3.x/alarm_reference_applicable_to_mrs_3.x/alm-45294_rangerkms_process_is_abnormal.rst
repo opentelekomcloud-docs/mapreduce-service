@@ -15,20 +15,11 @@ This alarm is cleared when the process status recovers.
 Alarm Attributes
 ----------------
 
-======== ============== ================== ============ ============
-Alarm ID Alarm Severity Alarm Type         Service Type Auto Cleared
-======== ============== ================== ============ ============
-45294    Major          Quality of service Ranger       Yes
-======== ============== ================== ============ ============
-
-Alarm Changes
--------------
-
-=========== ======= =========== =================
-Change Type Version Description Reason for Change
-=========== ======= =========== =================
-New         3.3.1   New alarm   New alarm
-=========== ======= =========== =================
+======== ============== ============
+Alarm ID Alarm Severity Auto Cleared
+======== ============== ============
+45294    Major          Yes
+======== ============== ============
 
 Alarm Parameters
 ----------------
