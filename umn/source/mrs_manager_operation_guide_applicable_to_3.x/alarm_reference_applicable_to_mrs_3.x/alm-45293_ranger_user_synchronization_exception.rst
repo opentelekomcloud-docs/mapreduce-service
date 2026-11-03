@@ -13,20 +13,11 @@ The system checks synchronization status of the UserSync process every 5 minutes
 Alarm Attributes
 ----------------
 
-======== ============== ================== ============ ============
-Alarm ID Alarm Severity Alarm Type         Service Type Auto Cleared
-======== ============== ================== ============ ============
-45293    Major          Quality of service Ranger       Yes
-======== ============== ================== ============ ============
-
-Alarm Changes
--------------
-
-=========== ======= =========== =================
-Change Type Version Description Reason for Change
-=========== ======= =========== =================
-New         3.3.1   New alarm   New alarm
-=========== ======= =========== =================
+======== ============== ============
+Alarm ID Alarm Severity Auto Cleared
+======== ============== ============
+45293    Major          Yes
+======== ============== ============
 
 Alarm Parameters
 ----------------

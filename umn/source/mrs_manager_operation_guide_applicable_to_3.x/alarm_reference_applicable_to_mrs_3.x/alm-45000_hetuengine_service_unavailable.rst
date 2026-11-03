@@ -47,7 +47,7 @@ Possible Causes
 -  The Yarn service is abnormal.
 -  The DBService service is abnormal.
 -  The Hive service is abnormal.
--  Thre are no HSBroker instances in HetuEngine.
+-  There are no HSBroker instances in HetuEngine.
 
 Procedure
 ---------

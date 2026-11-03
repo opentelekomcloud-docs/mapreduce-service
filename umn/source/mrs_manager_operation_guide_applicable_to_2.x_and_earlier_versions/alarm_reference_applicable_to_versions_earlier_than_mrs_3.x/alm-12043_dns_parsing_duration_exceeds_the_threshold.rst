@@ -64,8 +64,8 @@ Procedure
 
    .. code-block::
 
-      namesever 10.2.3.4
-      namesever 10.2.3.4
+      nameserver 10.2.3.4
+      nameserver 10.2.3.4
 
    -  If yes, go to :ref:`5 <alm_12043__en-us_topic_0191813958_en-us_topic_0087039385_li29935381112614>`.
    -  If no, go to :ref:`7 <alm_12043__en-us_topic_0191813958_en-us_topic_0087039385_li39250560112614>`.
@@ -76,8 +76,8 @@ Procedure
 
    .. code-block::
 
-      # namesever 10.2.3.4
-      # namesever 10.2.3.4
+      # nameserver 10.2.3.4
+      # nameserver 10.2.3.4
 
 #. Check whether this alarm is cleared after 5 minutes.
 

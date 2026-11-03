@@ -29,6 +29,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-12040 Insufficient System Entropy <alm-12040>`
 -  :ref:`ALM-12041 Incorrect Permission on Key Files <alm-12041>`
 -  :ref:`ALM-12042 Incorrect Configuration of Key Files <alm-12042>`
+-  :ref:`ALM-12043 DNS Parsing Duration Exceeds the Threshold <alm-12043>`
 -  :ref:`ALM-12045 Read Packet Dropped Rate Exceeds the Threshold <alm-12045>`
 -  :ref:`ALM-12046 Write Packet Dropped Rate Exceeds the Threshold <alm-12046>`
 -  :ref:`ALM-12047 Read Packet Error Rate Exceeds the Threshold <alm-12047>`
@@ -271,6 +272,12 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-27005 Database Connections Usage Exceeds the Threshold <alm-27005>`
 -  :ref:`ALM-27006 Disk Space Usage of the Data Directory Exceeds the Threshold <alm-27006>`
 -  :ref:`ALM-27007 Database Enters the Read-Only Mode <alm-27007>`
+-  :ref:`ALM-27008 Total Number of Long Transactions in DBService Exceeds the Threshold <alm-27008>`
+-  :ref:`ALM-27009 Average SQL Execution Duration Exceeds the Threshold <alm-27009>`
+-  :ref:`ALM-27010 DBService Database File Handle Usage Exceeds the Threshold <alm-27010>`
+-  :ref:`ALM-27011 Number of DBService Database Deadlocks Exceeds the Threshold <alm-27011>`
+-  :ref:`ALM-27012 Response Time of 80% SQL Queries in the Database Exceeds the Threshold <alm-27012>`
+-  :ref:`ALM-27013 Response Time of 95% SQL Queries in the Database Exceeds the Threshold <alm-27013>`
 -  :ref:`ALM-29007 Impalad Process Memory Usage Exceeds the Threshold <alm-29007>`
 -  :ref:`ALM-29008 Number of ODBC Connections to Impalad Exceeds the Threshold <alm-29008>`
 -  :ref:`ALM-29010 Number of Queries Being Submitted by Impalad Exceeds the Threshold <alm-29010>`
@@ -329,6 +336,9 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-45007 Number of Workers of a HetuEngine Compute Instance Is Less Than the Threshold <alm-45007>`
 -  :ref:`ALM-45008 Query Latency of HetuEngine Compute Instances Exceeds the Threshold <alm-45008>`
 -  :ref:`ALM-45009 Task Failure Rate of HetuEngine Compute Instances Exceeds the Threshold <alm-45009>`
+-  :ref:`ALM-45010 HSBroker GC Duration Exceeds the Threshold <alm-45010>`
+-  :ref:`ALM-45011 HSConsole GC Duration Exceeds the Threshold <alm-45011>`
+-  :ref:`ALM-45012 HSFabric GC Duration Exceeds the Threshold <alm-45012>`
 -  :ref:`ALM-45175 Average Time for Calling OBS Metadata APIs Is Greater than the Threshold <alm-45175>`
 -  :ref:`ALM-45176 Success Rate of Calling OBS Metadata APIs Is Lower than the Threshold <alm-45176>`
 -  :ref:`ALM-45177 Success Rate of Calling OBS Data Read APIs Is Lower than the Threshold <alm-45177>`
@@ -434,6 +444,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-45653 Invalid Flink HA Certificate File <alm-45653>`
 -  :ref:`ALM-45654 Flink HA Certificate Is About to Expire <alm-45654>`
 -  :ref:`ALM-45655 Flink HA Certificate File Has Expired <alm-45655>`
+-  :ref:`ALM-45656 Full GC Frequency of a Flink Job Process Exceeds the Threshold <alm-45656>`
+-  :ref:`ALM-45657 FlinkServer SQL Gateway Unavailable <alm-45657>`
 -  :ref:`ALM-45736 Guardian Service Unavailable <alm-45736>`
 -  :ref:`ALM-45737 TokenServer Heap Memory Usage Exceeds the Threshold <alm-45737>`
 -  :ref:`ALM-45738 TokenServer Direct Memory Usage Exceeds the Threshold <alm-45738>`
@@ -554,6 +566,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-12040_insufficient_system_entropy
    alm-12041_incorrect_permission_on_key_files
    alm-12042_incorrect_configuration_of_key_files
+   alm-12043_dns_parsing_duration_exceeds_the_threshold
    alm-12045_read_packet_dropped_rate_exceeds_the_threshold
    alm-12046_write_packet_dropped_rate_exceeds_the_threshold
    alm-12047_read_packet_error_rate_exceeds_the_threshold
@@ -796,6 +809,12 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-27005_database_connections_usage_exceeds_the_threshold
    alm-27006_disk_space_usage_of_the_data_directory_exceeds_the_threshold
    alm-27007_database_enters_the_read-only_mode
+   alm-27008_total_number_of_long_transactions_in_dbservice_exceeds_the_threshold
+   alm-27009_average_sql_execution_duration_exceeds_the_threshold
+   alm-27010_dbservice_database_file_handle_usage_exceeds_the_threshold
+   alm-27011_number_of_dbservice_database_deadlocks_exceeds_the_threshold
+   alm-27012_response_time_of_80pct_sql_queries_in_the_database_exceeds_the_threshold
+   alm-27013_response_time_of_95pct_sql_queries_in_the_database_exceeds_the_threshold
    alm-29007_impalad_process_memory_usage_exceeds_the_threshold
    alm-29008_number_of_odbc_connections_to_impalad_exceeds_the_threshold
    alm-29010_number_of_queries_being_submitted_by_impalad_exceeds_the_threshold
@@ -854,6 +873,9 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-45007_number_of_workers_of_a_hetuengine_compute_instance_is_less_than_the_threshold
    alm-45008_query_latency_of_hetuengine_compute_instances_exceeds_the_threshold
    alm-45009_task_failure_rate_of_hetuengine_compute_instances_exceeds_the_threshold
+   alm-45010_hsbroker_gc_duration_exceeds_the_threshold
+   alm-45011_hsconsole_gc_duration_exceeds_the_threshold
+   alm-45012_hsfabric_gc_duration_exceeds_the_threshold
    alm-45175_average_time_for_calling_obs_metadata_apis_is_greater_than_the_threshold
    alm-45176_success_rate_of_calling_obs_metadata_apis_is_lower_than_the_threshold
    alm-45177_success_rate_of_calling_obs_data_read_apis_is_lower_than_the_threshold
@@ -959,6 +981,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-45653_invalid_flink_ha_certificate_file
    alm-45654_flink_ha_certificate_is_about_to_expire
    alm-45655_flink_ha_certificate_file_has_expired
+   alm-45656_full_gc_frequency_of_a_flink_job_process_exceeds_the_threshold
+   alm-45657_flinkserver_sql_gateway_unavailable
    alm-45736_guardian_service_unavailable
    alm-45737_tokenserver_heap_memory_usage_exceeds_the_threshold
    alm-45738_tokenserver_direct_memory_usage_exceeds_the_threshold

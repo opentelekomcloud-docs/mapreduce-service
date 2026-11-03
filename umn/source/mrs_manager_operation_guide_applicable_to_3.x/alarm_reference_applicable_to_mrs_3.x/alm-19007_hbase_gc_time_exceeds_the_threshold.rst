@@ -49,7 +49,7 @@ Procedure
 
 **Check the GC time.**
 
-#. On the MRS Manager portal, click **O&M** > **Alarm** > **Alarms** and select the alarm whose **ID** is **19007**. Then check the role name in **Location** and confirm the IP adress of the instance.
+#. On the MRS Manager portal, click **O&M** > **Alarm** > **Alarms** and select the alarm whose **ID** is **19007**. Then check the role name in **Location** and confirm the IP address of the instance.
 
    -  If the role for which the alarm is generated is HMaster, go to :ref:`2 <alm-19007__li56776013194753>`.
    -  If the role for which the alarm is generated is RegionServer, go to :ref:`3 <alm-19007__li29806005194753>`.

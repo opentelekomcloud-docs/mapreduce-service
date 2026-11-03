@@ -55,7 +55,7 @@ Procedure
 
 **Check direct memory usage.**
 
-#. On the MRS Manager portal, click **O&M > Alarm > Alarms** and select the alarm whose **Alarm ID** is **16006**. Then check the role name in **Location** and confirm the IP adress of the instance.
+#. On the MRS Manager portal, click **O&M > Alarm > Alarms** and select the alarm whose **Alarm ID** is **16006**. Then check the role name in **Location** and confirm the IP address of the instance.
 
    -  If the role for which the alarm is generated is HiveServer, go to :ref:`2 <alm-16006__li31510133143419>`.
    -  If the role for which the alarm is generated is MetaStore, go to :ref:`3 <alm-16006__li39131309143419>`.

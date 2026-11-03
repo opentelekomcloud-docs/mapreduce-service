@@ -93,7 +93,7 @@ Procedure
       ============== ==========================================
       Parameter      Description
       ============== ==========================================
-      Keywords       Keywords of the losg to be searched for
+      Keywords       Keywords of the log to be searched for
       Host Name      Name of the host to be searched for
       Location       Path of the log file to be searched for
       Started        Start time for logs to be searched for

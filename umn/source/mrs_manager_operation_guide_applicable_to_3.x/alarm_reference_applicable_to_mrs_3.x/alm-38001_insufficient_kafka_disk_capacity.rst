@@ -122,7 +122,7 @@ Procedure
 
     The Kafka disk usage information is displayed.
 
-13. View the information in :ref:`12 <alm-38001__li1681217164815>` to check whether there is only the disk parathion for which the alarm is generated in :ref:`2 <alm-38001__lad42a611d3f7476ebbdcc2c5b11228e3>`.
+13. View the information in :ref:`12 <alm-38001__li1681217164815>` to check whether there is only the disk partition for which the alarm is generated in :ref:`2 <alm-38001__lad42a611d3f7476ebbdcc2c5b11228e3>`.
 
     -  If yes, go to :ref:`14 <alm-38001__li76811719488>`.
     -  If no, go to :ref:`15 <alm-38001__li4681517154817>`.

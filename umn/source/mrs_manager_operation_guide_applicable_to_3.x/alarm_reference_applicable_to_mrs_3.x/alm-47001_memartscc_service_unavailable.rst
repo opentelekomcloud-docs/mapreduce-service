@@ -48,7 +48,7 @@ The service will be unavailable.
 Possible Causes
 ---------------
 
-The ZooKeeper service on which the MemArtCC service depends is unavailable.
+The ZooKeeper service on which the MemArtsCC service depends is unavailable.
 
 Handling Procedure
 ------------------

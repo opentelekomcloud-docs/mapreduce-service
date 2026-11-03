@@ -82,7 +82,7 @@ Procedure
       -  If yes, no further action is required.
       -  If no, go to :ref:`3.b <alm_18000__en-us_topic_0191813947_aalm-18000_mmccppss_ss5>`.
 
-#. Check the ResorceManager status in the Yarn cluster.
+#. Check the ResourceManager status in the Yarn cluster.
 
    a. Go to the MRS cluster details page and click **Components**.
 
