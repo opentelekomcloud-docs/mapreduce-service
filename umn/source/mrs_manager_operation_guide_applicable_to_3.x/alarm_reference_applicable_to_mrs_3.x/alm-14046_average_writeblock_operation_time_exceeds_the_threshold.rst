@@ -12,7 +12,7 @@ The system checks the average time of the WriteBlock operation on the DataNode e
 
 This alarm is cleared when the average time of the WriteBlock operation on the DataNode falls below the threshold.
 
-This section applies to MRS 3.6.0-LTS.1 and later versions.
+This section applies only to MRS 3.6.0-LTS.1 or later.
 
 Alarm Attributes
 ----------------
@@ -55,7 +55,7 @@ Possible Causes
 -  The disk of the node where the DataNode is located is slow in performance.
 -  The disk write speed of the DataNode OS is slow.
 -  The performance of the DataNode OS is poor when writing files to the cache.
--  The network between the client and the DataNode is faulty.
+-  Network issues exist between the client and DataNode. For example, the client keeps the connection open for a long time, or the client writes data slowly (for example, data is received slowly by the service itself). This alarm does not necessarily indicate that the DataNode or HDFS server is the performance bottleneck.
 
 Handling Procedure
 ------------------
