@@ -51,7 +51,7 @@ Relationship Between ZooKeeper and HBase
 
 #. HRegionServer registers itself to ZooKeeper on Ephemeral node. ZooKeeper stores the HBase information, including the HBase metadata and HMaster addresses.
 #. HMaster detects the health status of each HRegionServer using ZooKeeper, and monitors them.
-#. HBase supports multiple HMaster nodes (like HDFS NameNodes). When the active HMatser is faulty, the standby HMaster obtains the state information about the entire cluster using ZooKeeper. That is, using ZooKeeper can avoid HBase SPOFs.
+#. HBase supports multiple HMaster nodes (like HDFS NameNodes). When the active HMaster is faulty, the standby HMaster obtains the state information about the entire cluster using ZooKeeper. That is, using ZooKeeper can avoid HBase SPOFs.
 
 Relationship Between ZooKeeper and Kafka
 ----------------------------------------

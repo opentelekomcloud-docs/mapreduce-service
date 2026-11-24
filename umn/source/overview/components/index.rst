@@ -21,6 +21,7 @@ Components
 -  :ref:`Hive <mrs_08_0011>`
 -  :ref:`Hudi <mrs_08_0083>`
 -  :ref:`Hue <mrs_08_0012>`
+-  :ref:`Iceberg <mrs_08_0186>`
 -  :ref:`Impala <mrs_08_0038>`
 -  :ref:`IoTDB <mrs_08_0093>`
 -  :ref:`JobGateway <mrs_08_0149>`
@@ -35,6 +36,7 @@ Components
 -  :ref:`MemArtsStore <mrs_08_0190>`
 -  :ref:`Oozie <mrs_08_0067>`
 -  :ref:`OpenTSDB <mrs_08_0035>`
+-  :ref:`Paimon <en-us_topic_0000002686018465>`
 -  :ref:`Presto <mrs_08_0031>`
 -  :ref:`Ranger <mrs_08_0041>`
 -  :ref:`Spark <mrs_08_0008>`
@@ -64,6 +66,7 @@ Components
    hive/index
    hudi
    hue/index
+   iceberg
    impala
    iotdb/index
    jobgateway/index
@@ -78,6 +81,7 @@ Components
    memartsstore
    oozie/index
    opentsdb
+   paimon
    presto
    ranger/index
    spark/index

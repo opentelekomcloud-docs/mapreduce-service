@@ -29,6 +29,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-12040 Insufficient System Entropy <alm-12040>`
 -  :ref:`ALM-12041 Incorrect Permission on Key Files <alm-12041>`
 -  :ref:`ALM-12042 Incorrect Configuration of Key Files <alm-12042>`
+-  :ref:`ALM-12043 DNS Parsing Duration Exceeds the Threshold <alm-12043>`
 -  :ref:`ALM-12045 Read Packet Dropped Rate Exceeds the Threshold <alm-12045>`
 -  :ref:`ALM-12046 Write Packet Dropped Rate Exceeds the Threshold <alm-12046>`
 -  :ref:`ALM-12047 Read Packet Error Rate Exceeds the Threshold <alm-12047>`
@@ -148,6 +149,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-14042 Average RPC Processing Time of the Router Exceeds the Threshold <alm-14042>`
 -  :ref:`ALM-14043 Average RPC Queuing Time of Router Exceeds the Threshold <alm-14043>`
 -  :ref:`ALM-14044 XceiverCount Value Exceeds the Threshold <alm-14044>`
+-  :ref:`ALM-14045 Average ReadBlock Operation Time Exceeds the Threshold <alm-14045>`
+-  :ref:`ALM-14046 Average WriteBlock Operation Time Exceeds the Threshold <alm-14046>`
 -  :ref:`ALM-16000 Percentage of Sessions Connected to the HiveServer to Maximum Number Allowed Exceeds the Threshold <alm-16000>`
 -  :ref:`ALM-16001 Hive Warehouse Space Usage Exceeds the Threshold <alm-16001>`
 -  :ref:`ALM-16002 Hive SQL Execution Success Rate Is Lower Than the Threshold <alm-16002>`
@@ -232,6 +235,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-19036 Bad Blocks Exist in HBase Key Directory Data <alm-19036>`
 -  :ref:`ALM-19037 Number of Opened Connections Exceeds the Threshold <alm-19037>`
 -  :ref:`ALM-19038 RegionServer Contains Regions with Heavy Write Workload <alm-19038>`
+-  :ref:`ALM-19039 Average Number of StoreFiles per Store on a RegionServer Exceeds the Threshold <alm-19039>`
+-  :ref:`ALM-19040 Abnormal Regions in HBase <alm-19040>`
 -  :ref:`ALM-20002 Hue Service Unavailable <alm-20002>`
 -  :ref:`ALM-23001 Loader Service Unavailable <alm-23001>`
 -  :ref:`ALM-23003 Loader Task Execution Failure <alm-23003>`
@@ -271,6 +276,12 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-27005 Database Connections Usage Exceeds the Threshold <alm-27005>`
 -  :ref:`ALM-27006 Disk Space Usage of the Data Directory Exceeds the Threshold <alm-27006>`
 -  :ref:`ALM-27007 Database Enters the Read-Only Mode <alm-27007>`
+-  :ref:`ALM-27008 Total Number of Long Transactions in DBService Exceeds the Threshold <alm-27008>`
+-  :ref:`ALM-27009 Average SQL Execution Duration Exceeds the Threshold <alm-27009>`
+-  :ref:`ALM-27010 DBService Database File Handle Usage Exceeds the Threshold <alm-27010>`
+-  :ref:`ALM-27011 Number of DBService Database Deadlocks Exceeds the Threshold <alm-27011>`
+-  :ref:`ALM-27012 Response Time of 80% SQL Queries in the Database Exceeds the Threshold <alm-27012>`
+-  :ref:`ALM-27013 Response Time of 95% SQL Queries in the Database Exceeds the Threshold <alm-27013>`
 -  :ref:`ALM-29007 Impalad Process Memory Usage Exceeds the Threshold <alm-29007>`
 -  :ref:`ALM-29008 Number of ODBC Connections to Impalad Exceeds the Threshold <alm-29008>`
 -  :ref:`ALM-29010 Number of Queries Being Submitted by Impalad Exceeds the Threshold <alm-29010>`
@@ -299,6 +310,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-38017 Partition Reassignment Duration Exceeds the Threshold <alm-38017>`
 -  :ref:`ALM-38018 Kafka Consumer Lag <alm-38018>`
 -  :ref:`ALM-38019 Too Many Full GCs for Broker Processes <alm-38019>`
+-  :ref:`ALM-38020 Abnormal Kafka Production Traffic <alm-38020>`
 -  :ref:`ALM-43001 Spark2x Service Unavailable <alm-43001>`
 -  :ref:`ALM-43006 Heap Memory Usage of the JobHistory2x Process Exceeds the Threshold <alm-43006>`
 -  :ref:`ALM-43007 Non-Heap Memory Usage of the JobHistory2x Process Exceeds the Threshold <alm-43007>`
@@ -329,6 +341,9 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-45007 Number of Workers of a HetuEngine Compute Instance Is Less Than the Threshold <alm-45007>`
 -  :ref:`ALM-45008 Query Latency of HetuEngine Compute Instances Exceeds the Threshold <alm-45008>`
 -  :ref:`ALM-45009 Task Failure Rate of HetuEngine Compute Instances Exceeds the Threshold <alm-45009>`
+-  :ref:`ALM-45010 HSBroker GC Duration Exceeds the Threshold <alm-45010>`
+-  :ref:`ALM-45011 HSConsole GC Duration Exceeds the Threshold <alm-45011>`
+-  :ref:`ALM-45012 HSFabric GC Duration Exceeds the Threshold <alm-45012>`
 -  :ref:`ALM-45175 Average Time for Calling OBS Metadata APIs Is Greater than the Threshold <alm-45175>`
 -  :ref:`ALM-45176 Success Rate of Calling OBS Metadata APIs Is Lower than the Threshold <alm-45176>`
 -  :ref:`ALM-45177 Success Rate of Calling OBS Data Read APIs Is Lower than the Threshold <alm-45177>`
@@ -391,6 +406,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-45456 ClickHouse Distributed DDL Task Not Completed Within Expected Time <alm-45456>`
 -  :ref:`ALM-45457 Accumulated Tasks in ClickHouse Replication Queue <alm-45457>`
 -  :ref:`ALM-45458 Accumulated Mutation Tasks in ClickHouse <alm-45458>`
+-  :ref:`ALM-45459 ClickHouse Failed to Set the Table to Read-Only <alm-45459>`
 -  :ref:`ALM-45475 A Single Replica Exists in the Kudu Data Table <alm-45475>`
 -  :ref:`ALM-45476 Kudu Failed to Enter the Maintenance Mode <alm-45476>`
 -  :ref:`ALM-45477 Failed to Restore Data After a Disk of Kudu Is Replaced <alm-45477>`
@@ -434,6 +450,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-45653 Invalid Flink HA Certificate File <alm-45653>`
 -  :ref:`ALM-45654 Flink HA Certificate Is About to Expire <alm-45654>`
 -  :ref:`ALM-45655 Flink HA Certificate File Has Expired <alm-45655>`
+-  :ref:`ALM-45656 Full GC Frequency of a Flink Job Process Exceeds the Threshold <alm-45656>`
+-  :ref:`ALM-45657 FlinkServer SQL Gateway Unavailable <alm-45657>`
 -  :ref:`ALM-45736 Guardian Service Unavailable <alm-45736>`
 -  :ref:`ALM-45737 TokenServer Heap Memory Usage Exceeds the Threshold <alm-45737>`
 -  :ref:`ALM-45738 TokenServer Direct Memory Usage Exceeds the Threshold <alm-45738>`
@@ -554,6 +572,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-12040_insufficient_system_entropy
    alm-12041_incorrect_permission_on_key_files
    alm-12042_incorrect_configuration_of_key_files
+   alm-12043_dns_parsing_duration_exceeds_the_threshold
    alm-12045_read_packet_dropped_rate_exceeds_the_threshold
    alm-12046_write_packet_dropped_rate_exceeds_the_threshold
    alm-12047_read_packet_error_rate_exceeds_the_threshold
@@ -673,6 +692,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-14042_average_rpc_processing_time_of_the_router_exceeds_the_threshold
    alm-14043_average_rpc_queuing_time_of_router_exceeds_the_threshold
    alm-14044_xceivercount_value_exceeds_the_threshold
+   alm-14045_average_readblock_operation_time_exceeds_the_threshold
+   alm-14046_average_writeblock_operation_time_exceeds_the_threshold
    alm-16000_percentage_of_sessions_connected_to_the_hiveserver_to_maximum_number_allowed_exceeds_the_threshold
    alm-16001_hive_warehouse_space_usage_exceeds_the_threshold
    alm-16002_hive_sql_execution_success_rate_is_lower_than_the_threshold
@@ -757,6 +778,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-19036_bad_blocks_exist_in_hbase_key_directory_data
    alm-19037_number_of_opened_connections_exceeds_the_threshold
    alm-19038_regionserver_contains_regions_with_heavy_write_workload
+   alm-19039_average_number_of_storefiles_per_store_on_a_regionserver_exceeds_the_threshold
+   alm-19040_abnormal_regions_in_hbase
    alm-20002_hue_service_unavailable
    alm-23001_loader_service_unavailable
    alm-23003_loader_task_execution_failure
@@ -796,6 +819,12 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-27005_database_connections_usage_exceeds_the_threshold
    alm-27006_disk_space_usage_of_the_data_directory_exceeds_the_threshold
    alm-27007_database_enters_the_read-only_mode
+   alm-27008_total_number_of_long_transactions_in_dbservice_exceeds_the_threshold
+   alm-27009_average_sql_execution_duration_exceeds_the_threshold
+   alm-27010_dbservice_database_file_handle_usage_exceeds_the_threshold
+   alm-27011_number_of_dbservice_database_deadlocks_exceeds_the_threshold
+   alm-27012_response_time_of_80pct_sql_queries_in_the_database_exceeds_the_threshold
+   alm-27013_response_time_of_95pct_sql_queries_in_the_database_exceeds_the_threshold
    alm-29007_impalad_process_memory_usage_exceeds_the_threshold
    alm-29008_number_of_odbc_connections_to_impalad_exceeds_the_threshold
    alm-29010_number_of_queries_being_submitted_by_impalad_exceeds_the_threshold
@@ -824,6 +853,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-38017_partition_reassignment_duration_exceeds_the_threshold
    alm-38018_kafka_consumer_lag
    alm-38019_too_many_full_gcs_for_broker_processes
+   alm-38020_abnormal_kafka_production_traffic
    alm-43001_spark2x_service_unavailable
    alm-43006_heap_memory_usage_of_the_jobhistory2x_process_exceeds_the_threshold
    alm-43007_non-heap_memory_usage_of_the_jobhistory2x_process_exceeds_the_threshold
@@ -854,6 +884,9 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-45007_number_of_workers_of_a_hetuengine_compute_instance_is_less_than_the_threshold
    alm-45008_query_latency_of_hetuengine_compute_instances_exceeds_the_threshold
    alm-45009_task_failure_rate_of_hetuengine_compute_instances_exceeds_the_threshold
+   alm-45010_hsbroker_gc_duration_exceeds_the_threshold
+   alm-45011_hsconsole_gc_duration_exceeds_the_threshold
+   alm-45012_hsfabric_gc_duration_exceeds_the_threshold
    alm-45175_average_time_for_calling_obs_metadata_apis_is_greater_than_the_threshold
    alm-45176_success_rate_of_calling_obs_metadata_apis_is_lower_than_the_threshold
    alm-45177_success_rate_of_calling_obs_data_read_apis_is_lower_than_the_threshold
@@ -916,6 +949,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-45456_clickhouse_distributed_ddl_task_not_completed_within_expected_time
    alm-45457_accumulated_tasks_in_clickhouse_replication_queue
    alm-45458_accumulated_mutation_tasks_in_clickhouse
+   alm-45459_clickhouse_failed_to_set_the_table_to_read-only
    alm-45475_a_single_replica_exists_in_the_kudu_data_table
    alm-45476_kudu_failed_to_enter_the_maintenance_mode
    alm-45477_failed_to_restore_data_after_a_disk_of_kudu_is_replaced
@@ -959,6 +993,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-45653_invalid_flink_ha_certificate_file
    alm-45654_flink_ha_certificate_is_about_to_expire
    alm-45655_flink_ha_certificate_file_has_expired
+   alm-45656_full_gc_frequency_of_a_flink_job_process_exceeds_the_threshold
+   alm-45657_flinkserver_sql_gateway_unavailable
    alm-45736_guardian_service_unavailable
    alm-45737_tokenserver_heap_memory_usage_exceeds_the_threshold
    alm-45738_tokenserver_direct_memory_usage_exceeds_the_threshold

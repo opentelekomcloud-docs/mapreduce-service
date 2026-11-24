@@ -24,7 +24,7 @@ Method 2: Start a Windows ECS in the same VPC. Access port 7510 of the active Ma
 Presto
 ------
 
-Presto is an open-source distributed SQL query engine, which is applicable to interactive analysis and query. For more information, visit the official website at https://prestodb.io/.
+Presto is an open-source distributed SQL query engine, which is applicable to interactive analysis and query.
 
 The sample script can be used to automatically install Presto. The script path is as follows:
 

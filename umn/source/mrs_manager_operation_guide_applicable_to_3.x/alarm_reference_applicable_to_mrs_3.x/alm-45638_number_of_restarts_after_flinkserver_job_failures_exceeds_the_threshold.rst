@@ -91,7 +91,7 @@ Procedure
 
          You can also log in to Manager as a user who has the FlinkServer management permission, choose **Cluster** > **Services** > **Flink**, click the link next to **Flink WebUI**. On the displayed Flink web UI, click **Job Management** and choose **More** > **Job Monitoring** in the **Operation** column to view the TaskManager logs.
 
-#. View the logs of the failed job to rectify the fault, or contact the O&M personnel personnel and send the collected fault logs. No further action is required.
+#. View the logs of the failed job to rectify the fault, or contact the O&M personnel and send the collected fault logs. No further action is required.
 
 **If logs are unavailable on the Yarn page, download logs from HDFS.**
 
@@ -99,7 +99,7 @@ Procedure
 
    On Manager, choose **Cluster** > **Services** > **HDFS**, click the link next to **NameNode WebUI** to go to the HDFS page, select **Utilities** > **Browse the file system**, and download logs in the **/tmp/logs/**\ *User name*\ **/logs/**\ *Application ID of the failed job* directory.
 
-7. View the logs of the failed job to rectify the fault, or contact the O&M personnel personnel and send the collected fault logs.
+7. View the logs of the failed job to rectify the fault, or contact the O&M personnel and send the collected fault logs.
 
 Alarm Clearing
 --------------
