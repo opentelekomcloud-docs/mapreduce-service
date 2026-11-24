@@ -36,6 +36,7 @@ Components
 -  :ref:`MemArtsStore <mrs_08_0190>`
 -  :ref:`Oozie <mrs_08_0067>`
 -  :ref:`OpenTSDB <mrs_08_0035>`
+-  :ref:`Paimon <en-us_topic_0000002686018465>`
 -  :ref:`Presto <mrs_08_0031>`
 -  :ref:`Ranger <mrs_08_0041>`
 -  :ref:`Spark <mrs_08_0008>`
@@ -80,6 +81,7 @@ Components
    memartsstore
    oozie/index
    opentsdb
+   paimon
    presto
    ranger/index
    spark/index

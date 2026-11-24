@@ -19,11 +19,11 @@ This alarm is cleared when the number of requests blocked by the HBase RegionSer
 Alarm Attributes
 ----------------
 
-======== ============== ================== ============ ============
-Alarm ID Alarm Severity Alarm Type         Service Type Auto Cleared
-======== ============== ================== ============ ============
-19038    Minor          Quality of service HBase        Yes
-======== ============== ================== ============ ============
+======== ============== ============
+Alarm ID Alarm Severity Auto Cleared
+======== ============== ============
+19038    Minor          Yes
+======== ============== ============
 
 Alarm Parameters
 ----------------

@@ -149,6 +149,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-14042 Average RPC Processing Time of the Router Exceeds the Threshold <alm-14042>`
 -  :ref:`ALM-14043 Average RPC Queuing Time of Router Exceeds the Threshold <alm-14043>`
 -  :ref:`ALM-14044 XceiverCount Value Exceeds the Threshold <alm-14044>`
+-  :ref:`ALM-14045 Average ReadBlock Operation Time Exceeds the Threshold <alm-14045>`
+-  :ref:`ALM-14046 Average WriteBlock Operation Time Exceeds the Threshold <alm-14046>`
 -  :ref:`ALM-16000 Percentage of Sessions Connected to the HiveServer to Maximum Number Allowed Exceeds the Threshold <alm-16000>`
 -  :ref:`ALM-16001 Hive Warehouse Space Usage Exceeds the Threshold <alm-16001>`
 -  :ref:`ALM-16002 Hive SQL Execution Success Rate Is Lower Than the Threshold <alm-16002>`
@@ -233,6 +235,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-19036 Bad Blocks Exist in HBase Key Directory Data <alm-19036>`
 -  :ref:`ALM-19037 Number of Opened Connections Exceeds the Threshold <alm-19037>`
 -  :ref:`ALM-19038 RegionServer Contains Regions with Heavy Write Workload <alm-19038>`
+-  :ref:`ALM-19039 Average Number of StoreFiles per Store on a RegionServer Exceeds the Threshold <alm-19039>`
+-  :ref:`ALM-19040 Abnormal Regions in HBase <alm-19040>`
 -  :ref:`ALM-20002 Hue Service Unavailable <alm-20002>`
 -  :ref:`ALM-23001 Loader Service Unavailable <alm-23001>`
 -  :ref:`ALM-23003 Loader Task Execution Failure <alm-23003>`
@@ -306,6 +310,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-38017 Partition Reassignment Duration Exceeds the Threshold <alm-38017>`
 -  :ref:`ALM-38018 Kafka Consumer Lag <alm-38018>`
 -  :ref:`ALM-38019 Too Many Full GCs for Broker Processes <alm-38019>`
+-  :ref:`ALM-38020 Abnormal Kafka Production Traffic <alm-38020>`
 -  :ref:`ALM-43001 Spark2x Service Unavailable <alm-43001>`
 -  :ref:`ALM-43006 Heap Memory Usage of the JobHistory2x Process Exceeds the Threshold <alm-43006>`
 -  :ref:`ALM-43007 Non-Heap Memory Usage of the JobHistory2x Process Exceeds the Threshold <alm-43007>`
@@ -401,6 +406,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
 -  :ref:`ALM-45456 ClickHouse Distributed DDL Task Not Completed Within Expected Time <alm-45456>`
 -  :ref:`ALM-45457 Accumulated Tasks in ClickHouse Replication Queue <alm-45457>`
 -  :ref:`ALM-45458 Accumulated Mutation Tasks in ClickHouse <alm-45458>`
+-  :ref:`ALM-45459 ClickHouse Failed to Set the Table to Read-Only <alm-45459>`
 -  :ref:`ALM-45475 A Single Replica Exists in the Kudu Data Table <alm-45475>`
 -  :ref:`ALM-45476 Kudu Failed to Enter the Maintenance Mode <alm-45476>`
 -  :ref:`ALM-45477 Failed to Restore Data After a Disk of Kudu Is Replaced <alm-45477>`
@@ -686,6 +692,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-14042_average_rpc_processing_time_of_the_router_exceeds_the_threshold
    alm-14043_average_rpc_queuing_time_of_router_exceeds_the_threshold
    alm-14044_xceivercount_value_exceeds_the_threshold
+   alm-14045_average_readblock_operation_time_exceeds_the_threshold
+   alm-14046_average_writeblock_operation_time_exceeds_the_threshold
    alm-16000_percentage_of_sessions_connected_to_the_hiveserver_to_maximum_number_allowed_exceeds_the_threshold
    alm-16001_hive_warehouse_space_usage_exceeds_the_threshold
    alm-16002_hive_sql_execution_success_rate_is_lower_than_the_threshold
@@ -770,6 +778,8 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-19036_bad_blocks_exist_in_hbase_key_directory_data
    alm-19037_number_of_opened_connections_exceeds_the_threshold
    alm-19038_regionserver_contains_regions_with_heavy_write_workload
+   alm-19039_average_number_of_storefiles_per_store_on_a_regionserver_exceeds_the_threshold
+   alm-19040_abnormal_regions_in_hbase
    alm-20002_hue_service_unavailable
    alm-23001_loader_service_unavailable
    alm-23003_loader_task_execution_failure
@@ -843,6 +853,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-38017_partition_reassignment_duration_exceeds_the_threshold
    alm-38018_kafka_consumer_lag
    alm-38019_too_many_full_gcs_for_broker_processes
+   alm-38020_abnormal_kafka_production_traffic
    alm-43001_spark2x_service_unavailable
    alm-43006_heap_memory_usage_of_the_jobhistory2x_process_exceeds_the_threshold
    alm-43007_non-heap_memory_usage_of_the_jobhistory2x_process_exceeds_the_threshold
@@ -938,6 +949,7 @@ Alarm Reference (Applicable to MRS 3.\ *x*)
    alm-45456_clickhouse_distributed_ddl_task_not_completed_within_expected_time
    alm-45457_accumulated_tasks_in_clickhouse_replication_queue
    alm-45458_accumulated_mutation_tasks_in_clickhouse
+   alm-45459_clickhouse_failed_to_set_the_table_to_read-only
    alm-45475_a_single_replica_exists_in_the_kudu_data_table
    alm-45476_kudu_failed_to_enter_the_maintenance_mode
    alm-45477_failed_to_restore_data_after_a_disk_of_kudu_is_replaced

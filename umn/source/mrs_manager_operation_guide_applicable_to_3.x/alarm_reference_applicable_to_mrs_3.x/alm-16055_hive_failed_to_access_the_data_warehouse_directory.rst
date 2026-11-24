@@ -17,11 +17,11 @@ This section applies only to MRS 3.6.0-LTS or later.
 Alarm Attributes
 ----------------
 
-======== ============== ================== ============ ============
-Alarm ID Alarm Severity Alarm Type         Service Type Auto Cleared
-======== ============== ================== ============ ============
-16055    Critical       Quality of service Hive         Yes
-======== ============== ================== ============ ============
+======== ============== ============
+Alarm ID Alarm Severity Auto Cleared
+======== ============== ============
+16055    Critical       Yes
+======== ============== ============
 
 Alarm Parameters
 ----------------
